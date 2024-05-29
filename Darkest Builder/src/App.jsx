@@ -1,10 +1,15 @@
+import React from "react"; 
 import "./App.css";
+
+//Pages Components
+import MainPage from "./pages/MainPage.jsx";
+
 
 function App() {
   return (
     <>
       <div className="App">
-        <h1>First Commit</h1>
+        <MainPage />
       </div>
     </>
   );
