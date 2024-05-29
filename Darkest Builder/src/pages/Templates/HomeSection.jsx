@@ -9,7 +9,7 @@ function HomeSection({ url_Bg }) {
         style={{ background: `url(${url_Bg}) no-repeat center top/cover` }}
       >
         <div className="homeContain">
-          <h1>Test Background Sections</h1>
+          <h1>NewBranch Home</h1>
         </div>
       </div>
     </div>

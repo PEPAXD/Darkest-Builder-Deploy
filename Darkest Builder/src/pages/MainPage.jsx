@@ -11,11 +11,11 @@ function MainPage() {
       </section>
 
       <section id="home">
-        <HomeSection url_Bg="home.png"/>
+        <HomeSection url_Bg="about.jpg"/>
       </section>
 
       <section id="home">
-        <HomeSection url_Bg="home.png"/>
+        <HomeSection url_Bg="hero.jpg"/>
       </section>
 
       {/* 
