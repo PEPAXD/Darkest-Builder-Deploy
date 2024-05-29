@@ -1,7 +1,13 @@
-h1{
-    font-size: 2.5rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
-    color: red;
+.background {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.homeContain{
     text-align: center;
+    font-size: 5rem;
 }

@@ -7,9 +7,15 @@ function MainPage() {
   return (
     <>
       <section id="home">
-        <HomeSection />
+        <HomeSection url_Bg="home.png"/>
+      </section>
 
-        {/* <HomePage url_Bg="background.png" /> */}
+      <section id="home">
+        <HomeSection url_Bg="home.png"/>
+      </section>
+
+      <section id="home">
+        <HomeSection url_Bg="home.png"/>
       </section>
 
       {/* 

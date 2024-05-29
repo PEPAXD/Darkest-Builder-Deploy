@@ -1,10 +1,19 @@
-import React from 'react'
-import './styles/HomeSection.css'
+import React from "react";
+import "./styles/HomeSection.css";
 
-function HomeSection() {
+function HomeSection({ url_Bg }) {
   return (
-    <h1>HomeSection</h1>
-  )
+    <div className="Home">
+      <div
+        className="background"
+        style={{ background: `url(${url_Bg}) no-repeat center top/cover` }}
+      >
+        <div className="homeContain">
+          <h1>Test Background Sections</h1>
+        </div>
+      </div>
+    </div>
+  );
 }
 
-export default HomeSection
+export default HomeSection;
