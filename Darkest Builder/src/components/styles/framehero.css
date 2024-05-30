@@ -17,8 +17,8 @@
     cursor: pointer;
 
     margin: 1.5rem;
-    width: 8rem;
-    height: 8rem;
+    width: 7rem;
+    height: 7rem;
 
     transform: rotate(45deg);
     overflow: hidden;
@@ -46,4 +46,13 @@
       color: #fff;
     }
   }
+}
+
+.profileFrame{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  gap: 0.5rem;
 }

@@ -1,13 +1,14 @@
 import React from "react";
 import './styles/framehero.css';
 
-function framehero({img, onClick, heroName}) {
+function framehero({img, nexImg, changeText, heroName }) {
+
   return (
     <div className="profileFrame">
-      <button onClick={onClick}>
+      <button onClick={nexImg}>
         <img src={img} alt="FrameHero" />
       </button>
-      <h4>{heroName}</h4>
+      <h4 onClick={changeText}>{heroName}</h4>
     </div>
   );
 }
