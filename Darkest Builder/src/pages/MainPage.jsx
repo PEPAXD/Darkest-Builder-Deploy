@@ -10,14 +10,6 @@ function MainPage() {
         <HomeSection url_Bg="home.png"/>
       </section>
 
-      <section id="home">
-        <HomeSection url_Bg="home.png"/>
-      </section>
-
-      <section id="home">
-        <HomeSection url_Bg="home.png"/>
-      </section>
-
       {/* 
         //TODO: Add the sections below when the components are ready
 

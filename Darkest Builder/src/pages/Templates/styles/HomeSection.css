@@ -8,6 +8,40 @@
 
 
 .homeContain{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+ 
+  img {
+    width: 50%;
+  }
+
+   h1 {
     text-align: center;
-    font-size: 5rem;
+
+    padding: 0.2rem 3rem;
+    width: 30%;
+
+    font-size: 2.2em;
+    font-weight: 500;
+
+    color: #808280;
+    border-top: 2px solid #363636;
+    border-bottom: 2px solid #363636;
+
+    background: linear-gradient(
+      to right,
+      transparent 5%,
+      #000 50%,
+      transparent 95%
+    );
+
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      color: #fff;
+      cursor: pointer;
+    }
+  }
 }

@@ -1,0 +1,58 @@
+.profileUser {
+  position: absolute;
+
+  right: 3%;
+  bottom: 5%;
+
+  text-align: center;
+
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    border: 1px solid #505455; 
+    background: #000;
+    cursor: pointer;
+
+    margin: 1.5rem;
+    width: 7rem;
+    height: 7rem;
+
+    transform: rotate(45deg);
+    overflow: hidden;
+
+    &:hover {
+      box-shadow: 0 0 25px rgb(255, 255, 255, 0.5),
+        0 0 5px rgb(255, 255, 255, 0.8);
+    }
+
+    img {
+      position: relative;
+      top: 10%;
+      left: 25%;
+
+      width: 140%;
+      transform: rotate(-45deg);
+    }
+  }
+
+  h4 {
+    font-size: 1.2em;
+    color: #808280;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+
+.profileFrame{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  gap: 0.5rem;
+}
