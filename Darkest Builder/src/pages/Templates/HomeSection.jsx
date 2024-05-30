@@ -1,24 +1,55 @@
 import React, { useState } from "react";
 import "./styles/HomeSection.css";
 
-//Import DataFile
-import heroes from "../../data/heroesData.js";
-
 //Import Components
 import ProfileFrame from "../../components/framehero.jsx";
+
+//import Images
+import Highwayman from "../../assets/HeroProfile/Highwayman.png";
+import graveRobber from "../../assets/HeroProfile/graveRobber.png";
+import Hellion from "../../assets/HeroProfile/Hellion.png";
+import Jester from "../../assets/HeroProfile/Jester.png";
+import Leper from "../../assets/HeroProfile/Leper.png";
+import manAtArms from "../../assets/HeroProfile/manAtArms.png";
+import Occultist from "../../assets/HeroProfile/Occultist.png";
+import PlagueDoctor from "../../assets/HeroProfile/plagueDoctor.png";
+import Vestal from "../../assets/HeroProfile/Vestal.png";
+import Runaway from "../../assets/HeroProfile/Runaway.png";
+import Duelist from "../../assets/HeroProfile/Duelist.png";
+import Flagellant from "../../assets/HeroProfile/Flagellant.png";
+import BountyHunter from "../../assets/HeroProfile/BountyHunter.png";
+import Crusader from "../../assets/HeroProfile/Crusader.png";
+
+const profileHeros = [
+  Highwayman,
+  graveRobber,
+  Hellion,
+  Jester,
+  Leper,
+  manAtArms,
+  Occultist,
+  PlagueDoctor,
+  Vestal,
+  Runaway,
+  Duelist,
+  Flagellant,
+  BountyHunter,
+  Crusader
+];
+
 
 function HomeSection({ url_Bg }) {
   // ImgCurrentProfile
   const [currentHeroIndex, setCurrentHeroIndex] = useState(0);
-  const imgClick = () => {
+  let imgClick = () => {
     setCurrentHeroIndex((prevIndex) => {
-      return prevIndex + 1 === heroes.length ? 0 : prevIndex + 1;
+      return prevIndex + 1 === profileHeros.length ? 0 : prevIndex + 1;
     });
   };
 
   // ProfileFrame UserName
   const [currentHeroName, setCurrentHeroName] = useState("Darkest Adventur");
-  const textClick = () => {
+  let textClick = () => {
     let userInput = prompt("New Adventure Name:");
     while (
       userInput !== null &&
@@ -47,7 +78,7 @@ function HomeSection({ url_Bg }) {
 
         <div className="profileUser">
           <ProfileFrame
-            img={`public/HeroProfile/${heroes[currentHeroIndex]}.png`}
+            img={profileHeros[currentHeroIndex]}
             nexImg={imgClick}
             heroName={currentHeroName}
             changeText={textClick}
