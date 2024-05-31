@@ -4,7 +4,6 @@
 
   background-color: #1e1e1e;
   min-height: 100vh;
-  
 
   &::after {
     content: "";
@@ -23,7 +22,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 2rem;  
+  gap: 2rem;
 
   img {
     margin-top: 3%;
@@ -37,7 +36,7 @@
     width: 30%;
 
     font-size: 2.2em;
-    font-weight: 500;
+    font-weight: 400;
 
     color: #808280;
     border-top: 2px solid #363636;
@@ -61,12 +60,38 @@
 .referenceWebs {
   position: absolute;
   left: 2%;
-  bottom: 4%;
+  bottom: 5%;
+  z-index: 1;
 
   ul {
     position: relative;
     display: inline-flex;
     flex-direction: column;
     gap: 0.2rem;
+  }
+}
+
+/*TODO RESPONSIVE MOBILE */
+@media (max-width: 768px) {
+
+    /*?: TEMP DISABLE*/
+  .profileUser {
+    display: none;
+  }
+
+  .referenceWebs {
+    left: 20%;
+  }
+
+  .homeContain {
+    margin-top: 20%;
+
+    img {
+      width: 80%;
+    }
+
+    h1 {
+      width: 80%;
+    }
   }
 }
