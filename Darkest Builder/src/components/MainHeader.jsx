@@ -1,38 +1,16 @@
 import React from "react";
 import "./styles/MainHeader.css";
 
-function MainHeader() {
+function MainHeader({ links }) {
   return (
     <header>
       <nav>
         <ul>
-          <li>
-            <a href="home">Home</a>
-          </li>
-          <li>
-            <a>About</a>
-          </li>
-          <li>
-            <a href="Heroes">Heroes</a>
-          </li>
-          <li>
-            <a href="#">Regions</a>
-          </li>
-          <li>
-            <a href="#">Enemies</a>
-          </li>
-          <li>
-            <a href="#">Builds</a>
-          </li>
-          <li>
-            <a href="#">dark-City</a>
-          </li>
-          <li>
-            <a href="#">Hero-TierList</a>
-          </li>
-          <li>
-            <a href="#">Fandom</a>
-          </li>
+          {links.map((link, index) => (
+            <li key={index}>
+              <a href={link.href}>{link.text}</a>
+            </li>
+          ))}
         </ul>
       </nav>
       <div className="Difusse"></div>

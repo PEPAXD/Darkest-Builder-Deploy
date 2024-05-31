@@ -6,10 +6,22 @@ import MainHeader from "../components/MainHeader.jsx";
 //Templates Sections
 import HomeSection from "./Templates/HomeSection.jsx";
 
+const linksSections = [
+  { href: "#", text: "Home" },
+  { href: "#", text: "About" },
+  { href: "#", text: "Heroes" },
+  { href: "#", text: "Regions" },
+  { href: "#", text: "Enemies" },
+  { href: "#", text: "Builds" },
+  { href: "#", text: "Dark-City" },
+  { href: "#", text: "Hero-Tierlist" },
+  { href: "#", text: "Fandom" },
+];
+
 function MainPage() {
   return (
     <>
-      <MainHeader />
+      <MainHeader links={linksSections} />
 
       <section id="home">
         <HomeSection url_Bg="home.png" />
