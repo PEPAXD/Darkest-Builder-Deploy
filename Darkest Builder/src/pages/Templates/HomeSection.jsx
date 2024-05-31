@@ -3,6 +3,12 @@ import "./styles/HomeSection.css";
 
 //Import Components
 import ProfileFrame from "../../components/framehero.jsx";
+import LinkRef from "../../components/LinkRef.jsx";
+
+//import Icons
+import { SiFandom } from "react-icons/si";
+import { IoLogoGameControllerB } from "react-icons/io";
+import { FaBookReader } from "react-icons/fa";
 
 //import Images
 import Highwayman from "../../assets/HeroProfile/Highwayman.png";
@@ -34,9 +40,8 @@ const profileHeros = [
   Duelist,
   Flagellant,
   BountyHunter,
-  Crusader
+  Crusader,
 ];
-
 
 function HomeSection({ url_Bg }) {
   // ImgCurrentProfile
@@ -83,6 +88,26 @@ function HomeSection({ url_Bg }) {
             heroName={currentHeroName}
             changeText={textClick}
           />
+        </div>
+
+        <div className="referenceWebs">
+          <ul>
+            <LinkRef
+              Icon={<SiFandom />}
+              href="https://darkestdungeon.fandom.com/wiki/Darkest_Dungeon_II_Wiki"
+              bannerName="WikiGame"
+            />
+            <LinkRef
+              Icon={<FaBookReader />}
+              href="https://steamcommunity.com/sharedfiles/filedetails/?id=2973257745"
+              bannerName="SteamGuide"
+            />
+            <LinkRef
+              Icon={<IoLogoGameControllerB />}
+              href="https://www.darkestdungeon.com/darkest-dungeon-2/"
+              bannerName="GameWeb"
+            />
+          </ul>
         </div>
       </div>
     </div>
