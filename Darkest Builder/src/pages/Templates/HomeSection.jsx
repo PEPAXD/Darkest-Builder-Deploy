@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./styles/HomeSection.css";
 
 //Import Components
@@ -44,6 +44,21 @@ const profileHeros = [
 ];
 
 function HomeSection({ url_Bg }) {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const logoText = ["darkestBuilder_full.png", "darkestBuilder_responsive.png"];
+
+  const handleWindowResize = () => {
+    setWindowWidth(window.innerWidth);
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", handleWindowResize);
+
+    return () => {
+      window.removeEventListener("resize", handleWindowResize);
+    };
+  }, []);
+
   // ImgCurrentProfile
   const [currentHeroIndex, setCurrentHeroIndex] = useState(0);
   let imgClick = () => {
@@ -77,7 +92,10 @@ function HomeSection({ url_Bg }) {
         style={{ background: `url(${url_Bg}) no-repeat center top/cover` }}
       >
         <div className="homeContain">
-          <img src="darkestBuilder_full.png" alt="" />
+          <img
+            src={windowWidth >= 768 ? logoText[0] : logoText[1]}
+            alt="DarkestbuilderLogo"
+          />
           <h1>Hero Builder</h1>
         </div>
 
