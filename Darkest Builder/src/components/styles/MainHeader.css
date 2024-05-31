@@ -1,0 +1,49 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    position: fixed;
+
+    a{
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      background: #000;
+    }
+  
+    .Difusse {
+      width: 100%;
+      height: 2rem;
+      background: linear-gradient(180deg, #000, transparent);
+    }
+  
+    ul {
+      position: relative;
+      display: flex;
+  
+      list-style-type: none;
+      gap: 2.5rem;
+  
+      li {
+        padding: 1rem;
+  
+        &:hover {
+          background: linear-gradient(180deg, #981a0c, transparent);
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  

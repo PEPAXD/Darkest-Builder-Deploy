@@ -1,13 +1,18 @@
 import React from "react";
 
+//Import Components
+import MainHeader from "../components/MainHeader.jsx";
+
 //Templates Sections
 import HomeSection from "./Templates/HomeSection.jsx";
 
 function MainPage() {
   return (
     <>
+      <MainHeader />
+
       <section id="home">
-        <HomeSection url_Bg="home.png"/>
+        <HomeSection url_Bg="home.png" />
       </section>
 
       {/* 

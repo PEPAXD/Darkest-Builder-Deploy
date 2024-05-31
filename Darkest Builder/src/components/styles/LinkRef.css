@@ -19,7 +19,7 @@ a {
   background: linear-gradient(-90deg, transparent, #121212 40%);
 }
 
-li {
+.icon {
   display: flex;
   justify-content: center;
   align-items: center;
