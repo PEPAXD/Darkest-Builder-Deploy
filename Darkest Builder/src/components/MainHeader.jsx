@@ -1,14 +1,37 @@
-import React from "react";
+import React, { useState } from "react";
 import "./styles/MainHeader.css";
 
+//IMPORT COMPONENTS
+import { Squash as Hamburger } from "hamburger-react";
+
+//import Images
+import Highwayman from "../assets/HeroProfile/Highwayman.png";
+
+const profileHeros = [Highwayman];
+
 function MainHeader({ links }) {
+  const [isOpen, setOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <header>
-      <nav>
+      <div className="hamburgerMenuButton">
+
+        <h4>Darkest Adventure</h4>
+        <Hamburger toggled={isOpen} toggle={setOpen} />
+        
+      </div>
+
+      <nav className={isOpen ? "open" : ""}>
         <ul>
           {links.map((link, index) => (
             <li key={index}>
-              <a href={link.href}>{link.text}</a>
+              <a href={link.href} onClick={toggleMenu}>
+                {link.text}
+              </a>
             </li>
           ))}
         </ul>
