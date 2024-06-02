@@ -53,6 +53,11 @@ header {
   z-index: 1;
   padding: 1% 2%;
   background-color: #000;
+
+  h4{
+    padding-left: 2%;
+    text-transform: uppercase;
+  }
 }
 
 
