@@ -10,12 +10,7 @@ const linksSections = [
   { href: "#", text: "Home" },
   { href: "#", text: "About" },
   { href: "#", text: "Heroes" },
-  { href: "#", text: "Regions" },
-  { href: "#", text: "Enemies" },
-  { href: "#", text: "Builds" },
-  { href: "#", text: "Dark-City" },
-  { href: "#", text: "Hero-Tierlist" },
-  { href: "#", text: "Fandom" },
+  { href: "#", text: "WIP" },
 ];
 
 function MainPage() {

@@ -93,7 +93,7 @@ function HomeSection({ url_Bg }) {
       >
         <div className="homeContain">
           <img
-            src={windowWidth >= 768 ? logoText[0] : logoText[1]}
+            src={windowWidth >= 480 ? logoText[0] : logoText[1]}
             alt="DarkestbuilderLogo"
           />
           <h1>Hero Builder</h1>

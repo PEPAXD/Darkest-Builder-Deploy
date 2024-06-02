@@ -34,7 +34,7 @@ header {
     display: flex;
 
     list-style-type: none;
-    gap: 2.5rem;
+    gap: 1rem;
 
     li {
       padding: 1rem;
@@ -42,6 +42,12 @@ header {
       &:hover {
         background: linear-gradient(180deg, #981a0c, transparent);
         cursor: pointer;
+      }
+
+      @media (max-width: 480px) {
+        &:hover {
+          background: #981a0c;
+        }
       }
     }
   }
@@ -54,12 +60,11 @@ header {
   padding: 1% 2%;
   background-color: #000;
 
-  h4{
+  h4 {
     padding-left: 2%;
     text-transform: uppercase;
   }
 }
-
 
 @media (max-width: 480px) {
   .hamburgerMenuButton {
@@ -70,7 +75,6 @@ header {
 
   nav {
     position: fixed;
-    top: 5%;
 
     height: 100%;
     background: #000;
@@ -88,11 +92,16 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    list-style-type: none;
-  }
+    font-size: 1.2em;
+    width: 100%;
 
-  li {
-    margin: 1rem 0;
+    li {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      width: 100%;
+      text-align: center;
+    }
   }
 }
