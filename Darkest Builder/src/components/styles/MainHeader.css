@@ -1,0 +1,107 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  position: fixed;
+
+  a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: #000;
+  }
+
+  .Difusse {
+    width: 100%;
+    height: 2rem;
+    background: linear-gradient(180deg, #000, transparent);
+  }
+
+  ul {
+    position: relative;
+    display: flex;
+
+    list-style-type: none;
+    gap: 1rem;
+
+    li {
+      padding: 1rem;
+
+      &:hover {
+        background: linear-gradient(180deg, #981a0c, transparent);
+        cursor: pointer;
+      }
+
+      @media (max-width: 480px) {
+        &:hover {
+          background: #981a0c;
+        }
+      }
+    }
+  }
+}
+
+.hamburgerMenuButton {
+  display: none;
+  width: 100%;
+  z-index: 1;
+  padding: 1% 2%;
+  background-color: #000;
+
+  h4 {
+    padding-left: 2%;
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 480px) {
+  .hamburgerMenuButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav {
+    position: fixed;
+
+    height: 100%;
+    background: #000;
+
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  nav.open {
+    transform: translateX(0);
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    width: 100%;
+
+    li {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      width: 100%;
+      text-align: center;
+    }
+  }
+}

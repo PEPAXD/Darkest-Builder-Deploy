@@ -1,25 +1,33 @@
 import React from "react";
 
+//Import Components
+import MainHeader from "../components/MainHeader.jsx";
+
 //Templates Sections
 import HomeSection from "./Templates/HomeSection.jsx";
+import AboutSection from "./Templates/AboutSection.jsx";
+
+
+const linksSections = [
+  { href: "#", text: "Home" },
+  { href: "#", text: "About" },
+  { href: "#", text: "Heroes" },
+  { href: "#", text: "WIP" },
+];
 
 function MainPage() {
   return (
     <>
-      <section id="home">
-        <HomeSection url_Bg="home.png"/>
-      </section>
+      <MainHeader links={linksSections} />
 
-      {/* 
-        //TODO: Add the sections below when the components are ready
+      <section id="Home">
+        <HomeSection url_Bg="home.png" />
+      </section>
 
       <section id="About">
-        <Aboutpage url_Bg="AboutWallpaper.jpg" />
+        <AboutSection url_Bg="about.jpg" />
       </section>
-
-      <section id="Heroes">
-        <HeroesPage url_Bg="HeroTavern.jpg" />
-      </section> */}
+    
     </>
   );
 }

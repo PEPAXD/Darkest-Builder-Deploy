@@ -5,6 +5,7 @@
   bottom: 5%;
 
   text-align: center;
+  z-index: 1;
 
   button {
     display: flex;
@@ -41,6 +42,7 @@
   h4 {
     font-size: 1.2em;
     color: #808280;
+    cursor: pointer;
 
     &:hover {
       color: #fff;
@@ -56,3 +58,4 @@
 
   gap: 0.5rem;
 }
+

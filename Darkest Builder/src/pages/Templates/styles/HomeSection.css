@@ -1,31 +1,26 @@
-.background {
-  height: 100vh;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
-.homeContain{
+.homeContain {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 2rem;
- 
+
   img {
+    margin-top: 3%;
     width: 50%;
   }
 
-   h1 {
+  h1 {
     text-align: center;
 
     padding: 0.2rem 3rem;
     width: 30%;
 
+    white-space: nowrap;
+
     font-size: 2.2em;
-    font-weight: 500;
+    font-weight: 400;
+    text-transform: uppercase;
 
     color: #808280;
     border-top: 2px solid #363636;
@@ -42,6 +37,47 @@
     &:hover {
       color: #fff;
       cursor: pointer;
+    }
+  }
+}
+
+.referenceWebs {
+  position: absolute;
+  left: 2%;
+  bottom: 5%;
+  z-index: 1;
+
+  ul {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+}
+
+/*TODO RESPONSIVE MOBILE */
+@media (max-width: 480px) {
+
+    /*?: TEMP DISABLE*/
+  .profileUser {
+    display: none;
+  }
+
+  .referenceWebs {
+    left: 13%;
+    bottom: 7%;
+  }
+
+  .homeContain {
+    margin-top: 17%;
+
+    img {
+      width: 80%;
+    }
+
+    h1 {
+      width: 80%;
+      
     }
   }
 }
