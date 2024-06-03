@@ -18,9 +18,14 @@ function MainPage() {
     <>
       <MainHeader links={linksSections} />
 
-      <section id="home">
+      <section id="Home">
         <HomeSection url_Bg="home.png" />
       </section>
+      
+      {/* 
+      <section id="About">
+        <HomeSection url_Bg="about.jpg" />
+      </section> */}
 
       {/* 
         //TODO: Add the sections below when the components are ready

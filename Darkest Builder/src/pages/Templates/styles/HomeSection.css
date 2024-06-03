@@ -35,6 +35,8 @@
     padding: 0.2rem 3rem;
     width: 30%;
 
+    white-space: nowrap;
+
     font-size: 2.2em;
     font-weight: 400;
     text-transform: uppercase;
@@ -81,11 +83,12 @@
   }
 
   .referenceWebs {
-    left: 20%;
+    left: 13%;
+    bottom: 7%;
   }
 
   .homeContain {
-    margin-top: 20%;
+    margin-top: 17%;
 
     img {
       width: 80%;
@@ -93,6 +96,7 @@
 
     h1 {
       width: 80%;
+      
     }
   }
 }
