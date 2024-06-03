@@ -10,6 +10,7 @@ function AboutSection({ url_Bg }) {
       >
         <div className="AboutContainer">
           <h1>About Commit</h1>
+          <h2>New Branch</h2>
         </div>
       </div>
     </div>
