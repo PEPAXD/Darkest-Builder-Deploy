@@ -37,6 +37,49 @@
   z-index: 1;
 }
 
+.about-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  cursor: pointer;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+
+  span {
+    font-size: 0.7em;
+    margin-bottom: 0.3rem;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  svg {
+    font-size: 1em;
+
+    @keyframes scaleUpDown {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.2);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+  }
+}
+
+.AboutContainer:hover .about-icon {
+  opacity: 1;
+}
+
+.AboutContainer:hover .about-icon svg {
+  animation: scaleUpDown 1s infinite;
+}
+
+
 /*? Responsive Styles */
 @media (max-width: 480px) {
   .AboutContainer {
@@ -61,5 +104,9 @@
 
   .PointSections {
     flex-direction: row;
+  }
+
+  .about-icon{
+    display: none;
   }
 }
