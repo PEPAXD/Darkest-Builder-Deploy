@@ -9,10 +9,10 @@ import AboutSection from "./Templates/AboutSection.jsx";
 
 
 const linksSections = [
-  { href: "#", text: "Home" },
-  { href: "#", text: "About" },
-  { href: "#", text: "Heroes" },
-  { href: "#", text: "WIP" },
+  { href: "Home", text: "Home" },
+  { href: "About", text: "About" },
+  { href: "Heroes", text: "Heroes" },
+  { href: "WIP", text: "WIP" },
 ];
 
 function MainPage() {
