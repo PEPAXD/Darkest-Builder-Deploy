@@ -1,0 +1,24 @@
+.locationsContain {
+  a {
+    color: #B9BBC1;
+    font-size: 1.2em;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  a:hover{
+    i{
+        color: #d5ae52;
+    }
+  }
+
+  img {
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+  }
+
+  img:hover{
+    transform: scale(1.07);
+  }
+}

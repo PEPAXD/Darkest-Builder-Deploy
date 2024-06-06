@@ -23,7 +23,8 @@ const radioLabels = {
       "Each region consists of a series of interconnected Nodes along Roads, where we will engage in battles or assist other travelers.",
       "At the end of each region lies the Wall of Oblivion, followed by an inn where the group can recuperate and purchase supplies.",
     ],
-    cite: "Cita de la opción 3",
+    links: [ { name: 'Foetor', link: "https://darkestdungeon.fandom.com/wiki/The_Foetor"}, { name: 'Shroud', link: "https://darkestdungeon.fandom.com/wiki/The_Shroud"}, { name: 'Sluice', link: "https://darkestdungeon.fandom.com/wiki/The_Sluice"}, { name: 'Sprawl', link: "https://darkestdungeon.fandom.com/wiki/The_Sprawl"}, { name: 'Tangle', link: "https://darkestdungeon.fandom.com/wiki/The_Tangle"} ],
+    cite: "",
   },
   3: {
     title: "ENEMIES, MONSTERS AND CREATURES",

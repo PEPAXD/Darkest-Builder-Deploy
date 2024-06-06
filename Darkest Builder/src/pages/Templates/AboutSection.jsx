@@ -9,6 +9,7 @@ import { FaAnglesDown } from "react-icons/fa6";
 
 //Import Components
 import RadioButtons from "../../components/radioButtons.jsx";
+import LinksButtons from "../../components/LinksButtons.jsx";
 
 //import IconsRadioButtons
 import aboutGame from "../../assets/img/icons/aboutGame.jpg";
@@ -59,7 +60,14 @@ function AboutSection({ url_Bg }) {
             ))}
 
             {selectedRadio === 1 && <img src={darkestArt} alt="" />}
-            {selectedRadio === 2 && <div className="locationsContain"></div>}
+
+            {selectedRadio === 2 && (
+              <div className="locationsContain">
+                {locations.map((location, index) => (
+                  <LinksButtons key={index} img={location} name={aboutData[2].links[index].name} link={aboutData[2].links[index].link} />
+                ))}
+              </div>
+            )}
 
             <cite>{aboutData[selectedRadio].cite}</cite>
           </article>
@@ -81,6 +89,7 @@ function AboutSection({ url_Bg }) {
                 changeCheck={() => handleRadioChange(index)}
               />
             ))}
+            
           </div>
         </div>
       </div>
