@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import "./styles/AboutSection.css";
 
+//import data
+import aboutData from "../../data/aboutData.js";
+
 //Import Icons
 import { FaAnglesDown } from "react-icons/fa6";
 
@@ -30,16 +33,6 @@ function AboutSection({ url_Bg }) {
     setSelectedRadio(index);
   };
 
-  const radioLabels = {
-    0: "Opción 1",
-    1: "Opción 2",
-    2: "Opción 3",
-    3: "Opción 4",
-    4: "Opción 5",
-    5: "Opción 6",
-    // Agrega más según sea necesario
-  };
-
   return (
     <div className="About">
       <div
@@ -48,8 +41,15 @@ function AboutSection({ url_Bg }) {
       >
         <div className="AboutContainer">
           <article className="aboutContain">
-            <h1>About Branch</h1>
-            <h2>{radioLabels[selectedRadio]}</h2>
+            <h2>{aboutData[selectedRadio].title}</h2>
+            <hr />
+
+            {aboutData[selectedRadio].description.map((description, index) => (
+              <p key={index}>{description}</p>
+            ))}
+
+            <cite>{aboutData[selectedRadio].cite}</cite>
+
           </article>
 
           <div className="PointSections">
