@@ -14,7 +14,7 @@ const radioLabels = {
       "Darkest Dungeon II is a roguelike adventure featuring a group of condemned individuals who team up and venture into the unknown in a last-ditch effort to prevent the apocalypse.",
       "The game's story is divided into five acts, with each act corresponding to a unique playthrough where the player will face a final boss that concludes the chosen storyline.",
     ],
-    cite: "Arm yourself with courage and embark into the chaos of a world in ruins.",
+    cite: '"Arm yourself with courage and embark into the chaos of a world in ruins."',
   },
   2: {
     title: "THE WORLD OF DARKEST DUNGEON II",
@@ -23,7 +23,28 @@ const radioLabels = {
       "Each region consists of a series of interconnected Nodes along Roads, where we will engage in battles or assist other travelers.",
       "At the end of each region lies the Wall of Oblivion, followed by an inn where the group can recuperate and purchase supplies.",
     ],
-    links: [ { name: 'Foetor', link: "https://darkestdungeon.fandom.com/wiki/The_Foetor"}, { name: 'Shroud', link: "https://darkestdungeon.fandom.com/wiki/The_Shroud"}, { name: 'Sluice', link: "https://darkestdungeon.fandom.com/wiki/The_Sluice"}, { name: 'Sprawl', link: "https://darkestdungeon.fandom.com/wiki/The_Sprawl"}, { name: 'Tangle', link: "https://darkestdungeon.fandom.com/wiki/The_Tangle"} ],
+    links: [
+      {
+        name: "Foetor",
+        link: "https://darkestdungeon.fandom.com/wiki/The_Foetor",
+      },
+      {
+        name: "Shroud",
+        link: "https://darkestdungeon.fandom.com/wiki/The_Shroud",
+      },
+      {
+        name: "Sluice",
+        link: "https://darkestdungeon.fandom.com/wiki/The_Sluice",
+      },
+      {
+        name: "Sprawl",
+        link: "https://darkestdungeon.fandom.com/wiki/The_Sprawl",
+      },
+      {
+        name: "Tangle",
+        link: "https://darkestdungeon.fandom.com/wiki/The_Tangle",
+      },
+    ],
     cite: "",
   },
   3: {
@@ -31,14 +52,25 @@ const radioLabels = {
     description: [
       "Each newly explored location reveals even greater horrors, from dark forests infested with terrifying creatures to ancient ruins harboring indescribable terrors. In every battle, the heroes must demonstrate their skill and bravery, facing the dangers of the path ahead.",
     ],
-    cite: "Cita de la opción 4",
+    links: [
+      { name: "Battalion", link: "#" },
+      { name: "Brigands", link: "#" },
+      { name: "Creature", link: "#" },
+      { name: "Cultist", link: "#" },
+      { name: "Fanatic", link: "#" },
+      { name: "Fisherfolk", link: "#" },
+      { name: "Ghouls", link: "#" },
+      { name: "Plague", link: "#" },
+      { name: "Swine", link: "#" },
+    ],
+    cite: '"Your path lies through them, and so they must fall"',
   },
   4: {
     title: "HEROES OF DARKEST DUNGEON",
     description: [
       "Dangers lurk in every shadow, and despair clings to the hearts of the weak. Heroes emerge as beacons of hope in a world shrouded in darkness.",
     ],
-    cite: "Cita de la opción 5",
+    cite: "",
   },
   5: {
     title: "DEVELOPER NOTE'S",
@@ -47,7 +79,7 @@ const radioLabels = {
       "I used the React library for its development, and it is part of my portfolio. During the process, I learned a lot about the game, its story, and its mechanics. Additionally, I was able to practice and enhance my skills as a developer.",
       "If you have any suggestions or comments, or if you would like to collaborate on the project, feel free to contact me.",
     ],
-    cite: "Cita de la opción 6",
+    cite: '"Developed By Mauro Exequiel Pepa 2024"',
   },
 };
 

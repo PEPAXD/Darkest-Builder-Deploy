@@ -27,6 +27,29 @@ import Sluice from "../../assets/img/locations/Sluice.jpg";
 import Sprawl from "../../assets/img/locations/Sprawl.jpg";
 import Tangle from "../../assets/img/locations/Tangle.jpg";
 
+//import enemiesimg
+import battalion from "../../assets/img/Enemies/battalion.jpg";
+import brigands from "../../assets/img/Enemies/brigands.jpg";
+import creature from "../../assets/img/Enemies/creature.jpg";
+import cultist from "../../assets/img/Enemies/cultist.jpg";
+import fanatic from "../../assets/img/Enemies/fanatic.jpg";
+import fisherfolk from "../../assets/img/Enemies/fisherfolk.jpg";
+import ghouls from "../../assets/img/Enemies/ghouls.jpg";
+import plague from "../../assets/img/Enemies/plague.jpg";
+import swine from "../../assets/img/Enemies/swine.jpg";
+
+const enemies = [
+  battalion,
+  brigands,
+  creature,
+  cultist,
+  fanatic,
+  fisherfolk,
+  ghouls,
+  plague,
+  swine,
+];
+
 const locations = [Foetor, Shroud, Sluice, Sprawl, Tangle];
 
 const radioButtons_About = [
@@ -64,7 +87,25 @@ function AboutSection({ url_Bg }) {
             {selectedRadio === 2 && (
               <div className="locationsContain">
                 {locations.map((location, index) => (
-                  <LinksButtons key={index} img={location} name={aboutData[2].links[index].name} link={aboutData[2].links[index].link} />
+                  <LinksButtons
+                    key={index}
+                    img={location}
+                    name={aboutData[2].links[index].name}
+                    link={aboutData[2].links[index].link}
+                  />
+                ))}
+              </div>
+            )}
+
+            {selectedRadio === 3 && (
+              <div className="enemiesContain">
+                {enemies.map((enemis, index) => (
+                  <LinksButtons
+                    key={index}
+                    img={enemis}
+                    name={aboutData[3].links[index].name}
+                    link={aboutData[3].links[index].link}
+                  />
                 ))}
               </div>
             )}
@@ -89,7 +130,6 @@ function AboutSection({ url_Bg }) {
                 changeCheck={() => handleRadioChange(index)}
               />
             ))}
-            
           </div>
         </div>
       </div>

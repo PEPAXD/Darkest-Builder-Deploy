@@ -43,7 +43,7 @@
     text-align: left;
     margin-bottom: 1.2em;
   }
-  
+
   img {
     width: 80%;
     object-fit: cover;
@@ -56,7 +56,6 @@
     text-align: center;
     margin-top: 1rem;
   }
-
 }
 
 .PointSections {
@@ -121,7 +120,7 @@
   animation: scaleUpDown 1s infinite;
 }
 
-.locationsContain{
+.locationsContain {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -129,6 +128,17 @@
   gap: 1rem;
 
   z-index: 1;
+}
+
+.enemiesContain {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  gap: 0.6rem;
 }
 
 /*? Responsive Styles */
