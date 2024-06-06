@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import "./styles/AboutSection.css";
 
 //Import Icons
@@ -25,12 +25,20 @@ const radioButtons_About = [
 ];
 
 function AboutSection({ url_Bg }) {
-
   const [selectedRadio, setSelectedRadio] = useState(0);
   const handleRadioChange = (index) => {
     setSelectedRadio(index);
   };
 
+  const radioLabels = {
+    0: "Opción 1",
+    1: "Opción 2",
+    2: "Opción 3",
+    3: "Opción 4",
+    4: "Opción 5",
+    5: "Opción 6",
+    // Agrega más según sea necesario
+  };
 
   return (
     <div className="About">
@@ -40,8 +48,8 @@ function AboutSection({ url_Bg }) {
       >
         <div className="AboutContainer">
           <article className="aboutContain">
-            <h1>About Commit</h1>
-            <h2>New Branch</h2>
+            <h1>About Branch</h1>
+            <h2>{radioLabels[selectedRadio]}</h2>
           </article>
 
           <div className="PointSections">
