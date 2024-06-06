@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import "./styles/AboutSection.css";
 
 //Import Icons
@@ -25,6 +25,13 @@ const radioButtons_About = [
 ];
 
 function AboutSection({ url_Bg }) {
+
+  const [selectedRadio, setSelectedRadio] = useState(0);
+  const handleRadioChange = (index) => {
+    setSelectedRadio(index);
+  };
+
+
   return (
     <div className="About">
       <div
@@ -48,8 +55,10 @@ function AboutSection({ url_Bg }) {
             {radioButtons_About.map((radioButton, index) => (
               <RadioButtons
                 key={index}
+                val={index}
                 img={radioButton}
-                checked={index === 0}
+                check={selectedRadio === index}
+                changeCheck={() => handleRadioChange(index)}
               />
             ))}
           </div>

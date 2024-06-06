@@ -19,11 +19,11 @@ label {
       display: none;
     }
 
-    input[type="radio"]:checked + .radio-image {
+    input[type="radio"]:checked + img {
       border: 2px solid rgb(194, 157, 88);
       opacity: 1;
     }
-    .radio-image {
+    img {
       border: 2px solid #54422c;
     }
   }
