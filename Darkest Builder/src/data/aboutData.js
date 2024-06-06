@@ -53,15 +53,39 @@ const radioLabels = {
       "Each newly explored location reveals even greater horrors, from dark forests infested with terrifying creatures to ancient ruins harboring indescribable terrors. In every battle, the heroes must demonstrate their skill and bravery, facing the dangers of the path ahead.",
     ],
     links: [
-      { name: "Battalion", link: "#" },
-      { name: "Brigands", link: "#" },
-      { name: "Creature", link: "#" },
-      { name: "Cultist", link: "#" },
-      { name: "Fanatic", link: "#" },
-      { name: "Fisherfolk", link: "#" },
-      { name: "Ghouls", link: "#" },
-      { name: "Plague", link: "#" },
-      { name: "Swine", link: "#" },
+      {
+        name: "Battalion",
+        link: "https://darkestdungeon.fandom.com/wiki/The_Tangle",
+      },
+      {
+        name: "Brigands",
+        link: "https://darkestdungeon.fandom.com/wiki/Pillagers",
+      },
+      {
+        name: "Creature",
+        link: "https://darkestdungeon.fandom.com/wiki/Creature_Den",
+      },
+      {
+        name: "Cultist",
+        link: "https://darkestdungeon.fandom.com/wiki/Cultists_(Darkest_Dungeon_II)",
+      },
+      {
+        name: "Fanatic",
+        link: "https://darkestdungeon.fandom.com/wiki/The_Sprawl#Fanatics",
+      },
+      {
+        name: "Fisherfolk",
+        link: "https://darkestdungeon.fandom.com/wiki/The_Shroud#Fisherfolk",
+      },
+      { name: "Ghouls", link: "https://darkestdungeon.fandom.com/wiki/Gaunts" },
+      {
+        name: "Plague",
+        link: "https://darkestdungeon.fandom.com/wiki/The_Foetor",
+      },
+      {
+        name: "Swine",
+        link: "https://darkestdungeon.fandom.com/wiki/The_Sluice",
+      },
     ],
     cite: '"Your path lies through them, and so they must fall"',
   },
