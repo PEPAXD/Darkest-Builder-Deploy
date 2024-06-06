@@ -15,6 +15,10 @@ label {
       opacity: 0.5;
     }
 
+    input{
+      display: none;
+    }
+
     input[type="radio"]:checked + .radio-image {
       border: 2px solid rgb(194, 157, 88);
       opacity: 1;

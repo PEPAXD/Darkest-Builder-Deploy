@@ -38,7 +38,6 @@ function AboutSection({ url_Bg }) {
           </article>
 
           <div className="PointSections">
-
             <div className="about-icon">
               <span>
                 Tell Me <br /> More
@@ -47,7 +46,11 @@ function AboutSection({ url_Bg }) {
             </div>
 
             {radioButtons_About.map((radioButton, index) => (
-              <RadioButtons key={index} img={radioButton} />
+              <RadioButtons
+                key={index}
+                img={radioButton}
+                checked={index === 0}
+              />
             ))}
           </div>
         </div>
