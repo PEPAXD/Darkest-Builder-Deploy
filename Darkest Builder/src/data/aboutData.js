@@ -14,7 +14,7 @@ const radioLabels = {
       "Darkest Dungeon II is a roguelike adventure featuring a group of condemned individuals who team up and venture into the unknown in a last-ditch effort to prevent the apocalypse.",
       "The game's story is divided into five acts, with each act corresponding to a unique playthrough where the player will face a final boss that concludes the chosen storyline.",
     ],
-    cite: "Cita de la opción 2",
+    cite: "Arm yourself with courage and embark into the chaos of a world in ruins.",
   },
   2: {
     title: "THE WORLD OF DARKEST DUNGEON II",

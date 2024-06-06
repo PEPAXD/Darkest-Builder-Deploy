@@ -4,7 +4,7 @@ import "./styles/AboutSection.css";
 //import data
 import aboutData from "../../data/aboutData.js";
 
-//Import Icons
+//Import IconsReact
 import { FaAnglesDown } from "react-icons/fa6";
 
 //Import Components
@@ -17,13 +17,23 @@ import enemiesGame from "../../assets/img/icons/enemiesGame.jpg";
 import heroesGame from "../../assets/img/icons/heroesGame.jpg";
 import mapGame from "../../assets/img/icons/mapGame.jpg";
 import noteDev from "../../assets/img/icons/noteDev.jpg";
+import darkestArt from "../../assets/img/darkestDungeon.jpg";
+
+//import LocationsImg
+import Foetor from "../../assets/img/locations/Foetor.jpg";
+import Shroud from "../../assets/img/locations/Shroud.jpg";
+import Sluice from "../../assets/img/locations/Sluice.jpg";
+import Sprawl from "../../assets/img/locations/Sprawl.jpg";
+import Tangle from "../../assets/img/locations/Tangle.jpg";
+
+const locations = [Foetor, Shroud, Sluice, Sprawl, Tangle];
 
 const radioButtons_About = [
   aboutGame,
   welcomeDD,
+  mapGame,
   enemiesGame,
   heroesGame,
-  mapGame,
   noteDev,
 ];
 
@@ -48,8 +58,10 @@ function AboutSection({ url_Bg }) {
               <p key={index}>{description}</p>
             ))}
 
-            <cite>{aboutData[selectedRadio].cite}</cite>
+            {selectedRadio === 1 && <img src={darkestArt} alt="" />}
+            {selectedRadio === 2 && <div className="locationsContain"></div>}
 
+            <cite>{aboutData[selectedRadio].cite}</cite>
           </article>
 
           <div className="PointSections">
