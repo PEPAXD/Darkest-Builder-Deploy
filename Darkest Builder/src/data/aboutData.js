@@ -48,7 +48,7 @@ const radioLabels = {
     cite: "",
   },
   3: {
-    title: "ENEMIES, MONSTERS AND CREATURES",
+    title: "MONSTERS AND CREATURES",
     description: [
       "Each newly explored location reveals even greater horrors, from dark forests infested with terrifying creatures to ancient ruins harboring indescribable terrors. In every battle, the heroes must demonstrate their skill and bravery, facing the dangers of the path ahead.",
     ],
