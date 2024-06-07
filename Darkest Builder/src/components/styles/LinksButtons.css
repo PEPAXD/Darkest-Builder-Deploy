@@ -1,0 +1,57 @@
+.locationsContain {
+  a {
+    color: #b9bbc1;
+    font-size: 1.2em;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  a:hover {
+    i {
+      color: #d5ae52;
+    }
+  }
+
+  img {
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+  }
+
+  img:hover {
+    transform: scale(1.07);
+  }
+}
+
+.enemiesContain {
+  a {
+    display: flex;
+    flex-direction: column;
+
+    gap: 0.5rem;
+  }
+
+  a:hover {
+    img {
+      border: solid 2px rgb(213, 174, 82);
+      scale: 1.07;
+    }
+
+    i {
+      color: #d5ae52;
+    }
+  }
+
+  img {
+    border: solid 2px rgb(255, 255, 255, 0.5);
+    overflow: hidden;
+    width: 6rem;
+    height: 6rem;
+    transition: all 0.1s ease-in-out;
+  }
+
+  i {
+    color: #b9bbc1;
+    transition: all 0.1s ease-in-out;
+  }
+}

@@ -1,21 +1,258 @@
-.AboutContainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
+.AboutContainer {
+  position: absolute;
+  top: 52%;
+  left: 68%;
+  transform: translate(-50%, -50%);
 
-    h1{
+  display: flex;
+
+  width: 60%;
+  height: 100%;
+}
+
+.aboutContain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 89%;
+
+  padding: 5%;
+
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+  background-color: rgb(0, 0, 0, 0.6);
+
+  h2 {
+    font-size: 1.8em;
+    color: #d5ae52;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  hr {
+    width: 100%;
+    margin-bottom: 1rem;
+    border: 1px solid #d5ae52;
+  }
+
+  p {
+    font-size: 1em;
+    color: rgba(255, 255, 255, 0.75);
+    text-align: left;
+    margin-bottom: 1.2em;
+  }
+
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  cite {
+    font-size: 1em;
+    font-weight: 600;
+    color: #d5ae52;
+    text-align: center;
+    margin-top: 1rem;
+  }
+}
+
+.PointSections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 3%;
+  gap: 1rem;
+
+  z-index: 1;
+
+  label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+}
+
+.about-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  cursor: pointer;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+
+  span {
+    font-size: 0.7em;
+    margin-bottom: 0.3rem;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  svg {
+    font-size: 1em;
+
+    @keyframes scaleUpDown {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.2);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+  }
+}
+
+.AboutContainer:hover .about-icon {
+  opacity: 1;
+}
+
+.AboutContainer:hover .about-icon svg {
+  animation: scaleUpDown 1s infinite;
+}
+
+.locationsContain {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+  gap: 1rem;
+
+  z-index: 1;
+}
+
+.enemiesContain {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  gap: 0.6rem;
+}
+
+.socialNetworks {
+  ul {
+    display: flex;
+    flex-direction: row;
+
+    gap: 1rem;
+    background-color: #000;
+    margin-top: 1rem;
+
+    li {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      list-style: none;
+
+      width: 50px;
+      height: 50px;
+      cursor: pointer;
+
+      a {
         display: flex;
-        
-            justify-content: center;
-            align-items: center;
-            
-        
-        
-            font-size: 2.5rem;
-            font-weight: 700;
-            margin-bottom: 1rem;
-            color: #fff;
-        }
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        padding: 0.8rem;
+
+        font-size: 1.8em;
+        color: rgba(255, 255, 255, 0.5);
+      }
+    }
+
+    li:hover {
+      border: 2px solid #fff;
+
+      a {
+        color: #fff;
+      }
+    }
+
+    li:active {
+      transform: scale(0.9);
+    }
+  }
+}
+
+/*? Responsive Styles */
+@media (max-width: 480px) {
+  .AboutContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    top: 12%;
+    left: 0;
+    transform: none;
+
+    width: 100%;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .aboutContain {
+    width: 95%;
+    height: 78%;
+
+    h2 {
+      font-size: 1.2em;
+    }
+
+    p {
+      font-size: 0.8em;
+    }
+
+    cite {
+      font-size: 0.8em;
+    }
+  }
+
+  .locationsContain {
+    gap: 0.5rem;
+
+    i {
+      font-size: 0.8em;
+    }
+  }
+
+  .enemiesContain {
+    gap: 0.5rem;
+
+    a {
+      img {
+        width: 4rem;
+        height: 4rem;
+      }
+
+      i {
+        font-size: 0.7em;
+      }
+    }
+  }
+
+  .PointSections {
+    flex-direction: row;
+    gap: 0.5rem;
+
+    padding: 0;
+  }
+
+  .about-icon {
+    display: none;
+  }
 }
