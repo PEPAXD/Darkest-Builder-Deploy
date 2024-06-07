@@ -87,12 +87,67 @@ const radioLabels = {
         link: "https://darkestdungeon.fandom.com/wiki/The_Sluice",
       },
     ],
-    cite: '"Your path lies through them, and so they must fall"',
+    cite: '',
   },
   4: {
     title: "HEROES OF DARKEST DUNGEON",
     description: [
       "Dangers lurk in every shadow, and despair clings to the hearts of the weak. Heroes emerge as beacons of hope in a world shrouded in darkness.",
+    ],
+    links: [
+      {
+        name: "Highwayman",
+        link: "https://darkestdungeon.fandom.com/wiki/Highwayman_(Darkest_Dungeon_II)",
+      },
+      {
+        name: "Grave-Robber",
+        link: "https://darkestdungeon.fandom.com/wiki/Grave_Robber_(Darkest_Dungeon_II)",
+      },
+      {
+        name: "Hellion",
+        link: "https://darkestdungeon.fandom.com/wiki/Hellion_(Darkest_Dungeon_II)",
+      },
+      {
+        name: "Jester",
+        link: "https://darkestdungeon.fandom.com/wiki/Jester_(Darkest_Dungeon_II)",
+      },
+      {
+        name: "Leper",
+        link: "https://darkestdungeon.fandom.com/wiki/Leper_(Darkest_Dungeon_II)",
+      },
+      {
+        name: "Man-at-Arms",
+        link: "https://darkestdungeon.fandom.com/wiki/Man-at-Arms_(Darkest_Dungeon_II)",
+      },
+      { name: "Occultist", link: "https://darkestdungeon.fandom.com/wiki/Occultist_(Darkest_Dungeon_II)" },
+      {
+        name: "Plague-Doctor",
+        link: "https://darkestdungeon.fandom.com/wiki/Plague_Doctor_(Darkest_Dungeon_II)",
+      },
+      {
+        name: "Vestal",
+        link: "https://darkestdungeon.fandom.com/wiki/Vestal_(Darkest_Dungeon_II)",
+      },
+      {
+        name: "Runaway",
+        link: "https://darkestdungeon.fandom.com/wiki/Runaway_(Darkest_Dungeon_II",
+      },
+      {
+        name: "Bounty-Hunter",
+        link: "https://darkestdungeon.fandom.com/wiki/Bounty_Hunter_(Darkest_Dungeon_II)",
+      },
+      {
+        name: "Crusader",
+        link: "https://darkestdungeon.fandom.com/wiki/Crusader_(Darkest_Dungeon_II)",
+      },
+      {
+        name: "Duelist",
+        link: "https://darkestdungeon.fandom.com/wiki/Duelist_(Darkest_Dungeon_II)",
+      },
+      {
+        name: "Flagellant",
+        link: "https://darkestdungeon.fandom.com/wiki/Flagellant_(Darkest_Dungeon_II)",
+      },
     ],
     cite: "",
   },

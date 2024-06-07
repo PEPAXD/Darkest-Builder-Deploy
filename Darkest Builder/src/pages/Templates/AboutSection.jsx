@@ -38,6 +38,39 @@ import ghouls from "../../assets/img/Enemies/ghouls.jpg";
 import plague from "../../assets/img/Enemies/plague.jpg";
 import swine from "../../assets/img/Enemies/swine.jpg";
 
+//import Images
+import Highwayman from "../../assets/HeroProfile/Highwayman.png";
+import graveRobber from "../../assets/HeroProfile/graveRobber.png";
+import Hellion from "../../assets/HeroProfile/Hellion.png";
+import Jester from "../../assets/HeroProfile/Jester.png";
+import Leper from "../../assets/HeroProfile/Leper.png";
+import manAtArms from "../../assets/HeroProfile/manAtArms.png";
+import Occultist from "../../assets/HeroProfile/Occultist.png";
+import PlagueDoctor from "../../assets/HeroProfile/plagueDoctor.png";
+import Vestal from "../../assets/HeroProfile/Vestal.png";
+import Runaway from "../../assets/HeroProfile/Runaway.png";
+import Duelist from "../../assets/HeroProfile/Duelist.png";
+import Flagellant from "../../assets/HeroProfile/Flagellant.png";
+import BountyHunter from "../../assets/HeroProfile/BountyHunter.png";
+import Crusader from "../../assets/HeroProfile/Crusader.png";
+
+const heroes = [
+  Highwayman,
+  graveRobber,
+  Hellion,
+  Jester,
+  Leper,
+  manAtArms,
+  Occultist,
+  PlagueDoctor,
+  Vestal,
+  Runaway,
+  BountyHunter,
+  Crusader,
+  Duelist,
+  Flagellant,
+];
+
 const enemies = [
   battalion,
   brigands,
@@ -105,6 +138,19 @@ function AboutSection({ url_Bg }) {
                     img={enemis}
                     name={aboutData[3].links[index].name}
                     link={aboutData[3].links[index].link}
+                  />
+                ))}
+              </div>
+            )}
+
+            {selectedRadio === 4 && (
+              <div className="enemiesContain">
+                {heroes.map((hero, index) => (
+                  <LinksButtons
+                    key={index}
+                    img={hero}
+                    name={aboutData[4].links[index].name}
+                    link={aboutData[4].links[index].link}
                   />
                 ))}
               </div>
