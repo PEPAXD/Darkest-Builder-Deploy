@@ -6,6 +6,7 @@ import aboutData from "../../data/aboutData.js";
 
 //Import IconsReact
 import { FaAnglesDown } from "react-icons/fa6";
+import { FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
 
 //Import Components
 import RadioButtons from "../../components/radioButtons.jsx";
@@ -157,6 +158,37 @@ function AboutSection({ url_Bg }) {
             )}
 
             <cite>{aboutData[selectedRadio].cite}</cite>
+
+            {selectedRadio === 5 && (
+              <div className="socialNetworks">
+                <ul>
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/in/mauro-pepa-dev"
+                      target="_blank"
+                    >
+                      <FaLinkedin />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.instagram.com/mauropepa97/"
+                      target="_blank"
+                    >
+                      <FaInstagram />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://github.com/PEPAXD?tab=stars"
+                      target="_blank"
+                    >
+                      <FaGithub />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            )}
           </article>
 
           <div className="PointSections">
