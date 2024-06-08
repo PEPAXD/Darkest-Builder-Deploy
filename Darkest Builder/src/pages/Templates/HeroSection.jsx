@@ -85,15 +85,10 @@ function HeroSection({ url_Bg }) {
             {/*TODO: OrderIMG HEROS_ARRAY */}
             <div className="boxHeroContainer">
               {BadHero.map((hero, index) => (
-                <a href="#">
+                <a href="#" key={index}>
                   <div className="imgContain">
-                    <img className="badHero" src={hero} alt="" key={index} />
-                    <img
-                      className="goodHero"
-                      src={GoodHero[index]}
-                      alt=""
-                      key={index}
-                    />
+                    <img className="badHero" src={hero} alt="" />
+                    <img className="goodHero" src={GoodHero[index]} alt="" />
                   </div>
                   <i>{heroesData.names[index]}</i>
                 </a>
