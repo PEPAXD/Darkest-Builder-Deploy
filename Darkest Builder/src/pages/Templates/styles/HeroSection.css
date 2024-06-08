@@ -40,4 +40,63 @@
 
   width: 100%;
   gap: 0.5rem;
+
+  a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    cursor: pointer;
+
+    i {
+      color: #fff;
+    }
+  }
+
+  a:hover{
+    i{
+      color: #d5ae52;
+    }
+
+    .goodHero {
+      opacity: 1;
+      scale: 1.3;
+      transform: translate(-10px, 10px);
+    }
+
+    .badHero {
+      opacity: 0;
+      scale: 1.3;
+      transform: translate(-10px, 10px);
+    }
+
+    .imgContain{
+      border: solid 2px rgb(213, 174, 82);
+    }
+  }
+}
+
+.imgContain {
+  position: relative;
+
+  border: solid 2px rgb(255, 255, 255, 0.5);
+  overflow: hidden;
+  width: 7rem;
+  height: 7rem;
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.2s ease-in-out;
+  }
+}
+
+.goodHero {
+  opacity: 0;
 }
