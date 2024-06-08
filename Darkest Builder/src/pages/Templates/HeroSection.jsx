@@ -1,8 +1,8 @@
 import React from "react";
 import "./styles/HeroSection.css";
 
-//import Component
-import LinksButtons from "../../components/LinksButtons.jsx";
+//import Data
+import heroesData from "../../data/heroesData.js";
 
 //import images BadHero
 import BountyHunter_BadHero from "../../assets/img/BadHero/BountyHunter.jpg";
@@ -82,14 +82,22 @@ function HeroSection({ url_Bg }) {
             <h2>Select Your Darkest Hero</h2>
             <hr />
 
+            {/*TODO: OrderIMG HEROS_ARRAY */}
             <div className="boxHeroContainer">
-              <a href="#">
-                <div className="imgContain">
-                  <img className="badHero" src={BadHero[0]} alt="" />
-                  <img className="goodHero" src={GoodHero[0]} alt="" />
-                </div>
-                <i>AAA</i>
-              </a>
+              {BadHero.map((hero, index) => (
+                <a href="#">
+                  <div className="imgContain">
+                    <img className="badHero" src={hero} alt="" key={index} />
+                    <img
+                      className="goodHero"
+                      src={GoodHero[index]}
+                      alt=""
+                      key={index}
+                    />
+                  </div>
+                  <i>{heroesData.names[index]}</i>
+                </a>
+              ))}
             </div>
           </div>
         </div>
