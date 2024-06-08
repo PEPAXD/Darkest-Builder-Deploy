@@ -37,36 +37,36 @@ import Runaway_GoodHero from "../../assets/img/GoodHero/Runaway.jpg";
 import Vestal_GoodHero from "../../assets/img/GoodHero/Vestal.jpg";
 
 const GoodHero = [
-  BountyHunter_GoodHero,
-  Crusader_GoodHero,
-  Duelist_GoodHero,
+  Highwayman_GoodHero,
   graveRobber_GoodHero,
   Hellion_GoodHero,
-  Highwayman_GoodHero,
   Jester_GoodHero,
   Leper_GoodHero,
   manAtArms_GoodHero,
   Occultist_GoodHero,
   plagueDoctor_GoodHero,
-  Runaway_GoodHero,
   Vestal_GoodHero,
+  Runaway_GoodHero,
+  BountyHunter_GoodHero,
+  Crusader_GoodHero,
+  Duelist_GoodHero,
   Flagellant_GoodHero,
 ];
 
 const BadHero = [
-  BountyHunter_BadHero,
-  Crusader_BadHero,
-  Duelist_BadHero,
+  Highwayman_BadHero,
   graveRobber_BadHero,
   Hellion_BadHero,
-  Highwayman_BadHero,
   Jester_BadHero,
   Leper_BadHero,
   manAtArms_BadHero,
   Occultist_BadHero,
   plagueDoctor_BadHero,
-  Runaway_BadHero,
   Vestal_BadHero,
+  Runaway_BadHero,
+  BountyHunter_BadHero,
+  Crusader_BadHero,
+  Duelist_BadHero,
   Flagellant_BadHero,
 ];
 

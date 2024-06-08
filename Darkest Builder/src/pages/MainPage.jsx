@@ -7,6 +7,7 @@ import MainHeader from "../components/MainHeader.jsx";
 import HomeSection from "./Templates/HomeSection.jsx";
 import AboutSection from "./Templates/AboutSection.jsx";
 import HeroSection from "./Templates/HeroSection.jsx";
+import WipSection from "./Templates/WipSection.jsx";
 
 const linksSections = [
   { href: "Home", text: "Home" },
@@ -30,6 +31,10 @@ function MainPage() {
 
       <section id="Heroes">
         <HeroSection url_Bg="hero.jpg" />
+      </section>
+
+      <section id="WIP">
+        <WipSection url_Bg="wip.png" />
       </section>
     </>
   );
