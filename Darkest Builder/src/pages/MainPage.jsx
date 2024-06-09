@@ -34,7 +34,7 @@ function MainPage() {
       </section>
 
       <section id="WIP">
-        <WipSection url_Bg="wip.png" />
+        <WipSection url_Bg="wip.jpg" />
       </section>
     </>
   );

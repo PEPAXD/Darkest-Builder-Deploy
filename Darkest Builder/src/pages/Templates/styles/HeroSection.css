@@ -109,6 +109,7 @@
 @media (max-width: 480px) {
   .heroContainer {
     width: 100%;
+    background: #000;
   }
 
   .heroContain {

@@ -1,23 +1,15 @@
 .wipContainer {
-  position: absolute;
-  right: 15%;
-
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 
   height: 100vh;
+  width: 52%;
 }
 
 .wipContain {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
   width: 100%;
-  height: 100%;
   margin: 5%;
 
   h1 {
@@ -31,5 +23,17 @@
     font-size: 1.2em;
     color: #fff;
     text-align: center;
+  }
+}
+
+/*? Responsive Styles */
+@media (max-width: 480px) {
+
+  .wipContainer{
+    width: 100%;
+  }
+
+  .wipContain{
+    width: 80%;
   }
 }
