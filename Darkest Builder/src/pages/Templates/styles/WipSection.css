@@ -1,0 +1,96 @@
+.wipContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+  width: 52.5%;
+
+  margin-top: 2%;
+}
+
+.wipContain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 52%;
+
+  gap: 1rem;
+
+  .tittleWip {
+    width: 100%;
+
+    h1 {
+      font-size: 2em;
+      color: #d5ae52;
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    hr {
+      width: 100%;
+      border: 1px solid #d5ae52;
+    }
+  }
+
+  .noteDev {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    p {
+      font-size: 1em;
+      color: rgba(255, 255, 255, 0.7);
+      margin: 0.5rem;
+    }
+  }
+
+  a:hover {
+    svg {
+      color: #d5ae52;
+    }
+
+    span {
+      color: #d5ae52;
+    }
+  }
+
+  .repodarkestBuilder {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    padding: 1rem;
+    gap: 0.5rem;
+
+    color: rgba(255, 255, 255, 0.4);
+
+    svg {
+      font-size: 2em;
+    }
+  }
+}
+
+/*? Responsive Styles */
+@media (max-width: 480px) {
+  .wipContainer {
+    width: 100%;
+  }
+
+  .wipContain {
+    width: 60%;
+  }
+
+  .tittleWip {
+    font-size: 0.7em;
+  }
+
+  .noteDev {
+    font-size: 0.8em;
+  }
+}

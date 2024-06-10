@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import "./styles/HomeSection.css";
 
 //Import Components
@@ -96,7 +97,9 @@ function HomeSection({ url_Bg }) {
             src={windowWidth >= 480 ? logoText[0] : logoText[1]}
             alt="DarkestbuilderLogo"
           />
-          <h1>Hero Builder</h1>
+          <Link to="/wiki/">
+            <h1>Hero Builder</h1>
+          </Link>
         </div>
 
         <div className="profileUser">

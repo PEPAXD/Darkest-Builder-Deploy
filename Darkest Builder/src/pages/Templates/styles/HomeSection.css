@@ -14,9 +14,7 @@
     text-align: center;
 
     padding: 0.2rem 3rem;
-    width: 30%;
-
-    white-space: nowrap;
+    width: 100%;
 
     font-size: 2.2em;
     font-weight: 400;
@@ -76,8 +74,7 @@
     }
 
     h1 {
-      width: 80%;
-      
+      width: 100%;
     }
   }
 }

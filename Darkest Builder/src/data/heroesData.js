@@ -1,18 +1,20 @@
-const heroes = [
+const heroesData = {
+  names: [
     "Highwayman",
-    "graveRobber",
+    "Grave-Robber",
     "Hellion",
     "Jester",
     "Leper",
-    "manAtArms",
+    "Man-At-Arms",
     "Occultist",
-    "PlagueDoctor",
+    "Plague-Doctor",
     "Vestal",
     "Runaway",
+    "Bounty-Hunter",
+    "Crusader",
     "Duelist",
     "Flagellant",
-    "BountyHunter",
-    "Crusader"
-  ];
-  
-  export default heroes;
+  ],
+};
+
+export default heroesData;
