@@ -1,0 +1,21 @@
+.wikiContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+
+  h1 {
+    font-size: 2em;
+    color: #d5ae52;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  p {
+    font-size: 1em;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 0.5rem;
+  }
+}
