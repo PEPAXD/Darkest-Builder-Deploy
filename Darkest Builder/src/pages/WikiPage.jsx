@@ -7,6 +7,8 @@ import WikiSection from "./Templates/WikiSection.jsx";
 import shadowBG from "../../public/shadow.jpg";
 
 function WikiPage() {
+  document.title = "Wiki - Darkest Builder";
+
   return (
     <>
       <article id="wikiHeroes">

@@ -1,35 +1,37 @@
 .wikiContainer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 
   height: 100vh;
 }
 
-.wikiContent {
+.heroContain {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 
-  width: 50%;
+  width: 30%;
+  margin: 3%;
+}
 
-  h1 {
-    font-size: 2em;
-    color: #d5ae52;
-    text-transform: uppercase;
-    text-align: center;
-  }
+.wikiContain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 
-  hr{
-    width: 100%;
-    border: 1px solid #d5ae52;
-  }
+  width: 70%;
+  height: 100%;
 
-  p {
-    font-size: 1em;
-    color: rgba(255, 255, 255, 0.7);
-    margin: 0.5rem;
-  }
+  padding: 2%;
+
+  border-style: solid;
+  border-image: linear-gradient(to bottom, #181818, #eee, #181818) 1 100%;
+  border-right: 1px;
+
+  background: rgb(0, 0, 0, 0.6);
 }
