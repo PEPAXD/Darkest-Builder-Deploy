@@ -1,10 +1,12 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
+
 import "./styles/MainHeader.css";
 
 //IMPORT COMPONENTS
 import { Squash as Hamburger } from "hamburger-react";
 
-function MainHeader({ links }) {
+function MainHeader({ links, goHome }) {
   const [isOpen, setOpen] = useState(false);
 
   const handleClick = (e, href) => {
@@ -29,6 +31,14 @@ function MainHeader({ links }) {
             </li>
           ))}
         </ul>
+
+        {goHome && (
+          <div className="goHome">
+            <Link to="/Darkest-Builder-Deploy/">
+              <a>Darkest Builder</a>
+            </Link>
+          </div>
+        )}
       </nav>
       <div className="Difusse"></div>
     </header>

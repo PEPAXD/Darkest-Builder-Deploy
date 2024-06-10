@@ -19,7 +19,7 @@ const linksSections = [
 function MainPage() {
   return (
     <>
-      <MainHeader links={linksSections} />
+      <MainHeader links={linksSections} goHome={false} />
 
       <section id="Home">
         <HomeSection url_Bg="home.png" />

@@ -16,7 +16,7 @@ const linksSections = [
 function WikiSection({ url_Bg }) {
   return (
     <div className="wiki">
-      <MainHeader links={linksSections} />
+      <MainHeader links={linksSections} goHome={true} />
 
       <div
         className="background"
