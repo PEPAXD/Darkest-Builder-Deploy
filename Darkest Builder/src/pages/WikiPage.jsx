@@ -1,16 +1,18 @@
 import React from "react";
-import "./WikiPage.css";
+
+//templates Sections
+import WikiSection from "./Templates/WikiSection.jsx";
+
+//import Background
+import shadowBG from "../../public/shadow.jpg";
 
 function WikiPage() {
   return (
-    <div className="wiki">
-      <div className="background">
-        <div className="wikiContainer">
-          <h1>FirstCommit</h1>
-          <p>Wiki branch</p>
-        </div>
-      </div>
-    </div>
+    <>
+      <article id="wikiHeroes">
+        <WikiSection url_Bg={shadowBG}/>
+      </article>
+    </>
   );
 }
 

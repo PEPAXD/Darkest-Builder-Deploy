@@ -11,7 +11,7 @@ function App() {
       <div className="App">
         <Routes>
           <Route path="/Darkest-Builder-Deploy/" element={<MainPage />} />
-          <Route path="/wiki/" element={<WikiPage />} />
+          <Route path="/Darkest-Builder-Deploy/wiki/" element={<WikiPage />} />
         </Routes>
       </div>
     </Router>

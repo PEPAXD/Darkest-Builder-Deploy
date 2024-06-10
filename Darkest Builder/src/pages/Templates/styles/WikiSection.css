@@ -5,12 +5,26 @@
   justify-content: center;
 
   height: 100vh;
+}
+
+.wikiContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 50%;
 
   h1 {
     font-size: 2em;
     color: #d5ae52;
     text-transform: uppercase;
     text-align: center;
+  }
+
+  hr{
+    width: 100%;
+    border: 1px solid #d5ae52;
   }
 
   p {
