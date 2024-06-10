@@ -10,6 +10,11 @@ header {
   z-index: 5;
   position: fixed;
 
+  span {
+    font-size: 1.1em;
+    border-bottom: 1px solid #fff;
+  }
+
   a {
     color: #fff;
     text-transform: uppercase;
@@ -75,8 +80,12 @@ header {
   padding: 1% 2%;
   background-color: #000;
 
+  .goHome {
+    margin-left: 2%;
+  }
+
   h4 {
-    padding-left: 2%;
+    margin-left: 2%;
     text-transform: uppercase;
   }
 }

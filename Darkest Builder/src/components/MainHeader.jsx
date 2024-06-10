@@ -8,18 +8,25 @@ import { Squash as Hamburger } from "hamburger-react";
 
 function MainHeader({ links, goHome }) {
   const [isOpen, setOpen] = useState(false);
-
   const handleClick = (e, href) => {
     e.preventDefault();
     const element = document.getElementById(href);
     element.scrollIntoView({ behavior: "smooth" });
-    setOpen(!isOpen); // Cambia el estado de isOpen
+    setOpen(!isOpen);
   };
 
   return (
     <header>
       <div className="hamburgerMenuButton">
-        <h4>Darkest Adventure</h4>
+        {goHome ? (
+          <div className="goHome">
+            <Link to="/Darkest-Builder-Deploy/">
+              <span>Darkest Builder</span>
+            </Link>
+          </div>
+        ) : (
+          <h4>Darkest Adventure</h4>
+        )}
         <Hamburger toggled={isOpen} toggle={setOpen} />
       </div>
 
@@ -32,10 +39,10 @@ function MainHeader({ links, goHome }) {
           ))}
         </ul>
 
-        {goHome && (
+        {goHome && !isOpen && (
           <div className="goHome">
             <Link to="/Darkest-Builder-Deploy/">
-              <a>Darkest Builder</a>
+              <span>Darkest Builder</span>
             </Link>
           </div>
         )}
