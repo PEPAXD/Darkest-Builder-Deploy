@@ -6,12 +6,10 @@ import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 
 //import Components
 import MainHeader from "../../components/MainHeader.jsx";
+import HeroBody from "../../components/herobody.jsx";
 
 //import npmPackages
 import { ReactSearchAutocomplete } from "react-search-autocomplete";
-
-//import Images
-import Highwayman from "../../assets/HeroRef/Hwm_wiki.webp";
 
 const linksSections = [
   { href: "#", text: "ClassHero" },
@@ -54,14 +52,7 @@ function WikiSection({ url_Bg }) {
             </div>
 
             <div className="imgCont">
-              <img src={Highwayman} alt="darkestHero" />
-
-              <ul>
-                <li>Any Rank</li>
-                <li>High DMG</li>
-                <li>Versatile</li>
-                <li>Riposte</li>
-              </ul>
+              <HeroBody heroImg={0} heroRol="AAA" />
             </div>
 
             <div className="heroPath">
