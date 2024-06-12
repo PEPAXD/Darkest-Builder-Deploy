@@ -18,6 +18,7 @@
   height: 100%;
 
   padding: 5% 0%;
+  z-index: 5;
 
   .searchBar {
     display: flex;
@@ -29,13 +30,19 @@
     padding: 0% 5%;
 
     gap: 0.5rem;
-    z-index: 5;
 
     .heroSearchBar {
       width: 100%;
 
+      .wrapper{
+        background: #000;
+        border: 1px solid #fff;
+        border-radius: 0px;
+      }
+
       input {
         font-size: 1.5em;
+        color: rgba(255, 255, 255, 0.8);
       }
     }
 

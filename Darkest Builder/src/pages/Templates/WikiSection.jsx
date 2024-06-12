@@ -30,7 +30,6 @@ function WikiSection({ url_Bg }) {
       >
         <div className="wikiContainer">
           <div className="heroWikiContain">
-
             <div className="searchBar">
               <button>
                 <IoIosArrowBack />
@@ -41,10 +40,6 @@ function WikiSection({ url_Bg }) {
                 className="heroSearchBar"
                 placeholder="Highwayman"
                 styling={{
-                  backgroundColor: "rgba(0, 0, 0, 0.8)",
-                  color: "white",
-                  border: "1px solid white",
-                  borderRadius: "0px",
                   hoverBackgroundColor: "#981a0c",
                   iconColor: "white",
                 }}
@@ -65,7 +60,7 @@ function WikiSection({ url_Bg }) {
               </p>
             </div>
 
-
+            <div>PATHS HERO OPTIONS</div>
           </div>
           <div className="wikiContain">
             <h1>Wiki-Contain</h1>
