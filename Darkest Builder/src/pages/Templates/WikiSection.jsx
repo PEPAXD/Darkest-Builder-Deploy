@@ -1,8 +1,14 @@
 import React from "react";
 import "./styles/WikiSection.css";
 
+//import React-Icons
+import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
+
 //import Components
 import MainHeader from "../../components/MainHeader.jsx";
+
+//import npmPackages
+import { ReactSearchAutocomplete } from "react-search-autocomplete";
 
 const linksSections = [
   { href: "#", text: "ClassHero" },
@@ -24,21 +30,50 @@ function WikiSection({ url_Bg }) {
       >
         <div className="wikiContainer">
           <div className="heroWikiContain">
-            <h1>HERO CONTAIN</h1>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi
-              voluptatum eius consectetur beatae quas ullam, deserunt
-              dignissimos suscipit ea laborum, officia velit ab, reiciendis nisi
-              cumque doloribus incidunt. Minus, sed.
-            </p>
+
+            <div className="searchBar">
+              <button>
+                <IoIosArrowBack />
+              </button>
+
+              <ReactSearchAutocomplete
+                autoFocus
+                className="heroSearchBar"
+                placeholder="Highwayman"
+                styling={{
+                  backgroundColor: "rgba(0, 0, 0, 0.8)",
+                  color: "white",
+                  border: "1px solid white",
+                  borderRadius: "0px",
+                  hoverBackgroundColor: "#981a0c",
+                  iconColor: "white",
+                }}
+              />
+
+              <button>
+                <IoIosArrowForward />
+              </button>
+            </div>
+
+            <div className="infoHeroContent">
+              <h1>HERO CONTAIN</h1>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi
+                voluptatum eius consectetur beatae quas ullam, deserunt
+                dignissimos suscipit ea laborum, officia velit ab, reiciendis
+                nisi cumque doloribus incidunt. Minus, sed.
+              </p>
+            </div>
+
+
           </div>
           <div className="wikiContain">
             <h1>Wiki-Contain</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Doloremque vero sequi quos illum libero, minima reiciendis
-              expedita, hic exercitationem quasi eaque dignissimos ducimus
-              deleniti consequatur nesciunt, delectus aut cum atque.
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias
+              provident neque ipsa vel vero voluptas libero eaque repellat
+              corrupti ut incidunt laborum sequi non molestiae minus, officia
+              reprehenderit sapiente ullam!
             </p>
           </div>
         </div>

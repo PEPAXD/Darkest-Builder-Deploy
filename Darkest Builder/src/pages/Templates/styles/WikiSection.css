@@ -11,10 +11,60 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  text-align: center;
 
-  width: 30%;
-  margin: 2%;
+  width: 37%;
+  height: 100%;
+
+  padding: 5% 0%;
+
+  .searchBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    padding: 0% 5%;
+
+    gap: 0.5rem;
+    z-index: 5;
+
+    .heroSearchBar {
+      width: 100%;
+
+      input {
+        font-size: 1.5em;
+      }
+    }
+
+    button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      background: transparent;
+      border: none;
+
+      svg {
+        font-size: 3em;
+        color: rgb(255, 255, 255, 0.7);
+        transition: all ease-in-out 0.1s;
+
+        &:hover {
+          color: #7a9cc6;
+          transform: scale(1.1);
+          cursor: pointer;
+        }
+
+        &:active {
+          transform: scale(0.9);
+          opacity: 0.5;
+        }
+      }
+    }
+  }
 }
 
 .wikiContain {
