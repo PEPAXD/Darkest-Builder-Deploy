@@ -64,10 +64,23 @@ function WikiSection({ url_Bg }) {
               </ul>
             </div>
 
-            <div>PATHS HERO OPTIONS</div>
+            <div className="heroPath">
+              <cite>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corporis, necessitatibus?
+              </cite>
+
+              <div className="pathRoad">
+                <input type="radio" />
+                <label htmlFor="">AAA</label>
+                <input type="radio" />
+                <label htmlFor="">BBB</label>
+                <input type="radio" />
+                <label htmlFor="">CCC</label>
+              </div>
+            </div>
           </div>
 
-          
           <div className="wikiContain">
             <h1>Wiki-Contain</h1>
             <p>
