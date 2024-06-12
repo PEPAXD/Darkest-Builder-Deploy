@@ -34,7 +34,7 @@
     .heroSearchBar {
       width: 100%;
 
-      .wrapper{
+      .wrapper {
         background: #000;
         border: 1px solid #fff;
         border-radius: 0px;
@@ -70,6 +70,37 @@
           opacity: 0.5;
         }
       }
+    }
+  }
+}
+
+.imgCont {
+  position: relative;
+  height: 85%;
+
+  img {
+    height: 100%;
+    width: auto;
+
+    filter: brightness(80%);
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    position: absolute;
+    top: 2%;
+    left: 10%;
+
+    gap: 0.2rem;
+
+    li {
+      font-weight: 600;
+      text-transform: uppercase;
+      color: rgb(122, 156, 198, 0.8);
     }
   }
 }

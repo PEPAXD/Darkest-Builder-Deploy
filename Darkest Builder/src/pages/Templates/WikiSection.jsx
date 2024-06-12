@@ -10,6 +10,9 @@ import MainHeader from "../../components/MainHeader.jsx";
 //import npmPackages
 import { ReactSearchAutocomplete } from "react-search-autocomplete";
 
+//import Images
+import Highwayman from "../../assets/HeroRef/Hwm_wiki.webp";
+
 const linksSections = [
   { href: "#", text: "ClassHero" },
   { href: "#", text: "Play-Style" },
@@ -50,18 +53,21 @@ function WikiSection({ url_Bg }) {
               </button>
             </div>
 
-            <div className="infoHeroContent">
-              <h1>HERO CONTAIN</h1>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi
-                voluptatum eius consectetur beatae quas ullam, deserunt
-                dignissimos suscipit ea laborum, officia velit ab, reiciendis
-                nisi cumque doloribus incidunt. Minus, sed.
-              </p>
+            <div className="imgCont">
+              <img src={Highwayman} alt="darkestHero" />
+
+              <ul>
+                <li>Any Rank</li>
+                <li>High DMG</li>
+                <li>Versatile</li>
+                <li>Riposte</li>
+              </ul>
             </div>
 
             <div>PATHS HERO OPTIONS</div>
           </div>
+
+          
           <div className="wikiContain">
             <h1>Wiki-Contain</h1>
             <p>
