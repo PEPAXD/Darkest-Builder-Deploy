@@ -2,8 +2,6 @@
   img {
     height: 100%;
     width: auto;
-
-    filter: brightness(70%);
   }
 
   ul {
@@ -13,10 +11,11 @@
     justify-content: center;
 
     position: absolute;
-    top: -2%;
+    top: 0%;
     left: 10%;
 
     gap: 0.2rem;
+
 
     li {
       font-weight: 600;

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./styles/WikiSection.css";
 
 //import React-Icons
@@ -21,6 +21,22 @@ const linksSections = [
 ];
 
 function WikiSection({ url_Bg }) {
+
+  // heroIndex
+  let [heroArray, setHeroArray] = useState(0);
+  const updateHeroArray = (value) => {
+    setHeroArray((prevHeroArray) => {
+      let newValue = prevHeroArray + value;
+      if (newValue < 0) {
+        return 13;
+      } else if (newValue > 13) {
+        return 0;
+      } else {
+        return newValue;
+      }
+    });
+  };
+
   return (
     <div className="wiki">
       <MainHeader links={linksSections} goHome={true} />
@@ -32,7 +48,7 @@ function WikiSection({ url_Bg }) {
         <div className="wikiContainer">
           <div className="heroWikiContain">
             <div className="searchBar">
-              <button>
+              <button onClick={() => updateHeroArray(-1)}>
                 <IoIosArrowBack />
               </button>
 
@@ -46,13 +62,13 @@ function WikiSection({ url_Bg }) {
                 }}
               />
 
-              <button>
+              <button onClick={() => updateHeroArray(+1)}>
                 <IoIosArrowForward />
               </button>
             </div>
 
             <div className="imgCont">
-              <HeroBody heroImg={0} heroRol="AAA" />
+              <HeroBody heroImg={heroArray} heroRol="AAA" />
             </div>
 
             <div className="heroPath">
