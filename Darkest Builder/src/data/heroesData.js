@@ -23,67 +23,67 @@ const heroesData = {
 
   1: {
     name: "Grave-Robber",
-    rolePlay: ["ANY RANK", "HIGH DMG", "VERSATILE", "RIPOSTE"],
+    rolePlay: ["ANY RANK", "STEALTH", "DODGE", "HIGH CRIT"],
   },
 
   2: {
     name: "Hellion",
-    rolePlay: ["ANY RANK", "HIGH DMG", "VERSATILE", "RIPOSTE"],
+    rolePlay: ["FRONT RANK", "HIGH DMG", "BLEED", "BLOODLUST"],
   },
 
   3: {
     name: "Jester",
-    rolePlay: ["ANY RANK", "HIGH DMG", "VERSATILE", "RIPOSTE"],
+    rolePlay: ["ANY RANK", "BLEED", "STRESS HEAL", "SUPPORT"],
   },
 
   4: {
     name: "Leper",
-    rolePlay: ["ANY RANK", "HIGH DMG", "VERSATILE", "RIPOSTE"],
+    rolePlay: ["FRONT RANK", "HIGH DMG", "SELF-SUFFICIENT", "DURABLE"],
   },
 
   5: {
     name: "Man-At-Arms",
-    rolePlay: ["ANY RANK", "HIGH DMG", "VERSATILE", "RIPOSTE"],
+    rolePlay: ["FRONT RANK", "GUARD", "DURABLE", "RIPOSTE"],
   },
 
   6: {
     name: "Occultist",
-    rolePlay: ["ANY RANK", "HIGH DMG", "VERSATILE", "RIPOSTE"],
+    rolePlay: ["BACK RANK", "RANGED DMG", "HEALER", "OFFENSIVE SUPPORT"],
   },
 
   7: {
     name: "Plague-Doctor",
-    rolePlay: ["ANY RANK", "HIGH DMG", "VERSATILE", "RIPOSTE"],
+    rolePlay: ["BACK RANK", "BLIGHT", "BLINDS", "HEALER"],
   },
 
   8: {
     name: "Vestal",
-    rolePlay: ["ANY RANK", "HIGH DMG", "VERSATILE", "RIPOSTE"],
+    rolePlay: ["BACK RANK", "RANGED DMG", "HEALER", "SUPPORT"],
   },
 
   9: {
     name: "Runaway",
-    rolePlay: ["ANY RANK", "HIGH DMG", "VERSATILE", "RIPOSTE"],
+    rolePlay: ["FRONT RANK", "BURN", "STEALTH", "SUPPORT"],
   },
 
   10: {
     name: "Bounty-Hunter",
-    rolePlay: ["ANY RANK", "HIGH DMG", "VERSATILE", "RIPOSTE"],
+    rolePlay: [],
   },
 
   11: {
     name: "Crusader",
-    rolePlay: ["ANY RANK", "HIGH DMG", "VERSATILE", "RIPOSTE"],
+    rolePlay: ["FRONT RANK", "DURABLE", "BURN", "SUPPORT"],
   },
 
   12: {
     name: "Duelist",
-    rolePlay: ["ANY RANK", "HIGH DMG", "VERSATILE", "RIPOSTE"],
+    rolePlay: ["ANY RANK", "RIPOSTE", "DODGE", "MOBILE"],
   },
 
   13: {
     name: "Flagellant",
-    rolePlay: ["ANY RANK", "HIGH DMG", "VERSATILE", "RIPOSTE"],
+    rolePlay: ["FRONT RANK", "SACRIFICIAL SUPPORT",  "BLIGHT", "DURABLE" ],
   },
 };
 
