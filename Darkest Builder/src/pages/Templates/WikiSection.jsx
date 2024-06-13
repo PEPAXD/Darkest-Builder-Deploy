@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import "./styles/WikiSection.css";
 
+//import database
+import heroesData from "../../data/heroesData.js";
+
 //import React-Icons
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 
@@ -21,12 +24,12 @@ const linksSections = [
 ];
 
 function WikiSection({ url_Bg }) {
-
   // heroIndex
   let [heroArray, setHeroArray] = useState(0);
   const updateHeroArray = (value) => {
     setHeroArray((prevHeroArray) => {
       let newValue = prevHeroArray + value;
+
       if (newValue < 0) {
         return 13;
       } else if (newValue > 13) {
@@ -47,7 +50,6 @@ function WikiSection({ url_Bg }) {
       >
         <div className="wikiContainer">
           <div className="heroWikiContain">
-            
             <div className="searchBar">
               <button onClick={() => updateHeroArray(-1)}>
                 <IoIosArrowBack />
@@ -56,7 +58,7 @@ function WikiSection({ url_Bg }) {
               <ReactSearchAutocomplete
                 autoFocus
                 className="heroSearchBar"
-                placeholder="Highwayman"
+                placeholder={heroesData.names[heroArray]}
                 styling={{
                   hoverBackgroundColor: "#981a0c",
                   iconColor: "white",
@@ -69,7 +71,7 @@ function WikiSection({ url_Bg }) {
             </div>
 
             <div className="imgCont">
-              <HeroBody heroImg={heroArray} heroRol="AAA" />
+              <HeroBody heroIndex={heroArray} />
             </div>
 
             <div className="heroPath">

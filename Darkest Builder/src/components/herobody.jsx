@@ -1,6 +1,9 @@
 import React from "react";
 import "./styles/herobody.css";
 
+//import database
+import heroesData from "../data/heroesData.js";
+
 //import HeroImages
 import Hwm_wiki from "../assets/HeroRef/Hwm_wiki.png";
 import Bh_2 from "../assets/HeroRef/Bh_2.png";
@@ -34,15 +37,14 @@ const heroesImgArray = [
   FlagWiki2,
 ];
 
-function herobody({ heroImg, heroRol }) {
+function herobody({ heroIndex }) {
   return (
     <>
-      <img src={heroesImgArray[heroImg]} alt="darkestHero" />
+      <img src={heroesImgArray[heroIndex]} alt="darkestHero" />
       <ul>
-        <li>{heroRol}</li>
-        <li>{heroRol}</li>
-        <li>{heroRol}</li>
-        <li>{heroRol}</li>
+        {heroesData[heroIndex].rolePlay.map((role, index) => (
+          <li key={index}>{role}</li>
+        ))}
       </ul>
     </>
   );
