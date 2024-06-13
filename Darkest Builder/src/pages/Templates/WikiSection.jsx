@@ -57,11 +57,16 @@ function WikiSection({ url_Bg }) {
 
               <ReactSearchAutocomplete
                 autoFocus
+                items={heroesData.names}
                 className="heroSearchBar"
-                placeholder={heroesData.names[heroArray]}
+                placeholder={heroesData.names[heroArray].name}
+                onSelect={(item) => {
+                  setHeroArray(item.id - 1);
+                }}
                 styling={{
-                  hoverBackgroundColor: "#981a0c",
+                  color: "white",
                   iconColor: "white",
+                  hoverBackgroundColor: "#981a0c",
                 }}
               />
 

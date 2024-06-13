@@ -90,7 +90,7 @@ function HeroSection({ url_Bg }) {
                     <img className="badHero" src={hero} alt="" />
                     <img className="goodHero" src={GoodHero[index]} alt="" />
                   </div>
-                  <i>{heroesData.names[index]}</i>
+                  <i>{heroesData.names[index].name}</i>
                 </a>
               ))}
             </div>

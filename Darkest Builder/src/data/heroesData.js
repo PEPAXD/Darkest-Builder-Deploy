@@ -1,19 +1,19 @@
 const heroesData = {
   names: [
-    "Highwayman",
-    "Grave-Robber",
-    "Hellion",
-    "Jester",
-    "Leper",
-    "Man-At-Arms",
-    "Occultist",
-    "Plague-Doctor",
-    "Vestal",
-    "Runaway",
-    "Bounty-Hunter",
-    "Crusader",
-    "Duelist",
-    "Flagellant",
+    { id: 1, name: "Highwayman" },
+    { id: 2, name: "Grave-Robber" },
+    { id: 3, name: "Hellion" },
+    { id: 4, name: "Jester" },
+    { id: 5, name: "Leper" },
+    { id: 6, name: "Man-At-Arms" },
+    { id: 7, name: "Occultist" },
+    { id: 8, name: "Plague-Doctor" },
+    { id: 9, name: "Vestal" },
+    { id: 10, name: "Runaway" },
+    { id: 11, name: "Bounty-Hunter" },
+    { id: 12, name: "Crusader" },
+    { id: 13, name: "Duelist" },
+    { id: 14, name: "Flagellant" },
   ],
 
   0: {
@@ -83,7 +83,7 @@ const heroesData = {
 
   13: {
     name: "Flagellant",
-    rolePlay: ["FRONT RANK", "SACRIFICIAL SUPPORT",  "BLIGHT", "DURABLE" ],
+    rolePlay: ["FRONT RANK", "SACRIFICIAL SUPPORT", "BLIGHT", "DURABLE"],
   },
 };
 
