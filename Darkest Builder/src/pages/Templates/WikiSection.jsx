@@ -47,6 +47,7 @@ function WikiSection({ url_Bg }) {
       >
         <div className="wikiContainer">
           <div className="heroWikiContain">
+            
             <div className="searchBar">
               <button onClick={() => updateHeroArray(-1)}>
                 <IoIosArrowBack />
