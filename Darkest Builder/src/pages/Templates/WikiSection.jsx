@@ -80,10 +80,7 @@ function WikiSection({ url_Bg }) {
             </div>
 
             <div className="heroPath">
-              <cite>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Corporis, necessitatibus?
-              </cite>
+              <cite>{heroesData[heroArray].cite}</cite>
 
               <div className="pathRoad">
                 <input type="radio" />
@@ -92,6 +89,7 @@ function WikiSection({ url_Bg }) {
                 <label htmlFor="">BBB</label>
                 <input type="radio" />
                 <label htmlFor="">CCC</label>
+  
               </div>
             </div>
           </div>
