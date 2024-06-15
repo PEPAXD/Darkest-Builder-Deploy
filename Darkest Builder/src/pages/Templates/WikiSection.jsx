@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./styles/WikiSection.css";
 
 //import database
@@ -40,6 +40,13 @@ function WikiSection({ url_Bg }) {
     });
   };
 
+  //heroPaths
+  let [heroPaths, setHeroPaths] = useState(0);
+
+  useEffect(() => {
+    console.log(heroPaths);
+  }, [heroPaths]);
+
   return (
     <div className="wiki">
       <MainHeader links={linksSections} goHome={true} />
@@ -80,8 +87,23 @@ function WikiSection({ url_Bg }) {
             </div>
 
             <div className="heroPath">
-              <cite>{heroesData[heroArray].cite[0]}</cite>
+              <cite>{heroesData[heroArray].cite[heroPaths]}</cite>
 
+              <form action="">
+                {heroesData[heroArray].paths.map((path, index) => (
+                  <React.Fragment key={index}>
+                    <input
+                      type="radio"
+                      name="value-radio"
+                      id={`value-${index}`}
+                      value={index}
+                      checked={heroPaths === index}
+                      onChange={(e) => setHeroPaths(index)}
+                    />
+                    <label htmlFor={`value-${index}`}>{path}</label>
+                  </React.Fragment>
+                ))}
+              </form>
             </div>
           </div>
 

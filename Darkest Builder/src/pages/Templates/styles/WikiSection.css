@@ -22,7 +22,6 @@
   gap: 1rem;
   z-index: 5;
 
-
   .searchBar {
     display: flex;
     flex-direction: row;
@@ -96,7 +95,6 @@
   gap: 1rem;
 
   cite {
-
     width: 100%;
     text-align: center;
 
@@ -114,6 +112,35 @@
       rgba(0, 0, 0, 0.8),
       transparent
     );
+  }
+
+  form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    width: 90%;
+
+    input[type="radio"] {
+      display: none;
+    }
+
+    input[type="radio"]:checked + label {
+      background-color: #981a0c;
+    }
+
+    label {
+      color: #fff;
+      font-size: 1em;
+
+      cursor: pointer;
+      border: 1px solid #fff;
+
+      width: 100%;
+      padding: 0.5rem 0rem;
+    }
   }
 }
 
