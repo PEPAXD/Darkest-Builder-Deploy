@@ -91,7 +91,7 @@ function WikiSection({ url_Bg }) {
             <div className="heroPath">
               <cite>{heroesData[heroArray].cite[heroPaths]}</cite>
 
-              <form action="">
+              <form>
                 {heroesData[heroArray].paths.map((path, index) => (
                   <React.Fragment key={index}>
                     <input
