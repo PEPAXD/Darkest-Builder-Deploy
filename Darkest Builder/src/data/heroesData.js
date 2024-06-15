@@ -27,7 +27,7 @@ const heroesData = {
     ],
     paths: ["Wanderer", "Rogue", "Sharpshot", "Yellowhand"],
     description:
-      "highly versatile hero that heavily focuses on dealing damage thanks to his ability to target the front Ranks as well as the back Ranks. His skillset places emphasis on damage and utility such as self-Buffs, Execution 1 finishers, and a unique skill to destroy or steal powerful Tokens from enemies.",
+      "The Highwayman is a highly versatile hero that heavily focuses on dealing damage thanks to his ability to target the front Ranks as well as the back Ranks. His skillset places emphasis on damage and utility such as self-Buffs, Execution 1 finishers, and a unique skill to destroy or steal powerful Tokens from enemies.",
   },
 
   1: {
@@ -41,7 +41,7 @@ const heroesData = {
     ],
     paths: ["Wanderer", "Deadeye", "Venomdrop", "Nightsworn"],
     description:
-      "She stands out for her versatility in positioning among the heroes. Her self-sustain ability, Dodge, and Stealth make her resilient to enemy disruptions. Her damage relies primarily on CRIT chance, which requires careful planning, but can be very effective under the right circumstances.",
+      "The Grave Robber has some of the most flexible targeting and positioning amongst the Heroes. Combined with her fantastic self-sustain, Dodge, dodgeplusand and stealth, she suffers very little from enemy disruption despite her low HP. Most of Grave robber Damage is very reliant on CRIT chance as such Grave Robber requires more planning than other heroes but can be very effective given the right circunstances.",
   },
 
   2: {
@@ -54,6 +54,7 @@ const heroesData = {
       "Again! I can take it!",
     ],
     paths: ["Wanderer", "Ravager", "Berserker", "Carcass"],
+    description: "The Hellion's primary role a front-line damage dealer with large bursts of damage. Her ability to gain extra damage when Low HP pairs well with her secondary tank role( by having a multitude of self-heals, both for HP and Stress). In addition to tanking and doing damage, it can also serve as a minimum support role but in general Hellion brings large amounts of damage to the team while protecting her teammates with Taunt.",
   },
 
   3: {
@@ -66,6 +67,7 @@ const heroesData = {
       "Let's keep this melody moving...",
     ],
     paths: ["Wanderer", "Virtuoso", "Soloist", "Intermezzo"],
+    description: "The Jester is a particularly mobile Hero, as most offensive skills of his skillset require him to change position around the team composition to unleash his full potential. Due to his rather erratic movements, the Jester may present risk when fit into a team who requires Rank consistency or lacks flexibility in movement. Notably, the Jester excels at applying Combo Token, possessing 4 skills that can inflict said Token in total, more than any other Heroes. Due to his highly flexible skillset with a good target reach, the Jester can reliably perform on any Rank, especially on middle Ranks. Jester has a more supporting role on Rank 3 where he can effectively Stress heal, buff his team or Pull targets, while on Rank 2 he can use Finale ability to deal a strong blow on resilient targets.",
   },
 
   4: {
@@ -78,6 +80,7 @@ const heroesData = {
       "To rule, one must learn to serve.",
     ],
     paths: ["Wanderer", "Tempest", "Poet", "Monarch"],
+    description: "The leper is a durable front-rank hero capable of dealing huge amounts of damage. While also being able to receive large amounts HP damage and stress for the team, protecting his allies. The main problem the player will see is Blind tokens. Fortunately Leper has the tools to combat this as  ability Reflection allows you to clear Blind. Leper main damage abilities are able to ignore Blind if you have Combo. The Leper's biggest downside is that he's restricted to the front two ranks. He has no way of attack from the back, and he has no ability that moves him forward, forcing him to move one rank at a time with his regular movement. This means enemies like Pit Fighter or The Lord are a big threat to Leper since these enemies can push him back with strong Knockback abilites.",
   },
 
   5: {
