@@ -142,7 +142,7 @@ const heroesData = {
     cite: [
       "The thrill of the hunt, the promise of payment!",
     ],
-    paths: ["Wanderer"],
+    paths: ["Professional"],
   },
 
   11: {
