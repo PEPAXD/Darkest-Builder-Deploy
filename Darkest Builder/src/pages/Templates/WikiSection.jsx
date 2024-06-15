@@ -24,6 +24,9 @@ const linksSections = [
 ];
 
 function WikiSection({ url_Bg }) {
+  //heroPaths
+  let [heroPaths, setHeroPaths] = useState(0);
+
   // heroIndex
   let [heroArray, setHeroArray] = useState(0);
   const updateHeroArray = (value) => {
@@ -38,10 +41,8 @@ function WikiSection({ url_Bg }) {
         return newValue;
       }
     });
+    setHeroPaths(0);
   };
-
-  //heroPaths
-  let [heroPaths, setHeroPaths] = useState(0);
 
   useEffect(() => {
     console.log(heroPaths);
@@ -69,6 +70,7 @@ function WikiSection({ url_Bg }) {
                 placeholder={heroesData.names[heroArray].name}
                 onSelect={(item) => {
                   setHeroArray(item.id - 1);
+                  setHeroPaths(0);
                 }}
                 styling={{
                   color: "white",
