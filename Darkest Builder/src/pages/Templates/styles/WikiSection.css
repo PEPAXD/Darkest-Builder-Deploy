@@ -157,6 +157,8 @@
   justify-content: center;
   text-align: center;
 
+  overflow-y: auto;
+
   width: 65%;
   height: 100%;
 
@@ -211,4 +213,5 @@
   .wikiContainer {
     flex-direction: column;
   }
+
 }
