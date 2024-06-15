@@ -110,13 +110,11 @@ function WikiSection({ url_Bg }) {
           </div>
 
           <div className="wikiContain">
-            <h1>Wiki-Contain</h1>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias
-              provident neque ipsa vel vero voluptas libero eaque repellat
-              corrupti ut incidunt laborum sequi non molestiae minus, officia
-              reprehenderit sapiente ullam!
-            </p>
+            <section id="ClassHero" className="ClassHero">
+              <h1>{heroesData[heroArray].name}</h1>
+              <hr />
+              <p>{heroesData[heroArray].description}</p>
+            </section>
           </div>
         </div>
       </div>

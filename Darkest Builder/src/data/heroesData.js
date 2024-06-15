@@ -26,6 +26,8 @@ const heroesData = {
       "Lets go another round, then.",
     ],
     paths: ["Wanderer", "Rogue", "Sharpshot", "Yellowhand"],
+    description:
+      "highly versatile hero that heavily focuses on dealing damage thanks to his ability to target the front Ranks as well as the back Ranks. His skillset places emphasis on damage and utility such as self-Buffs, Execution 1 finishers, and a unique skill to destroy or steal powerful Tokens from enemies.",
   },
 
   1: {
@@ -38,6 +40,8 @@ const heroesData = {
       "The shadows—my favorite cloak.",
     ],
     paths: ["Wanderer", "Deadeye", "Venomdrop", "Nightsworn"],
+    description:
+      "She stands out for her versatility in positioning among the heroes. Her self-sustain ability, Dodge, and Stealth make her resilient to enemy disruptions. Her damage relies primarily on CRIT chance, which requires careful planning, but can be very effective under the right circumstances.",
   },
 
   2: {
@@ -139,9 +143,7 @@ const heroesData = {
   10: {
     name: "Bounty-Hunter",
     rolePlay: [],
-    cite: [
-      "The thrill of the hunt, the promise of payment!",
-    ],
+    cite: ["The thrill of the hunt, the promise of payment!"],
     paths: ["Professional"],
   },
 
