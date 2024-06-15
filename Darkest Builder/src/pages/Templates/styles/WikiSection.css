@@ -92,10 +92,12 @@
   position: relative;
 
   bottom: 15%;
-  width: 90%;
-  gap: 0.5rem;
+  width: 100%;
+  gap: 1rem;
 
   cite {
+
+    width: 100%;
     text-align: center;
 
     font-size: 1.3em;
@@ -112,37 +114,6 @@
       rgba(0, 0, 0, 0.8),
       transparent
     );
-  }
-
-  .pathRoad {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-
-    width: 100%;
-
-    input[type="radio"] {
-      display: none;
-    }
-
-    input[type="radio"]:checked + label {
-      background-color: #981a0c;
-    }
-
-    label {
-      color: #fff;
-      font-size: 1em;
-
-      cursor: pointer;
-      border: 1px solid #fff;
-
-      width: 100%;
-      padding: 0.5rem 0rem;
-
-      background: #000;
-    }
   }
 }
 

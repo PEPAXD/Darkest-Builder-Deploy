@@ -19,13 +19,21 @@ const heroesData = {
   0: {
     name: "Highwayman",
     rolePlay: ["ANY RANK", "HIGH DMG", "VERSATILE", "RIPOSTE"],
-    cite: "Hwm_wiki",
+    cite: [
+      "Hunted, hurried, a fugitive seeking to outpace the past.",
+      "Up close and personal - thats how the job gets done.",
+      "I never miss.",
+      "Lets go another round, then.",
+    ],
+    paths: ["Wanderer", "Rogue", "Sharpshot", "Yellowhand"]
   },
 
   1: {
     name: "Grave-Robber",
     rolePlay: ["ANY RANK", "STEALTH", "DODGE", "HIGH CRIT"],
     cite: "HAAAki",
+    paths: ["Wanderer", "Rogue", "Sharpshot", "Yellowhand"]
+
   },
 
   2: {

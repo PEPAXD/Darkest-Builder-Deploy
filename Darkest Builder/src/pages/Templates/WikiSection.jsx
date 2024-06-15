@@ -80,17 +80,8 @@ function WikiSection({ url_Bg }) {
             </div>
 
             <div className="heroPath">
-              <cite>{heroesData[heroArray].cite}</cite>
+              <cite>{heroesData[heroArray].cite[0]}</cite>
 
-              <div className="pathRoad">
-                <input type="radio" />
-                <label htmlFor="">AAA</label>
-                <input type="radio" />
-                <label htmlFor="">BBB</label>
-                <input type="radio" />
-                <label htmlFor="">CCC</label>
-  
-              </div>
             </div>
           </div>
 
