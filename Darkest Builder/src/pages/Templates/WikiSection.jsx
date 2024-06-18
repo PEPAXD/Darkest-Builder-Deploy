@@ -10,6 +10,7 @@ import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 //import Components
 import MainHeader from "../../components/MainHeader.jsx";
 import HeroBody from "../../components/herobody.jsx";
+import StatsHero from "../../components/statsHero.jsx";
 
 //import npmPackages
 import { ReactSearchAutocomplete } from "react-search-autocomplete";
@@ -114,6 +115,26 @@ function WikiSection({ url_Bg }) {
               <h1>{heroesData[heroArray].name}</h1>
               <hr />
               <p>{heroesData[heroArray].description}</p>
+
+              <div className="Characteristics">
+                <h3>Characteristics</h3>
+
+                <div className="listStats">
+                  <StatsHero
+                    tittle={'"Rol"'}
+                    stats={heroesData[heroArray].characteristics.Rol}
+                  />
+                  <StatsHero
+                    tittle={'"Strengths"'}
+                    stats={heroesData[heroArray].characteristics.Strengths}
+                  />
+                  <StatsHero
+                    tittle={'"Weaknesses"'}
+                    stats={heroesData[heroArray].characteristics.Weaknesses}
+                  />
+                </div>
+                
+              </div>
             </section>
           </div>
         </div>
