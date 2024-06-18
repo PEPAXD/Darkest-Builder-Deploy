@@ -42,4 +42,13 @@
       text-decoration: underline;
     }
   }
+
+  .my-tooltip {
+    background: rgb(75, 119, 173);
+    font-weight: 400;
+
+    max-width: 15%;
+    white-space: pre-wrap;
+    text-align: center;
+  }
 }
