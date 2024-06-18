@@ -30,9 +30,39 @@ const heroesData = {
       "The Highwayman is a highly versatile hero that heavily focuses on dealing damage thanks to his ability to target the front Ranks as well as the back Ranks. His skillset places emphasis on damage and utility such as self-Buffs, Execution 1 finishers, and a unique skill to destroy or steal powerful Tokens from enemies.",
 
     characteristics: {
-      Rol: ["Damage Dealer and bleeder"],
-      Strengths: ["Reach", "Consistency", "Robbery"],
-      Weaknesses: ["No+Tokens", "Low Ceiling", "Wants Mastery"],
+      Rol: [
+        {
+          title: "Damage Dealer and bleeder",
+        },
+      ],
+      Strengths: [
+        {
+          title: "Reach",
+          tooltips: "Descripción de Reach",
+        },
+        {
+          title: "Consistency",
+          tooltips: "Descripción de Consistency",
+        },
+        {
+          title: "Robbery",
+          tooltips: "Descripción de Robbery",
+        },
+      ],
+      Weaknesses: [
+        {
+          title: "No+Tokens",
+          tooltips: "No access to defensive tokens",
+        },
+        {
+          title: "Low Ceiling",
+          tooltips: "Doesn't have a super high damage ceiling",
+        },
+        {
+          title: "Wants Mastery",
+          tooltips: "Needs to be mastered points to be effective",
+        },
+      ],
     },
   },
 

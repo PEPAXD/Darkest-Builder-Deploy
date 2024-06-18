@@ -133,7 +133,6 @@ function WikiSection({ url_Bg }) {
                     stats={heroesData[heroArray].characteristics.Weaknesses}
                   />
                 </div>
-                
               </div>
             </section>
           </div>
