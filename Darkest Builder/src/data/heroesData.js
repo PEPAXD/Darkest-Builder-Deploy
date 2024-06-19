@@ -32,27 +32,28 @@ const heroesData = {
     characteristics: {
       Rol: [
         {
-          title: "Damage Dealer and bleeder",
+          title: "self-sufficient character specializing in direct damage.",
         },
       ],
       Strengths: [
         {
           title: "Reach",
-          tooltips: "Descripción de Reach",
+          tooltips: "His damage is very flexible, he can hit any target",
         },
         {
           title: "Consistency",
-          tooltips: "Descripción de Consistency",
+          tooltips: "Damage Output, reach, mobility is consistent",
         },
         {
           title: "Robbery",
-          tooltips: "Descripción de Robbery",
+          tooltips:
+            "Highway Robbery is a very powerful move to help mitigate tokens",
         },
       ],
       Weaknesses: [
         {
           title: "No+Tokens",
-          tooltips: "No access to defensive tokens",
+          tooltips: "No access to plus defensive tokens",
         },
         {
           title: "Low Ceiling",
@@ -60,7 +61,7 @@ const heroesData = {
         },
         {
           title: "Wants Mastery",
-          tooltips: "Needs to be mastered points to be effective",
+          tooltips: "Needs to be mastered points to be really effective",
         },
       ],
     },
@@ -78,6 +79,43 @@ const heroesData = {
     paths: ["Wanderer", "Deadeye", "Venomdrop", "Nightsworn"],
     description:
       "The Grave Robber has some of the most flexible targeting and positioning amongst the Heroes. Combined with her fantastic self-sustain, Dodge, dodgeplusand and stealth, she suffers very little from enemy disruption despite her low HP. Most of Grave robber Damage is very reliant on CRIT chance as such Grave Robber requires more planning than other heroes but can be very effective given the right circunstances.",
+
+    characteristics: {
+      Rol: [
+        {
+          title: "Expert in direct damage focused on specific team compositions.",
+        },
+      ],
+      Strengths: [
+        {
+          title: "Self-Sustain",
+          tooltips: "Heal herself and has a high dodge chance",
+        },
+        {
+          title: "Reach",
+          tooltips: "His damage is very flexible, he can hit any target",
+        },
+        {
+          title: "Dancing",
+          tooltips:
+            "Mobile character, can move around the team and reposition herself",
+        },
+      ],
+      Weaknesses: [
+        {
+          title: "Low HP",
+          tooltips: "Low HP, can be easily killed by high damage attacks",
+        },
+        {
+          title: "Wants Crits",
+          tooltips: "Damage balanced around hitting crits consistently",
+        },
+        {
+          title: "Wants Mastery",
+          tooltips: "Needs to be mastered points to be really effective",
+        },
+      ],
+    },
   },
 
   2: {

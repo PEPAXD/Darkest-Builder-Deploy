@@ -45,10 +45,6 @@ function WikiSection({ url_Bg }) {
     setHeroPaths(0);
   };
 
-  useEffect(() => {
-    console.log(heroPaths);
-  }, [heroPaths]);
-
   return (
     <div className="wiki">
       <MainHeader links={linksSections} goHome={true} />
