@@ -456,8 +456,7 @@ const heroesData = {
         },
         {
           title: "Tanky",
-          tooltips:
-            "Surprisingly tanky, great support off-tank",
+          tooltips: "Surprisingly tanky, great support off-tank",
         },
       ],
       Weaknesses: [
@@ -491,6 +490,39 @@ const heroesData = {
     paths: ["Wanderer", "Arsonist", "Survivor", "Orphan"],
     description:
       "As a new addition to the Hero's roster in Darkest Dungeon II, the Runaway's skillset has a heavy focus on Burn effect. The Runaway is primarily a front-liner, having access to most of her skills when placed on the front Ranks. Furthermore, she can target the back Ranks, provided that she stays on Rank 3 or 4, where she can not use various skills. She is one of the few Heroes that can use Stealth and also among the few that can heal allies.",
+    characteristics: {
+      Rol: [
+        {
+          title:
+            "Specialist in prolonged damage-over-time (DoT) and utility, providing consistent damage and control.",
+        },
+      ],
+      Strengths: [
+        {
+          title: "Burn",
+          tooltips: "Apply burn tokens to enemies",
+        },
+        {
+          title: "Mobile",
+          tooltips: "Can adapt to any situation, help fix your team order",
+        },
+        {
+          title: "Support",
+          tooltips: "Smokescreen, cure bleed/blind",
+        },
+      ],
+      Weaknesses: [
+        {
+          title: "Bad Defenses",
+          tooltips: "No defensive token generation, can be easily killed",
+        },
+        {
+          title: "Enemy Resists",
+          tooltips:
+            "Very prone to enemy resists, if the enemy has high resist, she can't do much",
+        },
+      ],
+    },
   },
 
   10: {
