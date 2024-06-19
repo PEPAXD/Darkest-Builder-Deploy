@@ -192,7 +192,8 @@ const heroesData = {
       Strengths: [
         {
           title: "Dancing",
-          tooltips: "Mobile character, can move around the team and reposition herself",
+          tooltips:
+            "Mobile character, can move around the team and reposition herself",
         },
         {
           title: "Combo",
@@ -214,7 +215,8 @@ const heroesData = {
         },
         {
           title: "Teammates",
-          tooltips: "Needs to be paired combo/buff with other heroes, alone is not effective",
+          tooltips:
+            "Needs to be paired combo/buff with other heroes, alone is not effective",
         },
       ],
     },
@@ -232,6 +234,43 @@ const heroesData = {
     paths: ["Wanderer", "Tempest", "Poet", "Monarch"],
     description:
       "The Leper is a strong frontline hero dealing high damage and absorbing damage for the team. His main weakness is Blind tokens, countered by Reflection. Limited to the front ranks, he lacks mobility and is vulnerable to knockbacks.",
+    characteristics: {
+      Rol: [
+        {
+          title:
+            "Robust tank with self-healing and high damage potential.",
+        },
+      ],
+      Strengths: [
+        {
+          title: "Survivability",
+          tooltips:
+            "Self-sustain stress-Heal, and high resistance generating block",
+        },
+        {
+          title: "High Damage",
+          tooltips: "will hit for a lot of damage, careful with blind tokens",
+        },
+        {
+          title: "Utility",
+          tooltips: "Control enemys position, keep himself alive, etc.",
+        },
+      ],
+      Weaknesses: [
+        {
+          title: "Low Resists",
+          tooltips: "Low resistance across the board",
+        },
+        {
+          title: "Blinds",
+          tooltips: "self-blinding can be a big problem for him, loose hit chance",
+        },
+        {
+          title: "Positioning",
+          tooltips: "needs to be in the front ranks to be effective",
+        },
+      ],
+    },
   },
 
   5: {
