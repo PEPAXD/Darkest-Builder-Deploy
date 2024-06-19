@@ -561,8 +561,7 @@ const heroesData = {
         },
         {
           title: "Candles",
-          tooltips:
-            "Recruitment method is expensive, 4 candles per region",
+          tooltips: "Recruitment method is expensive, 4 candles per region",
         },
       ],
     },
@@ -580,6 +579,38 @@ const heroesData = {
     paths: ["Wanderer", "Aggressor", "Templar", "Banneret"],
     description:
       "Reynauld is a frontline Crusader with high resistance to bleed and burn. His paths include Wanderer, Aggressor, Templar, and Banneret, each with a different focus. His abilities range from powerful strikes, stress healing, stuns, and area attacks with burns, adapting to different roles depending on the chosen path.",
+    characteristics: {
+      Rol: [
+        {
+          title:
+            "Versatile hero, adapts to offensive and defensive strategies. Effective in prolonged battles.",
+        },
+      ],
+      Strengths: [
+        {
+          title: "Support",
+          tooltips: "Multiples ways to support the team",
+        },
+        {
+          title: "Burn",
+          tooltips: "Burn sinergy, can apply burn tokens",
+        },
+        {
+          title: "Flexible",
+          tooltips: "Can be used in any position, can adapt to any situation",
+        },
+      ],
+      Weaknesses: [
+        {
+          title: "Damage",
+          tooltips: "little damage output, its fine but not great",
+        },
+        {
+          title: "Action Economy",
+          tooltips: "",
+        },
+      ],
+    },
   },
 
   12: {
