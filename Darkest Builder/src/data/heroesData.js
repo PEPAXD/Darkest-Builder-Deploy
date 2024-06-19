@@ -130,6 +130,42 @@ const heroesData = {
     paths: ["Wanderer", "Ravager", "Berserker", "Carcass"],
     description:
       "The Hellion's primary role a front-line damage dealer with large bursts of damage. Her ability to gain extra damage when Low HP pairs well with her secondary tank role( by having a multitude of self-heals, both for HP and Stress). In addition to tanking and doing damage, it can also serve as a minimum support role but in general Hellion brings large amounts of damage to the team while protecting her teammates with Taunt.",
+      characteristics: {
+        Rol: [
+          {
+            title: "Strong in position 1, combining high damage, offensive utility, and tanking.",
+          },
+        ],
+        Strengths: [
+          {
+            title: "Reach",
+            tooltips: "His damage is very flexible, he can hit any target",
+          },
+          {
+            title: "Damage",
+            tooltips: "Put out a lot of damage, especially with ravager effects",
+          },
+          {
+            title: "Survivability",
+            tooltips:
+              "Self-sustain through adrenaline rush",
+          },
+        ],
+        Weaknesses: [
+          {
+            title: "Wants Unlocks",
+            tooltips: "Needs hero shrines to unlock her full potential",
+          },
+          {
+            title: "Wants Mastery",
+            tooltips: "Needs to be mastered points to be really effective",
+          },
+          {
+            title: "Negative Tokens",
+            tooltips: "Vulnerable to negative tokens, especially blind or weekend tokens",
+          },
+        ],
+      },
   },
 
   3: {
