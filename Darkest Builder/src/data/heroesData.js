@@ -83,7 +83,8 @@ const heroesData = {
     characteristics: {
       Rol: [
         {
-          title: "Expert in direct damage focused on specific team compositions.",
+          title:
+            "Expert in direct damage focused on specific team compositions.",
         },
       ],
       Strengths: [
@@ -130,42 +131,43 @@ const heroesData = {
     paths: ["Wanderer", "Ravager", "Berserker", "Carcass"],
     description:
       "The Hellion's primary role a front-line damage dealer with large bursts of damage. Her ability to gain extra damage when Low HP pairs well with her secondary tank role( by having a multitude of self-heals, both for HP and Stress). In addition to tanking and doing damage, it can also serve as a minimum support role but in general Hellion brings large amounts of damage to the team while protecting her teammates with Taunt.",
-      characteristics: {
-        Rol: [
-          {
-            title: "Strong in position 1, combining high damage, offensive utility, and tanking.",
-          },
-        ],
-        Strengths: [
-          {
-            title: "Reach",
-            tooltips: "His damage is very flexible, he can hit any target",
-          },
-          {
-            title: "Damage",
-            tooltips: "Put out a lot of damage, especially with ravager effects",
-          },
-          {
-            title: "Survivability",
-            tooltips:
-              "Self-sustain through adrenaline rush",
-          },
-        ],
-        Weaknesses: [
-          {
-            title: "Wants Unlocks",
-            tooltips: "Needs hero shrines to unlock her full potential",
-          },
-          {
-            title: "Wants Mastery",
-            tooltips: "Needs to be mastered points to be really effective",
-          },
-          {
-            title: "Negative Tokens",
-            tooltips: "Vulnerable to negative tokens, especially blind or weekend tokens",
-          },
-        ],
-      },
+    characteristics: {
+      Rol: [
+        {
+          title:
+            "Strong in position 1, combining high damage, offensive utility, and tanking.",
+        },
+      ],
+      Strengths: [
+        {
+          title: "Reach",
+          tooltips: "His damage is very flexible, he can hit any target",
+        },
+        {
+          title: "Damage",
+          tooltips: "Put out a lot of damage, especially with ravager effects",
+        },
+        {
+          title: "Survivability",
+          tooltips: "Self-sustain through adrenaline rush",
+        },
+      ],
+      Weaknesses: [
+        {
+          title: "Wants Unlocks",
+          tooltips: "Needs hero shrines to unlock her full potential",
+        },
+        {
+          title: "Wants Mastery",
+          tooltips: "Needs to be mastered points to be really effective",
+        },
+        {
+          title: "Negative Tokens",
+          tooltips:
+            "Vulnerable to negative tokens, especially blind or weekend tokens",
+        },
+      ],
+    },
   },
 
   3: {
@@ -180,6 +182,42 @@ const heroesData = {
     paths: ["Wanderer", "Virtuoso", "Soloist", "Intermezzo"],
     description:
       "The Jester is a highly mobile hero with skills that require him to move around the team. His versatility allows him to apply Combo Tokens effectively across different ranks. He excels at stress healing and buffing teammates on Rank 3, while using Finale on Rank 2 for powerful attacks against tough enemies.",
+    characteristics: {
+      Rol: [
+        {
+          title:
+            "Great at applying combo tokens, fixing team order, and providing utility.",
+        },
+      ],
+      Strengths: [
+        {
+          title: "Dancing",
+          tooltips: "Mobile character, can move around the team and reposition herself",
+        },
+        {
+          title: "Combo",
+          tooltips: "Great at applying combo tokens",
+        },
+        {
+          title: "Support",
+          tooltips: "Great at heal-stress and buffing teammates",
+        },
+      ],
+      Weaknesses: [
+        {
+          title: "Low HP",
+          tooltips: "Low HP, can be easily killed by high damage attacks",
+        },
+        {
+          title: "Low Damage",
+          tooltips: "Exception for finale skill, his damage is low",
+        },
+        {
+          title: "Teammates",
+          tooltips: "Needs to be paired combo/buff with other heroes, alone is not effective",
+        },
+      ],
+    },
   },
 
   4: {
