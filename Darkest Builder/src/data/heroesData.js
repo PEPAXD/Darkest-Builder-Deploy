@@ -237,8 +237,7 @@ const heroesData = {
     characteristics: {
       Rol: [
         {
-          title:
-            "Robust tank with self-healing and high damage potential.",
+          title: "Robust tank with self-healing and high damage potential.",
         },
       ],
       Strengths: [
@@ -263,7 +262,8 @@ const heroesData = {
         },
         {
           title: "Blinds",
-          tooltips: "self-blinding can be a big problem for him, loose hit chance",
+          tooltips:
+            "self-blinding can be a big problem for him, loose hit chance",
         },
         {
           title: "Positioning",
@@ -285,38 +285,39 @@ const heroesData = {
     paths: ["Wanderer", "Sergeant", "Bulwark", "Vanguard"],
     description:
       "The Man-at-Arms is essentially a tank who takes punishments to protect his more fragile teammates thanks to his easy access to Taunt and Block. Man-at-Arms can be effective at dealing damage as well.His entire skillset is highly flexible; allowing him to adapt to any Rank or Party. Because of his toughness and ability to protect his allies the Man-at-Arms can become the backbone of any team composition.",
-      characteristics: {
-        Rol: [
-          {
-            title:
-              "Tank with high damage mitigation and utility, ideal for teams requiring control and resilience in combat.",
-          },
-        ],
-        Strengths: [
-          {
-            title: "Versatile",
-            tooltips: "Can be used pretty much dismantle any difficult encounter",
-          },
-          {
-            title: "Support",
-            tooltips: "protect his allies, and can heal stress",
-          },
-          {
-            title: "Mobile",
-            tooltips: "Move forward and backward, can adapt to any situation",
-          },
-        ],
-        Weaknesses: [
-          {
-            title: "No DOT",
-            tooltips: "No damage overtime effects",
-          },
-          {
-            title: "Not Immortal",
-            tooltips: "Overestimate the hero's endurance, putting them in constant danger",
-          },
-        ],
-      },
+    characteristics: {
+      Rol: [
+        {
+          title:
+            "Tank with high damage mitigation and utility, ideal for teams requiring control and resilience in combat.",
+        },
+      ],
+      Strengths: [
+        {
+          title: "Versatile",
+          tooltips: "Can be used pretty much dismantle any difficult encounter",
+        },
+        {
+          title: "Support",
+          tooltips: "protect his allies, and can heal stress",
+        },
+        {
+          title: "Mobile",
+          tooltips: "Move forward and backward, can adapt to any situation",
+        },
+      ],
+      Weaknesses: [
+        {
+          title: "No DOT",
+          tooltips: "No damage overtime effects",
+        },
+        {
+          title: "Not Immortal",
+          tooltips:
+            "Overestimate the hero's endurance, putting them in constant danger",
+        },
+      ],
+    },
   },
 
   6: {
@@ -331,6 +332,44 @@ const heroesData = {
     paths: ["Wanderer", "Ritualist", "Warlock", "Aspirant"],
     description:
       "the Occultist focuses on applying Negative Tokens to enemies and healing critically injured allies. As players progress, they unlock offensive skills that utilize Unchecked Power, enabling the Occultist to deal significant damage and apply powerful effects. However, harnessing Unchecked Power also introduces subtle risks for the Occultist.",
+    characteristics: {
+      Rol: [
+        {
+          title:
+            "Utility kit with curses; its strength is control and support in combat.",
+        },
+      ],
+      Strengths: [
+        {
+          title: "Reach",
+          tooltips: "His damage is very flexible, he can hit any target",
+        },
+        {
+          title: "Debuff",
+          tooltips: "Can apply a lot of negative tokens to enemies",
+        },
+        {
+          title: "Combo",
+          tooltips: "Great at applying combo tokens and Stun",
+        },
+      ],
+      Weaknesses: [
+        {
+          title: "Resists",
+          tooltips: "Very resistant prone, a lot of his effectiveness can feel diminished if resist",
+        },
+        {
+          title: "Risky Heal",
+          tooltips:
+            "Healing can be very risky, the bleed is pretty devastating",
+        },
+        {
+          title: "No Defenses",
+          tooltips:
+            "No defensive skills, can be easily killed by high damage attacks",
+        },
+      ],
+    },
   },
 
   7: {
