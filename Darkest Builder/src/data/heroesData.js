@@ -532,6 +532,40 @@ const heroesData = {
     paths: ["Professional"],
     description:
       "The Bounty Hunter has a unique recruitment method through the inn's poster, costing 4 candles per region. He cannot form relationships but can experience stress and meltdowns. His pre-mastered skills offer powerful versatility despite the absence of paths or skill upgrades.",
+    characteristics: {
+      Rol: [
+        {
+          title:
+            "Good boss killer, absorbs damage and stress in key fights, and avoids conflicts between heroes.",
+        },
+      ],
+      Strengths: [
+        {
+          title: "Versatile",
+          tooltips: "fits in any team composition, can adapt to any situation",
+        },
+        {
+          title: "Any Region",
+          tooltips: "good option for any region",
+        },
+      ],
+      Weaknesses: [
+        {
+          title: "Setup Damage",
+          tooltips: "pretty average damage output, needs to be set up",
+        },
+        {
+          title: "No Affinity",
+          tooltips:
+            "can't build affinity with other heroes, can't form relationships",
+        },
+        {
+          title: "Candles",
+          tooltips:
+            "Recruitment method is expensive, 4 candles per region",
+        },
+      ],
+    },
   },
 
   11: {
