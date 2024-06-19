@@ -356,7 +356,8 @@ const heroesData = {
       Weaknesses: [
         {
           title: "Resists",
-          tooltips: "Very resistant prone, a lot of his effectiveness can feel diminished if resist",
+          tooltips:
+            "Very resistant prone, a lot of his effectiveness can feel diminished if resist",
         },
         {
           title: "Risky Heal",
@@ -384,6 +385,45 @@ const heroesData = {
     paths: ["Wanderer", "Surgeon", "Alchemist", "Physician"],
     description:
       "The Plague Doctor is a reliable healer and supportive-damage dealer, with utility, diversity, and usefulness with her skills. The Plague Doctor is capable of dealing a surprisingly massive amount of Blight damage, with some respectable Direct and Bleed damage. Due to her lack of defensive skills and low-HP. The Plague Doctor is best utilized in the back Ranks, where she has access to most of her skills, and avoids harm from the dangerous front Ranks.",
+    characteristics: {
+      Rol: [
+        {
+          title:
+            "healer and specialist in prolonged damage-over-time (DoT), she breaks enemy backlines and clears corpses.",
+        },
+      ],
+      Strengths: [
+        {
+          title: "DOT",
+          tooltips: "Apply burn, blight, and bleed tokens to enemies",
+        },
+        {
+          title: "Support",
+          tooltips: "Support unit with healing capabilities",
+        },
+        {
+          title: "Flexible Items",
+          tooltips: "Very flexible with trinkets, you can build damage/defensive/support in general",
+        },
+      ],
+      Weaknesses: [
+        {
+          title: "Squishy",
+          tooltips:
+            "Low HP, can be easily killed by high damage attacks",
+        },
+        {
+          title: "Backline Only",
+          tooltips:
+            "Needs to be in the back ranks 4-3 to be effective, and protect herself",
+        },
+        {
+          title: "Needs Teammates",
+          tooltips:
+            "Build around her, she can't do much by herself, needs a team to be effective",
+        },
+      ],
+    },
   },
 
   8: {
