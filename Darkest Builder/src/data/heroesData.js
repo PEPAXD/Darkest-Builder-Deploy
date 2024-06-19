@@ -285,6 +285,38 @@ const heroesData = {
     paths: ["Wanderer", "Sergeant", "Bulwark", "Vanguard"],
     description:
       "The Man-at-Arms is essentially a tank who takes punishments to protect his more fragile teammates thanks to his easy access to Taunt and Block. Man-at-Arms can be effective at dealing damage as well.His entire skillset is highly flexible; allowing him to adapt to any Rank or Party. Because of his toughness and ability to protect his allies the Man-at-Arms can become the backbone of any team composition.",
+      characteristics: {
+        Rol: [
+          {
+            title:
+              "Tank with high damage mitigation and utility, ideal for teams requiring control and resilience in combat.",
+          },
+        ],
+        Strengths: [
+          {
+            title: "Versatile",
+            tooltips: "Can be used pretty much dismantle any difficult encounter",
+          },
+          {
+            title: "Support",
+            tooltips: "protect his allies, and can heal stress",
+          },
+          {
+            title: "Mobile",
+            tooltips: "Move forward and backward, can adapt to any situation",
+          },
+        ],
+        Weaknesses: [
+          {
+            title: "No DOT",
+            tooltips: "No damage overtime effects",
+          },
+          {
+            title: "Not Immortal",
+            tooltips: "Overestimate the hero's endurance, putting them in constant danger",
+          },
+        ],
+      },
   },
 
   6: {
