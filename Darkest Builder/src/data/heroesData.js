@@ -403,14 +403,14 @@ const heroesData = {
         },
         {
           title: "Flexible Items",
-          tooltips: "Very flexible with trinkets, you can build damage/defensive/support in general",
+          tooltips:
+            "Very flexible with trinkets, you can build damage/defensive/support in general",
         },
       ],
       Weaknesses: [
         {
           title: "Squishy",
-          tooltips:
-            "Low HP, can be easily killed by high damage attacks",
+          tooltips: "Low HP, can be easily killed by high damage attacks",
         },
         {
           title: "Backline Only",
@@ -438,6 +438,45 @@ const heroesData = {
     paths: ["Wanderer", "Confessor", "Chaplain", "Seraph"],
     description:
       "The Vestal is a versatile hero capable of supporting the team and dealing damage. Her strategic use of Conviction tokens and careful skill planning optimize her effectiveness across both front and back ranks.",
+    characteristics: {
+      Rol: [
+        {
+          title:
+            "Powerful healer, ideal for slow-paced compositions and team protection.",
+        },
+      ],
+      Strengths: [
+        {
+          title: "Support",
+          tooltips: "Best support in the game, can heal and buff teammates",
+        },
+        {
+          title: "Flexible",
+          tooltips: "very flexible rank and can be used in any position",
+        },
+        {
+          title: "Tanky",
+          tooltips:
+            "Surprisingly tanky, great support off-tank",
+        },
+      ],
+      Weaknesses: [
+        {
+          title: "Conviction Timing",
+          tooltips: "Needs all three tokens to reach her full potential",
+        },
+        {
+          title: "Burst Damage",
+          tooltips:
+            "Low damage output, her consistent damage output per turn is pretty low",
+        },
+        {
+          title: "Wants Mastery",
+          tooltips:
+            "Needs to be mastered points to be really effective, especially in the early game",
+        },
+      ],
+    },
   },
 
   9: {
