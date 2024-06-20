@@ -625,6 +625,42 @@ const heroesData = {
     paths: ["Wanderer", "Instructice", "Antagoniste", "Intrédpide"],
     description:
       "The Duelist is a highly-mobile, high-damage-dealing hero, with low HP and few defenses. In a way, it plays similar to the Grave Robber, however the Duelist has no self-healing skills which makes her a higher-risk, higher-reward bet.",
+    characteristics: {
+      Rol: [
+        {
+          title:
+            "Agile and deadly, a specialist in quick and precise attacks, with great dodging and counter-attacking ability.",
+        },
+      ],
+      Strengths: [
+        {
+          title: "Mobile",
+          tooltips: "Rank 1-4, can adapt to any position",
+        },
+        {
+          title: "Damage",
+          tooltips: "Good consistent damage output",
+        },
+        {
+          title: "Riposte",
+          tooltips: "Best riposte in the game, can counter-attack enemies",
+        },
+      ],
+      Weaknesses: [
+        {
+          title: "Risky",
+          tooltips: "Glass cannon, can be easily killed but can deal a lot of damage",
+        },
+        {
+          title: "mastery",
+          tooltips: "Needs to be mastered points to be really effective",
+        },
+        {
+          title: "Status",
+          tooltips: "Very vulnerable to status effects",
+        },
+      ],
+    },
   },
 
   13: {
