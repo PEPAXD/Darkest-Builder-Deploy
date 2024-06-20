@@ -649,7 +649,8 @@ const heroesData = {
       Weaknesses: [
         {
           title: "Risky",
-          tooltips: "Glass cannon, can be easily killed but can deal a lot of damage",
+          tooltips:
+            "Glass cannon, can be easily killed but can deal a lot of damage",
         },
         {
           title: "mastery",
@@ -675,6 +676,43 @@ const heroesData = {
     paths: ["Wanderer", "Maniac", "Exanimate", "Scourge"],
     description:
       "The Flagellant is a hero with a unique Meltdown ability called 'Toxic'. He excels in high resistance to Death's Door and can never be resolute. His skills include blight attacks, self-healing at the cost of his own HP, stress and DoT transfer abilities, and team healing and protection capabilities. His three main paths (Maniac, Exanimate, Scourge) modify specific skills to focus on different playstyles and roles within the team.",
+    characteristics: {
+      Rol: [
+        {
+          title:
+            "HP tank and blight applier, ideal for damaging the backline and supporting the team.",
+        },
+      ],
+      Strengths: [
+        {
+          title: "Support",
+          tooltips: "Frontline support, can heal and debuff enemies",
+        },
+        {
+          title: "Blight",
+          tooltips: "dealing blight damage and negative tokens",
+        },
+        {
+          title: "Flexible",
+          tooltips: "various playstyles Tanks/support/damage dealer",
+        },
+      ],
+      Weaknesses: [
+        {
+          title: "Self-Damage",
+          tooltips:
+            "many of his skills require self-damage",
+        },
+        {
+          title: "Timing",
+          tooltips: "needs to be timed correctly to be effective",
+        },
+        {
+          title: "Death",
+          tooltips: "Death can show up at any time, needs to be careful",
+        },
+      ],
+    },
   },
 };
 
