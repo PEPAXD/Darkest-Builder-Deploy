@@ -4,6 +4,9 @@ import "./styles/HeroSection.css";
 //import Data
 import heroesData from "../../data/heroesData.js";
 
+//import npmPackages
+import { Link } from "react-router-dom";
+
 //import images BadHero
 import BountyHunter_BadHero from "../../assets/img/BadHero/BountyHunter.jpg";
 import Crusader_BadHero from "../../assets/img/BadHero/Crusader.jpg";
@@ -85,13 +88,17 @@ function HeroSection({ url_Bg }) {
             {/*TODO: OrderIMG HEROS_ARRAY */}
             <div className="boxHeroContainer">
               {BadHero.map((hero, index) => (
-                <a href="#" key={index}>
+                <Link
+                  to={`/Darkest-Builder-Deploy/wiki/`}
+                  state={{ heroIndex: index }}
+                  key={index}
+                >
                   <div className="imgContain">
                     <img className="badHero" src={hero} alt="" />
                     <img className="goodHero" src={GoodHero[index]} alt="" />
                   </div>
                   <i>{heroesData.names[index].name}</i>
-                </a>
+                </Link>
               ))}
             </div>
           </div>

@@ -14,6 +14,7 @@ import StatsHero from "../../components/statsHero.jsx";
 
 //import npmPackages
 import { ReactSearchAutocomplete } from "react-search-autocomplete";
+import { useLocation } from 'react-router-dom';
 
 const linksSections = [
   { href: "#", text: "ClassHero" },
@@ -25,11 +26,16 @@ const linksSections = [
 ];
 
 function WikiSection({ url_Bg }) {
+
+  //react-router-dom HeroIndex
+  const location = useLocation();
+  const { heroIndex } = location.state || {};
+
   //heroPaths
   let [heroPaths, setHeroPaths] = useState(0);
 
   // heroIndex
-  let [heroArray, setHeroArray] = useState(0);
+  let [heroArray, setHeroArray] = useState(heroIndex);
   const updateHeroArray = (value) => {
     setHeroArray((prevHeroArray) => {
       let newValue = prevHeroArray + value;

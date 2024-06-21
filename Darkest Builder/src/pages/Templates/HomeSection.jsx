@@ -97,7 +97,7 @@ function HomeSection({ url_Bg }) {
             src={windowWidth >= 480 ? logoText[0] : logoText[1]}
             alt="DarkestbuilderLogo"
           />
-          <Link to="/Darkest-Builder-Deploy/wiki/">
+          <Link to="/Darkest-Builder-Deploy/wiki/" state={{heroIndex: 0}}>
             <h1>Hero Builder</h1>
           </Link>
         </div>
