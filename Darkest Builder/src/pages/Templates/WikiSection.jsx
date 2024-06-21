@@ -14,7 +14,7 @@ import StatsHero from "../../components/statsHero.jsx";
 
 //import npmPackages
 import { ReactSearchAutocomplete } from "react-search-autocomplete";
-import { useLocation } from 'react-router-dom';
+import { useLocation } from "react-router-dom";
 
 const linksSections = [
   { href: "#", text: "ClassHero" },
@@ -26,7 +26,6 @@ const linksSections = [
 ];
 
 function WikiSection({ url_Bg }) {
-
   //react-router-dom HeroIndex
   const location = useLocation();
   const { heroIndex } = location.state || {};
@@ -135,6 +134,24 @@ function WikiSection({ url_Bg }) {
                     stats={heroesData[heroArray].characteristics.Weaknesses}
                   />
                 </div>
+              </div>
+
+              <div className="statsContainer">
+
+                <div className="upgradeButton">
+                  <div className="checkbox-wrapper-46">
+                    <input type="checkbox" id="cbx-46" className="inp-cbx" />
+                    <label htmlFor="cbx-46" className="cbx">
+                      <span>
+                        <svg viewBox="0 0 12 10" height="10px" width="12px">
+                          <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                        </svg>
+                      </span>
+                      <span>Upgraded</span>
+                    </label>
+                  </div>
+                </div>
+                
               </div>
             </section>
           </div>

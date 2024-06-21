@@ -98,7 +98,7 @@ function HomeSection({ url_Bg }) {
             alt="DarkestbuilderLogo"
           />
           <Link to="/Darkest-Builder-Deploy/wiki/" state={{heroIndex: 0}}>
-            <h1>Hero Builder</h1>
+            <h1>Hero Wiki</h1>
           </Link>
         </div>
 
