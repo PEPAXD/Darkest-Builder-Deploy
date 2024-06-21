@@ -21,11 +21,36 @@ function boxStats() {
 
         <div className="baseStats">
           <h4>Base Stats</h4>
+          <ul>
+            <li>HP 35</li>
+            <li>SPD 5</li>
+          </ul>
+          <h4>Base Stats</h4>
+          <ul>
+            <li>HP 35</li>
+            <li>SPD 5</li>
+          </ul>
         </div>
       </div>
 
       <div className="resistantsContain">
         <h4>Resistants</h4>
+        <ul>
+          <li>HP 35</li>
+          <li>SPD 5</li>
+        </ul>
+        <ul>
+          <li>HP 35</li>
+          <li>SPD 5</li>
+        </ul>
+        <ul>
+          <li>HP 35</li>
+          <li>SPD 5</li>
+        </ul>
+        <ul>
+          <li>HP 35</li>
+          <li>SPD 5</li>
+        </ul>
       </div>
     </>
   );
