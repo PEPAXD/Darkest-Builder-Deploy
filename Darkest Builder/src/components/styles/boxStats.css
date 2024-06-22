@@ -10,25 +10,18 @@
   }
 
   ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-
     list-style-type: none;
-    padding: 0.4rem 0rem;
+    width: 100%;
+  }
 
-    li {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
+  ul li {
+    display: flex;
+    width: 50%;
+    float: left;
 
-      margin: 0% 1%;
-
-      width: 100%;
-      background: #0d0d0d;
-    }
+    margin: 0.7% 0%;
+    padding-left: 5%;
+    background: #0d0d0d;
   }
 
   .upgradeButton {
@@ -36,6 +29,7 @@
     justify-content: center;
 
     font-size: 1.2em;
+    font-weight: 300;
 
     .checkbox-wrapper-46 input[type="checkbox"] {
       display: none;
@@ -123,7 +117,7 @@
 
     width: 50%;
 
-    .baseStats {
+    .statsContain {
       text-transform: uppercase;
     }
   }

@@ -64,6 +64,22 @@ const heroesData = {
           tooltips: "Needs to be mastered points to be really effective",
         },
       ],
+
+      stats: {
+        HP: 35,
+        SPD: 5,
+        FORW: 2,
+        BACK: 2,
+
+        BLEED: 30,
+        BURN: 30,
+        BLIGHT: 30,
+        DISEASE: 30,
+        MOVE: 30,
+        STUN: 30,
+        DEBUFF: 20,
+        DEATH: 60,
+      },
     },
   },
 
@@ -700,8 +716,7 @@ const heroesData = {
       Weaknesses: [
         {
           title: "Self-Damage",
-          tooltips:
-            "many of his skills require self-damage",
+          tooltips: "many of his skills require self-damage",
         },
         {
           title: "Timing",

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./styles/boxStats.css";
 
 function boxStats() {
@@ -19,13 +19,13 @@ function boxStats() {
           </div>
         </div>
 
-        <div className="baseStats">
+        <div className="statsContain">
           <h4>Base Stats</h4>
           <ul>
             <li>HP 35</li>
             <li>SPD 5</li>
           </ul>
-          <h4>Base Stats</h4>
+          <h4>Movement</h4>
           <ul>
             <li>HP 35</li>
             <li>SPD 5</li>
@@ -38,16 +38,10 @@ function boxStats() {
         <ul>
           <li>HP 35</li>
           <li>SPD 5</li>
-        </ul>
-        <ul>
           <li>HP 35</li>
           <li>SPD 5</li>
-        </ul>
-        <ul>
           <li>HP 35</li>
           <li>SPD 5</li>
-        </ul>
-        <ul>
           <li>HP 35</li>
           <li>SPD 5</li>
         </ul>
