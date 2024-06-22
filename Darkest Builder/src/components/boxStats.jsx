@@ -1,5 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import "./styles/boxStats.css";
+
+//Imports IconsGallery
+import maxHp from "../assets/img/icons/Icon_HP_dd2.webp";
+import sPD from "../assets/img/icons/Icon_speed_dd2.webp";
 
 function boxStats() {
   return (
@@ -22,13 +26,25 @@ function boxStats() {
         <div className="statsContain">
           <h4>Base Stats</h4>
           <ul>
-            <li>HP 35</li>
-            <li>SPD 5</li>
+            <li>
+              <img src={maxHp} alt="statsIcon" />
+              HP 35
+            </li>
+            <li>
+              <img src={maxHp} alt="statsIcon" />
+              SPD 5
+            </li>
           </ul>
           <h4>Movement</h4>
           <ul>
-            <li>HP 35</li>
-            <li>SPD 5</li>
+            <li>
+              <img src={maxHp} alt="statsIcon" />
+              SPD 5
+            </li>
+            <li>
+              <img src={maxHp} alt="statsIcon" />
+              SPD 5
+            </li>
           </ul>
         </div>
       </div>
@@ -36,14 +52,38 @@ function boxStats() {
       <div className="resistantsContain">
         <h4>Resistants</h4>
         <ul>
-          <li>HP 35</li>
-          <li>SPD 5</li>
-          <li>HP 35</li>
-          <li>SPD 5</li>
-          <li>HP 35</li>
-          <li>SPD 5</li>
-          <li>HP 35</li>
-          <li>SPD 5</li>
+          <li>
+            <img src={maxHp} alt="statsIcon" />
+            SPD 5
+          </li>
+          <li>
+            <img src={maxHp} alt="statsIcon" />
+            SPD 5
+          </li>
+          <li>
+            <img src={maxHp} alt="statsIcon" />
+            SPD 5
+          </li>
+          <li>
+            <img src={maxHp} alt="statsIcon" />
+            SPD 5
+          </li>
+          <li>
+            <img src={maxHp} alt="statsIcon" />
+            SPD 5
+          </li>
+          <li>
+            <img src={maxHp} alt="statsIcon" />
+            SPD 5
+          </li>
+          <li>
+            <img src={maxHp} alt="statsIcon" />
+            SPD 5
+          </li>
+          <li>
+            <img src={maxHp} alt="statsIcon" />
+            SPD 5
+          </li>
         </ul>
       </div>
     </>
