@@ -135,12 +135,12 @@ function WikiSection({ url_Bg }) {
                     stats={heroesData[heroArray].characteristics.Weaknesses}
                   />
                 </div>
-              </div>
 
-              <div className="statsContainer">
-                <BoxStats
-                  dataStats={heroesData[heroArray].characteristics.stats}
-                />
+                <div className="statsContainer">
+                  <BoxStats
+                    dataStats={heroesData[heroArray].characteristics.stats}
+                  />
+                </div>
               </div>
             </section>
           </div>

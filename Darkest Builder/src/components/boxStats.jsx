@@ -17,7 +17,6 @@ import debuff from "../assets/img/icons/Debuff_dd2.webp";
 import deathBlow from "../assets/img/icons/Deathsdoor_dd2.webp";
 
 function boxStats({ dataStats }) {
-
   //checkbox Upgrade
   const [isUpgradeActive, setIsUpgradeActive] = useState(false);
   const handleCheckboxChange = () => {
@@ -25,7 +24,12 @@ function boxStats({ dataStats }) {
   };
 
   //UpgradeStat
-  function renderStatItem(statName, statValues, iconSrc) {
+  function renderStatItem(
+    statName,
+    statValues,
+    iconSrc,
+    showPercentage = true
+  ) {
     const color =
       statValues.length === 2
         ? isUpgradeActive
@@ -41,7 +45,7 @@ function boxStats({ dataStats }) {
     return (
       <li style={{ color: color }}>
         <img src={iconSrc} alt="statsIcon" />
-        {statName} {value}
+        {statName} {value}{showPercentage ? "%" : ""}
       </li>
     );
   }
@@ -72,13 +76,13 @@ function boxStats({ dataStats }) {
         <div className="statsContain">
           <h4>Base Stats</h4>
           <ul>
-            {renderStatItem("HP", dataStats.HP, maxHp)}
-            {renderStatItem("SPD", dataStats.SPD, sPD)}
+            {renderStatItem("HP", dataStats.HP, maxHp, false)}
+            {renderStatItem("SPD", dataStats.SPD, sPD, false)}
           </ul>
           <h4>Movement</h4>
           <ul>
-            {renderStatItem("BACK", dataStats.BACK, back)}
-            {renderStatItem("FORW", dataStats.FORW, forw)}
+            {renderStatItem("BACK", dataStats.BACK, back, false)}
+            {renderStatItem("FORW", dataStats.FORW, forw, false)}
           </ul>
         </div>
       </div>
@@ -87,10 +91,10 @@ function boxStats({ dataStats }) {
         <h4>Resistants</h4>
         <ul>
           {renderStatItem("Bleed", dataStats.BLEED, bleed)}
-          {renderStatItem("Move", dataStats.MOVE, move)}
-          {renderStatItem("Burn", dataStats.BURN, burn)}
           {renderStatItem("Stun", dataStats.STUN, stun)}
           {renderStatItem("Blight", dataStats.BLIGHT, blight)}
+          {renderStatItem("Move", dataStats.MOVE, move)}
+          {renderStatItem("Burn", dataStats.BURN, burn)}
           {renderStatItem("Debuff", dataStats.DEBUFF, debuff)}
           {renderStatItem("Disease", dataStats.DISEASE, disease)}
           {renderStatItem("DeathBlow", dataStats.DEATH, deathBlow)}

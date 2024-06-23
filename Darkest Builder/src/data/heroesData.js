@@ -66,19 +66,19 @@ const heroesData = {
       ],
 
       stats: {
-        HP: [35, 40],
-        SPD: [5, 6],
+        HP: [35],
+        SPD: [5],
         FORW: [2],
         BACK: [2],
 
-        BLEED: [30],
+        BLEED: [30, 40],
         BURN: [30],
         BLIGHT: [30],
-        DISEASE: [30],
+        DISEASE: [30, 40],
         MOVE: [30],
-        STUN: [30],
+        STUN: [30, 40],
         DEBUFF: [20],
-        DEATH: [60],
+        DEATH: [60, 75],
       },
     },
   },
@@ -132,6 +132,22 @@ const heroesData = {
           tooltips: "Needs to be mastered points to be really effective",
         },
       ],
+
+      stats: {
+        HP: [29],
+        SPD: [5, 7],
+        FORW: [2],
+        BACK: [2],
+
+        BLEED: [30],
+        BLIGHT: [30, 40],
+        BURN: [30],
+        DISEASE: [30],
+        STUN: [20],
+        MOVE: [20],
+        DEBUFF: [30],
+        DEATH: [60, 75],
+      },
     },
   },
 
