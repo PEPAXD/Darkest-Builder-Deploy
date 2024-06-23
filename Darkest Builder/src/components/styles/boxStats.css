@@ -17,12 +17,12 @@
       align-items: center;
 
       gap: 0.5rem;
+      font-weight: 300;
 
       width: 50%;
       float: left;
 
       padding-left: 5%;
-
       margin: 0.5% 0%;
     }
   }
