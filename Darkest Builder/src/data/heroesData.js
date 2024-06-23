@@ -199,6 +199,21 @@ const heroesData = {
             "Vulnerable to negative tokens, especially blind or weekend tokens",
         },
       ],
+      stats: {
+        HP: [35, 39],
+        SPD: [4],
+        FORW: [1],
+        BACK: [0],
+
+        BLEED: [30],
+        BLIGHT: [30],
+        BURN: [30],
+        DISEASE: [20, 30],
+        STUN: [20],
+        MOVE: [20],
+        DEBUFF: [20],
+        DEATH: [60, 80],
+      },
     },
   },
 
