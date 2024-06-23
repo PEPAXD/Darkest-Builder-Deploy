@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./styles/boxStats.css";
 
 //Imports IconsGallery
@@ -16,7 +16,8 @@ import stun from "../assets/img/icons/Stun_dd2.webp";
 import debuff from "../assets/img/icons/Debuff_dd2.webp";
 import deathBlow from "../assets/img/icons/Deathsdoor_dd2.webp";
 
-function boxStats() {
+function boxStats({ dataStats }) {
+
   return (
     <>
       <div className="baseStatsContain">
@@ -39,22 +40,22 @@ function boxStats() {
           <ul>
             <li>
               <img src={maxHp} alt="statsIcon" />
-              HP 35
+              HP {dataStats.HP}
             </li>
             <li>
               <img src={sPD} alt="statsIcon" />
-              SPD 5
+              SPD {dataStats.SPD}
             </li>
           </ul>
           <h4>Movement</h4>
           <ul>
             <li>
               <img src={back} alt="statsIcon" />
-              Back 5
+              Back {dataStats.BACK}
             </li>
             <li>
               <img src={forw} alt="statsIcon" />
-              Forw 5
+              Forw {dataStats.FORW}
             </li>
           </ul>
         </div>
@@ -65,35 +66,35 @@ function boxStats() {
         <ul>
           <li>
             <img src={bleed} alt="statsIcon" />
-            Bleed 5
+            Bleed {dataStats.BLEED}%
           </li>
           <li>
             <img src={move} alt="statsIcon" />
-            Move 5
+            Move {dataStats.MOVE}%
           </li>
           <li>
             <img src={burn} alt="statsIcon" />
-            Burn 5
+            Burn {dataStats.BURN}%
           </li>
           <li>
             <img src={stun} alt="statsIcon" />
-            Stun 5
+            Stun {dataStats.STUN}%
           </li>
           <li>
             <img src={blight} alt="statsIcon" />
-            Blight 5
+            Blight {dataStats.BLIGHT}%
           </li>
           <li>
             <img src={debuff} alt="statsIcon" />
-            Debuff 5
+            Debuff {dataStats.DEBUFF}%
           </li>
           <li>
             <img src={disease} alt="statsIcon" />
-            Disease 5
+            Disease {dataStats.DISEASE}%
           </li>
           <li>
             <img src={deathBlow} alt="statsIcon" />
-            Deathblow 5
+            Deathblow {dataStats.DEATH}%
           </li>
         </ul>
       </div>
