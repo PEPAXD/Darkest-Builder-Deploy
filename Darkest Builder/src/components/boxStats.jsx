@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useState } from "react";
 import "./styles/boxStats.css";
 
 //Imports IconsGallery
@@ -18,12 +18,46 @@ import deathBlow from "../assets/img/icons/Deathsdoor_dd2.webp";
 
 function boxStats({ dataStats }) {
 
+  //checkbox Upgrade
+  const [isUpgradeActive, setIsUpgradeActive] = useState(false);
+  const handleCheckboxChange = () => {
+    setIsUpgradeActive(!isUpgradeActive);
+  };
+
+  //UpgradeStat
+  function renderStatItem(statName, statValues, iconSrc) {
+    const color =
+      statValues.length === 2
+        ? isUpgradeActive
+          ? "#6EA1DD"
+          : "currentColor"
+        : "currentColor";
+
+    const value =
+      statValues.length === 2
+        ? statValues[isUpgradeActive ? 1 : 0]
+        : statValues[0];
+
+    return (
+      <li style={{ color: color }}>
+        <img src={iconSrc} alt="statsIcon" />
+        {statName} {value}
+      </li>
+    );
+  }
+
   return (
     <>
       <div className="baseStatsContain">
         <div className="upgradeButton">
           <div className="checkbox-wrapper-46">
-            <input type="checkbox" id="cbx-46" className="inp-cbx" />
+            <input
+              type="checkbox"
+              id="cbx-46"
+              className="inp-cbx"
+              checked={isUpgradeActive}
+              onChange={handleCheckboxChange}
+            />
             <label htmlFor="cbx-46" className="cbx">
               <span>
                 <svg viewBox="0 0 12 10" height="10px" width="12px">
@@ -38,25 +72,13 @@ function boxStats({ dataStats }) {
         <div className="statsContain">
           <h4>Base Stats</h4>
           <ul>
-            <li>
-              <img src={maxHp} alt="statsIcon" />
-              HP {dataStats.HP}
-            </li>
-            <li>
-              <img src={sPD} alt="statsIcon" />
-              SPD {dataStats.SPD}
-            </li>
+            {renderStatItem("HP", dataStats.HP, maxHp)}
+            {renderStatItem("SPD", dataStats.SPD, sPD)}
           </ul>
           <h4>Movement</h4>
           <ul>
-            <li>
-              <img src={back} alt="statsIcon" />
-              Back {dataStats.BACK}
-            </li>
-            <li>
-              <img src={forw} alt="statsIcon" />
-              Forw {dataStats.FORW}
-            </li>
+            {renderStatItem("BACK", dataStats.BACK, back)}
+            {renderStatItem("FORW", dataStats.FORW, forw)}
           </ul>
         </div>
       </div>
@@ -64,38 +86,14 @@ function boxStats({ dataStats }) {
       <div className="resistantsContain">
         <h4>Resistants</h4>
         <ul>
-          <li>
-            <img src={bleed} alt="statsIcon" />
-            Bleed {dataStats.BLEED}%
-          </li>
-          <li>
-            <img src={move} alt="statsIcon" />
-            Move {dataStats.MOVE}%
-          </li>
-          <li>
-            <img src={burn} alt="statsIcon" />
-            Burn {dataStats.BURN}%
-          </li>
-          <li>
-            <img src={stun} alt="statsIcon" />
-            Stun {dataStats.STUN}%
-          </li>
-          <li>
-            <img src={blight} alt="statsIcon" />
-            Blight {dataStats.BLIGHT}%
-          </li>
-          <li>
-            <img src={debuff} alt="statsIcon" />
-            Debuff {dataStats.DEBUFF}%
-          </li>
-          <li>
-            <img src={disease} alt="statsIcon" />
-            Disease {dataStats.DISEASE}%
-          </li>
-          <li>
-            <img src={deathBlow} alt="statsIcon" />
-            Deathblow {dataStats.DEATH}%
-          </li>
+          {renderStatItem("Bleed", dataStats.BLEED, bleed)}
+          {renderStatItem("Move", dataStats.MOVE, move)}
+          {renderStatItem("Burn", dataStats.BURN, burn)}
+          {renderStatItem("Stun", dataStats.STUN, stun)}
+          {renderStatItem("Blight", dataStats.BLIGHT, blight)}
+          {renderStatItem("Debuff", dataStats.DEBUFF, debuff)}
+          {renderStatItem("Disease", dataStats.DISEASE, disease)}
+          {renderStatItem("DeathBlow", dataStats.DEATH, deathBlow)}
         </ul>
       </div>
     </>
