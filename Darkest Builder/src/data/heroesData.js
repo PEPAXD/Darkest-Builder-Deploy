@@ -214,6 +214,11 @@ const heroesData = {
         DEBUFF: [20],
         DEATH: [60, 80],
       },
+
+      uniqueAttributes: {
+        tittle: "Bloodlust",
+        description: "When HP is below 50%, gain +20% DMG and +10% CRIT."
+      }
     },
   },
 

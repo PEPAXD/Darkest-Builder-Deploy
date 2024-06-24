@@ -141,6 +141,24 @@ function WikiSection({ url_Bg }) {
                     dataStats={heroesData[heroArray].characteristics.stats}
                   />
                 </div>
+
+                {heroesData[heroArray].characteristics.uniqueAttributes && (
+                  <div className="uniqueAttributeContain">
+                    <h3>
+                      {
+                        heroesData[heroArray].characteristics.uniqueAttributes
+                          .tittle
+                      }
+                    </h3>
+                    <p>
+                      {
+                        heroesData[heroArray].characteristics.uniqueAttributes
+                          .description
+                      }
+                    </p>
+                  </div>
+                )}
+                
               </div>
             </section>
           </div>
