@@ -216,8 +216,8 @@ const heroesData = {
       },
 
       uniqueAttributes: {
-        tittle: "Bloodlust",
-        description: "When HP is below 50%, gain +20% DMG and +10% CRIT."
+        tittle: "Bonus Damage at Low Health",
+        description: "The Hellion gets +25% damage when her HP is below 50% and another +25% when it's below 25%."
       }
     },
   },
@@ -353,6 +353,11 @@ const heroesData = {
         DEBUFF: [20],
         DEATH: [60, 75],
       },
+
+      uniqueAttributes: {
+        tittle: "Blindness",
+        description: "The Leper has a high chance of blinding himself when using his most damaging abilities and starts each battle with up to two Blind tokens."
+      }
     },
   },
 
@@ -682,6 +687,10 @@ const heroesData = {
         DEBUFF: [20],
         DEATH: [60, 75],
       },
+      uniqueAttributes: {
+        tittle: "Controlled Burn",
+        description: "The Runaway applies Burn repeatedly to the enemy."
+      }
     },
   },
 

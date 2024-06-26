@@ -141,25 +141,46 @@ function WikiSection({ url_Bg }) {
                     dataStats={heroesData[heroArray].characteristics.stats}
                   />
                 </div>
-
-                {heroesData[heroArray].characteristics.uniqueAttributes && (
-                  <div className="uniqueAttributeContain">
-                    <h3>
-                      {
-                        heroesData[heroArray].characteristics.uniqueAttributes
-                          .tittle
-                      }
-                    </h3>
-                    <p>
-                      {
-                        heroesData[heroArray].characteristics.uniqueAttributes
-                          .description
-                      }
-                    </p>
-                  </div>
-                )}
-                
               </div>
+
+              {heroesData[heroArray].characteristics.uniqueAttributes && (
+                <div className="uniqueAttributeContain">
+                  <h3>
+                    {
+                      heroesData[heroArray].characteristics.uniqueAttributes
+                        .tittle
+                    }
+                  </h3>
+                  <p>
+                    {
+                      heroesData[heroArray].characteristics.uniqueAttributes
+                        .description
+                    }
+                  </p>
+
+                  <div className="uniqueToken">
+                    <div>
+                      <img
+                        src="https://darkestdungeon2.wiki.fextralife.com/file/Darkest-Dungeon-2/winded-special-status-effects-darkest-dungeon-2-wiki-guide-75px.png"
+                        alt=""
+                      />
+                      <i>Winded</i>
+                    </div>
+
+                    <div>
+                      <h5>Effect</h5>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Doloribus facilis unde laboriosam tenetur, modi at
+                        placeat quasi nesciunt quas repudiandae consectetur quo
+                        fugiat. Libero neque odit, ex sequi dolor molestias?
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              )}
+
+              
             </section>
           </div>
         </div>
