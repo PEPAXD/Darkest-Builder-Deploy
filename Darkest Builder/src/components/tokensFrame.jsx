@@ -9,26 +9,26 @@ const tokensIconsArray = [{ name: '"Winded"', src: Winded }];
 function tokensFrame() {
   return (
     <>
-      <div className="uniqueToken">
-        <div>
-          <h5>{"Special Token - " + tokensIconsArray[0].name}</h5>
-          <span>
-            - Attacks deal -33% DMG and SPD is reduced by 3 for each Winded
-            Token
-          </span>
-        </div>
-
-        <div className="token">
-
-
-        </div>
+      <div className="iconBox">
+        <img src={tokensIconsArray[0].src} alt="TokenIcon" />
       </div>
 
+      <div className="descriptionBox">
+        <h6>{tokensIconsArray[0].name}</h6>
+        <hr />
 
-      <br />
-      <br />
-      <br />
-      <br />
+        <div>
+          <b>- A self-debuff token generated or removed by certain Hellion skills.</b>
+          <ul>
+            <li>-3 SPD per Winded</li>
+            <li>-33% DMG per Winded</li>
+            <li>Carcass: Turn End: Add Block (75%) per Winded</li>
+            <li>Duration: Until end of combat</li>
+            <li>Limit: 3</li>
+
+          </ul>
+        </div>
+      </div>
     </>
   );
 }

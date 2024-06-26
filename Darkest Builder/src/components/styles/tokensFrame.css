@@ -1,24 +1,56 @@
-.uniqueToken {
-  padding: 2%;
-  background-color: #000000;
+.specialTokenContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 
-  h5 {
-    display: flex;
+  gap: 1%;
 
-    padding-left: 10%;
+  .iconBox {
+    padding: 1%;
+    border: 2px solid #222;
 
-    border-bottom: 1px solid #7a7a7a;
-
-    font-size: 1.4em;
+    width: 30%;
   }
 
-  span {
-    display: flex;
-    justify-content: flex-start;
+  .descriptionBox {
+    padding: 1% 2%;
+    text-align: start;
 
-    padding-left: 5%;
-    font-size: 1em;
+    width: 100%;
+    border: 2px solid #222;
 
-    color: #7490a8;
+    h6 {
+      padding-left: 10%;
+
+      font-size: 1.5em;
+      font-weight: 400;
+    }
+
+    hr {
+      border: 1px solid #222;
+      margin-bottom: 0.2rem;
+    }
+
+    b {
+      padding-left: 5%;
+      color: #7490a8;
+    }
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+
+      padding: 2%;
+      padding-left: 10%;
+
+      width: 100%;
+
+      li {
+        font-style: italic;
+      }
+    }
   }
 }

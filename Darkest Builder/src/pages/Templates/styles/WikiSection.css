@@ -150,11 +150,10 @@
 }
 
 .wikiContain {
-
   width: 65%;
   max-height: 100%;
 
-  padding: 5% 2% 0% 2%;
+  padding: 5% 2% 3% 2%;
   text-align: center;
   overflow-y: auto;
 
@@ -212,8 +211,7 @@
   padding: 1%;
 }
 
-.uniqueAttributeContain{
-   
+.uniqueAttributeContain {
   display: flex;
   flex-direction: column;
 
@@ -235,6 +233,11 @@
     text-align: center;
     padding: 0.8rem;
   }
+}
+
+.specialTokenContainer {
+  padding: 2%;
+  background-color: #000000;
 }
 
 /*? RESPONSIVE MOVILE */
