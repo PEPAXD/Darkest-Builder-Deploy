@@ -147,10 +147,9 @@ function WikiSection({ url_Bg }) {
               {heroesData[heroArray].characteristics.uniqueAttributes && (
                 <div className="uniqueAttributeContain">
                   <h3>
-                    {
+                    {"Permanent Condition - " +
                       heroesData[heroArray].characteristics.uniqueAttributes
-                        .tittle
-                    }
+                        .tittle}
                   </h3>
                   <p>
                     {
