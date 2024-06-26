@@ -12,6 +12,7 @@ import MainHeader from "../../components/MainHeader.jsx";
 import HeroBody from "../../components/herobody.jsx";
 import StatsHero from "../../components/statsHero.jsx";
 import BoxStats from "../../components/boxStats.jsx";
+import TokenFrame from "../../components/tokensFrame.jsx";
 
 //import npmPackages
 import { ReactSearchAutocomplete } from "react-search-autocomplete";
@@ -157,30 +158,10 @@ function WikiSection({ url_Bg }) {
                         .description
                     }
                   </p>
-
-                  <div className="uniqueToken">
-                    <div>
-                      <img
-                        src="https://darkestdungeon2.wiki.fextralife.com/file/Darkest-Dungeon-2/winded-special-status-effects-darkest-dungeon-2-wiki-guide-75px.png"
-                        alt=""
-                      />
-                      <i>Winded</i>
-                    </div>
-
-                    <div>
-                      <h5>Effect</h5>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Doloribus facilis unde laboriosam tenetur, modi at
-                        placeat quasi nesciunt quas repudiandae consectetur quo
-                        fugiat. Libero neque odit, ex sequi dolor molestias?
-                      </p>
-                    </div>
-                  </div>
                 </div>
               )}
 
-              
+              <TokenFrame />
             </section>
           </div>
         </div>
