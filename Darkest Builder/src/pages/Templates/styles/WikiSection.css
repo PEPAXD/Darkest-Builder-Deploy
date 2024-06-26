@@ -237,14 +237,13 @@
   }
 }
 
-.specialTokens{
+.specialTokens {
   display: flex;
   flex-direction: column;
 
-  gap: 0.5rem;
+  gap: 1rem;
   background: #000;
 }
-
 
 /*? RESPONSIVE MOVILE */
 @media (max-width: 480px) {
