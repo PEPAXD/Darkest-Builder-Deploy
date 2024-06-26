@@ -150,18 +150,13 @@
 }
 
 .wikiContain {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
 
   width: 65%;
-
   max-height: 100%;
-  overflow-y: auto;
 
-  padding: 2%;
+  padding: 5% 2% 0% 2%;
+  text-align: center;
+  overflow-y: auto;
 
   border-style: solid;
   border-image: linear-gradient(to bottom, #181818, #eee, #181818) 1 100%;
