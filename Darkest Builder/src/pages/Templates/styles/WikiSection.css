@@ -226,6 +226,8 @@
     background-color: rgb(42, 99, 131);
     padding: 0.2rem;
     font-size: 1.1em;
+
+    font-weight: 400;
   }
 
   p {
@@ -235,10 +237,14 @@
   }
 }
 
-.specialTokenContainer {
-  padding: 2%;
-  background-color: #000000;
+.specialTokens{
+  display: flex;
+  flex-direction: column;
+
+  gap: 0.5rem;
+  background: #000;
 }
+
 
 /*? RESPONSIVE MOVILE */
 @media (max-width: 480px) {

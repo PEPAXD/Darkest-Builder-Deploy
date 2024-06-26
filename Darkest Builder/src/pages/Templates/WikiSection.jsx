@@ -160,7 +160,7 @@ function WikiSection({ url_Bg }) {
                 </div>
               )}
 
-              <div className="specialTokenContainer">
+              <div className="specialTokens">
                 <TokenFrame />
               </div>
             </section>
