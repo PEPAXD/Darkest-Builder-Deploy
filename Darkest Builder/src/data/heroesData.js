@@ -748,6 +748,11 @@ const heroesData = {
         DEBUFF: [40],
         DEATH: [75],
       },
+
+      uniqueAttributes: {
+        tittle: "Combo Token Regeneration",
+        description: "The Bounty Hunter, when consuming a Combo token on the enemy, has a 50% chance to reapply the token."
+      }
     },
   },
 
