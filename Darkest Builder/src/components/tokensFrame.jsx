@@ -4,32 +4,27 @@ import "./styles/tokensFrame.css";
 //import Icons
 import Winded from "../assets/img/icons/winded-Token.webp";
 
-const tokensIconsArray = [{ name: '"Winded"', src: Winded }];
+const tokensIconsArray = [{ name: "Winded", src: Winded }];
 
-function tokensFrame() {
+function tokensFrame({ dataToken }) {
   return (
     <div className="specialTokenContainer">
       <div className="iconBox">
         <div className="imgFrame">
-          <img src={tokensIconsArray[0].src} alt="TokenIcon" />
+          <img src={tokensIconsArray[dataToken.id].src} alt="TokenIcon" />
         </div>
       </div>
 
       <div className="descriptionBox">
-        <h6>{tokensIconsArray[0].name}</h6>
+        <h6>{tokensIconsArray[dataToken.id].name + " - Token"}</h6>
         <hr />
 
         <div>
-          <b>
-            - A self-debuff token generated or removed by certain Hellion
-            skills.
-          </b>
+          <b>{dataToken.FastDescription}</b>
           <ul>
-            <li>-3 SPD per Winded</li>
-            <li>-33% DMG per Winded</li>
-            <li>Carcass: Turn End: Add Block (75%) per Winded</li>
-            <li>Duration: Until end of combat</li>
-            <li>Limit: 3</li>
+            {dataToken.skillPoints.map((skillPoint, index) => (
+              <li key={index}>{skillPoint}</li>
+            ))}
           </ul>
         </div>
       </div>

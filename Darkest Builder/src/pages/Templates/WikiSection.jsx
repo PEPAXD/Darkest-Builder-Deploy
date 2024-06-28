@@ -160,11 +160,15 @@ function WikiSection({ url_Bg }) {
                 </div>
               )}
 
-              <div className="specialTokens">
-                <TokenFrame />
-                <TokenFrame />
-                <TokenFrame />
-              </div>
+              {heroesData[heroArray].characteristics.uniqueTokens && (
+                <div className="specialTokens">
+                  <TokenFrame
+                    dataToken={
+                      heroesData[heroArray].characteristics.uniqueTokens
+                    }
+                  />
+                </div>
+              )}
             </section>
 
             <br />

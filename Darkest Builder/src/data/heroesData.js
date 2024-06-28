@@ -217,8 +217,16 @@ const heroesData = {
 
       uniqueAttributes: {
         tittle: "Bonus Damage at Low Health",
-        description: "The Hellion gets +25% damage when her HP is below 50% and another +25% when it's below 25%."
-      }
+        description:
+          "The Hellion gets +25% damage when her HP is below 50% and another +25% when it's below 25%.",
+      },
+
+      uniqueTokens: {
+        id: 0,
+        FastDescription: "A self-debuff token generated or removed by certain Hellion skills.",
+        skillPoints: [ "-3 SPD per Winded", "-33% DMG per Winded", "Carcass: Turn End: Add Block (75%) per Winded", "Duration: Until end of combat", "Limit: 3" ],
+      },
+
     },
   },
 
@@ -356,8 +364,9 @@ const heroesData = {
 
       uniqueAttributes: {
         tittle: "Blindness",
-        description: "The Leper has a high chance of blinding himself when using his most damaging abilities and starts each battle with up to two Blind tokens."
-      }
+        description:
+          "The Leper has a high chance of blinding himself when using his most damaging abilities and starts each battle with up to two Blind tokens.",
+      },
     },
   },
 
@@ -689,8 +698,8 @@ const heroesData = {
       },
       uniqueAttributes: {
         tittle: "Controlled Burn",
-        description: "The Runaway applies Burn repeatedly to the enemy."
-      }
+        description: "The Runaway applies Burn repeatedly to the enemy.",
+      },
     },
   },
 
@@ -751,8 +760,9 @@ const heroesData = {
 
       uniqueAttributes: {
         tittle: "Combo Token Regeneration",
-        description: "The Bounty Hunter, when consuming a Combo token on the enemy, has a 50% chance to reapply the token."
-      }
+        description:
+          "The Bounty Hunter, when consuming a Combo token on the enemy, has a 50% chance to reapply the token.",
+      },
     },
   },
 
