@@ -3,8 +3,9 @@ import "./styles/tokensFrame.css";
 
 //import Icons
 import Winded from "../assets/img/icons/winded-Token.webp";
+import uncheckedPower from "../assets/img/icons/unchecked-power-Token.webp";
 
-const tokensIconsArray = [{ name: "Winded", src: Winded }];
+const tokensIconsArray = [{ name: "Winded", src: Winded }, { name: "Unchecked Power", src: uncheckedPower }];
 
 function tokensFrame({ dataToken }) {
   return (

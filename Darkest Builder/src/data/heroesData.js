@@ -498,6 +498,12 @@ const heroesData = {
         DEBUFF: [30, 40],
         DEATH: [60, 75],
       },
+
+      uniqueTokens: {
+        id: 1,
+        FastDescription: "A token that enables or empowers certain Occultist skills.",
+        skillPoints: [ "Consumed upon use", "Turn Start: 33% chance of Burn x1 per Unchecked Power Token [Cannot be resisted]", "Duration: Until end of combat", "Limit: 3" ],
+      },
     },
   },
 
