@@ -4,8 +4,17 @@ import "./styles/tokensFrame.css";
 //import Icons
 import Winded from "../assets/img/icons/winded-Token.webp";
 import uncheckedPower from "../assets/img/icons/unchecked-power-Token.webp";
+import conviction from "../assets/img/icons/conviction-Token.webp";
+import lightBless from "../assets/img/icons/lightBless-Token.webp";
+import fortitudeBless from "../assets/img/icons/fortitudeBless-Token.webp";
 
-const tokensIconsArray = [{ name: "Winded", src: Winded }, { name: "Unchecked Power", src: uncheckedPower }];
+const tokensIconsArray = [
+  { name: "Winded", src: Winded },
+  { name: "Unchecked Power", src: uncheckedPower },
+  { name: "Conviction", src: conviction },
+  { name: "Light Bless", src: lightBless },
+  { name: "Fortitude Bless", src: fortitudeBless },
+];
 
 function tokensFrame({ dataToken }) {
   return (

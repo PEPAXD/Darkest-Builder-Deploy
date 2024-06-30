@@ -221,12 +221,20 @@ const heroesData = {
           "The Hellion gets +25% damage when her HP is below 50% and another +25% when it's below 25%.",
       },
 
-      uniqueTokens: {
-        id: 0,
-        FastDescription: "A self-debuff token generated or removed by certain Hellion skills.",
-        skillPoints: [ "-3 SPD per Winded", "-33% DMG per Winded", "Carcass: Turn End: Add Block (75%) per Winded", "Duration: Until end of combat", "Limit: 3" ],
-      },
-
+      uniqueTokens: [
+        {
+          id: 0,
+          FastDescription:
+            "A self-debuff token generated or removed by certain Hellion skills.",
+          skillPoints: [
+            "-3 SPD per Winded",
+            "-33% DMG per Winded",
+            "Carcass: Turn End: Add Block (75%) per Winded",
+            "Duration: Until end of combat",
+            "Limit: 3",
+          ],
+        },
+      ],
     },
   },
 
@@ -499,11 +507,19 @@ const heroesData = {
         DEATH: [60, 75],
       },
 
-      uniqueTokens: {
-        id: 1,
-        FastDescription: "A token that enables or empowers certain Occultist skills.",
-        skillPoints: [ "Consumed upon use", "Turn Start: 33% chance of Burn x1 per Unchecked Power Token [Cannot be resisted]", "Duration: Until end of combat", "Limit: 3" ],
-      },
+      uniqueTokens: [
+        {
+          id: 1,
+          FastDescription:
+            "A token that enables or empowers certain Occultist skills.",
+          skillPoints: [
+            "Consumed upon use",
+            "Turn Start: 33% chance of Burn x1 per Unchecked Power Token [Cannot be resisted]",
+            "Duration: Until end of combat",
+            "Limit: 3",
+          ],
+        },
+      ],
     },
   },
 
@@ -640,6 +656,42 @@ const heroesData = {
         DEBUFF: [20, 30],
         DEATH: [60, 75],
       },
+
+      uniqueTokens: [
+        {
+          id: 2,
+          FastDescription:
+            "A token that enables or empowers certain Occultist skills.",
+          skillPoints: [
+            "Consumed upon use",
+            "Turn Start: 33% chance of Burn x1 per Unchecked Power Token [Cannot be resisted]",
+            "Duration: Until end of combat",
+            "Limit: 3",
+          ],
+        },
+        {
+          id: 3,
+          FastDescription:
+            "A token that enables or empowers certain Occultist skills.",
+          skillPoints: [
+            "Consumed upon use",
+            "Turn Start: 33% chance of Burn x1 per Unchecked Power Token [Cannot be resisted]",
+            "Duration: Until end of combat",
+            "Limit: 3",
+          ],
+        },
+        {
+          id: 4,
+          FastDescription:
+            "A token that enables or empowers certain Occultist skills.",
+          skillPoints: [
+            "Consumed upon use",
+            "Turn Start: 33% chance of Burn x1 per Unchecked Power Token [Cannot be resisted]",
+            "Duration: Until end of combat",
+            "Limit: 3",
+          ],
+        },
+      ],
     },
   },
 

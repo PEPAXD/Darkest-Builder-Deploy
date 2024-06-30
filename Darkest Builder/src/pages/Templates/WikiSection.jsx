@@ -160,15 +160,15 @@ function WikiSection({ url_Bg }) {
                 </div>
               )}
 
-              {heroesData[heroArray].characteristics.uniqueTokens && (
-                <div className="specialTokens">
-                  <TokenFrame
-                    dataToken={
-                      heroesData[heroArray].characteristics.uniqueTokens
-                    }
-                  />
-                </div>
+              {heroesData[heroArray].characteristics.uniqueTokens?.map(
+                (token, index) => (
+                  <div key={index} className="specialTokens">
+                    <TokenFrame dataToken={token} />
+                  </div>
+                )
               )}
+
+              
             </section>
 
             <br />
