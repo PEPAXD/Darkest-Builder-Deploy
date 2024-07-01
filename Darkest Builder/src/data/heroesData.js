@@ -660,11 +660,11 @@ const heroesData = {
       uniqueTokens: [
         {
           id: 2,
-          FastDescription:
-            "A token that enables or empowers certain Occultist skills.",
+          FastDescription: "A token that empowers certain Vestal skills",
           skillPoints: [
             "Consumed upon use",
-            "Turn Start: 33% chance of Burn x1 per Unchecked Power Token [Cannot be resisted]",
+            "Confessor. +5% Debuff RES Piercing per Conviction Token",
+            "Chaplain: +10% Stun RES and +10% MOVE RES per Conviction Token",
             "Duration: Until end of combat",
             "Limit: 3",
           ],
@@ -672,23 +672,21 @@ const heroesData = {
         {
           id: 3,
           FastDescription:
-            "A token that enables or empowers certain Occultist skills.",
+            "Grants offensive tokens to the Hero in that position.",
           skillPoints: [
-            "Consumed upon use",
-            "Turn Start: 33% chance of Burn x1 per Unchecked Power Token [Cannot be resisted]",
-            "Duration: Until end of combat",
-            "Limit: 3",
+            "Turn Start: add Strength or Crit",
+            "Duration: 3 rounds, (5 rounds with Seraph)",
+            "Does not stack with other Consecrations",
           ],
         },
         {
           id: 4,
           FastDescription:
-            "A token that enables or empowers certain Occultist skills.",
+            "Grants defensive tokens to the Hero in that position.",
           skillPoints: [
-            "Consumed upon use",
-            "Turn Start: 33% chance of Burn x1 per Unchecked Power Token [Cannot be resisted]",
-            "Duration: Until end of combat",
-            "Limit: 3",
+            "Turn Start: add Block or dodge",
+            "Duration: 3 rounds, (5 rounds with Seraph)",
+            "Does not stack with other Consecrations",
           ],
         },
       ],
@@ -758,6 +756,18 @@ const heroesData = {
         tittle: "Controlled Burn",
         description: "The Runaway applies Burn repeatedly to the enemy.",
       },
+      uniqueTokens: [
+        {
+          id: 5,
+          FastDescription:
+            "A token that repeatedly inflicts Burn on the enemy in that position",
+          skillPoints: [
+            "Turn Start: Add x2 Burn",
+            "Burn is unaffected by Runaway's modifiers.",
+            "Duration: 3 rounds",
+          ],
+        },
+      ],
     },
   },
 
@@ -948,6 +958,36 @@ const heroesData = {
         DEBUFF: [20],
         DEATH: [60, 75],
       },
+
+      uniqueAttributes: {
+        tittle: "Stances",
+        description:
+          "The Duelist has two stances that affect her skills, and she can only be in one at a time, each with different effects.",
+      },
+      uniqueTokens: [
+        {
+          id: 6,
+          FastDescription:
+            "Aggressive stance that empowers certain Duelist skills.",
+          skillPoints: [
+            "Varying effects depending on path and skill.",
+            "Only one stance may be active at any time.",
+            "Duration: Until end of combat",
+            "Limit: 1",
+          ],
+        },
+        {
+          id: 7,
+          FastDescription:
+            "Defensive stance that empowers certain Duelist skills.",
+          skillPoints: [
+            "Varying effects depending on path and skill.",
+            "Only one stance may be active at any time.",
+            "Duration: Until end of combat",
+            "Limit: 1",
+          ],
+        },
+      ],
     },
   },
 
@@ -1013,6 +1053,32 @@ const heroesData = {
         DEBUFF: [20],
         DEATH: [75, 90],
       },
+
+      uniqueAttributes: {
+        tittle: "Toxic",
+        description:
+          "Flagellant at Stress 10: becomes Toxic with various effects, including HP adjustments and Blight Damage increase.",
+      },
+      uniqueTokens: [
+        {
+          id: 8,
+          FastDescription: "Applies Blight to attackers when hit.",
+          skillPoints: [
+            "Apply x2 Blight to attackers when hit per Toxic token",
+            "Duration: Until end of combat",
+            "Limit: 3",
+          ],
+        },
+        {
+          id: 9,
+          FastDescription: "A self-healing token unique to the Flagellant.",
+          skillPoints: [
+            "Consumed at the end of the turn, healing the Flagellant. (10-15% per pain token)",
+            "Duration: 1 Turn",
+            "Limit: 3",
+          ],
+        },
+      ],
     },
   },
 };
