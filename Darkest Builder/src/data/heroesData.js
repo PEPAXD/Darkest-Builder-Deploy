@@ -452,23 +452,25 @@ const heroesData = {
     howToPlay: [
       {
         tittle: "Set Up Chop",
-        description: "Prepare him thoroughly for powerful chops to maximize damage output. Ensure optimal conditions and support are in place for his attacks to be effective and devastating on the battlefield."
+        description:
+          "Prepare him thoroughly for powerful chops to maximize damage output. Ensure optimal conditions and support are in place for his attacks to be effective and devastating on the battlefield.",
       },
       {
         tittle: "Use Tank Kit",
-        description: "Focus on utilizing skills like intimidate, self-heals, and withstand to effectively fulfill the tanking role. These skills not only allow you to absorb damage but also to maintain enemy attention, thereby protecting your allies."
+        description:
+          "Focus on utilizing skills like intimidate, self-heals, and withstand to effectively fulfill the tanking role. These skills not only allow you to absorb damage but also to maintain enemy attention, thereby protecting your allies.",
       },
       {
         tittle: "Bash, Intimidate",
-        description: "If necessary, utilize skills like 'Bash' to deal additional damage or 'Intimidate' to control enemies, reducing their ability to attack or maneuver. These tactics are crucial for maintaining tactical advantage during combat."
+        description:
+          "If necessary, utilize skills like 'Bash' to deal additional damage or 'Intimidate' to control enemies, reducing their ability to attack or maneuver. These tactics are crucial for maintaining tactical advantage during combat.",
       },
       {
         tittle: "Purge",
-        description: "Use 'Purge' to remove negative effects such as blindness, enhancing combat effectiveness by ensuring your character can attack accurately and respond optimally to battlefield threats."
+        description:
+          "Use 'Purge' to remove negative effects such as blindness, enhancing combat effectiveness by ensuring your character can attack accurately and respond optimally to battlefield threats.",
       },
     ],
-    
-    
   },
 
   5: {
@@ -531,6 +533,22 @@ const heroesData = {
         DEATH: [60, 75],
       },
     },
+
+    howToPlay: [
+      {
+        tittle: "Support Skills",
+        description: "The first thing to do is pick your support and match-up skills. Determine how you want the Man at Arms to help the team. Usually, this involves using Bolster, but you can also equip skills like Bellow and Stand Fast. It's crucial to select what he really needs for the upcoming situation."
+      },
+      {
+        tittle: "Guard or Taunt",
+        description: "Make sure that the Man at Arms is either guarding or taunting enemies if necessary. Defender is an incredible move, as is Retribution. If your team is in danger and you want to redirect enemy attacks to the Man at Arms, these moves should be your priority. Damage comes after ensuring safety."
+      },
+      {
+        tittle: "Defined Role",
+        description: "Define what the Man at Arms is doing in your party. He can deal significant damage if you give him the right path and damage moves. Alternatively, he can become a nearly unkillable wall if you equip all his block skills. Understanding the game and the upcoming match-ups is essential to effectively kit your Man at Arms for each battle."
+      },
+    ],
+    
   },
 
   6: {
