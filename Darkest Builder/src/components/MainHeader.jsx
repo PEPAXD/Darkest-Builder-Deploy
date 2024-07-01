@@ -40,7 +40,7 @@ function MainHeader({ links, goHome, activeSection }) {
                 link.href === activeSection
                   ? {
                       background:
-                        "linear-gradient(180deg, #981a0c, transparent)",
+                        "linear-gradient(180deg, #33404A, transparent)",
                     }
                   : {}
               }

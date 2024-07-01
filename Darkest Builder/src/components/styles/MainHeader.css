@@ -38,7 +38,6 @@ header {
     }
 
     .goHome:hover {
-      background: linear-gradient(180deg, #981a0c, transparent);
       cursor: pointer;
     }
   }
@@ -64,12 +63,6 @@ header {
 
         a {
           border-bottom: 1px solid #fff;
-        }
-      }
-
-      @media (max-width: 480px) {
-        &:hover {
-          background: #981a0c;
         }
       }
     }
