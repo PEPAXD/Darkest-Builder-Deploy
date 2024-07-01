@@ -84,19 +84,19 @@ const heroesData = {
 
     howToPlay: [
       {
-        tittle: "How to Play",
+        tittle: "Target Priority",
         description:
-          "The Highwayman is a versatile hero that can be used in any Rank. He has a lot of flexibility in his skills, allowing him to deal damage to any Rank, move around the team, and even steal powerful Tokens from enemies. The Highwayman is a great choice for players who like to deal damage and control the battlefield.",
+          "The gameplay with the Highwayman is characterized by its direct approach and its ability to deal significant damage. It is crucial to direct his attacks towards the biggest threats on the enemy side. Therefore, it is essential for him to focus on eliminating important enemy units.",
       },
       {
-        tittle: "How to Play",
+        tittle: "Backup Plans",
         description:
-          "The Highwayman is a versatile hero that can be used in any Rank. He has a lot of flexibility in his skills, allowing him to deal damage to any Rank, move around the team, and even steal powerful Tokens from enemies. The Highwayman is a great choice for players who like to deal damage and control the battlefield.",
+          "It is essential to have a backup plan to adapt to adverse situations, we must have alternative skills available for unforeseen events. 'Point-Blank Shot' or 'Advanced Duel' will be crucial for us to reposition ourselves. Having a well-defined backup plan can make the difference between victory and defeat in critical situations of the game.",
       },
       {
-        tittle: "How to Play",
+        tittle: "Feed Buffs",
         description:
-          "The Highwayman is a versatile hero that can be used in any Rank. He has a lot of flexibility in his skills, allowing him to deal damage to any Rank, move around the team, and even steal powerful Tokens from enemies. The Highwayman is a great choice for players who like to deal damage and control the battlefield.",
+          "To maximize performance, provide your character with a wide range of benefits and enhancements. Equip yourself with damage items, apply critical buffs. Your character will truly stand out when receiving this type of additional support. Don't underestimate the impact these small details can have on your performance in the game!",
       },
     ],
   },
@@ -167,6 +167,24 @@ const heroesData = {
         DEATH: [60, 75],
       },
     },
+
+    howToPlay: [
+      {
+        tittle: "Damage Skill",
+        description:
+          "Focus on one damage skill and upgrade it as soon as possible... Pick to the Face is a good mele option or flashing daggers for a ranged skill. And pick one other move skill to reposition yourself.",
+      },
+      {
+        tittle: "Build Around It",
+        description:
+          "Build the rest of the team around it to maximize the potential of the Grave Robber. She can be a good combo with other heroes that can apply Combo tokens.",
+      },
+      {
+        tittle: "Keep a Heal",
+        description:
+          "Make sure to equip a healing or defense skill to ensure her survival. She has a low HP pool and can be easily killed. Keeping a heal or defensive ability can help her stay alive longer.",
+      },
+    ],
   },
 
   2: {
@@ -257,19 +275,19 @@ const heroesData = {
 
     howToPlay: [
       {
-        tittle: "How to Play",
+        tittle: "Winded Moves Last",
         description:
-          "The Highwayman is a versatile hero that can be used in any Rank. He has a lot of flexibility in his skills, allowing him to deal damage to any Rank, move around the team, and even steal powerful Tokens from enemies. The Highwayman is a great choice for players who like to deal damage and control the battlefield.",
+          "Put her in rank one or two, up front. You'll want to save your most powerful moves for as long as possible. Avoid using abilities like 'howling' and 'bleed out' until the winded penalty isn't a major issue, or make sure you have a quick way to recover if you decide to use them.",
       },
       {
-        tittle: "How to Play",
+        tittle: "HP < 50%",
         description:
-          "The Highwayman is a versatile hero that can be used in any Rank. He has a lot of flexibility in his skills, allowing him to deal damage to any Rank, move around the team, and even steal powerful Tokens from enemies. The Highwayman is a great choice for players who like to deal damage and control the battlefield.",
+          "Hellion's damage increases when she's below 50% health. This can be a good time to use her most powerful abilities, make sure to keep her life low to maximize her damage output. but not like a dangerous level.",
       },
       {
-        tittle: "How to Play",
+        tittle: "Equip a Move Skill",
         description:
-          "The Highwayman is a versatile hero that can be used in any Rank. He has a lot of flexibility in his skills, allowing him to deal damage to any Rank, move around the team, and even steal powerful Tokens from enemies. The Highwayman is a great choice for players who like to deal damage and control the battlefield.",
+          "Equip a move skill to reposition her if she gets pushed back. This will allow her to get back to the front line and continue dealing damage.",
       },
     ],
   },
@@ -340,6 +358,24 @@ const heroesData = {
         DEATH: [60, 75],
       },
     },
+
+    howToPlay: [
+      {
+        tittle: "Moving?",
+        description:
+          "First thing we need to do when building our team is to decide where Jester is going to move. Is he going from position three to four? Is he moving from four to two? Is he going solo up to one? It is important to be clear on who is moving where, so make sure you at least have that plan in mind when you reach the crossroads.",
+      },
+      {
+        tittle: "Combos",
+        description:
+          "Hellion's damage increases when she's below 50% health. This can be a good time to use her most powerful abilities, make sure to keep her life low to maximize her damage output. but not like a dangerous level.",
+      },
+      {
+        tittle: "Encore",
+        description:
+          "Equip a move skill to reposition her if she gets pushed back. This will allow her to get back to the front line and continue dealing damage.",
+      },
+    ],
   },
 
   4: {
