@@ -81,6 +81,24 @@ const heroesData = {
         DEATH: [60, 75],
       },
     },
+
+    howToPlay: [
+      {
+        tittle: "How to Play",
+        description:
+          "The Highwayman is a versatile hero that can be used in any Rank. He has a lot of flexibility in his skills, allowing him to deal damage to any Rank, move around the team, and even steal powerful Tokens from enemies. The Highwayman is a great choice for players who like to deal damage and control the battlefield.",
+      },
+      {
+        tittle: "How to Play",
+        description:
+          "The Highwayman is a versatile hero that can be used in any Rank. He has a lot of flexibility in his skills, allowing him to deal damage to any Rank, move around the team, and even steal powerful Tokens from enemies. The Highwayman is a great choice for players who like to deal damage and control the battlefield.",
+      },
+      {
+        tittle: "How to Play",
+        description:
+          "The Highwayman is a versatile hero that can be used in any Rank. He has a lot of flexibility in his skills, allowing him to deal damage to any Rank, move around the team, and even steal powerful Tokens from enemies. The Highwayman is a great choice for players who like to deal damage and control the battlefield.",
+      },
+    ],
   },
 
   1: {
@@ -236,6 +254,24 @@ const heroesData = {
         },
       ],
     },
+
+    howToPlay: [
+      {
+        tittle: "How to Play",
+        description:
+          "The Highwayman is a versatile hero that can be used in any Rank. He has a lot of flexibility in his skills, allowing him to deal damage to any Rank, move around the team, and even steal powerful Tokens from enemies. The Highwayman is a great choice for players who like to deal damage and control the battlefield.",
+      },
+      {
+        tittle: "How to Play",
+        description:
+          "The Highwayman is a versatile hero that can be used in any Rank. He has a lot of flexibility in his skills, allowing him to deal damage to any Rank, move around the team, and even steal powerful Tokens from enemies. The Highwayman is a great choice for players who like to deal damage and control the battlefield.",
+      },
+      {
+        tittle: "How to Play",
+        description:
+          "The Highwayman is a versatile hero that can be used in any Rank. He has a lot of flexibility in his skills, allowing him to deal damage to any Rank, move around the team, and even steal powerful Tokens from enemies. The Highwayman is a great choice for players who like to deal damage and control the battlefield.",
+      },
+    ],
   },
 
   3: {

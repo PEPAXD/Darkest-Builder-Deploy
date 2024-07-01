@@ -167,16 +167,23 @@ function WikiSection({ url_Bg }) {
                   </div>
                 )
               )}
-
-              
             </section>
 
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+            <section>
+              <h2>How to Play</h2>
+              <hr />
+              <div className="howToPlay">
+                <ul>
+                  {heroesData[heroArray].howToPlay.map((item, index) => (
+                    <li key={index}>
+                      {item.tittle}
+                      <p>{item.description}</p>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </section>
+
           </div>
         </div>
       </div>
