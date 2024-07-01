@@ -60,8 +60,9 @@ header {
       padding: 1rem;
 
       &:hover {
-        background: linear-gradient(180deg, #981a0c, transparent);
+        background: linear-gradient(180deg, #415369, transparent);
         cursor: pointer;
+
       }
 
       @media (max-width: 480px) {
@@ -69,6 +70,7 @@ header {
           background: #981a0c;
         }
       }
+      
     }
   }
 }
