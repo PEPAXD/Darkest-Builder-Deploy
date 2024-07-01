@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import "./styles/MainHeader.css";
@@ -6,7 +6,7 @@ import "./styles/MainHeader.css";
 //IMPORT COMPONENTS
 import { Squash as Hamburger } from "hamburger-react";
 
-function MainHeader({ links, goHome }) {
+function MainHeader({ links, goHome, activeSection }) {
   const [isOpen, setOpen] = useState(false);
   const handleClick = (e, href) => {
     e.preventDefault();
@@ -14,6 +14,11 @@ function MainHeader({ links, goHome }) {
     element.scrollIntoView({ behavior: "smooth" });
     setOpen(!isOpen);
   };
+
+  useEffect(() => {
+    console.log(activeSection);
+    console.log(links);
+  }, [activeSection]);
 
   return (
     <header>
@@ -33,7 +38,18 @@ function MainHeader({ links, goHome }) {
       <nav className={isOpen ? "open" : ""}>
         <ul>
           {links.map((link, index) => (
-            <li key={index} onClick={(e) => handleClick(e, link.href)}>
+            <li
+              key={index}
+              onClick={(e) => handleClick(e, link.href)}
+              style={
+                link.href === activeSection
+                  ? {
+                      background:
+                        "linear-gradient(180deg, #981a0c, transparent)",
+                    }
+                  : {}
+              }
+            >
               <a href={link.href}>{link.text}</a>
             </li>
           ))}
