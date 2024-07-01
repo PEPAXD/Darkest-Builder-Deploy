@@ -28,18 +28,18 @@ const linksSections = [
 ];
 
 function WikiSection({ url_Bg }) {
+  
   const wikiContainRef = useRef(null);
   const [activeSection, setActiveSection] = useState("Hero");
   const sectionElementsRef = useRef({});
 
   useEffect(() => {
-    // Precargar las referencias de los elementos de las secciones para evitar búsquedas en el DOM
     linksSections.forEach((section) => {
       sectionElementsRef.current[section.href] = document.getElementById(
         section.href
       );
     });
-  }, []); // Dependencias vacías para que se ejecute solo una vez
+  }, []);
 
   const handleScroll = useCallback(() => {
     let closestSection = "";
@@ -65,10 +65,6 @@ function WikiSection({ url_Bg }) {
       return () => wikiContain.removeEventListener("scroll", handleScroll);
     }
   }, [handleScroll]);
-
-  useEffect(() => {
-    console.log("activeSection", activeSection);
-  }, [activeSection]);
 
   //react-router-dom HeroIndex
   const location = useLocation();
