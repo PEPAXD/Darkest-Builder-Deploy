@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import "./styles/MainHeader.css";
@@ -18,6 +18,7 @@ function MainHeader({ links, goHome, activeSection }) {
     element.scrollIntoView({ behavior: "smooth" });
     setOpen(!isOpen);
   };
+
 
   return (
     <header>

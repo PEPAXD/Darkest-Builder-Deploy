@@ -17,6 +17,7 @@ const linksSections = [
 ];
 
 function MainPage() {
+  
   const [activeSection, setActiveSection] = useState("Home");
 
   useEffect(() => {

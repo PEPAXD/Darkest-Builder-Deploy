@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef, useCallback } from "react";
 import "./styles/WikiSection.css";
 
 //import database
@@ -21,13 +21,55 @@ import { useLocation } from "react-router-dom";
 const linksSections = [
   { href: "Hero", text: "Hero" },
   { href: "HowToPlay", text: "Play-Style" },
-  { href: "#", text: "Skills/Paths" },
+  { href: "Skills", text: "Skills/Paths" },
   { href: "#", text: "Trinkets" },
   { href: "#", text: "teamMates" },
   { href: "#", text: "Game-Builds" },
 ];
 
 function WikiSection({ url_Bg }) {
+  const wikiContainRef = useRef(null);
+  const [activeSection, setActiveSection] = useState("Hero");
+  const sectionElementsRef = useRef({});
+
+  useEffect(() => {
+    // Precargar las referencias de los elementos de las secciones para evitar búsquedas en el DOM
+    linksSections.forEach((section) => {
+      sectionElementsRef.current[section.href] = document.getElementById(
+        section.href
+      );
+    });
+  }, []); // Dependencias vacías para que se ejecute solo una vez
+
+  const handleScroll = useCallback(() => {
+    let closestSection = "";
+    let minDiff = Number.MAX_VALUE;
+    Object.keys(sectionElementsRef.current).forEach((href) => {
+      const element = sectionElementsRef.current[href];
+      if (element) {
+        const rect = element.getBoundingClientRect();
+        const topDiff = Math.abs(rect.top);
+        if (topDiff < minDiff) {
+          minDiff = topDiff;
+          closestSection = href;
+        }
+      }
+    });
+    setActiveSection(closestSection);
+  }, []);
+
+  useEffect(() => {
+    const wikiContain = wikiContainRef.current;
+    if (wikiContain) {
+      wikiContain.addEventListener("scroll", handleScroll);
+      return () => wikiContain.removeEventListener("scroll", handleScroll);
+    }
+  }, [handleScroll]);
+
+  useEffect(() => {
+    console.log("activeSection", activeSection);
+  }, [activeSection]);
+
   //react-router-dom HeroIndex
   const location = useLocation();
   const { heroIndex } = location.state || {};
@@ -54,7 +96,11 @@ function WikiSection({ url_Bg }) {
 
   return (
     <div className="wiki">
-      <MainHeader links={linksSections} goHome={true} />
+      <MainHeader
+        links={linksSections}
+        goHome={true}
+        activeSection={activeSection}
+      />
 
       <div
         className="background"
@@ -113,7 +159,7 @@ function WikiSection({ url_Bg }) {
             </div>
           </div>
 
-          <div className="wikiContain">
+          <div className="wikiContain" ref={wikiContainRef}>
             <section id="Hero" className="ClassHero">
               <br />
               <br />
@@ -189,6 +235,110 @@ function WikiSection({ url_Bg }) {
                   ))}
                 </ul>
               </div>
+            </section>
+
+            <section id="Skills">
+              <br />
+              <br />
+              <br />
+              <h2>Skills</h2>
+              <hr />
+
+              <p>
+                {" "}
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatibus, at quo? Rem consequatur perferendis officia qui
+                ex. In doloremque fugiat totam. Qui dolores eveniet facere nulla
+                officia! Sit impedit, exercitationem quisquam mollitia pariatur
+                deleniti, quaerat beatae ex consequuntur eveniet illo voluptatum
+                excepturi totam? Odio et ipsa eaque voluptate. Ipsam qui labore
+                dignissimos accusamus reiciendis a voluptatem quibusdam,
+                quisquam blanditiis necessitatibus! Minus repellendus sed
+                exercitationem cum aspernatur nihil quibusdam sit asperiores
+                adipisci. Nulla, consequuntur expedita deleniti praesentium
+                architecto sit vitae sunt explicabo possimus fugiat culpa
+                mollitia, dolorum incidunt illum unde ex doloremque
+                necessitatibus quo, delectus quas! Labore, quia ducimus!
+                Voluptate, ratione.
+              </p>
+            </section>
+
+            <section id="#">
+              <br />
+              <br />
+              <br />
+              <h2>Skills</h2>
+              <hr />
+
+              <p>
+                {" "}
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatibus, at quo? Rem consequatur perferendis officia qui
+                ex. In doloremque fugiat totam. Qui dolores eveniet facere nulla
+                officia! Sit impedit, exercitationem quisquam mollitia pariatur
+                deleniti, quaerat beatae ex consequuntur eveniet illo voluptatum
+                excepturi totam? Odio et ipsa eaque voluptate. Ipsam qui labore
+                dignissimos accusamus reiciendis a voluptatem quibusdam,
+                quisquam blanditiis necessitatibus! Minus repellendus sed
+                exercitationem cum aspernatur nihil quibusdam sit asperiores
+                adipisci. Nulla, consequuntur expedita deleniti praesentium
+                architecto sit vitae sunt explicabo possimus fugiat culpa
+                mollitia, dolorum incidunt illum unde ex doloremque
+                necessitatibus quo, delectus quas! Labore, quia ducimus!
+                Voluptate, ratione.
+              </p>
+            </section>
+
+            <section id="#">
+              <br />
+              <br />
+              <br />
+              <h2>Skills</h2>
+              <hr />
+
+              <p>
+                {" "}
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatibus, at quo? Rem consequatur perferendis officia qui
+                ex. In doloremque fugiat totam. Qui dolores eveniet facere nulla
+                officia! Sit impedit, exercitationem quisquam mollitia pariatur
+                deleniti, quaerat beatae ex consequuntur eveniet illo voluptatum
+                excepturi totam? Odio et ipsa eaque voluptate. Ipsam qui labore
+                dignissimos accusamus reiciendis a voluptatem quibusdam,
+                quisquam blanditiis necessitatibus! Minus repellendus sed
+                exercitationem cum aspernatur nihil quibusdam sit asperiores
+                adipisci. Nulla, consequuntur expedita deleniti praesentium
+                architecto sit vitae sunt explicabo possimus fugiat culpa
+                mollitia, dolorum incidunt illum unde ex doloremque
+                necessitatibus quo, delectus quas! Labore, quia ducimus!
+                Voluptate, ratione.
+              </p>
+            </section>
+
+            <section id="#">
+              <br />
+              <br />
+              <br />
+              <h2>Skills</h2>
+              <hr />
+
+              <p>
+                {" "}
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatibus, at quo? Rem consequatur perferendis officia qui
+                ex. In doloremque fugiat totam. Qui dolores eveniet facere nulla
+                officia! Sit impedit, exercitationem quisquam mollitia pariatur
+                deleniti, quaerat beatae ex consequuntur eveniet illo voluptatum
+                excepturi totam? Odio et ipsa eaque voluptate. Ipsam qui labore
+                dignissimos accusamus reiciendis a voluptatem quibusdam,
+                quisquam blanditiis necessitatibus! Minus repellendus sed
+                exercitationem cum aspernatur nihil quibusdam sit asperiores
+                adipisci. Nulla, consequuntur expedita deleniti praesentium
+                architecto sit vitae sunt explicabo possimus fugiat culpa
+                mollitia, dolorum incidunt illum unde ex doloremque
+                necessitatibus quo, delectus quas! Labore, quia ducimus!
+                Voluptate, ratione.
+              </p>
             </section>
           </div>
         </div>
