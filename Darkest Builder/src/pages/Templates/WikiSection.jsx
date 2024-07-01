@@ -19,8 +19,8 @@ import { ReactSearchAutocomplete } from "react-search-autocomplete";
 import { useLocation } from "react-router-dom";
 
 const linksSections = [
-  { href: "#", text: "ClassHero" },
-  { href: "#", text: "Play-Style" },
+  { href: "Hero", text: "Hero" },
+  { href: "HowToPlay", text: "Play-Style" },
   { href: "#", text: "Skills/Paths" },
   { href: "#", text: "Trinkets" },
   { href: "#", text: "teamMates" },
@@ -114,7 +114,11 @@ function WikiSection({ url_Bg }) {
           </div>
 
           <div className="wikiContain">
-            <section id="ClassHero" className="ClassHero">
+            <section id="Hero" className="ClassHero">
+              <br />
+              <br />
+              <br />
+
               <h1>{heroesData[heroArray].name}</h1>
               <hr />
               <p>{heroesData[heroArray].description}</p>
@@ -169,7 +173,10 @@ function WikiSection({ url_Bg }) {
               )}
             </section>
 
-            <section>
+            <section id="HowToPlay">
+              <br />
+              <br />
+              <br />
               <h2>How to Play</h2>
               <hr />
               <div className="howToPlay">
@@ -183,7 +190,6 @@ function WikiSection({ url_Bg }) {
                 </ul>
               </div>
             </section>
-
           </div>
         </div>
       </div>

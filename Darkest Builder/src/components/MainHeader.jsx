@@ -6,8 +6,12 @@ import "./styles/MainHeader.css";
 //IMPORT COMPONENTS
 import { Squash as Hamburger } from "hamburger-react";
 
+
+
 function MainHeader({ links, goHome, activeSection }) {
+
   const [isOpen, setOpen] = useState(false);
+  
   const handleClick = (e, href) => {
     e.preventDefault();
     const element = document.getElementById(href);

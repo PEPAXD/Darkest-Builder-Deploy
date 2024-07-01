@@ -5,6 +5,7 @@
   justify-content: space-evenly;
 
   height: 100vh;
+
 }
 
 .heroWikiContain {
@@ -153,7 +154,7 @@
   width: 65%;
   max-height: 100%;
 
-  padding: 5% 2% 3% 2%;
+  padding: 0% 2%;
   text-align: center;
   overflow-y: auto;
 
@@ -166,7 +167,6 @@
   h2 {
     font-size: 1.8em;
     font-weight: 700;
-    margin-top: 2%;
   }
 }
 
