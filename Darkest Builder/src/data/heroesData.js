@@ -368,12 +368,12 @@ const heroesData = {
       {
         tittle: "Combos",
         description:
-          "Hellion's damage increases when she's below 50% health. This can be a good time to use her most powerful abilities, make sure to keep her life low to maximize her damage output. but not like a dangerous level.",
+          "It's crucial to decide which hero applies combo each turn. Make sure your team has at least one or two heroes who can make the most of this combo ability.",
       },
       {
         tittle: "Encore",
         description:
-          "Equip a move skill to reposition her if she gets pushed back. This will allow her to get back to the front line and continue dealing damage.",
+          "The final tip for playing with the jester revolves around Encore, one of his unlockable moves upon completing his shrines. Encore is the most powerful ability in the game, granting an extra turn to an ally, along with other additional benefits that can be very useful.",
       },
     ],
   },
