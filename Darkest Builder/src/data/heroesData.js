@@ -448,6 +448,27 @@ const heroesData = {
           "The Leper has a high chance of blinding himself when using his most damaging abilities and starts each battle with up to two Blind tokens.",
       },
     },
+
+    howToPlay: [
+      {
+        tittle: "Set Up Chop",
+        description: "Prepare him thoroughly for powerful chops to maximize damage output. Ensure optimal conditions and support are in place for his attacks to be effective and devastating on the battlefield."
+      },
+      {
+        tittle: "Use Tank Kit",
+        description: "Focus on utilizing skills like intimidate, self-heals, and withstand to effectively fulfill the tanking role. These skills not only allow you to absorb damage but also to maintain enemy attention, thereby protecting your allies."
+      },
+      {
+        tittle: "Bash, Intimidate",
+        description: "If necessary, utilize skills like 'Bash' to deal additional damage or 'Intimidate' to control enemies, reducing their ability to attack or maneuver. These tactics are crucial for maintaining tactical advantage during combat."
+      },
+      {
+        tittle: "Purge",
+        description: "Use 'Purge' to remove negative effects such as blindness, enhancing combat effectiveness by ensuring your character can attack accurately and respond optimally to battlefield threats."
+      },
+    ],
+    
+    
   },
 
   5: {
