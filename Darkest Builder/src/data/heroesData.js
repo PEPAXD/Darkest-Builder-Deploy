@@ -632,20 +632,24 @@ const heroesData = {
         },
       ],
     },
-    howToPlay: [
+    "howToPlay": [
       {
-        tittle: "Support Skills",
-        description: "The first thing to do is pick your support and match-up skills. Determine how you want the Man at Arms to help the team. Usually, this involves using Bolster, but you can also equip skills like Bellow and Stand Fast. It's crucial to select what he really needs for the upcoming situation."
+        tittle: "Pick a Damage Skill",
+        description: "In the late game, almost any build he runs usually uses Burning Stars as its damage move, simply because the heavy hit of Burning Stars that ignores blocks and sets up combos is usually worth the potential downsides of running stuff like Chaotic Offering or burning yourself."
       },
       {
-        tittle: "Guard or Taunt",
-        description: "Make sure that the Man at Arms is either guarding or taunting enemies if necessary. Defender is an incredible move, as is Retribution. If your team is in danger and you want to redirect enemy attacks to the Man at Arms, these moves should be your priority. Damage comes after ensuring safety."
+        tittle: "Curse Threats",
+        description: "Really plan out your curses and who they should be going on. For example, if an enemy does a huge single-target hit or even a group hit, but it is a lot of direct damage (not damage over time), you are probably saving Weakening Curse for that. If an enemy likes to generate a bunch of dodge, then you are going to use Vulnerability Hacks after it gets that dodge to get rid of it."
       },
       {
-        tittle: "Defined Role",
-        description: "Define what the Man at Arms is doing in your party. He can deal significant damage if you give him the right path and damage moves. Alternatively, he can become a nearly unkillable wall if you equip all his block skills. Understanding the game and the upcoming match-ups is essential to effectively kit your Man at Arms for each battle."
+        tittle: "Build Around",
+        description: "The Occultist is someone who specifically needs to build all of his skills around his teammates. Everyone has to do this to some extent, but many characters can function if you just give them a specific loadout and then they just kind of do their thing independently, like the Grave Robber or the Highwayman, for example."
       },
-    ],
+      {
+        tittle: "Teammates",
+        description: "You should tailor an Occultist's loadout to the rest of your team to maximize his effectiveness. This means considering the skills and strengths of your teammates when choosing the Occultist's skills."
+      }
+    ]
   },
 
   7: {
