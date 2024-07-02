@@ -7,8 +7,13 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 100;
+  z-index: 5;
   position: fixed;
+
+  span {
+    font-size: 1.1em;
+    border-bottom: 1px solid #fff;
+  }
 
   a {
     color: #fff;
@@ -18,11 +23,23 @@ header {
 
   nav {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     width: 100%;
 
     padding-left: 2%;
     background: #000;
+
+    .goHome {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-right: 2%;
+      padding: 1rem;
+    }
+
+    .goHome:hover {
+      cursor: pointer;
+    }
   }
 
   .Difusse {
@@ -42,13 +59,10 @@ header {
       padding: 1rem;
 
       &:hover {
-        background: linear-gradient(180deg, #981a0c, transparent);
         cursor: pointer;
-      }
 
-      @media (max-width: 480px) {
-        &:hover {
-          background: #981a0c;
+        a {
+          border-bottom: 1px solid #fff;
         }
       }
     }
@@ -62,8 +76,12 @@ header {
   padding: 1% 2%;
   background-color: #000;
 
+  .goHome {
+    margin-left: 2%;
+  }
+
   h4 {
-    padding-left: 2%;
+    margin-left: 2%;
     text-transform: uppercase;
   }
 }

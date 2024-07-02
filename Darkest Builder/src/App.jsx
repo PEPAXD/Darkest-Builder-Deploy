@@ -9,10 +9,10 @@ function App() {
   return (
     <Router>
       <div className="App">
-      <Routes>
-        <Route path="/Darkest-Builder-Deploy/" element={<MainPage />} />
-        <Route path="/wiki/" element={<WikiPage />} />
-      </Routes>
+        <Routes>
+          <Route path="/Darkest-Builder-Deploy/" element={<MainPage />} />
+          <Route path="/Darkest-Builder-Deploy/wiki/" element={<WikiPage />} />
+        </Routes>
       </div>
     </Router>
   );

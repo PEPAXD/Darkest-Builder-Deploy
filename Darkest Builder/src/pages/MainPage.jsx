@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 //Import Components
 import MainHeader from "../components/MainHeader.jsx";
@@ -17,9 +17,33 @@ const linksSections = [
 ];
 
 function MainPage() {
+  
+  const [activeSection, setActiveSection] = useState("Home");
+
+  useEffect(() => {
+    const handleScroll = () => {
+      let closestSection = "";
+      let minDiff = Number.MAX_VALUE;
+      linksSections.forEach((section) => {
+        const element = document.getElementById(section.href);
+        const rect = element.getBoundingClientRect();
+        const topDiff = Math.abs(rect.top);
+        if (topDiff < minDiff) {
+          minDiff = topDiff;
+          closestSection = section.href;
+        }
+      });
+      setActiveSection(closestSection);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+
   return (
     <>
-      <MainHeader links={linksSections} />
+      <MainHeader links={linksSections} goHome={false} activeSection={activeSection} />
 
       <section id="Home">
         <HomeSection url_Bg="home.png" />

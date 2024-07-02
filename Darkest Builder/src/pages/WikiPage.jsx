@@ -1,11 +1,21 @@
-import React from 'react'
+import React from "react";
+
+//templates Sections
+import WikiSection from "./Templates/WikiSection.jsx";
+
+//import Background
+import shadowBG from "../../public/shadow.jpg";
 
 function WikiPage() {
+  document.title = "Wiki - Darkest Builder";
+
   return (
-    <div>
-      <h1>AAAA</h1>
-    </div>
-  )
+    <>
+      <article id="wikiHeroes">
+        <WikiSection url_Bg={shadowBG}/>
+      </article>
+    </>
+  );
 }
 
-export default WikiPage
+export default WikiPage;

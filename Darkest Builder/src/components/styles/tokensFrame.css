@@ -1,0 +1,77 @@
+.specialTokenContainer {
+  display: flex;
+
+  .iconBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 1%;
+    width: 30%;
+
+    border: 2px solid #222;
+    border-right: none;
+
+    .imgFrame {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      position: relative;
+
+      border: 1px solid #7490a8;
+
+      width: 6.5rem;
+      height: 6.5rem;
+
+      transform: rotate(45deg);
+
+      img {
+        width: 80%;
+        transform: rotate(-45deg);
+      }
+    }
+  }
+
+  .descriptionBox {
+    padding: 1% 2%;
+    text-align: start;
+
+    width: 100%;
+    border: 2px solid #222;
+
+    h6 {
+      padding-left: 10%;
+
+      font-size: 1.4em;
+      font-weight: 400;
+    }
+
+    hr {
+      border: 1px solid #222;
+      margin-bottom: 0.2rem;
+    }
+
+    b {
+      padding-left: 5%;
+      color: #7490a8;
+    }
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+
+      padding: 2%;
+      padding-left: 10%;
+
+      width: 100%;
+
+      li {
+        font-style: italic;
+        font-size: 0.9em;
+      }
+    }
+  }
+}

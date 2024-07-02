@@ -1,0 +1,331 @@
+.wikiContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+
+  height: 100vh;
+
+}
+
+.heroWikiContain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+
+  height: 95%;
+  width: 35%;
+
+  padding: 5% 0%;
+
+  gap: 1rem;
+
+  .searchBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    padding: 0% 5%;
+
+    gap: 0.5rem;
+
+    z-index: 1;
+
+    .heroSearchBar {
+      width: 100%;
+
+      .wrapper {
+        background: #000;
+        border: 1px solid #fff;
+        border-radius: 0px;
+      }
+
+      input {
+        font-size: 1.5em;
+        color: rgba(255, 255, 255, 0.8);
+      }
+    }
+
+    button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      background: transparent;
+      border: none;
+
+      svg {
+        font-size: 3em;
+        color: rgb(255, 255, 255, 0.7);
+        transition: all ease-in-out 0.1s;
+
+        &:hover {
+          color: #7a9cc6;
+          transform: scale(1.1);
+          cursor: pointer;
+        }
+
+        &:active {
+          transform: scale(0.9);
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+}
+
+.imgCont {
+  position: relative;
+  height: 87%;
+}
+
+.heroPath {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  bottom: 20%;
+  width: 100%;
+  gap: 1rem;
+
+  cite {
+    width: 100%;
+    height: 5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    font-size: 1.3em;
+    font-style: italic;
+    font-weight: bold;
+
+    padding: 0.5rem 2rem;
+    color: #dab255;
+    background: linear-gradient(
+      to right,
+      transparent,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0.8),
+      transparent
+    );
+  }
+
+  form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    width: 90%;
+
+    input[type="radio"] {
+      display: none;
+    }
+
+    input[type="radio"]:checked + label {
+      background-color: #981a0c;
+    }
+
+    label {
+      color: #fff;
+      font-size: 1em;
+
+      cursor: pointer;
+      border: 1px solid #fff;
+
+      width: 100%;
+      padding: 0.5rem 0rem;
+      background-color: #000;
+    }
+  }
+}
+
+.wikiContain {
+  width: 65%;
+  max-height: 100%;
+
+  padding: 0% 2%;
+  text-align: center;
+  overflow-y: auto;
+
+  border-style: solid;
+  border-image: linear-gradient(to bottom, #181818, #eee, #181818) 1 100%;
+  border-right: 1px;
+
+  background: rgb(0, 0, 0, 0.6);
+
+  h2 {
+    font-size: 1.8em;
+    font-weight: 700;
+  }
+}
+
+.ClassHero {
+  h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+  }
+
+  hr {
+    width: 100%;
+    border: 1px solid #fff;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 300;
+    text-align: left;
+  }
+}
+
+.Characteristics {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  background-color: rgb(0, 0, 0, 0.8);
+
+  margin: 3% 0%;
+
+  h3 {
+    width: 100%;
+    text-transform: uppercase;
+    background-color: #610804;
+    padding: 0.4rem;
+  }
+}
+
+.statsContainer {
+  display: flex;
+
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+
+  padding: 1%;
+}
+
+.uniqueAttributeContain {
+  display: flex;
+  flex-direction: column;
+
+  margin: 1rem 0rem;
+  width: 100%;
+
+  background-color: rgb(0, 0, 0, 0.8);
+
+  h3 {
+    width: 100%;
+    text-transform: uppercase;
+    background-color: rgb(42, 99, 131);
+    padding: 0.2rem;
+    font-size: 1.1em;
+
+    font-weight: 400;
+  }
+
+  p {
+    font-size: 1.1em;
+    text-align: center;
+    padding: 0.8rem;
+  }
+}
+
+.specialTokens {
+  display: flex;
+  flex-direction: column;
+
+  gap: 1rem;
+  background: #000;
+}
+
+.howToPlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  margin: 2%;
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    width: 95%;
+    gap: 1rem;
+
+    li {
+      color: #fff;
+      font-size: 1.4em;
+      font-weight: 400;
+      text-align: start;
+      font-style: italic;
+    }
+
+    p {
+      margin-top: 0.4rem;
+      font-size: 0.8em;
+      padding-left: 2%;
+      font-weight: 300;
+      font-style: normal;
+
+    }
+  }
+}
+
+/*? RESPONSIVE MOVILE */
+@media (max-width: 480px) {
+  .heroWikiContain {
+    margin-top: 10%;
+
+    width: 100%;
+  }
+
+  .imgCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+
+    ul {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+
+      left: 0%;
+
+      li {
+        display: flex;
+        justify-content: flex-start;
+
+        padding-left: 5%;
+      }
+    }
+  }
+
+  .heroPath {
+    width: 100%;
+    bottom: 25%;
+  }
+
+  .wikiContainer {
+    flex-direction: column;
+  }
+}

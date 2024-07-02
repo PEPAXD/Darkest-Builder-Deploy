@@ -1,0 +1,54 @@
+.listStats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  justify-items: center;
+  align-items: center;
+
+  padding-bottom: 1rem;
+
+  i {
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 100;
+    width: 90%;
+
+    grid-row: 1;
+
+    padding: 0.5rem 0rem;
+    border-bottom: 1px solid #fff;
+  }
+
+  p {
+    font-size: 1em;
+    text-align: center;
+  }
+
+  ul {
+    grid-row: 2;
+
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 100;
+    text-align: left;
+
+    padding-top: 1rem;
+    margin: 0rem 1rem;
+    border: 2px;
+
+    cursor: default;
+
+    li:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .my-tooltip {
+    background: rgb(75, 119, 173);
+    font-weight: 400;
+
+    max-width: 20%;
+    white-space: pre-wrap;
+    text-align: center;
+  }
+}
