@@ -632,6 +632,20 @@ const heroesData = {
         },
       ],
     },
+    howToPlay: [
+      {
+        tittle: "Support Skills",
+        description: "The first thing to do is pick your support and match-up skills. Determine how you want the Man at Arms to help the team. Usually, this involves using Bolster, but you can also equip skills like Bellow and Stand Fast. It's crucial to select what he really needs for the upcoming situation."
+      },
+      {
+        tittle: "Guard or Taunt",
+        description: "Make sure that the Man at Arms is either guarding or taunting enemies if necessary. Defender is an incredible move, as is Retribution. If your team is in danger and you want to redirect enemy attacks to the Man at Arms, these moves should be your priority. Damage comes after ensuring safety."
+      },
+      {
+        tittle: "Defined Role",
+        description: "Define what the Man at Arms is doing in your party. He can deal significant damage if you give him the right path and damage moves. Alternatively, he can become a nearly unkillable wall if you equip all his block skills. Understanding the game and the upcoming match-ups is essential to effectively kit your Man at Arms for each battle."
+      },
+    ],
   },
 
   7: {
@@ -700,6 +714,20 @@ const heroesData = {
         DEATH: [60, 75],
       },
     },
+    howToPlay: [
+      {
+        tittle: "Support Skills",
+        description: "The first thing to do is pick your support and match-up skills. Determine how you want the Man at Arms to help the team. Usually, this involves using Bolster, but you can also equip skills like Bellow and Stand Fast. It's crucial to select what he really needs for the upcoming situation."
+      },
+      {
+        tittle: "Guard or Taunt",
+        description: "Make sure that the Man at Arms is either guarding or taunting enemies if necessary. Defender is an incredible move, as is Retribution. If your team is in danger and you want to redirect enemy attacks to the Man at Arms, these moves should be your priority. Damage comes after ensuring safety."
+      },
+      {
+        tittle: "Defined Role",
+        description: "Define what the Man at Arms is doing in your party. He can deal significant damage if you give him the right path and damage moves. Alternatively, he can become a nearly unkillable wall if you equip all his block skills. Understanding the game and the upcoming match-ups is essential to effectively kit your Man at Arms for each battle."
+      },
+    ],
   },
 
   8: {
@@ -802,6 +830,20 @@ const heroesData = {
         },
       ],
     },
+    howToPlay: [
+      {
+        tittle: "Support Skills",
+        description: "The first thing to do is pick your support and match-up skills. Determine how you want the Man at Arms to help the team. Usually, this involves using Bolster, but you can also equip skills like Bellow and Stand Fast. It's crucial to select what he really needs for the upcoming situation."
+      },
+      {
+        tittle: "Guard or Taunt",
+        description: "Make sure that the Man at Arms is either guarding or taunting enemies if necessary. Defender is an incredible move, as is Retribution. If your team is in danger and you want to redirect enemy attacks to the Man at Arms, these moves should be your priority. Damage comes after ensuring safety."
+      },
+      {
+        tittle: "Defined Role",
+        description: "Define what the Man at Arms is doing in your party. He can deal significant damage if you give him the right path and damage moves. Alternatively, he can become a nearly unkillable wall if you equip all his block skills. Understanding the game and the upcoming match-ups is essential to effectively kit your Man at Arms for each battle."
+      },
+    ],
   },
 
   9: {
@@ -880,6 +922,20 @@ const heroesData = {
         },
       ],
     },
+    howToPlay: [
+      {
+        tittle: "Support Skills",
+        description: "The first thing to do is pick your support and match-up skills. Determine how you want the Man at Arms to help the team. Usually, this involves using Bolster, but you can also equip skills like Bellow and Stand Fast. It's crucial to select what he really needs for the upcoming situation."
+      },
+      {
+        tittle: "Guard or Taunt",
+        description: "Make sure that the Man at Arms is either guarding or taunting enemies if necessary. Defender is an incredible move, as is Retribution. If your team is in danger and you want to redirect enemy attacks to the Man at Arms, these moves should be your priority. Damage comes after ensuring safety."
+      },
+      {
+        tittle: "Defined Role",
+        description: "Define what the Man at Arms is doing in your party. He can deal significant damage if you give him the right path and damage moves. Alternatively, he can become a nearly unkillable wall if you equip all his block skills. Understanding the game and the upcoming match-ups is essential to effectively kit your Man at Arms for each battle."
+      },
+    ],
   },
 
   10: {
@@ -943,6 +999,20 @@ const heroesData = {
           "The Bounty Hunter, when consuming a Combo token on the enemy, has a 50% chance to reapply the token.",
       },
     },
+    howToPlay: [
+      {
+        tittle: "Support Skills",
+        description: "The first thing to do is pick your support and match-up skills. Determine how you want the Man at Arms to help the team. Usually, this involves using Bolster, but you can also equip skills like Bellow and Stand Fast. It's crucial to select what he really needs for the upcoming situation."
+      },
+      {
+        tittle: "Guard or Taunt",
+        description: "Make sure that the Man at Arms is either guarding or taunting enemies if necessary. Defender is an incredible move, as is Retribution. If your team is in danger and you want to redirect enemy attacks to the Man at Arms, these moves should be your priority. Damage comes after ensuring safety."
+      },
+      {
+        tittle: "Defined Role",
+        description: "Define what the Man at Arms is doing in your party. He can deal significant damage if you give him the right path and damage moves. Alternatively, he can become a nearly unkillable wall if you equip all his block skills. Understanding the game and the upcoming match-ups is essential to effectively kit your Man at Arms for each battle."
+      },
+    ],
   },
 
   11: {
@@ -1004,6 +1074,20 @@ const heroesData = {
         DEATH: [60, 75],
       },
     },
+    howToPlay: [
+      {
+        tittle: "Support Skills",
+        description: "The first thing to do is pick your support and match-up skills. Determine how you want the Man at Arms to help the team. Usually, this involves using Bolster, but you can also equip skills like Bellow and Stand Fast. It's crucial to select what he really needs for the upcoming situation."
+      },
+      {
+        tittle: "Guard or Taunt",
+        description: "Make sure that the Man at Arms is either guarding or taunting enemies if necessary. Defender is an incredible move, as is Retribution. If your team is in danger and you want to redirect enemy attacks to the Man at Arms, these moves should be your priority. Damage comes after ensuring safety."
+      },
+      {
+        tittle: "Defined Role",
+        description: "Define what the Man at Arms is doing in your party. He can deal significant damage if you give him the right path and damage moves. Alternatively, he can become a nearly unkillable wall if you equip all his block skills. Understanding the game and the upcoming match-ups is essential to effectively kit your Man at Arms for each battle."
+      },
+    ],
   },
 
   12: {
@@ -1100,6 +1184,20 @@ const heroesData = {
         },
       ],
     },
+    howToPlay: [
+      {
+        tittle: "Support Skills",
+        description: "The first thing to do is pick your support and match-up skills. Determine how you want the Man at Arms to help the team. Usually, this involves using Bolster, but you can also equip skills like Bellow and Stand Fast. It's crucial to select what he really needs for the upcoming situation."
+      },
+      {
+        tittle: "Guard or Taunt",
+        description: "Make sure that the Man at Arms is either guarding or taunting enemies if necessary. Defender is an incredible move, as is Retribution. If your team is in danger and you want to redirect enemy attacks to the Man at Arms, these moves should be your priority. Damage comes after ensuring safety."
+      },
+      {
+        tittle: "Defined Role",
+        description: "Define what the Man at Arms is doing in your party. He can deal significant damage if you give him the right path and damage moves. Alternatively, he can become a nearly unkillable wall if you equip all his block skills. Understanding the game and the upcoming match-ups is essential to effectively kit your Man at Arms for each battle."
+      },
+    ],
   },
 
   13: {
@@ -1191,6 +1289,20 @@ const heroesData = {
         },
       ],
     },
+    howToPlay: [
+      {
+        tittle: "Support Skills",
+        description: "The first thing to do is pick your support and match-up skills. Determine how you want the Man at Arms to help the team. Usually, this involves using Bolster, but you can also equip skills like Bellow and Stand Fast. It's crucial to select what he really needs for the upcoming situation."
+      },
+      {
+        tittle: "Guard or Taunt",
+        description: "Make sure that the Man at Arms is either guarding or taunting enemies if necessary. Defender is an incredible move, as is Retribution. If your team is in danger and you want to redirect enemy attacks to the Man at Arms, these moves should be your priority. Damage comes after ensuring safety."
+      },
+      {
+        tittle: "Defined Role",
+        description: "Define what the Man at Arms is doing in your party. He can deal significant damage if you give him the right path and damage moves. Alternatively, he can become a nearly unkillable wall if you equip all his block skills. Understanding the game and the upcoming match-ups is essential to effectively kit your Man at Arms for each battle."
+      },
+    ],
   },
 };
 
