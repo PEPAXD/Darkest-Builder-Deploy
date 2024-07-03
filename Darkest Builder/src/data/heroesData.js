@@ -843,20 +843,23 @@ const heroesData = {
         },
       ],
     },
-    "howToPlay": [
+    howToPlay: [
       {
         tittle: "Buff Allies",
-        description: "Regardless of the build, you probably want to place some consecrations on your teammates. Both are good for different reasons, and we'll talk about that in the skills section."
+        description:
+          "Regardless of the build, you probably want to place some consecrations on your teammates. Both are good for different reasons, and we'll talk about that in the skills section.",
       },
       {
         tittle: "Conviction Dump",
-        description: "Make sure she has a way to get rid of her conviction tokens. This can be through abilities like Judgment, Mace Bash, Divine Grace, anything that uses those tokens. It's crucial because many of her skills become very powerful when she uses these tokens."
+        description:
+          "Make sure she has a way to get rid of her conviction tokens. This can be through abilities like Judgment, Mace Bash, Divine Grace, anything that uses those tokens. It's crucial because many of her skills become very powerful when she uses these tokens.",
       },
       {
         tittle: "Defined Role",
-        description: "Ensure you have a clearly defined role for her. Is she supporting the main damage dealer? Then you need Consecration of Light, which should be used on turn one. Is she your tank or off-tank? Then you need Sanctuary, possibly Consecration of Fortitude, and make sure she is protecting the right teammates and applying defensive tokens as early as possible."
-      }
-    ]
+        description:
+          "Ensure you have a clearly defined role for her. Is she supporting the main damage dealer? Then you need Consecration of Light, which should be used on turn one. Is she your tank or off-tank? Then you need Sanctuary, possibly Consecration of Fortitude, and make sure she is protecting the right teammates and applying defensive tokens as early as possible.",
+      },
+    ],
   },
 
   9: {
@@ -938,17 +941,20 @@ const heroesData = {
     howToPlay: [
       {
         tittle: "Support Skills",
-        description: "The easiest way to use Runaway is to give her a couple of support skills so she can help your team. Depending on the region, you will generally want to focus on supportive abilities."
+        description:
+          "The easiest way to use Runaway is to give her a couple of support skills so she can help your team. Depending on the region, you will generally want to focus on supportive abilities.",
       },
       {
         tittle: "Main Dmg Skill",
-        description: "Pick a main damage skill, such as Searing Strike, Firefly, Ransack, or Dragonfly. Make sure to maximize its usage as much as possible."
+        description:
+          "Pick a main damage skill, such as Searing Strike, Firefly, Ransack, or Dragonfly. Make sure to maximize its usage as much as possible.",
       },
       {
         tittle: "Main Rank",
-        description: "You don't necessarily have to build a dance team for her, but it's useful to have other characters who can move themselves in case she or someone else gets moved."
-      }
-    ]
+        description:
+          "You don't necessarily have to build a dance team for her, but it's useful to have other characters who can move themselves in case she or someone else gets moved.",
+      },
+    ],
   },
 
   10: {
@@ -1015,18 +1021,20 @@ const heroesData = {
     howToPlay: [
       {
         tittle: "Boss Fight",
-        description: "The Bounty Hunter is very useful if you're going to face a boss and need his help. Especially at the beginning, like in Region One, taking him gives you a very good chance of winning. He is also effective at the end of Region Three, where the Cultus mini boss is."
+        description:
+          "The Bounty Hunter is very useful if you're going to face a boss and need his help. Especially at the beginning, like in Region One, taking him gives you a very good chance of winning. He is also effective at the end of Region Three, where the Cultus mini boss is.",
       },
       {
         tittle: "Affinity Protection",
-        description: "The Bounty Hunter is ideal for replacing a hero who has a bad affinity in the region you're heading to. For example, in the Sprawl, where there are burn-resistant enemies, you can replace the Runaway with the Bounty Hunter to have a more effective team member."
+        description:
+          "The Bounty Hunter is ideal for replacing a hero who has a bad affinity in the region you're heading to. For example, in the Sprawl, where there are burn-resistant enemies, you can replace the Runaway with the Bounty Hunter to have a more effective team member.",
       },
       {
         tittle: "Bad Hero Matchup",
-        description: "If you have a hero with a bad matchup for a specific region, like the Plague Doctor in the Fetter or the Grave Robber in the Fetter who do poison damage, you can swap them for the Bounty Hunter to improve your team. This is especially useful when heading to a region with enemies resistant to certain types of damage."
-      }
-    ]
-    
+        description:
+          "If you have a hero with a bad matchup for a specific region, like the Plague Doctor in the Fetter or the Grave Robber in the Fetter who do poison damage, you can swap them for the Bounty Hunter to improve your team. This is especially useful when heading to a region with enemies resistant to certain types of damage.",
+      },
+    ],
   },
 
   11: {
@@ -1090,21 +1098,23 @@ const heroesData = {
     },
     howToPlay: [
       {
-        tittle: "Support Skills",
-        description:
-          "The first thing to do is pick your support and match-up skills. Determine how you want the Man at Arms to help the team. Usually, this involves using Bolster, but you can also equip skills like Bellow and Stand Fast. It's crucial to select what he really needs for the upcoming situation.",
+        tittle: "Be Picky",
+        description: "Be very selective and careful with the skills you assign to him. The Crusader can do many things, but if you try to make him do everything, it can become overwhelming. Instead, focus on having him do a couple of things very well."
       },
       {
-        tittle: "Guard or Taunt",
-        description:
-          "Make sure that the Man at Arms is either guarding or taunting enemies if necessary. Defender is an incredible move, as is Retribution. If your team is in danger and you want to redirect enemy attacks to the Man at Arms, these moves should be your priority. Damage comes after ensuring safety.",
+        tittle: "Support",
+        description: "Ensure the Crusader can support the team. While he has some damage skills, he also has many support skills. Always have two or three, and even four in some builds, to help the team at all times, as that is his primary role."
       },
       {
-        tittle: "Defined Role",
-        description:
-          "Define what the Man at Arms is doing in your party. He can deal significant damage if you give him the right path and damage moves. Alternatively, he can become a nearly unkillable wall if you equip all his block skills. Understanding the game and the upcoming match-ups is essential to effectively kit your Man at Arms for each battle.",
+        tittle: "1 or 2 Damage",
+        description: "It is important to have one or two damage options. Although he needs to alternate his skills, any buffs he sets up will be after the enemies act. Therefore, you need to make sure your damage options align well with your support options and the needs of your team."
       },
-    ],
+      {
+        tittle: "Skills",
+        description: "The Crusader has many skills, but his slowness means that any buffs or synergies he tries to capitalize on will occur after the enemies have acted. It is crucial to choose skills that complement both his support role and his damage capabilities."
+      }
+    ]
+    
   },
 
   12: {
