@@ -2,22 +2,36 @@ import React from "react";
 import "./styles/pathHero.css";
 
 //import IMG-Paths
+
+//common Hero
+import Wanderer from "../assets/img/paths/Dd2_path_wanderer.webp";
+
+//Highwayman
 import Rogue from "../assets/img/paths/highwayman/Dd2_path_rogue.webp";
 import Sharpshot from "../assets/img/paths/highwayman/Dd2_path_sharpshot.webp";
 import Yellowhand from "../assets/img/paths/highwayman/Dd2_path_yellowhand.webp";
 
-const Highwayman = [
-  { name: "Rogue", src: Rogue, alt: "RoguePath" },
-  { name: "Sharpshot", src: Sharpshot },
-  { name: "Yellowhand", src: Yellowhand },
+const pathsHero = [
+  {
+    //Wanderer
+    name: ["Wanderer"],
+    src: [Wanderer],
+    alt: ["WandererPath"],
+  },
+  {
+    //Highwayman
+    name: ["Rogue", "Sharpshot", "Yellowhand"],
+    src: [Rogue, Sharpshot, Yellowhand],
+    alt: ["RoguePath", "SharpshotPath", "YellowhandPath"],
+  },
 ];
 
 function pathHero() {
   return (
     <div className="boxPath">
-      <h4>{Highwayman[0].name}</h4>
+      <h4>{pathsHero[1].name[0]}</h4>
       <div className="pathSkills">
-        <img src={Highwayman[0].src} alt={Highwayman[0].alt} />
+        <img src={pathsHero[1].src[0]} alt={pathsHero[1].alt[0]} />
 
         <div className="pathData">
           <ul>
