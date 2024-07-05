@@ -1099,22 +1099,25 @@ const heroesData = {
     howToPlay: [
       {
         tittle: "Be Picky",
-        description: "Be very selective and careful with the skills you assign to him. The Crusader can do many things, but if you try to make him do everything, it can become overwhelming. Instead, focus on having him do a couple of things very well."
+        description:
+          "Be very selective and careful with the skills you assign to him. The Crusader can do many things, but if you try to make him do everything, it can become overwhelming. Instead, focus on having him do a couple of things very well.",
       },
       {
         tittle: "Support",
-        description: "Ensure the Crusader can support the team. While he has some damage skills, he also has many support skills. Always have two or three, and even four in some builds, to help the team at all times, as that is his primary role."
+        description:
+          "Ensure the Crusader can support the team. While he has some damage skills, he also has many support skills. Always have two or three, and even four in some builds, to help the team at all times, as that is his primary role.",
       },
       {
         tittle: "1 or 2 Damage",
-        description: "It is important to have one or two damage options. Although he needs to alternate his skills, any buffs he sets up will be after the enemies act. Therefore, you need to make sure your damage options align well with your support options and the needs of your team."
+        description:
+          "It is important to have one or two damage options. Although he needs to alternate his skills, any buffs he sets up will be after the enemies act. Therefore, you need to make sure your damage options align well with your support options and the needs of your team.",
       },
       {
         tittle: "Skills",
-        description: "The Crusader has many skills, but his slowness means that any buffs or synergies he tries to capitalize on will occur after the enemies have acted. It is crucial to choose skills that complement both his support role and his damage capabilities."
-      }
-    ]
-    
+        description:
+          "The Crusader has many skills, but his slowness means that any buffs or synergies he tries to capitalize on will occur after the enemies have acted. It is crucial to choose skills that complement both his support role and his damage capabilities.",
+      },
+    ],
   },
 
   12: {
@@ -1213,19 +1216,19 @@ const heroesData = {
     },
     howToPlay: [
       {
-        tittle: "Support Skills",
+        tittle: "Skill Chains",
         description:
-          "The first thing to do is pick your support and match-up skills. Determine how you want the Man at Arms to help the team. Usually, this involves using Bolster, but you can also equip skills like Bellow and Stand Fast. It's crucial to select what he really needs for the upcoming situation.",
-      },
-      {
-        tittle: "Guard or Taunt",
-        description:
-          "Make sure that the Man at Arms is either guarding or taunting enemies if necessary. Defender is an incredible move, as is Retribution. If your team is in danger and you want to redirect enemy attacks to the Man at Arms, these moves should be your priority. Damage comes after ensuring safety.",
+          "It is crucial to define the skill paths you want to use with Duelist. Her skills compete with each other, so you need to be sure which main skills to use and what to do if one fails. For example, if you want to use FL, you need to enter aggressive stance to get the damage bonus, which puts you in rank one. You must plan how to move back if you want to use FL again or set up defenses and disengage if necessary.",
       },
       {
         tittle: "Defined Role",
         description:
-          "Define what the Man at Arms is doing in your party. He can deal significant damage if you give him the right path and damage moves. Alternatively, he can become a nearly unkillable wall if you equip all his block skills. Understanding the game and the upcoming match-ups is essential to effectively kit your Man at Arms for each battle.",
+          "It's essential to define Duelist's role from the beginning. While all characters have defined roles, Duelist, because many of her skills focus on damage or provide a bit of utility or stance switching, you need to decide which skills are most needed. If you're focusing on damage, choose your damage skills and plan how to use them effectively without getting out of position on the battlefield.",
+      },
+      {
+        tittle: "Adjust Team",
+        description:
+          "The team needs to adjust to Duelist, as she's not a plug-and-play character like others. She needs a supportive team to maximize her potential. For example, if you decide to run one of her paths where she acts as a support hero, ensure that Duelist doesn't disrupt the support target by being out of position or pushing them out of position while trying to buff them.",
       },
     ],
   },
@@ -1321,21 +1324,15 @@ const heroesData = {
     },
     howToPlay: [
       {
-        tittle: "Support Skills",
-        description:
-          "The first thing to do is pick your support and match-up skills. Determine how you want the Man at Arms to help the team. Usually, this involves using Bolster, but you can also equip skills like Bellow and Stand Fast. It's crucial to select what he really needs for the upcoming situation.",
+        tittle: "Juggle HP and CDs",
+        description: "It's crucial to balance both the Flagellant's health threshold and his cooldowns. You need to be aware of when it's safe to lower his health and when to use one of his heals to keep him safe. Also, understanding his cooldowns properly will prevent situations where you need a skill like sepsis and it's not available."
       },
       {
-        tittle: "Guard or Taunt",
-        description:
-          "Make sure that the Man at Arms is either guarding or taunting enemies if necessary. Defender is an incredible move, as is Retribution. If your team is in danger and you want to redirect enemy attacks to the Man at Arms, these moves should be your priority. Damage comes after ensuring safety.",
-      },
-      {
-        tittle: "Defined Role",
-        description:
-          "Define what the Man at Arms is doing in your party. He can deal significant damage if you give him the right path and damage moves. Alternatively, he can become a nearly unkillable wall if you equip all his block skills. Understanding the game and the upcoming match-ups is essential to effectively kit your Man at Arms for each battle.",
-      },
-    ],
+        tittle: "Skill Swap",
+        description: "Skill swapping is an important skill with the Flagellant. You can switch his skills at any time, except during a fight or continuous encounters like in lairs. This allows you to adapt to enemies based on their capabilities, ensuring you use the most effective moves in each specific situation."
+      }
+    ]
+    
   },
 };
 
