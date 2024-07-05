@@ -5,7 +5,6 @@
   justify-content: space-evenly;
 
   height: 100vh;
-
 }
 
 .heroWikiContain {
@@ -168,6 +167,16 @@
     font-size: 1.8em;
     font-weight: 700;
   }
+
+  hr{
+    margin-bottom: 0.5rem;
+  }
+
+  cite {
+    font-size: 1.2em;
+  }
+
+
 }
 
 .ClassHero {
@@ -179,7 +188,6 @@
   hr {
     width: 100%;
     border: 1px solid #fff;
-    margin-bottom: 1rem;
   }
 
   p {
@@ -282,9 +290,19 @@
       padding-left: 2%;
       font-weight: 300;
       font-style: normal;
-
     }
   }
+}
+
+.pathContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  background-color: #000;
+
+  margin: 2% 0%;
 }
 
 /*? RESPONSIVE MOVILE */

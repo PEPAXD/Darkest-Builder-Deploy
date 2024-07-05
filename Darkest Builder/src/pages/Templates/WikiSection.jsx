@@ -13,6 +13,8 @@ import HeroBody from "../../components/herobody.jsx";
 import StatsHero from "../../components/statsHero.jsx";
 import BoxStats from "../../components/boxStats.jsx";
 import TokenFrame from "../../components/tokensFrame.jsx";
+import PathHero from "../../components/pathHero.jsx";
+import radioButtons from "../../components/radioButtons.jsx";
 
 //import npmPackages
 import { ReactSearchAutocomplete } from "react-search-autocomplete";
@@ -28,7 +30,6 @@ const linksSections = [
 ];
 
 function WikiSection({ url_Bg }) {
-  
   const wikiContainRef = useRef(null);
   const [activeSection, setActiveSection] = useState("Hero");
   const sectionElementsRef = useRef({});
@@ -237,26 +238,17 @@ function WikiSection({ url_Bg }) {
               <br />
               <br />
               <br />
-              <h2>Skills</h2>
+
+              <h2>Skills and Paths</h2>
               <hr />
 
-              <p>
-                {" "}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptatibus, at quo? Rem consequatur perferendis officia qui
-                ex. In doloremque fugiat totam. Qui dolores eveniet facere nulla
-                officia! Sit impedit, exercitationem quisquam mollitia pariatur
-                deleniti, quaerat beatae ex consequuntur eveniet illo voluptatum
-                excepturi totam? Odio et ipsa eaque voluptate. Ipsam qui labore
-                dignissimos accusamus reiciendis a voluptatem quibusdam,
-                quisquam blanditiis necessitatibus! Minus repellendus sed
-                exercitationem cum aspernatur nihil quibusdam sit asperiores
-                adipisci. Nulla, consequuntur expedita deleniti praesentium
-                architecto sit vitae sunt explicabo possimus fugiat culpa
-                mollitia, dolorum incidunt illum unde ex doloremque
-                necessitatibus quo, delectus quas! Labore, quia ducimus!
-                Voluptate, ratione.
-              </p>
+              <cite>
+                "Default skills. Rewards candles upon reaching the second Inn"
+              </cite>
+
+              <div className="pathContainer">
+                <PathHero />
+              </div>
             </section>
 
             <section id="#">
