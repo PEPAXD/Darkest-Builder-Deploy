@@ -1,75 +1,76 @@
 .pathContainer {
-    h4 {
-      color: #fff;
-      font-size: 1.4em;
-      font-weight: 700;
-  
-      width: 100%;
-      background-color: #610804;
-      border: 3px solid #000;
-    }
-  
-    .pathSkills {
+  .boxPath {
+    width: 50%;
+  }
+
+  h4 {
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: 700;
+
+    background-color: #610804;
+    border: 3px solid #000;
+  }
+
+  .pathSkills {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+    min-height: 17rem;
+    gap: 2%;
+
+    img {
       display: flex;
-      flex-direction: row;
+      width: 35%;
+
+      margin-left: 5%;
+      margin-top: 5%;
+    }
+
+    .pathData {
+      display: flex;
+      flex-direction: column;
       align-items: flex-start;
-      justify-content: flex-start;
-  
+      justify-content: center;
+
       width: 100%;
-      min-height: 17rem;
-      border: 3px solid #000;
-  
-      gap: 0.5rem;
-  
-      img {
-        width: 30%;
-        margin: 0.5rem 0rem 0.5rem 0.5rem;
-      }
-  
-      .pathData {
+      padding: 5% 0%;
+
+      ul {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        justify-content: center;
-  
+        justify-content: flex-start;
+
         width: 100%;
-        padding: 1rem 0rem;
-  
-        ul {
+        gap: 0.2rem;
+
+        li {
           display: flex;
           flex-direction: column;
           align-items: flex-start;
           justify-content: flex-start;
-  
+
           width: 100%;
-          gap: 0.2rem;
-  
-          li {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            justify-content: flex-start;
-  
-            width: 100%;
-            padding-left: 5%;
-  
-            font-size: 0.8em;
-            font-weight: 400;
-            list-style: none;
-  
-            h5 {
-              font-size: 1em;
-              font-weight: 700;
-  
-              color: #7490a8;
-            }
-  
-            span {
-              margin-left: 5%;
-            }
+          padding-left: 5%;
+
+          font-size: 0.8em;
+          font-weight: 400;
+          list-style: none;
+
+          h5 {
+            font-size: 1em;
+            font-weight: 700;
+
+            color: #7490a8;
+          }
+
+          span {
+            margin-left: 5%;
           }
         }
       }
     }
   }
-  
+}

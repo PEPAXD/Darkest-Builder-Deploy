@@ -168,15 +168,13 @@
     font-weight: 700;
   }
 
-  hr{
+  hr {
     margin-bottom: 0.5rem;
   }
 
   cite {
     font-size: 1.2em;
   }
-
-
 }
 
 .ClassHero {
@@ -303,6 +301,21 @@
   background-color: #000;
 
   margin: 2% 0%;
+
+  .skillsDescription {
+    width: 100%;
+  }
+}
+
+.skillsHeroArray {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  gap: 1%;
 }
 
 /*? RESPONSIVE MOVILE */

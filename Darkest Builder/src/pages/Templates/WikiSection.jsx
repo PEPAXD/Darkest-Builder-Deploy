@@ -14,7 +14,7 @@ import StatsHero from "../../components/statsHero.jsx";
 import BoxStats from "../../components/boxStats.jsx";
 import TokenFrame from "../../components/tokensFrame.jsx";
 import PathHero from "../../components/pathHero.jsx";
-import radioButtons from "../../components/radioButtons.jsx";
+import SkillFrame from "../../components/skillFrame.jsx";
 
 //import npmPackages
 import { ReactSearchAutocomplete } from "react-search-autocomplete";
@@ -76,6 +76,7 @@ function WikiSection({ url_Bg }) {
 
   // heroIndex
   let [heroArray, setHeroArray] = useState(heroIndex);
+
   const updateHeroArray = (value) => {
     setHeroArray((prevHeroArray) => {
       let newValue = prevHeroArray + value;
@@ -90,6 +91,11 @@ function WikiSection({ url_Bg }) {
     });
     setHeroPaths(0);
   };
+
+  useEffect(() => {
+    console.log(heroPaths);
+    console.log(heroArray);
+  }, [heroPaths]);
 
   return (
     <div className="wiki">
@@ -247,7 +253,30 @@ function WikiSection({ url_Bg }) {
               </cite>
 
               <div className="pathContainer">
-                <PathHero />
+                <PathHero heroIndex={heroArray} pathIndex={heroPaths} />
+
+                <div className="skillsDescription">
+                  <h4>Skills</h4>
+                </div>
+              </div>
+
+              <div className="skillsHeroArray">
+                <SkillFrame />
+                <SkillFrame />
+                <SkillFrame />
+                <SkillFrame />
+                <SkillFrame />
+                <SkillFrame />
+                <SkillFrame />
+                <SkillFrame />
+                <SkillFrame />
+                <SkillFrame />
+                <SkillFrame />
+                <SkillFrame />
+                <SkillFrame />
+                <SkillFrame />
+                <SkillFrame />
+                <SkillFrame />
               </div>
             </section>
 

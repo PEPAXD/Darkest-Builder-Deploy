@@ -13,25 +13,24 @@ import Yellowhand from "../assets/img/paths/highwayman/Dd2_path_yellowhand.webp"
 
 const pathsHero = [
   {
-    //Wanderer
-    name: ["Wanderer"],
-    src: [Wanderer],
-    alt: ["WandererPath"],
-  },
-  {
     //Highwayman
-    name: ["Rogue", "Sharpshot", "Yellowhand"],
-    src: [Rogue, Sharpshot, Yellowhand],
-    alt: ["RoguePath", "SharpshotPath", "YellowhandPath"],
+    name: ["Wanderer", "Rogue", "Sharpshot", "Yellowhand"],
+    src: [Wanderer, Rogue, Sharpshot, Yellowhand],
+    alt: ["WandererPath", "RoguePath", "SharpshotPath", "YellowhandPath"],
   },
+  
+  //TODO: Add more heroes
 ];
 
-function pathHero() {
+function pathHero({ heroIndex, pathIndex }) {
   return (
     <div className="boxPath">
-      <h4>{pathsHero[1].name[0]}</h4>
+      <h4>{pathsHero[heroIndex].name[pathIndex]}</h4>
       <div className="pathSkills">
-        <img src={pathsHero[1].src[0]} alt={pathsHero[1].alt[0]} />
+        <img
+          src={pathsHero[heroIndex].src[pathIndex]}
+          alt={pathsHero[heroIndex].alt[pathIndex]}
+        />
 
         <div className="pathData">
           <ul>
