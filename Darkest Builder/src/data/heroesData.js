@@ -26,6 +26,7 @@ const heroesData = {
       "Lets go another round, then.",
     ],
     paths: ["Wanderer", "Rogue", "Sharpshot", "Yellowhand"],
+
     description:
       "The Highwayman is a highly versatile hero that heavily focuses on dealing damage thanks to his ability to target the front Ranks as well as the back Ranks. His skillset places emphasis on damage and utility such as self-Buffs, Execution 1 finishers, and a unique skill to destroy or steal powerful Tokens from enemies.",
 
@@ -98,6 +99,47 @@ const heroesData = {
         description:
           "To maximize performance, provide your character with a wide range of benefits and enhancements. Equip yourself with damage items, apply critical buffs. Your character will truly stand out when receiving this type of additional support. Don't underestimate the impact these small details can have on your performance in the game!",
       },
+    ],
+
+    skills: [
+      {
+        id: 0,
+        name: "Wicked Slice",
+        type: "Melee",
+        rank: [2, 3, 4],
+        target: [1, 2],
+
+        base: {
+          dmg: [4, 8],
+          crit: 15,
+          target: "Execution 1",
+        },
+
+        upgrade: {
+          dmg: [6, 9],
+          crit: 20,
+          target: "Execution 1",
+        }
+      },
+      {
+        id: 1,
+        name: "Pistol Shot",
+        type: "Ranged",
+        rank: [1, 2, 3],
+        target: [2, 3, 4],
+
+        base: {
+          dmg: [3, 5],
+          crit: 10,
+          target: "When Combo apply Daze",
+        },
+
+        upgrade: {
+          dmg: [5, 8],
+          crit: 15,
+          target: "When Combo apply Stun",
+        }
+      }
     ],
   },
 
@@ -184,6 +226,45 @@ const heroesData = {
         description:
           "Make sure to equip a healing or defense skill to ensure her survival. She has a low HP pool and can be easily killed. Keeping a heal or defensive ability can help her stay alive longer.",
       },
+    ],
+
+    skills: [
+      {
+        name: "Wicked Slice",
+        type: "Melee",
+        rank: [2, 3, 4],
+        target: [1, 2],
+
+        base: {
+          dmg: [4, 8],
+          crit: 15,
+          target: "Execution 1",
+        },
+
+        upgrade: {
+          dmg: [6, 9],
+          crit: 20,
+          target: "Execution 1",
+        }
+      },
+      {
+        name: "Pistol Shot",
+        type: "Ranged",
+        rank: [1, 2, 3],
+        target: [2, 3, 4],
+
+        base: {
+          dmg: [3, 5],
+          crit: 10,
+          target: "When Combo apply Daze",
+        },
+
+        upgrade: {
+          dmg: [5, 8],
+          crit: 15,
+          target: "When Combo apply Stun",
+        }
+      }
     ],
   },
 
@@ -290,6 +371,45 @@ const heroesData = {
           "Equip a move skill to reposition her if she gets pushed back. This will allow her to get back to the front line and continue dealing damage.",
       },
     ],
+
+    skills: [
+      {
+        name: "Wicked Slice",
+        type: "Melee",
+        rank: [2, 3, 4],
+        target: [1, 2],
+
+        base: {
+          dmg: [4, 8],
+          crit: 15,
+          target: "Execution 1",
+        },
+
+        upgrade: {
+          dmg: [6, 9],
+          crit: 20,
+          target: "Execution 1",
+        }
+      },
+      {
+        name: "Pistol Shot",
+        type: "Ranged",
+        rank: [1, 2, 3],
+        target: [2, 3, 4],
+
+        base: {
+          dmg: [3, 5],
+          crit: 10,
+          target: "When Combo apply Daze",
+        },
+
+        upgrade: {
+          dmg: [5, 8],
+          crit: 15,
+          target: "When Combo apply Stun",
+        }
+      }
+    ],
   },
 
   3: {
@@ -375,6 +495,44 @@ const heroesData = {
         description:
           "The final tip for playing with the jester revolves around Encore, one of his unlockable moves upon completing his shrines. Encore is the most powerful ability in the game, granting an extra turn to an ally, along with other additional benefits that can be very useful.",
       },
+    ],
+    skills: [
+      {
+        name: "Wicked Slice",
+        type: "Melee",
+        rank: [2, 3, 4],
+        target: [1, 2],
+
+        base: {
+          dmg: [4, 8],
+          crit: 15,
+          target: "Execution 1",
+        },
+
+        upgrade: {
+          dmg: [6, 9],
+          crit: 20,
+          target: "Execution 1",
+        }
+      },
+      {
+        name: "Pistol Shot",
+        type: "Ranged",
+        rank: [1, 2, 3],
+        target: [2, 3, 4],
+
+        base: {
+          dmg: [3, 5],
+          crit: 10,
+          target: "When Combo apply Daze",
+        },
+
+        upgrade: {
+          dmg: [5, 8],
+          crit: 15,
+          target: "When Combo apply Stun",
+        }
+      }
     ],
   },
 
@@ -471,6 +629,44 @@ const heroesData = {
           "Use 'Purge' to remove negative effects such as blindness, enhancing combat effectiveness by ensuring your character can attack accurately and respond optimally to battlefield threats.",
       },
     ],
+    skills: [
+      {
+        name: "Wicked Slice",
+        type: "Melee",
+        rank: [2, 3, 4],
+        target: [1, 2],
+
+        base: {
+          dmg: [4, 8],
+          crit: 15,
+          target: "Execution 1",
+        },
+
+        upgrade: {
+          dmg: [6, 9],
+          crit: 20,
+          target: "Execution 1",
+        }
+      },
+      {
+        name: "Pistol Shot",
+        type: "Ranged",
+        rank: [1, 2, 3],
+        target: [2, 3, 4],
+
+        base: {
+          dmg: [3, 5],
+          crit: 10,
+          target: "When Combo apply Daze",
+        },
+
+        upgrade: {
+          dmg: [5, 8],
+          crit: 15,
+          target: "When Combo apply Stun",
+        }
+      }
+    ],
   },
 
   5: {
@@ -550,6 +746,44 @@ const heroesData = {
         description:
           "Define what the Man at Arms is doing in your party. He can deal significant damage if you give him the right path and damage moves. Alternatively, he can become a nearly unkillable wall if you equip all his block skills. Understanding the game and the upcoming match-ups is essential to effectively kit your Man at Arms for each battle.",
       },
+    ],
+    skills: [
+      {
+        name: "Wicked Slice",
+        type: "Melee",
+        rank: [2, 3, 4],
+        target: [1, 2],
+
+        base: {
+          dmg: [4, 8],
+          crit: 15,
+          target: "Execution 1",
+        },
+
+        upgrade: {
+          dmg: [6, 9],
+          crit: 20,
+          target: "Execution 1",
+        }
+      },
+      {
+        name: "Pistol Shot",
+        type: "Ranged",
+        rank: [1, 2, 3],
+        target: [2, 3, 4],
+
+        base: {
+          dmg: [3, 5],
+          crit: 10,
+          target: "When Combo apply Daze",
+        },
+
+        upgrade: {
+          dmg: [5, 8],
+          crit: 15,
+          target: "When Combo apply Stun",
+        }
+      }
     ],
   },
 
@@ -656,6 +890,44 @@ const heroesData = {
           "You should tailor an Occultist's loadout to the rest of your team to maximize his effectiveness. This means considering the skills and strengths of your teammates when choosing the Occultist's skills.",
       },
     ],
+    skills: [
+      {
+        name: "Wicked Slice",
+        type: "Melee",
+        rank: [2, 3, 4],
+        target: [1, 2],
+
+        base: {
+          dmg: [4, 8],
+          crit: 15,
+          target: "Execution 1",
+        },
+
+        upgrade: {
+          dmg: [6, 9],
+          crit: 20,
+          target: "Execution 1",
+        }
+      },
+      {
+        name: "Pistol Shot",
+        type: "Ranged",
+        rank: [1, 2, 3],
+        target: [2, 3, 4],
+
+        base: {
+          dmg: [3, 5],
+          crit: 10,
+          target: "When Combo apply Daze",
+        },
+
+        upgrade: {
+          dmg: [5, 8],
+          crit: 15,
+          target: "When Combo apply Stun",
+        }
+      }
+    ],
   },
 
   7: {
@@ -740,6 +1012,44 @@ const heroesData = {
         description:
           "Try to disrupt enemies, although this is usually less necessary because the game is so damage-focused. If you're running abilities like Physician or facing enemies where your DoT doesn't match up well, use skills like Planning Gas, Disorienting Blast, and even Magnesium Rain to a lesser extent, as it removes corpses and can disrupt enemy positioning.",
       },
+    ],
+    skills: [
+      {
+        name: "Wicked Slice",
+        type: "Melee",
+        rank: [2, 3, 4],
+        target: [1, 2],
+
+        base: {
+          dmg: [4, 8],
+          crit: 15,
+          target: "Execution 1",
+        },
+
+        upgrade: {
+          dmg: [6, 9],
+          crit: 20,
+          target: "Execution 1",
+        }
+      },
+      {
+        name: "Pistol Shot",
+        type: "Ranged",
+        rank: [1, 2, 3],
+        target: [2, 3, 4],
+
+        base: {
+          dmg: [3, 5],
+          crit: 10,
+          target: "When Combo apply Daze",
+        },
+
+        upgrade: {
+          dmg: [5, 8],
+          crit: 15,
+          target: "When Combo apply Stun",
+        }
+      }
     ],
   },
 
@@ -860,6 +1170,44 @@ const heroesData = {
           "Ensure you have a clearly defined role for her. Is she supporting the main damage dealer? Then you need Consecration of Light, which should be used on turn one. Is she your tank or off-tank? Then you need Sanctuary, possibly Consecration of Fortitude, and make sure she is protecting the right teammates and applying defensive tokens as early as possible.",
       },
     ],
+        skills: [
+      {
+        name: "Wicked Slice",
+        type: "Melee",
+        rank: [2, 3, 4],
+        target: [1, 2],
+
+        base: {
+          dmg: [4, 8],
+          crit: 15,
+          target: "Execution 1",
+        },
+
+        upgrade: {
+          dmg: [6, 9],
+          crit: 20,
+          target: "Execution 1",
+        }
+      },
+      {
+        name: "Pistol Shot",
+        type: "Ranged",
+        rank: [1, 2, 3],
+        target: [2, 3, 4],
+
+        base: {
+          dmg: [3, 5],
+          crit: 10,
+          target: "When Combo apply Daze",
+        },
+
+        upgrade: {
+          dmg: [5, 8],
+          crit: 15,
+          target: "When Combo apply Stun",
+        }
+      }
+    ],
   },
 
   9: {
@@ -955,6 +1303,44 @@ const heroesData = {
           "You don't necessarily have to build a dance team for her, but it's useful to have other characters who can move themselves in case she or someone else gets moved.",
       },
     ],
+    skills: [
+      {
+        name: "Wicked Slice",
+        type: "Melee",
+        rank: [2, 3, 4],
+        target: [1, 2],
+
+        base: {
+          dmg: [4, 8],
+          crit: 15,
+          target: "Execution 1",
+        },
+
+        upgrade: {
+          dmg: [6, 9],
+          crit: 20,
+          target: "Execution 1",
+        }
+      },
+      {
+        name: "Pistol Shot",
+        type: "Ranged",
+        rank: [1, 2, 3],
+        target: [2, 3, 4],
+
+        base: {
+          dmg: [3, 5],
+          crit: 10,
+          target: "When Combo apply Daze",
+        },
+
+        upgrade: {
+          dmg: [5, 8],
+          crit: 15,
+          target: "When Combo apply Stun",
+        }
+      }
+    ],
   },
 
   10: {
@@ -1034,6 +1420,44 @@ const heroesData = {
         description:
           "If you have a hero with a bad matchup for a specific region, like the Plague Doctor in the Fetter or the Grave Robber in the Fetter who do poison damage, you can swap them for the Bounty Hunter to improve your team. This is especially useful when heading to a region with enemies resistant to certain types of damage.",
       },
+    ],
+    skills: [
+      {
+        name: "Wicked Slice",
+        type: "Melee",
+        rank: [2, 3, 4],
+        target: [1, 2],
+
+        base: {
+          dmg: [4, 8],
+          crit: 15,
+          target: "Execution 1",
+        },
+
+        upgrade: {
+          dmg: [6, 9],
+          crit: 20,
+          target: "Execution 1",
+        }
+      },
+      {
+        name: "Pistol Shot",
+        type: "Ranged",
+        rank: [1, 2, 3],
+        target: [2, 3, 4],
+
+        base: {
+          dmg: [3, 5],
+          crit: 10,
+          target: "When Combo apply Daze",
+        },
+
+        upgrade: {
+          dmg: [5, 8],
+          crit: 15,
+          target: "When Combo apply Stun",
+        }
+      }
     ],
   },
 
@@ -1117,6 +1541,44 @@ const heroesData = {
         description:
           "The Crusader has many skills, but his slowness means that any buffs or synergies he tries to capitalize on will occur after the enemies have acted. It is crucial to choose skills that complement both his support role and his damage capabilities.",
       },
+    ],
+    skills: [
+      {
+        name: "Wicked Slice",
+        type: "Melee",
+        rank: [2, 3, 4],
+        target: [1, 2],
+
+        base: {
+          dmg: [4, 8],
+          crit: 15,
+          target: "Execution 1",
+        },
+
+        upgrade: {
+          dmg: [6, 9],
+          crit: 20,
+          target: "Execution 1",
+        }
+      },
+      {
+        name: "Pistol Shot",
+        type: "Ranged",
+        rank: [1, 2, 3],
+        target: [2, 3, 4],
+
+        base: {
+          dmg: [3, 5],
+          crit: 10,
+          target: "When Combo apply Daze",
+        },
+
+        upgrade: {
+          dmg: [5, 8],
+          crit: 15,
+          target: "When Combo apply Stun",
+        }
+      }
     ],
   },
 
@@ -1231,6 +1693,44 @@ const heroesData = {
           "The team needs to adjust to Duelist, as she's not a plug-and-play character like others. She needs a supportive team to maximize her potential. For example, if you decide to run one of her paths where she acts as a support hero, ensure that Duelist doesn't disrupt the support target by being out of position or pushing them out of position while trying to buff them.",
       },
     ],
+    skills: [
+      {
+        name: "Wicked Slice",
+        type: "Melee",
+        rank: [2, 3, 4],
+        target: [1, 2],
+
+        base: {
+          dmg: [4, 8],
+          crit: 15,
+          target: "Execution 1",
+        },
+
+        upgrade: {
+          dmg: [6, 9],
+          crit: 20,
+          target: "Execution 1",
+        }
+      },
+      {
+        name: "Pistol Shot",
+        type: "Ranged",
+        rank: [1, 2, 3],
+        target: [2, 3, 4],
+
+        base: {
+          dmg: [3, 5],
+          crit: 10,
+          target: "When Combo apply Daze",
+        },
+
+        upgrade: {
+          dmg: [5, 8],
+          crit: 15,
+          target: "When Combo apply Stun",
+        }
+      }
+    ],
   },
 
   13: {
@@ -1325,14 +1825,53 @@ const heroesData = {
     howToPlay: [
       {
         tittle: "Juggle HP and CDs",
-        description: "It's crucial to balance both the Flagellant's health threshold and his cooldowns. You need to be aware of when it's safe to lower his health and when to use one of his heals to keep him safe. Also, understanding his cooldowns properly will prevent situations where you need a skill like sepsis and it's not available."
+        description:
+          "It's crucial to balance both the Flagellant's health threshold and his cooldowns. You need to be aware of when it's safe to lower his health and when to use one of his heals to keep him safe. Also, understanding his cooldowns properly will prevent situations where you need a skill like sepsis and it's not available.",
       },
       {
         tittle: "Skill Swap",
-        description: "Skill swapping is an important skill with the Flagellant. You can switch his skills at any time, except during a fight or continuous encounters like in lairs. This allows you to adapt to enemies based on their capabilities, ensuring you use the most effective moves in each specific situation."
+        description:
+          "Skill swapping is an important skill with the Flagellant. You can switch his skills at any time, except during a fight or continuous encounters like in lairs. This allows you to adapt to enemies based on their capabilities, ensuring you use the most effective moves in each specific situation.",
+      },
+    ],
+    skills: [
+      {
+        name: "Wicked Slice",
+        type: "Melee",
+        rank: [2, 3, 4],
+        target: [1, 2],
+
+        base: {
+          dmg: [4, 8],
+          crit: 15,
+          target: "Execution 1",
+        },
+
+        upgrade: {
+          dmg: [6, 9],
+          crit: 20,
+          target: "Execution 1",
+        }
+      },
+      {
+        name: "Pistol Shot",
+        type: "Ranged",
+        rank: [1, 2, 3],
+        target: [2, 3, 4],
+
+        base: {
+          dmg: [3, 5],
+          crit: 10,
+          target: "When Combo apply Daze",
+        },
+
+        upgrade: {
+          dmg: [5, 8],
+          crit: 15,
+          target: "When Combo apply Stun",
+        }
       }
-    ]
-    
+    ],
   },
 };
 

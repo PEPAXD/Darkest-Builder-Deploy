@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./styles/skillFrame.css";
 
 //import SkillsImg
@@ -11,20 +11,19 @@ import trackingshot from "../assets/img/paths/highwayman/72px-Dd2_ability_tracki
 const skillsHero = [
   {
     //Highwayman
-    name: ["Wicked Slice", "Pistol Shot", "Duelist's Advance", "Tracking Shot"],
     src: [wickedslice, pistolshot, duelistadvance, trackingshot],
-    alt: "HighwaymanSkill",
   },
 
   //TODO: Add more heroes
 ];
 
-function skillFrame() {
+function skillFrame({ skillData }) {
+
   return (
     <div className="skillBox">
       <input type="radio" />
-      <img src={skillsHero[0].src[3]} alt={skillsHero[0].alt} />
-      <i>{skillsHero[0].name[3]}</i>
+      <img src={skillsHero[0].src[skillData.id]} alt={skillData.name} />
+      <i>{skillData.name}</i>
     </div>
   );
 }
