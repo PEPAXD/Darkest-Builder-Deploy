@@ -105,41 +105,47 @@ const heroesData = {
       {
         id: 0,
         name: "Wicked Slice",
-        type: "Melee",
-        rank: [2, 3, 4],
-        target: [1, 2],
-
-        base: {
-          dmg: [4, 8],
-          crit: 15,
-          target: "Execution 1",
-        },
-
-        upgrade: {
-          dmg: [6, 9],
-          crit: 20,
-          target: "Execution 1",
-        }
       },
       {
         id: 1,
         name: "Pistol Shot",
-        type: "Ranged",
-        rank: [1, 2, 3],
-        target: [2, 3, 4],
-
-        base: {
-          dmg: [3, 5],
-          crit: 10,
-          target: "When Combo apply Daze",
-        },
-
-        upgrade: {
-          dmg: [5, 8],
-          crit: 15,
-          target: "When Combo apply Stun",
-        }
-      }
+      },
+      {
+        id: 2,
+        name: "Duelist's Advance",
+      },
+      {
+        id: 3,
+        name: "Tracking Shot",
+      },
+      {
+        id: 4,
+        name: "Take Aim",
+      },
+      {
+        id: 5,
+        name: "Point Blank Shot",
+      },
+      {
+        id: 6,
+        name: "Grapeshot Blast",
+      },
+      {
+        id: 7,
+        name: "Open Vein",
+      },
+      {
+        id: 8,
+        name: "Double Tap",
+      },
+      {
+        id: 9,
+        name: "Highway Robbery",
+      },
+      {
+        id: 10,
+        name: "Double Cross",
+      },
     ],
   },
 
@@ -231,40 +237,10 @@ const heroesData = {
     skills: [
       {
         name: "Wicked Slice",
-        type: "Melee",
-        rank: [2, 3, 4],
-        target: [1, 2],
-
-        base: {
-          dmg: [4, 8],
-          crit: 15,
-          target: "Execution 1",
-        },
-
-        upgrade: {
-          dmg: [6, 9],
-          crit: 20,
-          target: "Execution 1",
-        }
       },
       {
         name: "Pistol Shot",
-        type: "Ranged",
-        rank: [1, 2, 3],
-        target: [2, 3, 4],
-
-        base: {
-          dmg: [3, 5],
-          crit: 10,
-          target: "When Combo apply Daze",
-        },
-
-        upgrade: {
-          dmg: [5, 8],
-          crit: 15,
-          target: "When Combo apply Stun",
-        }
-      }
+      },
     ],
   },
 
@@ -375,40 +351,10 @@ const heroesData = {
     skills: [
       {
         name: "Wicked Slice",
-        type: "Melee",
-        rank: [2, 3, 4],
-        target: [1, 2],
-
-        base: {
-          dmg: [4, 8],
-          crit: 15,
-          target: "Execution 1",
-        },
-
-        upgrade: {
-          dmg: [6, 9],
-          crit: 20,
-          target: "Execution 1",
-        }
       },
       {
         name: "Pistol Shot",
-        type: "Ranged",
-        rank: [1, 2, 3],
-        target: [2, 3, 4],
-
-        base: {
-          dmg: [3, 5],
-          crit: 10,
-          target: "When Combo apply Daze",
-        },
-
-        upgrade: {
-          dmg: [5, 8],
-          crit: 15,
-          target: "When Combo apply Stun",
-        }
-      }
+      },
     ],
   },
 
@@ -499,40 +445,10 @@ const heroesData = {
     skills: [
       {
         name: "Wicked Slice",
-        type: "Melee",
-        rank: [2, 3, 4],
-        target: [1, 2],
-
-        base: {
-          dmg: [4, 8],
-          crit: 15,
-          target: "Execution 1",
-        },
-
-        upgrade: {
-          dmg: [6, 9],
-          crit: 20,
-          target: "Execution 1",
-        }
       },
       {
         name: "Pistol Shot",
-        type: "Ranged",
-        rank: [1, 2, 3],
-        target: [2, 3, 4],
-
-        base: {
-          dmg: [3, 5],
-          crit: 10,
-          target: "When Combo apply Daze",
-        },
-
-        upgrade: {
-          dmg: [5, 8],
-          crit: 15,
-          target: "When Combo apply Stun",
-        }
-      }
+      },
     ],
   },
 
@@ -632,40 +548,10 @@ const heroesData = {
     skills: [
       {
         name: "Wicked Slice",
-        type: "Melee",
-        rank: [2, 3, 4],
-        target: [1, 2],
-
-        base: {
-          dmg: [4, 8],
-          crit: 15,
-          target: "Execution 1",
-        },
-
-        upgrade: {
-          dmg: [6, 9],
-          crit: 20,
-          target: "Execution 1",
-        }
       },
       {
         name: "Pistol Shot",
-        type: "Ranged",
-        rank: [1, 2, 3],
-        target: [2, 3, 4],
-
-        base: {
-          dmg: [3, 5],
-          crit: 10,
-          target: "When Combo apply Daze",
-        },
-
-        upgrade: {
-          dmg: [5, 8],
-          crit: 15,
-          target: "When Combo apply Stun",
-        }
-      }
+      },
     ],
   },
 
@@ -750,40 +636,10 @@ const heroesData = {
     skills: [
       {
         name: "Wicked Slice",
-        type: "Melee",
-        rank: [2, 3, 4],
-        target: [1, 2],
-
-        base: {
-          dmg: [4, 8],
-          crit: 15,
-          target: "Execution 1",
-        },
-
-        upgrade: {
-          dmg: [6, 9],
-          crit: 20,
-          target: "Execution 1",
-        }
       },
       {
         name: "Pistol Shot",
-        type: "Ranged",
-        rank: [1, 2, 3],
-        target: [2, 3, 4],
-
-        base: {
-          dmg: [3, 5],
-          crit: 10,
-          target: "When Combo apply Daze",
-        },
-
-        upgrade: {
-          dmg: [5, 8],
-          crit: 15,
-          target: "When Combo apply Stun",
-        }
-      }
+      },
     ],
   },
 
@@ -893,40 +749,10 @@ const heroesData = {
     skills: [
       {
         name: "Wicked Slice",
-        type: "Melee",
-        rank: [2, 3, 4],
-        target: [1, 2],
-
-        base: {
-          dmg: [4, 8],
-          crit: 15,
-          target: "Execution 1",
-        },
-
-        upgrade: {
-          dmg: [6, 9],
-          crit: 20,
-          target: "Execution 1",
-        }
       },
       {
         name: "Pistol Shot",
-        type: "Ranged",
-        rank: [1, 2, 3],
-        target: [2, 3, 4],
-
-        base: {
-          dmg: [3, 5],
-          crit: 10,
-          target: "When Combo apply Daze",
-        },
-
-        upgrade: {
-          dmg: [5, 8],
-          crit: 15,
-          target: "When Combo apply Stun",
-        }
-      }
+      },
     ],
   },
 
@@ -1016,40 +842,10 @@ const heroesData = {
     skills: [
       {
         name: "Wicked Slice",
-        type: "Melee",
-        rank: [2, 3, 4],
-        target: [1, 2],
-
-        base: {
-          dmg: [4, 8],
-          crit: 15,
-          target: "Execution 1",
-        },
-
-        upgrade: {
-          dmg: [6, 9],
-          crit: 20,
-          target: "Execution 1",
-        }
       },
       {
         name: "Pistol Shot",
-        type: "Ranged",
-        rank: [1, 2, 3],
-        target: [2, 3, 4],
-
-        base: {
-          dmg: [3, 5],
-          crit: 10,
-          target: "When Combo apply Daze",
-        },
-
-        upgrade: {
-          dmg: [5, 8],
-          crit: 15,
-          target: "When Combo apply Stun",
-        }
-      }
+      },
     ],
   },
 
@@ -1170,43 +966,13 @@ const heroesData = {
           "Ensure you have a clearly defined role for her. Is she supporting the main damage dealer? Then you need Consecration of Light, which should be used on turn one. Is she your tank or off-tank? Then you need Sanctuary, possibly Consecration of Fortitude, and make sure she is protecting the right teammates and applying defensive tokens as early as possible.",
       },
     ],
-        skills: [
+    skills: [
       {
         name: "Wicked Slice",
-        type: "Melee",
-        rank: [2, 3, 4],
-        target: [1, 2],
-
-        base: {
-          dmg: [4, 8],
-          crit: 15,
-          target: "Execution 1",
-        },
-
-        upgrade: {
-          dmg: [6, 9],
-          crit: 20,
-          target: "Execution 1",
-        }
       },
       {
         name: "Pistol Shot",
-        type: "Ranged",
-        rank: [1, 2, 3],
-        target: [2, 3, 4],
-
-        base: {
-          dmg: [3, 5],
-          crit: 10,
-          target: "When Combo apply Daze",
-        },
-
-        upgrade: {
-          dmg: [5, 8],
-          crit: 15,
-          target: "When Combo apply Stun",
-        }
-      }
+      },
     ],
   },
 
@@ -1306,40 +1072,10 @@ const heroesData = {
     skills: [
       {
         name: "Wicked Slice",
-        type: "Melee",
-        rank: [2, 3, 4],
-        target: [1, 2],
-
-        base: {
-          dmg: [4, 8],
-          crit: 15,
-          target: "Execution 1",
-        },
-
-        upgrade: {
-          dmg: [6, 9],
-          crit: 20,
-          target: "Execution 1",
-        }
       },
       {
         name: "Pistol Shot",
-        type: "Ranged",
-        rank: [1, 2, 3],
-        target: [2, 3, 4],
-
-        base: {
-          dmg: [3, 5],
-          crit: 10,
-          target: "When Combo apply Daze",
-        },
-
-        upgrade: {
-          dmg: [5, 8],
-          crit: 15,
-          target: "When Combo apply Stun",
-        }
-      }
+      },
     ],
   },
 
@@ -1424,40 +1160,10 @@ const heroesData = {
     skills: [
       {
         name: "Wicked Slice",
-        type: "Melee",
-        rank: [2, 3, 4],
-        target: [1, 2],
-
-        base: {
-          dmg: [4, 8],
-          crit: 15,
-          target: "Execution 1",
-        },
-
-        upgrade: {
-          dmg: [6, 9],
-          crit: 20,
-          target: "Execution 1",
-        }
       },
       {
         name: "Pistol Shot",
-        type: "Ranged",
-        rank: [1, 2, 3],
-        target: [2, 3, 4],
-
-        base: {
-          dmg: [3, 5],
-          crit: 10,
-          target: "When Combo apply Daze",
-        },
-
-        upgrade: {
-          dmg: [5, 8],
-          crit: 15,
-          target: "When Combo apply Stun",
-        }
-      }
+      },
     ],
   },
 
@@ -1545,40 +1251,10 @@ const heroesData = {
     skills: [
       {
         name: "Wicked Slice",
-        type: "Melee",
-        rank: [2, 3, 4],
-        target: [1, 2],
-
-        base: {
-          dmg: [4, 8],
-          crit: 15,
-          target: "Execution 1",
-        },
-
-        upgrade: {
-          dmg: [6, 9],
-          crit: 20,
-          target: "Execution 1",
-        }
       },
       {
         name: "Pistol Shot",
-        type: "Ranged",
-        rank: [1, 2, 3],
-        target: [2, 3, 4],
-
-        base: {
-          dmg: [3, 5],
-          crit: 10,
-          target: "When Combo apply Daze",
-        },
-
-        upgrade: {
-          dmg: [5, 8],
-          crit: 15,
-          target: "When Combo apply Stun",
-        }
-      }
+      },
     ],
   },
 
@@ -1696,40 +1372,10 @@ const heroesData = {
     skills: [
       {
         name: "Wicked Slice",
-        type: "Melee",
-        rank: [2, 3, 4],
-        target: [1, 2],
-
-        base: {
-          dmg: [4, 8],
-          crit: 15,
-          target: "Execution 1",
-        },
-
-        upgrade: {
-          dmg: [6, 9],
-          crit: 20,
-          target: "Execution 1",
-        }
       },
       {
         name: "Pistol Shot",
-        type: "Ranged",
-        rank: [1, 2, 3],
-        target: [2, 3, 4],
-
-        base: {
-          dmg: [3, 5],
-          crit: 10,
-          target: "When Combo apply Daze",
-        },
-
-        upgrade: {
-          dmg: [5, 8],
-          crit: 15,
-          target: "When Combo apply Stun",
-        }
-      }
+      },
     ],
   },
 
@@ -1837,40 +1483,10 @@ const heroesData = {
     skills: [
       {
         name: "Wicked Slice",
-        type: "Melee",
-        rank: [2, 3, 4],
-        target: [1, 2],
-
-        base: {
-          dmg: [4, 8],
-          crit: 15,
-          target: "Execution 1",
-        },
-
-        upgrade: {
-          dmg: [6, 9],
-          crit: 20,
-          target: "Execution 1",
-        }
       },
       {
         name: "Pistol Shot",
-        type: "Ranged",
-        rank: [1, 2, 3],
-        target: [2, 3, 4],
-
-        base: {
-          dmg: [3, 5],
-          crit: 10,
-          target: "When Combo apply Daze",
-        },
-
-        upgrade: {
-          dmg: [5, 8],
-          crit: 15,
-          target: "When Combo apply Stun",
-        }
-      }
+      },
     ],
   },
 };

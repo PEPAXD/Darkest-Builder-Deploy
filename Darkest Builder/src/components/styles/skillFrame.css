@@ -1,36 +1,46 @@
 .skillsHeroArray {
-  .skillBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 5%;
+}
+
+.skillBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  padding-bottom: 1.5%;
+  width: 10%;
+
+  input {
+    display: none;
+  }
+
+  img {
+    position: relative;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    background-color: #222;
+    border: solid 2px #000;
+    transition: all 0.215s ease-in-out;
+  }
 
-    gap: 0.5rem;
-    cursor: pointer;
-    padding-bottom: 2%;
+  img:hover {
+    border: 2px solid #696a6c;
+  }
 
-    input {
-      display: none;
-    }
+  i {
+    font-size: 0.7em;
+    font-weight: 100;
+    text-transform: uppercase;
 
-    img {
-      position: relative;
-      display: flex;
-      flex-direction: column;
-
-      background-color: #222;
-      border: solid 2px #000;
-
-      transition: all 0.215s ease-in-out;
-
-      &:hover {
-        border: 2px solid #696a6c;
-      }
-    }
-
-    i {
-      font-size: 0.7em;
-      font-weight: 100;
-      text-transform: uppercase;
-    }
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 }

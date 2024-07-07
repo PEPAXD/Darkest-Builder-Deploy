@@ -261,9 +261,18 @@ function WikiSection({ url_Bg }) {
               </div>
 
               <div className="skillsHeroArray">
-                {heroesData[heroArray].skills.map((skill, index) => (
-                  <SkillFrame key={index} skillData={skill} />
-                ))}
+                {heroesData[heroArray].skills
+                  .slice(0, 6)
+                  .map((skill, index) => (
+                    <SkillFrame key={index} skillData={skill} />
+                  ))}
+              </div>
+              <div className="skillsHeroArray">
+                {heroesData[heroArray].skills
+                  .slice(6, 11)
+                  .map((skill, index) => (
+                    <SkillFrame key={index} skillData={skill} />
+                  ))}
               </div>
             </section>
 
