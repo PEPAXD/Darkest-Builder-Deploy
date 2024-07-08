@@ -29,19 +29,41 @@ const heroesData = {
       name: ["Wanderer", "Rogue", "Sharpshot", "Yellowhand"],
       cites: [
         '"Default skills. Rewards candles upon reaching the second Inn"',
-        '"Deals damage from the front row and gains riposte with "Point Blank Shot," but loses versatility"',
-        '"Higher damage on ranged skills and 3 speed. Grapeshot blast grants a strength token on use."',
-        '"More HP, melee skills debuff bleed resistance, buff Highway Robbery and Double Cross"',
+        '"A brawler focused on front rank combat and Riposte."',
+        '"A back rank role that emphasizes ranged skill use"',
+        '"A rank-flexible Bleed specialist. Riposte inflicts Bleed."',
       ],
       description: [
         [
-          "At the start of the game all heroes will have the path Wanderer.",
-          "This path doesn't have any modifier and is considered to be the default path.",
-          "Playing Wanderer will give extra candles to the player.",
+          {
+            title: "Candles of Hope +1",
+            text: "Extra Candle of Hope on reaching the 2nd Inn.",
+          },
+          {
+            title: "Riposte Combo (33%)",
+            text: "Target add Combo token when using Riposte.",
+          },
         ],
-        [""],
-        [""],
-        [""],
+        [
+          { title: "If Rank = 1:", text: "+25% DMG" },
+          { title: "If Rank = 3:", text: "-25% DMG" },
+          { title: "If Rank = 4:", text: "-50% DMG" },
+          { title: "Point Blank Shot", text: "Add Riposte" },
+        ],
+        [
+          { title: "Ranged Skills:", text: "+25% DMG" },
+          { title: "Melee Skills:", text: "-25% DMG" },
+          { title: "Buff Speed", text: "+3 Speed" },
+          { title: "Grapeshot Blast", text: "Add Strength" },
+        ],
+        [
+          { title: "Buff HP", text: "+15% MAXHP" },
+          { title: "Ranged Skills:", text: "-75% DMG" },
+          { title: "Apply On Melee-Hit :", text: "-10% Bleed RES" },
+          { title: "Highway Robbery", text: "Steal Positive Token" },
+          { title: "Double Cross", text: "Remove Block" },
+
+        ],
       ],
     },
 

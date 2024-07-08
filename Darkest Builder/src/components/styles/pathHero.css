@@ -53,16 +53,22 @@
           justify-content: flex-start;
 
           width: 100%;
+          padding: 0% 5%;
 
-          font-size: 0.85em;
+          font-size: 0.8em;
           font-weight: 400;
           list-style: none;
 
-          padding: 0% 5%;
+          h5 {
+            font-size: 1em;
+            font-weight: 700;
 
-          p {
+            color: #7490a8;
+          }
+
+          span {
+            margin-left: 5%;
             text-align: start;
-            margin-bottom: 0.2rem;
           }
         }
       }

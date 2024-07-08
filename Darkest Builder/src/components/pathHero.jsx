@@ -18,7 +18,6 @@ const pathsHero = [
     src: [Wanderer, Rogue, Sharpshot, Yellowhand],
     alt: ["WandererPath", "RoguePath", "SharpshotPath", "YellowhandPath"],
   },
-
   //TODO: Add more heroes
 ];
 
@@ -40,7 +39,8 @@ function pathHero({ heroIndex, pathIndex, pathData }) {
           <ul>
             {pathData.map((item, index) => (
               <li key={index}>
-                <p>{item}</p>
+                <h5>{item.title}</h5>
+                <span>{item.text}</span>
               </li>
             ))}
           </ul>
