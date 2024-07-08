@@ -145,7 +145,7 @@ function WikiSection({ url_Bg }) {
               <cite>{heroesData[heroArray].cite[heroPaths]}</cite>
 
               <form>
-                {heroesData[heroArray].paths.map((path, index) => (
+                {heroesData[heroArray].paths.name.map((path, index) => (
                   <React.Fragment key={index}>
                     <input
                       type="radio"
@@ -248,12 +248,14 @@ function WikiSection({ url_Bg }) {
               <h2>Skills and Paths</h2>
               <hr />
 
-              <cite>
-                "Default skills. Rewards candles upon reaching the second Inn"
-              </cite>
+              <cite>{heroesData[heroArray].paths.cites[heroPaths]}</cite>
 
               <div className="pathContainer">
-                <PathHero heroIndex={heroArray} pathIndex={heroPaths} />
+                <PathHero
+                  heroIndex={heroArray}
+                  pathIndex={heroPaths}
+                  pathData={heroesData[heroArray].paths.description[heroPaths]}
+                />
 
                 <div className="skillsDescription">
                   <h4>Skills</h4>

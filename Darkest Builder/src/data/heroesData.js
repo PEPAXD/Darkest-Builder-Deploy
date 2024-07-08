@@ -25,7 +25,25 @@ const heroesData = {
       "I never miss.",
       "Lets go another round, then.",
     ],
-    paths: ["Wanderer", "Rogue", "Sharpshot", "Yellowhand"],
+    paths: {
+      name: ["Wanderer", "Rogue", "Sharpshot", "Yellowhand"],
+      cites: [
+        '"Default skills. Rewards candles upon reaching the second Inn"',
+        '"Deals damage from the front row and gains riposte with "Point Blank Shot," but loses versatility"',
+        '"Higher damage on ranged skills and 3 speed. Grapeshot blast grants a strength token on use."',
+        '"More HP, melee skills debuff bleed resistance, buff Highway Robbery and Double Cross"',
+      ],
+      description: [
+        [
+          "At the start of the game all heroes will have the path Wanderer.",
+          "This path doesn't have any modifier and is considered to be the default path.",
+          "Playing Wanderer will give extra candles to the player.",
+        ],
+        [""],
+        [""],
+        [""],
+      ],
+    },
 
     description:
       "The Highwayman is a highly versatile hero that heavily focuses on dealing damage thanks to his ability to target the front Ranks as well as the back Ranks. His skillset places emphasis on damage and utility such as self-Buffs, Execution 1 finishers, and a unique skill to destroy or steal powerful Tokens from enemies.",
@@ -158,7 +176,11 @@ const heroesData = {
       "I'll double the dose, just to be sure.",
       "The shadows—my favorite cloak.",
     ],
-    paths: ["Wanderer", "Deadeye", "Venomdrop", "Nightsworn"],
+    paths: {
+      name: ["Wanderer", "Deadeye", "Venomdrop", "Nightsworn"],
+      description: ["AAA", "BBB", "CCC", "DDD"],
+    },
+
     description:
       "The Grave Robber has some of the most flexible targeting and positioning amongst the Heroes. Combined with her fantastic self-sustain, Dodge, dodgeplusand and stealth, she suffers very little from enemy disruption despite her low HP. Most of Grave robber Damage is very reliant on CRIT chance as such Grave Robber requires more planning than other heroes but can be very effective given the right circunstances.",
 
@@ -253,7 +275,11 @@ const heroesData = {
       "Let it bleed! AKYLORAAHHH!",
       "Again! I can take it!",
     ],
-    paths: ["Wanderer", "Ravager", "Berserker", "Carcass"],
+    paths: {
+      name: ["Wanderer", "Ravager", "Berserker", "Carcass"],
+      description: ["AAA", "BBB", "CCC", "DDD"],
+    },
+
     description:
       "The Hellion's primary role a front-line damage dealer with large bursts of damage. Her ability to gain extra damage when Low HP pairs well with her secondary tank role( by having a multitude of self-heals, both for HP and Stress). In addition to tanking and doing damage, it can also serve as a minimum support role but in general Hellion brings large amounts of damage to the team while protecting her teammates with Taunt.",
     characteristics: {
@@ -367,7 +393,10 @@ const heroesData = {
       "This'll be a cutting performance...",
       "Let's keep this melody moving...",
     ],
-    paths: ["Wanderer", "Virtuoso", "Soloist", "Intermezzo"],
+    paths: {
+      name: ["Wanderer", "Virtuoso", "Soloist", "Intermezzo"],
+      description: ["AAA", "BBB", "CCC", "DDD"],
+    },
     description:
       "The Jester is a highly mobile hero with skills that require him to move around the team. His versatility allows him to apply Combo Tokens effectively across different ranks. He excels at stress healing and buffing teammates on Rank 3, while using Finale on Rank 2 for powerful attacks against tough enemies.",
     characteristics: {
@@ -461,7 +490,10 @@ const heroesData = {
       "Petals must fall.",
       "To rule, one must learn to serve.",
     ],
-    paths: ["Wanderer", "Tempest", "Poet", "Monarch"],
+    paths: {
+      name: ["Wanderer", "Tempest", "Poet", "Monarch"],
+      description: ["AAA", "BBB", "CCC", "DDD"],
+    },
     description:
       "The Leper is a strong frontline hero dealing high damage and absorbing damage for the team. His main weakness is Blind tokens, countered by Reflection. Limited to the front ranks, he lacks mobility and is vulnerable to knockbacks.",
     characteristics: {
@@ -564,7 +596,10 @@ const heroesData = {
       "Stand fast behind me!",
       "Look death in the eye.",
     ],
-    paths: ["Wanderer", "Sergeant", "Bulwark", "Vanguard"],
+    paths: {
+      name: ["Wanderer", "Sergeant", "Bulwark", "Vanguard"],
+      description: ["AAA", "BBB", "CCC", "DDD"],
+    },
     description:
       "The Man-at-Arms is essentially a tank who takes punishments to protect his more fragile teammates thanks to his easy access to Taunt and Block. Man-at-Arms can be effective at dealing damage as well.His entire skillset is highly flexible; allowing him to adapt to any Rank or Party. Because of his toughness and ability to protect his allies the Man-at-Arms can become the backbone of any team composition.",
     characteristics: {
@@ -652,7 +687,10 @@ const heroesData = {
       "Those beyond the veil hear my calls and obey!",
       "I drift in the starless skies of the void.",
     ],
-    paths: ["Wanderer", "Ritualist", "Warlock", "Aspirant"],
+    paths: {
+      name: ["Wanderer", "Ritualist", "Warlock", "Aspirant"],
+      description: ["AAA", "BBB", "CCC", "DDD"],
+    },
     description:
       "the Occultist focuses on applying Negative Tokens to enemies and healing critically injured allies. As players progress, they unlock offensive skills that utilize Unchecked Power, enabling the Occultist to deal significant damage and apply powerful effects. However, harnessing Unchecked Power also introduces subtle risks for the Occultist.",
     characteristics: {
@@ -765,7 +803,10 @@ const heroesData = {
       "A fascinating reaction...",
       "Let me prescribe a more ...holistic regimen.",
     ],
-    paths: ["Wanderer", "Surgeon", "Alchemist", "Physician"],
+    paths: {
+      name: ["Wanderer", "Surgeon", "Alchemist", "Physician"],
+      description: ["AAA", "BBB", "CCC", "DDD"],
+    },
     description:
       "The Plague Doctor is a reliable healer and supportive-damage dealer, with utility, diversity, and usefulness with her skills. The Plague Doctor is capable of dealing a surprisingly massive amount of Blight damage, with some respectable Direct and Bleed damage. Due to her lack of defensive skills and low-HP. The Plague Doctor is best utilized in the back Ranks, where she has access to most of her skills, and avoids harm from the dangerous front Ranks.",
     characteristics: {
@@ -858,7 +899,10 @@ const heroesData = {
       "Faith is my shield; piety, my armor!",
       "Witness ye the holy radiance of the Light!",
     ],
-    paths: ["Wanderer", "Confessor", "Chaplain", "Seraph"],
+    paths: {
+      name: ["Wanderer", "Confessor", "Chaplain", "Seraph"],
+      description: ["AAA", "BBB", "CCC", "DDD"],
+    },
     description:
       "The Vestal is a versatile hero capable of supporting the team and dealing damage. Her strategic use of Conviction tokens and careful skill planning optimize her effectiveness across both front and back ranks.",
     characteristics: {
@@ -985,7 +1029,10 @@ const heroesData = {
       "Patch up. Stay sharp. Keep moving.",
       "I have nothing, and so I have everything.",
     ],
-    paths: ["Wanderer", "Arsonist", "Survivor", "Orphan"],
+    paths: {
+      name: ["Wanderer", "Arsonist", "Survivor", "Orphan"],
+      description: ["AAA", "BBB", "CCC", "DDD"],
+    },
     description:
       "As a new addition to the Hero's roster in Darkest Dungeon II, the Runaway's skillset has a heavy focus on Burn effect. The Runaway is primarily a front-liner, having access to most of her skills when placed on the front Ranks. Furthermore, she can target the back Ranks, provided that she stays on Rank 3 or 4, where she can not use various skills. She is one of the few Heroes that can use Stealth and also among the few that can heal allies.",
     characteristics: {
@@ -1083,7 +1130,7 @@ const heroesData = {
     name: "Bounty-Hunter",
     rolePlay: [],
     cite: ["The thrill of the hunt, the promise of payment!"],
-    paths: ["Professional"],
+    paths: { name: ["Professional"], description: ["AAA"] },
     description:
       "The Bounty Hunter has a unique recruitment method through the inn's poster, costing 4 candles per region. He cannot form relationships but can experience stress and meltdowns. His pre-mastered skills offer powerful versatility despite the absence of paths or skill upgrades.",
     characteristics: {
@@ -1176,7 +1223,10 @@ const heroesData = {
       "Let the blows rain upon me. I will not fall.",
       "When the wind whips violent, rally to my standard!",
     ],
-    paths: ["Wanderer", "Aggressor", "Templar", "Banneret"],
+    paths: {
+      name: ["Wanderer", "Aggressor", "Templar", "Banneret"],
+      description: ["AAA", "BBB", "CCC", "DDD"],
+    },
     description:
       "Reynauld is a frontline Crusader with high resistance to bleed and burn. His paths include Wanderer, Aggressor, Templar, and Banneret, each with a different focus. His abilities range from powerful strikes, stress healing, stuns, and area attacks with burns, adapting to different roles depending on the chosen path.",
     characteristics: {
@@ -1267,7 +1317,10 @@ const heroesData = {
       "Imbécile! You've nothing to me!",
       "I live for this",
     ],
-    paths: ["Wanderer", "Instructice", "Antagoniste", "Intrédpide"],
+    paths: {
+      name: ["Wanderer", "Instructice", "Antagoniste", "Intrédpide"],
+      description: ["AAA", "BBB", "CCC", "DDD"],
+    },
     description:
       "The Duelist is a highly-mobile, high-damage-dealing hero, with low HP and few defenses. In a way, it plays similar to the Grave Robber, however the Duelist has no self-healing skills which makes her a higher-risk, higher-reward bet.",
     characteristics: {
@@ -1388,7 +1441,10 @@ const heroesData = {
       "Let me but sample the bitter taste of death!",
       "I am purged of beauty, empty of all but blight!",
     ],
-    paths: ["Wanderer", "Maniac", "Exanimate", "Scourge"],
+    paths: {
+      name: ["Wanderer", "Maniac", "Exanimate", "Scourge"],
+      description: ["AAA", "BBB", "CCC", "DDD"],
+    },
     description:
       "The Flagellant is a hero with a unique Meltdown ability called 'Toxic'. He excels in high resistance to Death's Door and can never be resolute. His skills include blight attacks, self-healing at the cost of his own HP, stress and DoT transfer abilities, and team healing and protection capabilities. His three main paths (Maniac, Exanimate, Scourge) modify specific skills to focus on different playstyles and roles within the team.",
     characteristics: {
