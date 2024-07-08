@@ -22,10 +22,6 @@ const pathsHero = [
 ];
 
 function pathHero({ heroIndex, pathIndex, pathData }) {
-  useEffect(() => {
-    console.log(pathData);
-  }, [pathData]);
-
   return (
     <div className="boxPath">
       <h4>{pathsHero[heroIndex].name[pathIndex]}</h4>

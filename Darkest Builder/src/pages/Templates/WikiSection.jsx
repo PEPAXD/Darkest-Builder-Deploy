@@ -92,10 +92,6 @@ function WikiSection({ url_Bg }) {
     setHeroPaths(0);
   };
 
-  useEffect(() => {
-    console.log(heroPaths);
-    console.log(heroArray);
-  }, [heroPaths]);
 
   return (
     <div className="wiki">
