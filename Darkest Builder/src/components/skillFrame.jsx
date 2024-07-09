@@ -1,5 +1,8 @@
-import React, { useEffect } from "react";
+import React, { useState } from "react";
 import "./styles/skillFrame.css";
+
+//react-Icons
+import { IoMdArrowDropdown } from "react-icons/io";
 
 //import SkillsImg
 //Import Highwayman
@@ -36,11 +39,20 @@ const skillsHero = [
   //TODO: Add more heroes
 ];
 
-function skillFrame({ skillData }) {
+function skillFrame({ skillData, arrowCheck  }) {
+
+
+  let [isVisible, setIsVisible] = useState(true);
+
   return (
     <div className="skillBox">
       <input type="radio" />
-      <img src={skillsHero[0].src[skillData.id]} alt={skillData.name} />
+
+      <div className="skillFrame">
+        <IoMdArrowDropdown style={{ opacity: isVisible ? 1 : 0 }} />
+        <img src={skillsHero[0].src[skillData.id]} alt={skillData.name} />
+      </div>
+
       <i>{skillData.name}</i>
     </div>
   );

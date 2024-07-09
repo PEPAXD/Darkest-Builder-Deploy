@@ -92,6 +92,8 @@ function WikiSection({ url_Bg }) {
     setHeroPaths(0);
   };
 
+  //SkillPath
+  const skillPathArray = [0, 1, 2, 3, 4];
 
   return (
     <div className="wiki">
@@ -272,6 +274,7 @@ function WikiSection({ url_Bg }) {
                     <SkillFrame key={index} skillData={skill} />
                   ))}
               </div>
+              
             </section>
 
             <section id="#">
