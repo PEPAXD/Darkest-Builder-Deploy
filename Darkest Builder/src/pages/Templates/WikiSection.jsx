@@ -148,7 +148,12 @@ function WikiSection({ url_Bg }) {
                       id={`value-${index}`}
                       value={index}
                       checked={heroPaths === index}
-                      onChange={(e) => setHeroPaths(index)}
+                      onChange={(e) => {
+                        setHeroPaths(index);
+                        document
+                          .getElementById("Skills")
+                          .scrollIntoView({ behavior: "smooth" });
+                      }}
                     />
                     <label htmlFor={`value-${index}`}>{path}</label>
                   </React.Fragment>
