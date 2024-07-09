@@ -27,6 +27,7 @@ const heroesData = {
     ],
     paths: {
       name: ["Wanderer", "Rogue", "Sharpshot", "Yellowhand"],
+      skillsArray: [[], [0, 2, 4, 5, 6], [1, 4, 5, 6, 8], []],
       cites: [
         '"Default skills. Rewards candles upon reaching the second Inn"',
         '"A brawler focused on front rank combat and Riposte."',
@@ -62,7 +63,6 @@ const heroesData = {
           { title: "Apply On Melee-Hit :", text: "-10% Bleed RES" },
           { title: "Highway Robbery", text: "Steal Positive Token" },
           { title: "Double Cross", text: "Remove Block" },
-
         ],
       ],
     },

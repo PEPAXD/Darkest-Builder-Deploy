@@ -307,16 +307,6 @@
   }
 }
 
-.skillsHeroArray {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-
-  width: 100%;
-  gap: 5%;
-}
 
 /*? RESPONSIVE MOVILE */
 @media (max-width: 480px) {

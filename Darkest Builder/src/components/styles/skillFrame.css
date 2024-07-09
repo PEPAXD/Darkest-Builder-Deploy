@@ -4,8 +4,11 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+
   width: 100%;
   gap: 5%;
+
+  padding: 0% 5%;
 }
 
 .skillBox {
@@ -14,7 +17,7 @@
   align-items: center;
   gap: 0.5rem;
   cursor: pointer;
-  padding-bottom: 1.5%;
+  padding-bottom: 2%;
   width: 10%;
 
   input {
@@ -24,8 +27,15 @@
   .skillFrame {
     position: relative;
 
+    &:hover {
+      img {
+        border: 2px solid #696a6c;
+      }
+    }
+
     svg {
       position: absolute;
+      pointer-events: none;
 
       top: 0;
       left: 0;
@@ -45,10 +55,6 @@
       background-color: #222;
       border: solid 2px #000;
       transition: all 0.215s ease-in-out;
-    }
-
-    img:hover {
-      border: 2px solid #696a6c;
     }
   }
 

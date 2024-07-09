@@ -92,9 +92,6 @@ function WikiSection({ url_Bg }) {
     setHeroPaths(0);
   };
 
-  //SkillPath
-  const skillPathArray = [0, 1, 2, 3, 4];
-
   return (
     <div className="wiki">
       <MainHeader
@@ -261,20 +258,22 @@ function WikiSection({ url_Bg }) {
               </div>
 
               <div className="skillsHeroArray">
-                {heroesData[heroArray].skills
-                  .slice(0, 6)
-                  .map((skill, index) => (
-                    <SkillFrame key={index} skillData={skill} />
-                  ))}
+                {heroesData[heroArray].skills.map((skill, index) => (
+                  <SkillFrame
+                    key={index}
+                    skillData={skill}
+                    arrowCheck={heroesData[heroArray].paths.skillsArray[
+                      heroPaths
+                    ].includes(index)}
+                    opacityCheck={
+                      heroPaths === 0 ||
+                      heroesData[heroArray].paths.skillsArray[
+                        heroPaths
+                      ].includes(index)
+                    }
+                  />
+                ))}
               </div>
-              <div className="skillsHeroArray">
-                {heroesData[heroArray].skills
-                  .slice(6, 11)
-                  .map((skill, index) => (
-                    <SkillFrame key={index} skillData={skill} />
-                  ))}
-              </div>
-              
             </section>
 
             <section id="#">

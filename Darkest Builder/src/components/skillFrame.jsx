@@ -39,21 +39,21 @@ const skillsHero = [
   //TODO: Add more heroes
 ];
 
-function skillFrame({ skillData, arrowCheck  }) {
-
-
-  let [isVisible, setIsVisible] = useState(true);
-
+function skillFrame({ skillData, arrowCheck, opacityCheck }) {
   return (
     <div className="skillBox">
       <input type="radio" />
 
       <div className="skillFrame">
-        <IoMdArrowDropdown style={{ opacity: isVisible ? 1 : 0 }} />
-        <img src={skillsHero[0].src[skillData.id]} alt={skillData.name} />
+        <IoMdArrowDropdown style={{ opacity: arrowCheck ? 1 : 0 }} />
+        <img
+          src={skillsHero[0].src[skillData.id]}
+          alt={skillData.name}
+          style={{ opacity: opacityCheck ? 1 : 0.4 }}
+        />
       </div>
 
-      <i>{skillData.name}</i>
+      <i style={{ opacity: opacityCheck ? 1 : 0.4 }}>{skillData.name}</i>
     </div>
   );
 }
