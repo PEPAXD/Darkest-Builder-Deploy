@@ -27,7 +27,7 @@ const heroesData = {
     ],
     paths: {
       name: ["Wanderer", "Rogue", "Sharpshot", "Yellowhand"],
-      skillsArray: [[], [0, 2, 4, 5, 6], [1, 4, 5, 6, 8], []],
+      skillsArray: [[], [0, 2, 4, 5, 6], [1, 4, 5, 6, 8], [3,6, 7, 9, 10]],
       cites: [
         '"Default skills. Rewards candles upon reaching the second Inn"',
         '"A brawler focused on front rank combat and Riposte."',
