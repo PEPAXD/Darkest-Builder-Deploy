@@ -304,9 +304,22 @@
 
   .skillsDescription {
     width: 100%;
+
+    .topBarSkill {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+
+      padding: 0% 5%;
+
+      h3 {
+        text-align: start;
+        font-style: italic;
+      }
+    }
   }
 }
-
 
 /*? RESPONSIVE MOVILE */
 @media (max-width: 480px) {

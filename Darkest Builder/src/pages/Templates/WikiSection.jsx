@@ -15,6 +15,7 @@ import BoxStats from "../../components/boxStats.jsx";
 import TokenFrame from "../../components/tokensFrame.jsx";
 import PathHero from "../../components/pathHero.jsx";
 import SkillFrame from "../../components/skillFrame.jsx";
+import UpgradeButton from "../../components/upgradeButton.jsx";
 
 //import npmPackages
 import { ReactSearchAutocomplete } from "react-search-autocomplete";
@@ -259,6 +260,12 @@ function WikiSection({ url_Bg }) {
 
                 <div className="skillsDescription">
                   <h4>Skills</h4>
+
+                  <div className="topBarSkill">
+                    <h3>Name</h3>
+                    <UpgradeButton />
+                  </div>
+                  <hr />
                 </div>
               </div>
 
