@@ -53,16 +53,16 @@ function boxStats({ dataStats }) {
   return (
     <>
       <div className="baseStatsContain">
-        <div className="upgradeButton">
-          <div className="checkbox-wrapper-46">
+        <div className="upgradeButtonStats">
+          <div className="checkbox-wrapper-45">
             <input
               type="checkbox"
-              id="cbx-46"
-              className="inp-cbx"
+              id="cbx-45"
+              className="inp-cbxStats"
               checked={isUpgradeActive}
               onChange={handleCheckboxChange}
             />
-            <label htmlFor="cbx-46" className="cbx">
+            <label htmlFor="cbx-45" className="cbxStats">
               <span>
                 <svg viewBox="0 0 12 10" height="10px" width="12px">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
