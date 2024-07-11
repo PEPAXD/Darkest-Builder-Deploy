@@ -2,8 +2,6 @@
   display: flex;
   justify-content: center;
 
-  font-weight: 300;
-
   button {
     display: flex;
     align-items: center;
@@ -23,11 +21,21 @@
     -webkit-user-select: none;
     user-select: none;
     cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
   }
   .checkbox-wrapper-46 .cbx span {
     display: inline-block;
     vertical-align: text-top;
     transform: translate3d(0, 0, 0);
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    font-weight: 300;
+    font-style: italic;
+    
   }
   .checkbox-wrapper-46 .cbx span:first-child {
     position: relative;
