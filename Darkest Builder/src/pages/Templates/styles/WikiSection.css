@@ -313,6 +313,11 @@
 
       padding: 0% 5%;
 
+      margin: 0% 2%;
+      margin-bottom: 1%;
+
+      border-bottom: 1px solid #999;
+
       h3 {
         text-align: start;
         font-style: italic;

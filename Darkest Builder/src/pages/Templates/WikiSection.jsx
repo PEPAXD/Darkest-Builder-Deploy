@@ -266,7 +266,6 @@ function WikiSection({ url_Bg }) {
                     <h3>{heroesData[heroArray].skills[0].name}</h3>
                     <UpgradeButton />
                   </div>
-                  <hr />
 
                   <div className="dataSkill">
                     <div className="basicStats">
