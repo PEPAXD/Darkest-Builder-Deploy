@@ -326,7 +326,10 @@
 
       .skillBox {
         padding: 0;
-        width: 100%;
+      }
+
+      .basicStats{
+
       }
 
       img {

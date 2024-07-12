@@ -268,18 +268,12 @@ function WikiSection({ url_Bg }) {
                   <hr />
 
                   <div className="dataSkill">
-                    <ul>
-                      <li>
-                        <SkillFrame
-                          skillData={heroesData[heroArray].skills[0]}
-                          arrowCheck={0}
-                          opacityCheck={1}
-                        />
-                      </li>
-                      <li>BBB</li>
-                      <li>CCC</li>
-                      <li>DDD</li>
-                    </ul>
+                    <SkillFrame
+                      skillData={heroesData[heroArray].skills[0]}
+                      arrowCheck={0}
+                      opacityCheck={1}
+                    />
+                    <div className="basicStats"></div>
                   </div>
 
                   <p>
@@ -295,7 +289,6 @@ function WikiSection({ url_Bg }) {
                 {heroesData[heroArray].skills.map((skill, index) => (
                   <div className="skillBox" key={index}>
                     <SkillFrame
-                      
                       skillData={skill}
                       arrowCheck={heroesData[heroArray].paths.skillsArray[
                         heroPaths
