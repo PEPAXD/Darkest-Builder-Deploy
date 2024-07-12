@@ -24,11 +24,10 @@ const icons = [
   },
 ];
 
-function basicStat({ title, iconSkill, flipNumber }) {
+function basicStat({ title, iconSkill, paintBalls }) {
   
   //positionsCharacters
   const numbersBall = [1, 2, 3, 4];
-  const numbersToRender = flipNumber ? [...numbersBall].reverse() : numbersBall;
 
   return (
     <>
@@ -43,8 +42,17 @@ function basicStat({ title, iconSkill, flipNumber }) {
 
       {(title === "Rank" || title === "Target") && (
         <div className="positionBalls">
-          {numbersToRender.map((number, index) => (
-            <span key={index}>{number}</span>
+          {numbersBall.map((number, index) => (
+            <span
+              key={index}
+              style={{
+                background: paintBalls.includes(number)
+                  ? title === "Rank"
+                    ? "#aa8c45"
+                    : "#2a6383"
+                  : "#333",
+              }}
+            ></span>
           ))}
         </div>
       )}
