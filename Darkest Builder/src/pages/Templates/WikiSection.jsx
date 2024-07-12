@@ -269,13 +269,15 @@ function WikiSection({ url_Bg }) {
                   <hr />
 
                   <div className="dataSkill">
-                    <SkillFrame
-                      skillData={heroesData[heroArray].skills[0]}
-                      arrowCheck={0}
-                      opacityCheck={1}
-                    />
                     <div className="basicStats">
                       <ul>
+                        <li>
+                          <SkillFrame
+                            skillData={heroesData[heroArray].skills[0]}
+                            arrowCheck={0}
+                            opacityCheck={1}
+                          />
+                        </li>
                         <li>
                           <BasicStat title={"Type"} iconSkill={0} />
                         </li>
