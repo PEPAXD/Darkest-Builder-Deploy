@@ -338,13 +338,12 @@
           justify-content: space-evenly;
 
           width: 100%;
-          margin: 1% 0%;
-
           gap: 1rem;
 
           li {
-            width: 100%;
+            align-items: center;
             list-style: none;
+            gap: 0.5rem;
           }
         }
       }

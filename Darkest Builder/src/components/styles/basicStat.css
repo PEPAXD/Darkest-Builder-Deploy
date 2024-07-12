@@ -1,0 +1,19 @@
+.basicStats {
+  b {
+    padding: 0% 4%;
+    border-bottom: 1px solid #999;
+
+    font-weight: 600;
+  }
+
+  .iconSkill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+
+    i {
+      font-weight: 100;
+    }
+  }
+}

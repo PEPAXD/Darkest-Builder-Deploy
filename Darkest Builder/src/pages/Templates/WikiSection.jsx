@@ -277,7 +277,7 @@ function WikiSection({ url_Bg }) {
                     <div className="basicStats">
                       <ul>
                         <li>
-                          <BasicStat />
+                          <BasicStat title={"Type"} />
                         </li>
                         <li>
                           <BasicStat />
