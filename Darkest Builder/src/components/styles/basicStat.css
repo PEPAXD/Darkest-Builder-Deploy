@@ -24,7 +24,11 @@
     gap: 0.2rem;
 
     span {
-      display: inline-block;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      font-size: 0.8em;
 
       width: 1.2rem;
       height: 1.2rem;

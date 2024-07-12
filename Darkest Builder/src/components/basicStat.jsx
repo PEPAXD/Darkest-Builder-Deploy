@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./styles/basicStat.css";
 
 //import icons
@@ -23,7 +24,12 @@ const icons = [
   },
 ];
 
-function basicStat({ title, iconSkill }) {
+function basicStat({ title, iconSkill, flipNumber }) {
+  
+  //positionsCharacters
+  const numbersBall = [1, 2, 3, 4];
+  const numbersToRender = flipNumber ? [...numbersBall].reverse() : numbersBall;
+
   return (
     <>
       <b>{title}</b>
@@ -37,10 +43,9 @@ function basicStat({ title, iconSkill }) {
 
       {(title === "Rank" || title === "Target") && (
         <div className="positionBalls">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
+          {numbersToRender.map((number, index) => (
+            <span key={index}>{number}</span>
+          ))}
         </div>
       )}
     </>
