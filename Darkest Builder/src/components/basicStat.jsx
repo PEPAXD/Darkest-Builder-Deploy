@@ -7,13 +7,28 @@ import { GiBowman, GiSwordman, GiHealthNormal } from "react-icons/gi";
 import { GiPocketBow, GiBroadDagger } from "react-icons/gi";
 import { PiBatteryVerticalHigh } from "react-icons/pi";
 
-function basicStat({ title, icon }) {
+const icons = [
+  {
+    tag: "Melee",
+    icon: <GiBroadDagger style={{ transform: "rotate(-90deg)" }} />,
+  },
+  {
+    tag: "Melee",
+    icon: <GiBroadDagger style={{ transform: "rotate(-90deg)" }} />,
+  },
+  {
+    tag: "Melee",
+    icon: <GiBroadDagger style={{ transform: "rotate(-90deg)" }} />,
+  },
+];
+
+function basicStat({ title, iconSkill }) {
   return (
     <>
       <b>{title}</b>
       <div className="iconSkill">
-        <GiBroadDagger style={{ transform: "rotate(-90deg)" }} />
-        <i>Melee</i>
+        {icons[iconSkill].icon}
+        <i> {icons[iconSkill].tag}</i>
       </div>
     </>
   );

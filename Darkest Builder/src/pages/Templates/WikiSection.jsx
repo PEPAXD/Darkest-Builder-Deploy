@@ -277,16 +277,13 @@ function WikiSection({ url_Bg }) {
                     <div className="basicStats">
                       <ul>
                         <li>
-                          <BasicStat title={"Type"} />
+                          <BasicStat title={"Type"} iconSkill={0} />
                         </li>
                         <li>
-                          <BasicStat />
+                          <BasicStat title={"Type"} iconSkill={1} />
                         </li>
                         <li>
-                          <BasicStat />
-                        </li>
-                        <li>
-                          <BasicStat />
+                          <BasicStat title={"Type"} iconSkill={2} />
                         </li>
                       </ul>
                     </div>
