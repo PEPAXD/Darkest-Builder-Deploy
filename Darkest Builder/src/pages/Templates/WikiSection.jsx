@@ -16,6 +16,7 @@ import TokenFrame from "../../components/tokensFrame.jsx";
 import PathHero from "../../components/pathHero.jsx";
 import SkillFrame from "../../components/skillFrame.jsx";
 import UpgradeButton from "../../components/upgradeButton.jsx";
+import BasicStat from "../../components/basicStat.jsx";
 
 //import npmPackages
 import { ReactSearchAutocomplete } from "react-search-autocomplete";
@@ -273,7 +274,9 @@ function WikiSection({ url_Bg }) {
                       arrowCheck={0}
                       opacityCheck={1}
                     />
-                    <div className="basicStats"></div>
+                    <div className="basicStats">
+                      <BasicStat />
+                    </div>
                   </div>
 
                   <p>
