@@ -318,6 +318,40 @@
         font-style: italic;
       }
     }
+
+    .dataSkill {
+      display: flex;
+      flex-direction: row;
+      padding: 1%;
+
+      .skillBox {
+        padding: 0;
+      }
+
+      img {
+        height: 3.5rem;
+      }
+
+      ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        width: 100%;
+
+        li {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+        }
+      }
+    }
+
+    p {
+      padding: 1%;
+      text-align: start;
+      font-size: 1em;
+    }
   }
 }
 

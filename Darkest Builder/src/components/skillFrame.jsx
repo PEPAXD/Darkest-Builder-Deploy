@@ -52,8 +52,6 @@ function skillFrame({ skillData, arrowCheck, opacityCheck }) {
           style={{ opacity: opacityCheck ? 1 : 0.4 }}
         />
       </div>
-
-      <i style={{ opacity: opacityCheck ? 1 : 0.4 }}>{skillData.name}</i>
     </div>
   );
 }

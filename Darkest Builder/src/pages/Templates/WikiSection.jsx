@@ -262,28 +262,52 @@ function WikiSection({ url_Bg }) {
                   <h4>Skills</h4>
 
                   <div className="topBarSkill">
-                    <h3>Name</h3>
+                    <h3>{heroesData[heroArray].skills[0].name}</h3>
                     <UpgradeButton />
                   </div>
                   <hr />
+
+                  <div className="dataSkill">
+                    <SkillFrame
+                      skillData={heroesData[heroArray].skills[0]}
+                      arrowCheck={0}
+                      opacityCheck={1}
+                    />
+                    <ul>
+                      <li>AAA</li>
+                      <li>BBB</li>
+                      <li>CCC</li>
+                      <li>DDD</li>
+                    </ul>
+                  </div>
+
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Nisi consectetur optio molestias et amet, hic veniam non
+                    fugiat ipsum facilis aut itaque quod vero provident commodi
+                    suscipit aperiam veritatis. Deserunt.
+                  </p>
                 </div>
               </div>
 
               <div className="skillsHeroArray">
                 {heroesData[heroArray].skills.map((skill, index) => (
-                  <SkillFrame
-                    key={index}
-                    skillData={skill}
-                    arrowCheck={heroesData[heroArray].paths.skillsArray[
-                      heroPaths
-                    ].includes(index)}
-                    opacityCheck={
-                      heroPaths === 0 ||
-                      heroesData[heroArray].paths.skillsArray[
+                  <div className="skillBox">
+                    <SkillFrame
+                      key={index}
+                      skillData={skill}
+                      arrowCheck={heroesData[heroArray].paths.skillsArray[
                         heroPaths
-                      ].includes(index)
-                    }
-                  />
+                      ].includes(index)}
+                      opacityCheck={
+                        heroPaths === 0 ||
+                        heroesData[heroArray].paths.skillsArray[
+                          heroPaths
+                        ].includes(index)
+                      }
+                    />
+                    <i>{skill.name}</i>
+                  </div>
                 ))}
               </div>
             </section>
