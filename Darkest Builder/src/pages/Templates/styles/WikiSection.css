@@ -322,14 +322,31 @@
     .dataSkill {
       display: flex;
       flex-direction: row;
+      justify-content: space-between;
       padding: 1%;
 
       .skillBox {
         padding: 0;
       }
 
-      .basicStats{
+      .basicStats {
+        width: 100%;
+        ul {
+          display: flex;
+          flex-direction: row;
+          align-items: flex-start;
+          justify-content: space-evenly;
 
+          width: 100%;
+          margin: 1% 0%;
+
+          gap: 1rem;
+
+          li {
+            width: 100%;
+            list-style: none;
+          }
+        }
       }
 
       img {

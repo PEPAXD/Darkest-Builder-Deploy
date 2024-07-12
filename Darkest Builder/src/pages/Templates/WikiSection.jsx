@@ -275,7 +275,20 @@ function WikiSection({ url_Bg }) {
                       opacityCheck={1}
                     />
                     <div className="basicStats">
-                      <BasicStat />
+                      <ul>
+                        <li>
+                          <BasicStat />
+                        </li>
+                        <li>
+                          <BasicStat />
+                        </li>
+                        <li>
+                          <BasicStat />
+                        </li>
+                        <li>
+                          <BasicStat />
+                        </li>
+                      </ul>
                     </div>
                   </div>
 
