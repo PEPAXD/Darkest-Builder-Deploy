@@ -280,10 +280,10 @@ function WikiSection({ url_Bg }) {
                           <BasicStat title={"Type"} iconSkill={0} />
                         </li>
                         <li>
-                          <BasicStat title={"Type"} iconSkill={1} />
+                          <BasicStat title={"Rank"} iconSkill={1} />
                         </li>
                         <li>
-                          <BasicStat title={"Type"} iconSkill={2} />
+                          <BasicStat title={"Rank"} iconSkill={2} />
                         </li>
                       </ul>
                     </div>

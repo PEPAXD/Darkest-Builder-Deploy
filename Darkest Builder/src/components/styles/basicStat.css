@@ -16,4 +16,21 @@
       font-weight: 100;
     }
   }
+
+  .positionBalls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+
+    span {
+      display: inline-block;
+
+      width: 1.2rem;
+      height: 1.2rem;
+      border-radius: 50%;
+
+      background-color: #333;
+    }
+  }
 }
