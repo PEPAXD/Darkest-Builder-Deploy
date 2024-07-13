@@ -152,6 +152,7 @@ const heroesData = {
           type: 0,
           rank: [2, 3, 4],
           target: [1, 2],
+          dmg: [4, 5],
         },
       },
       {
@@ -162,6 +163,7 @@ const heroesData = {
           type: 1,
           rank: [1, 2, 3],
           target: [2, 3, 4],
+
         },
       },
       {

@@ -17,6 +17,7 @@ import PathHero from "../../components/pathHero.jsx";
 import SkillFrame from "../../components/skillFrame.jsx";
 import UpgradeButton from "../../components/upgradeButton.jsx";
 import BasicStat from "../../components/basicStat.jsx";
+import AdvancedStats from "../../components/advancedStats.jsx";
 
 //import npmPackages
 import { ReactSearchAutocomplete } from "react-search-autocomplete";
@@ -319,16 +320,16 @@ function WikiSection({ url_Bg }) {
                   <div className="statsHigh">
                     <ul>
                       <li>
-                        <b>DMG</b>
-                        <span>4-8</span>
+                        <AdvancedStats
+                          title={"DMG"}
+                          data={`${heroesData[heroArray].skills[selectedSkill].info.dmg[0]}-${heroesData[heroArray].skills[selectedSkill].info.dmg[1]}`}
+                        />
                       </li>
                       <li>
-                        <b>CRIT</b>
-                        <span>15%</span>
+                        <AdvancedStats title={"DMG"} data={"4-5"} />
                       </li>
                       <li>
-                        <b>TARGET</b>
-                        <span>Execution 1</span>
+                        <AdvancedStats title={"DMG"} data={"4-5"} />
                       </li>
                     </ul>
                   </div>
