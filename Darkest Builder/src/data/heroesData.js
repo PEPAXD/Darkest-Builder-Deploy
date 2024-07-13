@@ -27,7 +27,7 @@ const heroesData = {
     ],
     paths: {
       name: ["Wanderer", "Rogue", "Sharpshot", "Yellowhand"],
-      skillsArray: [[], [0, 2, 4, 5, 6], [1, 4, 5, 6, 8], [3,6, 7, 9, 10]],
+      skillsArray: [[], [0, 2, 4, 5, 6], [1, 4, 5, 6, 8], [3, 6, 7, 9, 10]],
       cites: [
         '"Default skills. Rewards candles upon reaching the second Inn"',
         '"A brawler focused on front rank combat and Riposte."',
@@ -145,10 +145,24 @@ const heroesData = {
       {
         id: 0,
         name: "Wicked Slice",
+        description:
+          "High critical rate (15/20), Good damage range. However, its main limitation is that it only reaches ranks 1 and 2. It's useful against specific enemies due to its ability to execute them.",
+
+        info: {
+          type: 0,
+          rank: [2, 3, 4],
+          target: [1, 2],
+        },
       },
       {
         id: 1,
         name: "Pistol Shot",
+
+        info: {
+          type: 1,
+          rank: [1, 2, 3],
+          target: [2, 3, 4],
+        },
       },
       {
         id: 2,

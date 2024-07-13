@@ -282,24 +282,38 @@ function WikiSection({ url_Bg }) {
                           />
                         </li>
                         <li>
-                          <BasicStat title={"Type"} iconSkill={0} />
+                          <BasicStat
+                            title={"Type"}
+                            iconSkill={
+                              heroesData[heroArray].skills[selectedSkill].info
+                                .type
+                            }
+                          />
                         </li>
                         <li>
-                          <BasicStat title={"Rank"} paintBalls={[2, 3, 4]} />
+                          <BasicStat
+                            title={"Rank"}
+                            paintBalls={
+                              heroesData[heroArray].skills[selectedSkill].info
+                                .rank
+                            }
+                          />
                         </li>
                         <li>
-                          <BasicStat title={"Target"} paintBalls={[1, 2]} />
+                          <BasicStat
+                            title={"Target"}
+                            paintBalls={
+                              heroesData[heroArray].skills[selectedSkill].info
+                                .target
+                            }
+                          />
                         </li>
                       </ul>
                     </div>
                   </div>
 
                   <p>
-                    The move used to have the most common damage range in the
-                    game, with a high critical rate (15/20). However, its main
-                    limitation is that it only reaches ranks 1 and 2. It's
-                    useful against specific enemies due to its ability to
-                    execute them.
+                    {heroesData[heroArray].skills[selectedSkill].description}
                   </p>
 
                   <div className="statsHigh">
