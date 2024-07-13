@@ -17,21 +17,9 @@
   align-items: center;
   gap: 0.5rem;
   cursor: pointer;
-  padding-bottom: 2%;
-  width: 10%;
-
-  input {
-    display: none;
-  }
 
   .skillFrame {
     position: relative;
-
-    &:hover {
-      img {
-        border: 2px solid #696a6c;
-      }
-    }
 
     svg {
       position: absolute;
@@ -53,18 +41,21 @@
       display: flex;
       flex-direction: column;
       background-color: #222;
-      border: solid 2px #000;
+
       transition: all 0.215s ease-in-out;
     }
   }
 
   i {
     font-size: 0.7em;
-    font-weight: 100;
+    font-weight: 400;
     text-transform: uppercase;
 
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+
+    padding-bottom: 1rem;
+    color: #b6b6b6;
   }
 }

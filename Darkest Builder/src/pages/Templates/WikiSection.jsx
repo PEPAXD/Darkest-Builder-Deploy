@@ -94,6 +94,9 @@ function WikiSection({ url_Bg }) {
     setHeroPaths(0);
   };
 
+  //SelectorSkills
+  const [selectedSkill, setSelectedSkill] = useState(0);
+
   return (
     <div className="wiki">
       <MainHeader
@@ -263,7 +266,7 @@ function WikiSection({ url_Bg }) {
                   <h4>Skills</h4>
 
                   <div className="topBarSkill">
-                    <h3>{heroesData[heroArray].skills[0].name}</h3>
+                    <h3>{heroesData[heroArray].skills[selectedSkill].name}</h3>
                     <UpgradeButton />
                   </div>
 
@@ -272,9 +275,10 @@ function WikiSection({ url_Bg }) {
                       <ul>
                         <li>
                           <SkillFrame
-                            skillData={heroesData[heroArray].skills[0]}
+                            skillData={
+                              heroesData[heroArray].skills[selectedSkill]
+                            }
                             arrowCheck={0}
-                            opacityCheck={1}
                           />
                         </li>
                         <li>
@@ -320,19 +324,52 @@ function WikiSection({ url_Bg }) {
               <div className="skillsHeroArray">
                 {heroesData[heroArray].skills.map((skill, index) => (
                   <div className="skillBox" key={index}>
-                    <SkillFrame
-                      skillData={skill}
-                      arrowCheck={heroesData[heroArray].paths.skillsArray[
-                        heroPaths
-                      ].includes(index)}
-                      opacityCheck={
-                        heroPaths === 0 ||
-                        heroesData[heroArray].paths.skillsArray[
+                    <label
+                      key={index}
+                      className={`label ${
+                        selectedSkill === index ? "selected" : ""
+                      }`}
+                      style={{
+                        opacity:
+                          heroPaths === 0 ||
+                          heroesData[heroArray].paths.skillsArray[
+                            heroPaths
+                          ].includes(index)
+                            ? 1
+                            : 0.4,
+                      }}
+                    >
+                      <input
+                        type="radio"
+                        name="skill"
+                        value={index}
+                        checked={selectedSkill === index}
+                        onChange={() => setSelectedSkill(index)}
+                        style={{ display: "none" }}
+                      />
+                      <SkillFrame
+                        skillData={skill}
+                        arrowCheck={heroesData[heroArray].paths.skillsArray[
                           heroPaths
-                        ].includes(index)
+                        ].includes(index)}
+                      />
+                    </label>
+                    <i
+                      className={
+                        selectedSkill === index ? "selectedSkillName" : ""
                       }
-                    />
-                    <i>{skill.name}</i>
+                      style={{
+                        opacity:
+                          heroPaths === 0 ||
+                          heroesData[heroArray].paths.skillsArray[
+                            heroPaths
+                          ].includes(index)
+                            ? 1
+                            : 0.2,
+                      }}
+                    >
+                      {skill.name}
+                    </i>
                   </div>
                 ))}
               </div>

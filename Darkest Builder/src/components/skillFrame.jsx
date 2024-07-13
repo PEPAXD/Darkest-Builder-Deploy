@@ -39,7 +39,7 @@ const skillsHero = [
   //TODO: Add more heroes
 ];
 
-function skillFrame({ skillData, arrowCheck, opacityCheck }) {
+function skillFrame({ skillData, arrowCheck }) {
   return (
     <div className="skillBox">
       <div className="skillFrame">
@@ -47,7 +47,6 @@ function skillFrame({ skillData, arrowCheck, opacityCheck }) {
         <img
           src={skillsHero[0].src[skillData.id]}
           alt={skillData.name}
-          style={{ opacity: opacityCheck ? 1 : 0.4 }}
         />
       </div>
     </div>

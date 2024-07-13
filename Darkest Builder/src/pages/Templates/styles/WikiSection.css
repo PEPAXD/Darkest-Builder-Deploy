@@ -433,6 +433,25 @@
   }
 }
 
+.skillsHeroArray {
+  .label {
+    border: 2px solid #000;
+    transition: all 0.215s ease-in-out;
+
+    &:hover {
+      border: 2px solid #555;
+    }
+  }
+
+  .label.selected {
+    border: 2px solid #5791c4;
+  }
+
+  .selectedSkillName {
+    color: #87a7c2;
+  }
+}
+
 /*? RESPONSIVE MOVILE */
 @media (max-width: 480px) {
   .heroWikiContain {
