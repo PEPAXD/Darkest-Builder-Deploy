@@ -42,8 +42,6 @@ const skillsHero = [
 function skillFrame({ skillData, arrowCheck, opacityCheck }) {
   return (
     <div className="skillBox">
-      <input type="radio" />
-
       <div className="skillFrame">
         <IoMdArrowDropdown style={{ opacity: arrowCheck ? 1 : 0 }} />
         <img
