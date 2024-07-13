@@ -302,20 +302,18 @@ function WikiSection({ url_Bg }) {
                     <ul>
                       <li>
                         <b>DMG</b>
-                        <span>AAA</span>
+                        <span>4-8</span>
                       </li>
                       <li>
-                        <b>DMG</b>
-                        <span>AAA</span>
+                        <b>CRIT</b>
+                        <span>15%</span>
                       </li>
                       <li>
-                        <b>DMG</b>
-                        <span>AAA</span>
+                        <b>TARGET</b>
+                        <span>Execution 1</span>
                       </li>
                     </ul>
                   </div>
-
-
                 </div>
               </div>
 
