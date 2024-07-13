@@ -46,7 +46,7 @@
 
       transform: scale(1);
       vertical-align: middle;
-      border: 1px solid #9098a9;
+      border: 1px solid #555;
       transition: all 0.2s ease;
     }
     .checkbox-wrapper-46 .cbx span:first-child svg {

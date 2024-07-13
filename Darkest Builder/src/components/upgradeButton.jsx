@@ -28,7 +28,7 @@ function upgradeButton() {
               <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
             </svg>
           </span>
-          <RiArrowUpDoubleLine alt="AAA" style={{color: isChecked ? "#7a9cc6" : "#fff"}}/>
+          <RiArrowUpDoubleLine alt="AAA" style={{color: isChecked ? "#7a9cc6" : "#555"}}/>
         </label>
       </div>
     </div>
