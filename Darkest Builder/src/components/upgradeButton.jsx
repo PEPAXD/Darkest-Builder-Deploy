@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
 import "./styles/upgradeButton.css";
 
+//iconArrow
+import { RiArrowUpDoubleLine } from "react-icons/ri";
+
 function upgradeButton() {
   const [isChecked, setIsChecked] = useState(false);
 
@@ -25,7 +28,7 @@ function upgradeButton() {
               <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
             </svg>
           </span>
-          <span>Upgraded</span>
+          <RiArrowUpDoubleLine alt="AAA" style={{color: isChecked ? "#7a9cc6" : "#fff"}}/>
         </label>
       </div>
     </div>

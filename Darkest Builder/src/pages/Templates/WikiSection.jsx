@@ -291,11 +291,31 @@ function WikiSection({ url_Bg }) {
                   </div>
 
                   <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Nisi consectetur optio molestias et amet, hic veniam non
-                    fugiat ipsum facilis aut itaque quod vero provident commodi
-                    suscipit aperiam veritatis. Deserunt.
+                    The move used to have the most common damage range in the
+                    game, with a high critical rate (15/20). However, its main
+                    limitation is that it only reaches ranks 1 and 2. It's
+                    useful against specific enemies due to its ability to
+                    execute them.
                   </p>
+
+                  <div className="statsHigh">
+                    <ul>
+                      <li>
+                        <b>DMG</b>
+                        <span>AAA</span>
+                      </li>
+                      <li>
+                        <b>DMG</b>
+                        <span>AAA</span>
+                      </li>
+                      <li>
+                        <b>DMG</b>
+                        <span>AAA</span>
+                      </li>
+                    </ul>
+                  </div>
+
+
                 </div>
               </div>
 
