@@ -6,7 +6,6 @@ import "./styles/basicStat.css";
 import { TbClockBolt, TbArrowBigUpLinesFilled } from "react-icons/tb";
 import { GiBowman, GiSwordman, GiHealthNormal } from "react-icons/gi";
 import { GiPocketBow, GiBroadDagger, GiIciclesAura } from "react-icons/gi";
-
 import { PiBatteryVerticalHigh } from "react-icons/pi";
 
 const icons = [
@@ -25,7 +24,6 @@ const icons = [
 ];
 
 function basicStat({ title, iconSkill, paintBalls }) {
-  
   //positionsCharacters
   const numbersBall = [1, 2, 3, 4];
 
