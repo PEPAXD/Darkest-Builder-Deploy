@@ -145,6 +145,7 @@ const heroesData = {
       {
         id: 0,
         name: "Wicked Slice",
+
       },
       {
         id: 1,

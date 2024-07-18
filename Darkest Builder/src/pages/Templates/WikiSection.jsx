@@ -282,33 +282,6 @@ function WikiSection({ url_Bg }) {
                             arrowCheck={0}
                           />
                         </li>
-                        <li>
-                          <BasicStat
-                            title={"Type"}
-                            iconSkill={
-                              heroesData[heroArray].skills[selectedSkill].info
-                                .type
-                            }
-                          />
-                        </li>
-                        <li>
-                          <BasicStat
-                            title={"Rank"}
-                            paintBalls={
-                              heroesData[heroArray].skills[selectedSkill].info
-                                .rank
-                            }
-                          />
-                        </li>
-                        <li>
-                          <BasicStat
-                            title={"Target"}
-                            paintBalls={
-                              heroesData[heroArray].skills[selectedSkill].info
-                                .target
-                            }
-                          />
-                        </li>
                       </ul>
                     </div>
                   </div>
@@ -318,20 +291,7 @@ function WikiSection({ url_Bg }) {
                   </p>
 
                   <div className="statsHigh">
-                    <ul>
-                      <li>
-                        <AdvancedStats
-                          title={"DMG"}
-                          data={`${heroesData[heroArray].skills[selectedSkill].info.dmg[0]}-${heroesData[heroArray].skills[selectedSkill].info.dmg[1]}`}
-                        />
-                      </li>
-                      <li>
-                        <AdvancedStats title={"DMG"} data={"4-5"} />
-                      </li>
-                      <li>
-                        <AdvancedStats title={"DMG"} data={"4-5"} />
-                      </li>
-                    </ul>
+
                   </div>
                 </div>
               </div>
