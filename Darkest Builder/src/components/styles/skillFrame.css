@@ -1,0 +1,61 @@
+.skillsHeroArray {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  gap: 4.5%;
+
+  padding: 0% 5%;
+}
+
+.skillBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+
+  .skillFrame {
+    position: relative;
+
+    svg {
+      position: absolute;
+      pointer-events: none;
+
+      top: 0;
+      left: 0;
+      width: 100%;
+
+      fill: cyan;
+      font-size: 3em;
+
+      z-index: 1;
+      transform: translateY(-40%);
+    }
+
+    img {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      background-color: #222;
+
+      transition: all 0.215s ease-in-out;
+    }
+  }
+
+  i {
+    font-size: 0.7em;
+    font-weight: 400;
+    text-transform: uppercase;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    padding-bottom: 1rem;
+    color: #b6b6b6;
+  }
+}

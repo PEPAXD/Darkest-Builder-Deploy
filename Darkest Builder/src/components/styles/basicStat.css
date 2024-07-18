@@ -1,0 +1,36 @@
+.basicStats {
+  b {
+    padding: 0% 4%;
+    border-bottom: 1px solid #999;
+
+    font-weight: 600;
+  }
+
+  .iconSkill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+
+    i {
+      font-weight: 100;
+    }
+  }
+
+  .positionBalls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+
+    span {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      width: 1.2rem;
+      height: 1.2rem;
+      border-radius: 50%;
+    }
+  }
+}
