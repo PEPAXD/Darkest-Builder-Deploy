@@ -425,8 +425,16 @@
 
 .skillsHeroArray {
   .label {
-    border: 2px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid transparent;
     transition: all 0.215s ease-in-out;
+
+    width: 100%;
+    height: 100%;
 
     &:hover {
       border: 2px solid #555;

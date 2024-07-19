@@ -6,7 +6,7 @@
   justify-content: center;
 
   width: 100%;
-  gap: 4.5%;
+  gap: 6%;
 
   padding: 0% 5%;
 }
@@ -17,6 +17,8 @@
   align-items: center;
   gap: 0.5rem;
   cursor: pointer;
+
+  width: 4.7rem;
 
   .skillFrame {
     position: relative;
