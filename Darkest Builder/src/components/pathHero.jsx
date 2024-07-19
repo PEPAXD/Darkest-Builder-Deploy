@@ -11,12 +11,23 @@ import Rogue from "../assets/img/paths/highwayman/Dd2_path_rogue.webp";
 import Sharpshot from "../assets/img/paths/highwayman/Dd2_path_sharpshot.webp";
 import Yellowhand from "../assets/img/paths/highwayman/Dd2_path_yellowhand.webp";
 
+//Grave-Robber
+import Deadeye from "../assets/img/paths/grave-robber/Dd2_path_deadeye.webp";
+import Venomdrop from "../assets/img/paths/grave-robber/Dd2_path_venomdrop.webp";
+import Nightsworn from "../assets/img/paths/grave-robber/Dd2_path_nightsworn.webp";
+
 const pathsHero = [
   {
     //Highwayman
     name: ["Wanderer", "Rogue", "Sharpshot", "Yellowhand"],
     src: [Wanderer, Rogue, Sharpshot, Yellowhand],
     alt: ["WandererPath", "RoguePath", "SharpshotPath", "YellowhandPath"],
+  },
+  {
+    //Grave-Robber
+    name: ["Wanderer", "Deadeye", "Venomdrop", "Nightsworn"],
+    src: [Wanderer, Deadeye, Venomdrop, Nightsworn],
+    alt: ["WandererPath", "DeadeyePath", "VenomdropPath", "NightswornPath"],
   },
   //TODO: Add more heroes
 ];
