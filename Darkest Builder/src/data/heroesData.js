@@ -1840,9 +1840,7 @@ const heroesData = {
     paths: {
       name: ["Professional"],
       skillsArray: [[]],
-      cites: [
-        '"Default skills. Rewards candles upon reaching the second Inn"',
-      ],
+      cites: ['"Default skills. Rewards candles upon reaching the second Inn"'],
 
       description: [
         [
@@ -1988,8 +1986,46 @@ const heroesData = {
       "When the wind whips violent, rally to my standard!",
     ],
     paths: {
-      name: ["Wanderer", "Aggressor", "Templar", "Banneret"],
-      description: ["AAA", "BBB", "CCC", "DDD"],
+      name: ["Wanderer", "Rogue", "Sharpshot", "Yellowhand"],
+      skillsArray: [[], [0, 2, 4, 5, 6], [1, 4, 5, 6, 8], [3, 6, 7, 9, 10]],
+      cites: [
+        '"Default skills. Rewards candles upon reaching the second Inn"',
+        '"A brawler focused on front rank combat and Riposte."',
+        '"A back rank role that emphasizes ranged skill use"',
+        '"A rank-flexible Bleed specialist. Riposte inflicts Bleed."',
+      ],
+
+      description: [
+        [
+          {
+            title: "Candles of Hope +1",
+            text: "Extra Candle of Hope on reaching the 2nd Inn.",
+          },
+          {
+            title: "Riposte Combo (33%)",
+            text: "Target add Combo token when using Riposte.",
+          },
+        ],
+        [
+          { title: "If Rank = 1:", text: "+25% DMG" },
+          { title: "If Rank = 3:", text: "-25% DMG" },
+          { title: "If Rank = 4:", text: "-50% DMG" },
+          { title: "Point Blank Shot", text: "Add Riposte" },
+        ],
+        [
+          { title: "Ranged Skills:", text: "+25% DMG" },
+          { title: "Melee Skills:", text: "-25% DMG" },
+          { title: "Buff Speed", text: "+3 Speed" },
+          { title: "Grapeshot Blast", text: "Add Strength" },
+        ],
+        [
+          { title: "Buff HP", text: "+15% MAXHP" },
+          { title: "Ranged Skills:", text: "-75% DMG" },
+          { title: "Apply On Melee-Hit :", text: "-10% Bleed RES" },
+          { title: "Highway Robbery", text: "Steal Positive Token" },
+          { title: "Double Cross", text: "Remove Block" },
+        ],
+      ],
     },
     description:
       "Reynauld is a frontline Crusader with high resistance to bleed and burn. His paths include Wanderer, Aggressor, Templar, and Banneret, each with a different focus. His abilities range from powerful strikes, stress healing, stuns, and area attacks with burns, adapting to different roles depending on the chosen path.",
@@ -2064,10 +2100,48 @@ const heroesData = {
     ],
     skills: [
       {
+        id: 0,
         name: "Wicked Slice",
       },
       {
+        id: 1,
         name: "Pistol Shot",
+      },
+      {
+        id: 2,
+        name: "Duelist's Advance",
+      },
+      {
+        id: 3,
+        name: "Tracking Shot",
+      },
+      {
+        id: 4,
+        name: "Take Aim",
+      },
+      {
+        id: 5,
+        name: "Point Blank Shot",
+      },
+      {
+        id: 6,
+        name: "Grapeshot Blast",
+      },
+      {
+        id: 7,
+        name: "Open Vein",
+      },
+      {
+        id: 8,
+        name: "Double Tap",
+      },
+      {
+        id: 9,
+        name: "Highway Robbery",
+      },
+      {
+        id: 10,
+        name: "Double Cross",
       },
     ],
   },
@@ -2082,8 +2156,46 @@ const heroesData = {
       "I live for this",
     ],
     paths: {
-      name: ["Wanderer", "Instructice", "Antagoniste", "Intrédpide"],
-      description: ["AAA", "BBB", "CCC", "DDD"],
+      name: ["Wanderer", "Rogue", "Sharpshot", "Yellowhand"],
+      skillsArray: [[], [0, 2, 4, 5, 6], [1, 4, 5, 6, 8], [3, 6, 7, 9, 10]],
+      cites: [
+        '"Default skills. Rewards candles upon reaching the second Inn"',
+        '"A brawler focused on front rank combat and Riposte."',
+        '"A back rank role that emphasizes ranged skill use"',
+        '"A rank-flexible Bleed specialist. Riposte inflicts Bleed."',
+      ],
+
+      description: [
+        [
+          {
+            title: "Candles of Hope +1",
+            text: "Extra Candle of Hope on reaching the 2nd Inn.",
+          },
+          {
+            title: "Riposte Combo (33%)",
+            text: "Target add Combo token when using Riposte.",
+          },
+        ],
+        [
+          { title: "If Rank = 1:", text: "+25% DMG" },
+          { title: "If Rank = 3:", text: "-25% DMG" },
+          { title: "If Rank = 4:", text: "-50% DMG" },
+          { title: "Point Blank Shot", text: "Add Riposte" },
+        ],
+        [
+          { title: "Ranged Skills:", text: "+25% DMG" },
+          { title: "Melee Skills:", text: "-25% DMG" },
+          { title: "Buff Speed", text: "+3 Speed" },
+          { title: "Grapeshot Blast", text: "Add Strength" },
+        ],
+        [
+          { title: "Buff HP", text: "+15% MAXHP" },
+          { title: "Ranged Skills:", text: "-75% DMG" },
+          { title: "Apply On Melee-Hit :", text: "-10% Bleed RES" },
+          { title: "Highway Robbery", text: "Steal Positive Token" },
+          { title: "Double Cross", text: "Remove Block" },
+        ],
+      ],
     },
     description:
       "The Duelist is a highly-mobile, high-damage-dealing hero, with low HP and few defenses. In a way, it plays similar to the Grave Robber, however the Duelist has no self-healing skills which makes her a higher-risk, higher-reward bet.",
@@ -2188,10 +2300,48 @@ const heroesData = {
     ],
     skills: [
       {
+        id: 0,
         name: "Wicked Slice",
       },
       {
+        id: 1,
         name: "Pistol Shot",
+      },
+      {
+        id: 2,
+        name: "Duelist's Advance",
+      },
+      {
+        id: 3,
+        name: "Tracking Shot",
+      },
+      {
+        id: 4,
+        name: "Take Aim",
+      },
+      {
+        id: 5,
+        name: "Point Blank Shot",
+      },
+      {
+        id: 6,
+        name: "Grapeshot Blast",
+      },
+      {
+        id: 7,
+        name: "Open Vein",
+      },
+      {
+        id: 8,
+        name: "Double Tap",
+      },
+      {
+        id: 9,
+        name: "Highway Robbery",
+      },
+      {
+        id: 10,
+        name: "Double Cross",
       },
     ],
   },
@@ -2206,8 +2356,46 @@ const heroesData = {
       "I am purged of beauty, empty of all but blight!",
     ],
     paths: {
-      name: ["Wanderer", "Maniac", "Exanimate", "Scourge"],
-      description: ["AAA", "BBB", "CCC", "DDD"],
+      name: ["Wanderer", "Rogue", "Sharpshot", "Yellowhand"],
+      skillsArray: [[], [0, 2, 4, 5, 6], [1, 4, 5, 6, 8], [3, 6, 7, 9, 10]],
+      cites: [
+        '"Default skills. Rewards candles upon reaching the second Inn"',
+        '"A brawler focused on front rank combat and Riposte."',
+        '"A back rank role that emphasizes ranged skill use"',
+        '"A rank-flexible Bleed specialist. Riposte inflicts Bleed."',
+      ],
+
+      description: [
+        [
+          {
+            title: "Candles of Hope +1",
+            text: "Extra Candle of Hope on reaching the 2nd Inn.",
+          },
+          {
+            title: "Riposte Combo (33%)",
+            text: "Target add Combo token when using Riposte.",
+          },
+        ],
+        [
+          { title: "If Rank = 1:", text: "+25% DMG" },
+          { title: "If Rank = 3:", text: "-25% DMG" },
+          { title: "If Rank = 4:", text: "-50% DMG" },
+          { title: "Point Blank Shot", text: "Add Riposte" },
+        ],
+        [
+          { title: "Ranged Skills:", text: "+25% DMG" },
+          { title: "Melee Skills:", text: "-25% DMG" },
+          { title: "Buff Speed", text: "+3 Speed" },
+          { title: "Grapeshot Blast", text: "Add Strength" },
+        ],
+        [
+          { title: "Buff HP", text: "+15% MAXHP" },
+          { title: "Ranged Skills:", text: "-75% DMG" },
+          { title: "Apply On Melee-Hit :", text: "-10% Bleed RES" },
+          { title: "Highway Robbery", text: "Steal Positive Token" },
+          { title: "Double Cross", text: "Remove Block" },
+        ],
+      ],
     },
     description:
       "The Flagellant is a hero with a unique Meltdown ability called 'Toxic'. He excels in high resistance to Death's Door and can never be resolute. His skills include blight attacks, self-healing at the cost of his own HP, stress and DoT transfer abilities, and team healing and protection capabilities. His three main paths (Maniac, Exanimate, Scourge) modify specific skills to focus on different playstyles and roles within the team.",
@@ -2302,10 +2490,48 @@ const heroesData = {
     ],
     skills: [
       {
+        id: 0,
         name: "Wicked Slice",
       },
       {
+        id: 1,
         name: "Pistol Shot",
+      },
+      {
+        id: 2,
+        name: "Duelist's Advance",
+      },
+      {
+        id: 3,
+        name: "Tracking Shot",
+      },
+      {
+        id: 4,
+        name: "Take Aim",
+      },
+      {
+        id: 5,
+        name: "Point Blank Shot",
+      },
+      {
+        id: 6,
+        name: "Grapeshot Blast",
+      },
+      {
+        id: 7,
+        name: "Open Vein",
+      },
+      {
+        id: 8,
+        name: "Double Tap",
+      },
+      {
+        id: 9,
+        name: "Highway Robbery",
+      },
+      {
+        id: 10,
+        name: "Double Cross",
       },
     ],
   },

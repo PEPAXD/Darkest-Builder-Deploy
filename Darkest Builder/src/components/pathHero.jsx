@@ -59,6 +59,21 @@ import Orphan from "../assets/img/paths/Runaway/Dd2_path_orphan.webp";
 //bountyHunter
 import Professional from "../assets/img/paths/bountyHunter/Hero_seal_professional.webp";
 
+//crusader
+import Aggressor from "../assets/img/paths/crusader/Hero_seal_aggressor.webp";
+import Templar from "../assets/img/paths/crusader/Hero_seal_templar.webp";
+import Banneret from "../assets/img/paths/crusader/Hero_seal_banneret.webp";
+
+//duelist
+import Instructrice from "../assets/img/paths/duelist/Hero_seal_instructrice.webp";
+import Antagoniste from "../assets/img/paths/duelist/Hero_seal_antagoniste.webp";
+import Intrepide from "../assets/img/paths/duelist/Hero_seal_intrepide.webp";
+
+//flagellant
+import Maniac from "../assets/img/paths/flagellant/Hero-seals-maniac.webp";
+import Exanimate from "../assets/img/paths/flagellant/Hero-seals-exanimate.webp";
+import Scourge from "../assets/img/paths/flagellant/Hero-seals-scourge.webp";
+
 const pathsHero = [
   {
     //Highwayman
@@ -114,6 +129,21 @@ const pathsHero = [
     //bountyHunter
     name: ["Professional"],
     src: [Professional],
+  },
+  {
+    //crusader
+    name: ["Wanderer", "Aggressor", "Templar", "Banneret"],
+    src: [Wanderer, Aggressor, Templar, Banneret],
+  },
+  {
+    //duelist
+    name: ["Wanderer", "Instructrice", "Antagoniste", "Intrepide"],
+    src: [Wanderer, Instructrice, Antagoniste, Intrepide],
+  },
+  {
+    //flagellant
+    name: ["Wanderer", "Maniac", "Exanimate", "Scourge"],
+    src: [Wanderer, Maniac, Exanimate, Scourge],
   },
 ];
 
