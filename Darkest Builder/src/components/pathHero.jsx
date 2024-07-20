@@ -21,6 +21,11 @@ import Ravager from "../assets/img/paths/hellion/Dd2_path_ravager.webp";
 import Berserker from "../assets/img/paths/hellion/Dd2_path_berserker.webp";
 import Carcass from "../assets/img/paths/hellion/Dd2_path_carcass.webp";
 
+//Jester
+import Virtuoso from "../assets/img/paths/jester/Dd2_path_virtuoso.webp";
+import Soloist from "../assets/img/paths/jester/Dd2_path_soloist.webp";
+import Intermezzo from "../assets/img/paths/jester/Dd2_path_intermezzo.webp";
+
 const pathsHero = [
   {
     //Highwayman
@@ -36,6 +41,11 @@ const pathsHero = [
     //Hellion
     name: ["Wanderer", "Ravager", "Berserker", "Carcass"],
     src: [Wanderer, Ravager, Berserker, Carcass],
+  },
+  {
+    //Jester
+    name: ["Wanderer", "Virtuoso", "Soloist", "Intermezzo"],
+    src: [Wanderer, Virtuoso, Soloist, Intermezzo],
   },
 ];
 
