@@ -16,20 +16,27 @@ import Deadeye from "../assets/img/paths/grave-robber/Dd2_path_deadeye.webp";
 import Venomdrop from "../assets/img/paths/grave-robber/Dd2_path_venomdrop.webp";
 import Nightsworn from "../assets/img/paths/grave-robber/Dd2_path_nightsworn.webp";
 
+//Hellion
+import Ravager from "../assets/img/paths/hellion/Dd2_path_ravager.webp";
+import Berserker from "../assets/img/paths/hellion/Dd2_path_berserker.webp";
+import Carcass from "../assets/img/paths/hellion/Dd2_path_carcass.webp";
+
 const pathsHero = [
   {
     //Highwayman
     name: ["Wanderer", "Rogue", "Sharpshot", "Yellowhand"],
     src: [Wanderer, Rogue, Sharpshot, Yellowhand],
-    alt: ["WandererPath", "RoguePath", "SharpshotPath", "YellowhandPath"],
   },
   {
     //Grave-Robber
     name: ["Wanderer", "Deadeye", "Venomdrop", "Nightsworn"],
     src: [Wanderer, Deadeye, Venomdrop, Nightsworn],
-    alt: ["WandererPath", "DeadeyePath", "VenomdropPath", "NightswornPath"],
   },
-  //TODO: Add more heroes
+  {
+    //Hellion
+    name: ["Wanderer", "Ravager", "Berserker", "Carcass"],
+    src: [Wanderer, Ravager, Berserker, Carcass],
+  },
 ];
 
 function pathHero({ heroIndex, pathIndex, pathData }) {
@@ -37,10 +44,7 @@ function pathHero({ heroIndex, pathIndex, pathData }) {
     <div className="boxPath">
       <h4>{pathsHero[heroIndex].name[pathIndex]}</h4>
       <div className="pathSkills">
-        <img
-          src={pathsHero[heroIndex].src[pathIndex]}
-          alt={pathsHero[heroIndex].alt[pathIndex]}
-        />
+        <img src={pathsHero[heroIndex].src[pathIndex]} />
 
         <div className="pathData">
           <ul>
