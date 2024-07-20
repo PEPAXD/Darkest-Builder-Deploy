@@ -1455,8 +1455,46 @@ const heroesData = {
       "Witness ye the holy radiance of the Light!",
     ],
     paths: {
-      name: ["Wanderer", "Confessor", "Chaplain", "Seraph"],
-      description: ["AAA", "BBB", "CCC", "DDD"],
+      name: ["Wanderer", "Rogue", "Sharpshot", "Yellowhand"],
+      skillsArray: [[], [0, 2, 4, 5, 6], [1, 4, 5, 6, 8], [3, 6, 7, 9, 10]],
+      cites: [
+        '"Default skills. Rewards candles upon reaching the second Inn"',
+        '"A brawler focused on front rank combat and Riposte."',
+        '"A back rank role that emphasizes ranged skill use"',
+        '"A rank-flexible Bleed specialist. Riposte inflicts Bleed."',
+      ],
+
+      description: [
+        [
+          {
+            title: "Candles of Hope +1",
+            text: "Extra Candle of Hope on reaching the 2nd Inn.",
+          },
+          {
+            title: "Riposte Combo (33%)",
+            text: "Target add Combo token when using Riposte.",
+          },
+        ],
+        [
+          { title: "If Rank = 1:", text: "+25% DMG" },
+          { title: "If Rank = 3:", text: "-25% DMG" },
+          { title: "If Rank = 4:", text: "-50% DMG" },
+          { title: "Point Blank Shot", text: "Add Riposte" },
+        ],
+        [
+          { title: "Ranged Skills:", text: "+25% DMG" },
+          { title: "Melee Skills:", text: "-25% DMG" },
+          { title: "Buff Speed", text: "+3 Speed" },
+          { title: "Grapeshot Blast", text: "Add Strength" },
+        ],
+        [
+          { title: "Buff HP", text: "+15% MAXHP" },
+          { title: "Ranged Skills:", text: "-75% DMG" },
+          { title: "Apply On Melee-Hit :", text: "-10% Bleed RES" },
+          { title: "Highway Robbery", text: "Steal Positive Token" },
+          { title: "Double Cross", text: "Remove Block" },
+        ],
+      ],
     },
     description:
       "The Vestal is a versatile hero capable of supporting the team and dealing damage. Her strategic use of Conviction tokens and careful skill planning optimize her effectiveness across both front and back ranks.",
@@ -1567,10 +1605,48 @@ const heroesData = {
     ],
     skills: [
       {
+        id: 0,
         name: "Wicked Slice",
       },
       {
+        id: 1,
         name: "Pistol Shot",
+      },
+      {
+        id: 2,
+        name: "Duelist's Advance",
+      },
+      {
+        id: 3,
+        name: "Tracking Shot",
+      },
+      {
+        id: 4,
+        name: "Take Aim",
+      },
+      {
+        id: 5,
+        name: "Point Blank Shot",
+      },
+      {
+        id: 6,
+        name: "Grapeshot Blast",
+      },
+      {
+        id: 7,
+        name: "Open Vein",
+      },
+      {
+        id: 8,
+        name: "Double Tap",
+      },
+      {
+        id: 9,
+        name: "Highway Robbery",
+      },
+      {
+        id: 10,
+        name: "Double Cross",
       },
     ],
   },

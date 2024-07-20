@@ -46,6 +46,11 @@ import Surgeon from "../assets/img/paths/plagueDoctor/Dd2_path_surgeon.webp";
 import Alchemist from "../assets/img/paths/plagueDoctor/Dd2_path_alchemist.webp";
 import Physician from "../assets/img/paths/plagueDoctor/Dd2_path_physician.webp";
 
+//vestal
+import Confessor from "../assets/img/paths/vestal/Hero-seals-confessor.webp";
+import Chaplain from "../assets/img/paths/vestal/Hero-seals-chaplain.webp";
+import Seraph from "../assets/img/paths/vestal/Hero-seals-seraph.webp";
+
 const pathsHero = [
   {
     //Highwayman
@@ -86,6 +91,11 @@ const pathsHero = [
     //plagueDoctor
     name: ["Wanderer", "Surgeon", "Alchemist", "Physician"],
     src: [Wanderer, Surgeon, Alchemist, Physician],
+  },
+  {
+    //vestal
+    name: ["Wanderer", "Confessor", "Chaplain", "Seraph"],
+    src: [Wanderer, Confessor, Chaplain, Seraph],
   },
 ];
 
