@@ -1661,8 +1661,46 @@ const heroesData = {
       "I have nothing, and so I have everything.",
     ],
     paths: {
-      name: ["Wanderer", "Arsonist", "Survivor", "Orphan"],
-      description: ["AAA", "BBB", "CCC", "DDD"],
+      name: ["Wanderer", "Rogue", "Sharpshot", "Yellowhand"],
+      skillsArray: [[], [0, 2, 4, 5, 6], [1, 4, 5, 6, 8], [3, 6, 7, 9, 10]],
+      cites: [
+        '"Default skills. Rewards candles upon reaching the second Inn"',
+        '"A brawler focused on front rank combat and Riposte."',
+        '"A back rank role that emphasizes ranged skill use"',
+        '"A rank-flexible Bleed specialist. Riposte inflicts Bleed."',
+      ],
+
+      description: [
+        [
+          {
+            title: "Candles of Hope +1",
+            text: "Extra Candle of Hope on reaching the 2nd Inn.",
+          },
+          {
+            title: "Riposte Combo (33%)",
+            text: "Target add Combo token when using Riposte.",
+          },
+        ],
+        [
+          { title: "If Rank = 1:", text: "+25% DMG" },
+          { title: "If Rank = 3:", text: "-25% DMG" },
+          { title: "If Rank = 4:", text: "-50% DMG" },
+          { title: "Point Blank Shot", text: "Add Riposte" },
+        ],
+        [
+          { title: "Ranged Skills:", text: "+25% DMG" },
+          { title: "Melee Skills:", text: "-25% DMG" },
+          { title: "Buff Speed", text: "+3 Speed" },
+          { title: "Grapeshot Blast", text: "Add Strength" },
+        ],
+        [
+          { title: "Buff HP", text: "+15% MAXHP" },
+          { title: "Ranged Skills:", text: "-75% DMG" },
+          { title: "Apply On Melee-Hit :", text: "-10% Bleed RES" },
+          { title: "Highway Robbery", text: "Steal Positive Token" },
+          { title: "Double Cross", text: "Remove Block" },
+        ],
+      ],
     },
     description:
       "As a new addition to the Hero's roster in Darkest Dungeon II, the Runaway's skillset has a heavy focus on Burn effect. The Runaway is primarily a front-liner, having access to most of her skills when placed on the front Ranks. Furthermore, she can target the back Ranks, provided that she stays on Rank 3 or 4, where she can not use various skills. She is one of the few Heroes that can use Stealth and also among the few that can heal allies.",
@@ -1749,10 +1787,48 @@ const heroesData = {
     ],
     skills: [
       {
+        id: 0,
         name: "Wicked Slice",
       },
       {
+        id: 1,
         name: "Pistol Shot",
+      },
+      {
+        id: 2,
+        name: "Duelist's Advance",
+      },
+      {
+        id: 3,
+        name: "Tracking Shot",
+      },
+      {
+        id: 4,
+        name: "Take Aim",
+      },
+      {
+        id: 5,
+        name: "Point Blank Shot",
+      },
+      {
+        id: 6,
+        name: "Grapeshot Blast",
+      },
+      {
+        id: 7,
+        name: "Open Vein",
+      },
+      {
+        id: 8,
+        name: "Double Tap",
+      },
+      {
+        id: 9,
+        name: "Highway Robbery",
+      },
+      {
+        id: 10,
+        name: "Double Cross",
       },
     ],
   },
@@ -1761,7 +1837,26 @@ const heroesData = {
     name: "Bounty-Hunter",
     rolePlay: [],
     cite: ["The thrill of the hunt, the promise of payment!"],
-    paths: { name: ["Professional"], description: ["AAA"] },
+    paths: {
+      name: ["Professional"],
+      skillsArray: [[]],
+      cites: [
+        '"Default skills. Rewards candles upon reaching the second Inn"',
+      ],
+
+      description: [
+        [
+          {
+            title: "Candles of Hope +1",
+            text: "Extra Candle of Hope on reaching the 2nd Inn.",
+          },
+          {
+            title: "Riposte Combo (33%)",
+            text: "Target add Combo token when using Riposte.",
+          },
+        ],
+      ],
+    },
     description:
       "The Bounty Hunter has a unique recruitment method through the inn's poster, costing 4 candles per region. He cannot form relationships but can experience stress and meltdowns. His pre-mastered skills offer powerful versatility despite the absence of paths or skill upgrades.",
     characteristics: {
@@ -1837,10 +1932,48 @@ const heroesData = {
     ],
     skills: [
       {
+        id: 0,
         name: "Wicked Slice",
       },
       {
+        id: 1,
         name: "Pistol Shot",
+      },
+      {
+        id: 2,
+        name: "Duelist's Advance",
+      },
+      {
+        id: 3,
+        name: "Tracking Shot",
+      },
+      {
+        id: 4,
+        name: "Take Aim",
+      },
+      {
+        id: 5,
+        name: "Point Blank Shot",
+      },
+      {
+        id: 6,
+        name: "Grapeshot Blast",
+      },
+      {
+        id: 7,
+        name: "Open Vein",
+      },
+      {
+        id: 8,
+        name: "Double Tap",
+      },
+      {
+        id: 9,
+        name: "Highway Robbery",
+      },
+      {
+        id: 10,
+        name: "Double Cross",
       },
     ],
   },

@@ -51,6 +51,14 @@ import Confessor from "../assets/img/paths/vestal/Hero-seals-confessor.webp";
 import Chaplain from "../assets/img/paths/vestal/Hero-seals-chaplain.webp";
 import Seraph from "../assets/img/paths/vestal/Hero-seals-seraph.webp";
 
+//Runaway
+import Arsonist from "../assets/img/paths/Runaway/Dd2_path_arsonist.webp";
+import Survivor from "../assets/img/paths/Runaway/Dd2_path_survivor.webp";
+import Orphan from "../assets/img/paths/Runaway/Dd2_path_orphan.webp";
+
+//bountyHunter
+import Professional from "../assets/img/paths/bountyHunter/Hero_seal_professional.webp";
+
 const pathsHero = [
   {
     //Highwayman
@@ -96,6 +104,16 @@ const pathsHero = [
     //vestal
     name: ["Wanderer", "Confessor", "Chaplain", "Seraph"],
     src: [Wanderer, Confessor, Chaplain, Seraph],
+  },
+  {
+    //Runaway
+    name: ["Wanderer", "Arsonist", "Survivor", "Orphan"],
+    src: [Wanderer, Arsonist, Survivor, Orphan],
+  },
+  {
+    //bountyHunter
+    name: ["Professional"],
+    src: [Professional],
   },
 ];
 
