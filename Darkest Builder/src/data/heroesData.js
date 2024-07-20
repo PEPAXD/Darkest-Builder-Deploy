@@ -742,8 +742,46 @@ const heroesData = {
       "To rule, one must learn to serve.",
     ],
     paths: {
-      name: ["Wanderer", "Tempest", "Poet", "Monarch"],
-      description: ["AAA", "BBB", "CCC", "DDD"],
+      name: ["Wanderer", "Rogue", "Sharpshot", "Yellowhand"],
+      skillsArray: [[], [0, 2, 4, 5, 6], [1, 4, 5, 6, 8], [3, 6, 7, 9, 10]],
+      cites: [
+        '"Default skills. Rewards candles upon reaching the second Inn"',
+        '"A brawler focused on front rank combat and Riposte."',
+        '"A back rank role that emphasizes ranged skill use"',
+        '"A rank-flexible Bleed specialist. Riposte inflicts Bleed."',
+      ],
+
+      description: [
+        [
+          {
+            title: "Candles of Hope +1",
+            text: "Extra Candle of Hope on reaching the 2nd Inn.",
+          },
+          {
+            title: "Riposte Combo (33%)",
+            text: "Target add Combo token when using Riposte.",
+          },
+        ],
+        [
+          { title: "If Rank = 1:", text: "+25% DMG" },
+          { title: "If Rank = 3:", text: "-25% DMG" },
+          { title: "If Rank = 4:", text: "-50% DMG" },
+          { title: "Point Blank Shot", text: "Add Riposte" },
+        ],
+        [
+          { title: "Ranged Skills:", text: "+25% DMG" },
+          { title: "Melee Skills:", text: "-25% DMG" },
+          { title: "Buff Speed", text: "+3 Speed" },
+          { title: "Grapeshot Blast", text: "Add Strength" },
+        ],
+        [
+          { title: "Buff HP", text: "+15% MAXHP" },
+          { title: "Ranged Skills:", text: "-75% DMG" },
+          { title: "Apply On Melee-Hit :", text: "-10% Bleed RES" },
+          { title: "Highway Robbery", text: "Steal Positive Token" },
+          { title: "Double Cross", text: "Remove Block" },
+        ],
+      ],
     },
     description:
       "The Leper is a strong frontline hero dealing high damage and absorbing damage for the team. His main weakness is Blind tokens, countered by Reflection. Limited to the front ranks, he lacks mobility and is vulnerable to knockbacks.",
@@ -830,10 +868,48 @@ const heroesData = {
     ],
     skills: [
       {
+        id: 0,
         name: "Wicked Slice",
       },
       {
+        id: 1,
         name: "Pistol Shot",
+      },
+      {
+        id: 2,
+        name: "Duelist's Advance",
+      },
+      {
+        id: 3,
+        name: "Tracking Shot",
+      },
+      {
+        id: 4,
+        name: "Take Aim",
+      },
+      {
+        id: 5,
+        name: "Point Blank Shot",
+      },
+      {
+        id: 6,
+        name: "Grapeshot Blast",
+      },
+      {
+        id: 7,
+        name: "Open Vein",
+      },
+      {
+        id: 8,
+        name: "Double Tap",
+      },
+      {
+        id: 9,
+        name: "Highway Robbery",
+      },
+      {
+        id: 10,
+        name: "Double Cross",
       },
     ],
   },
@@ -848,8 +924,46 @@ const heroesData = {
       "Look death in the eye.",
     ],
     paths: {
-      name: ["Wanderer", "Sergeant", "Bulwark", "Vanguard"],
-      description: ["AAA", "BBB", "CCC", "DDD"],
+      name: ["Wanderer", "Rogue", "Sharpshot", "Yellowhand"],
+      skillsArray: [[], [0, 2, 4, 5, 6], [1, 4, 5, 6, 8], [3, 6, 7, 9, 10]],
+      cites: [
+        '"Default skills. Rewards candles upon reaching the second Inn"',
+        '"A brawler focused on front rank combat and Riposte."',
+        '"A back rank role that emphasizes ranged skill use"',
+        '"A rank-flexible Bleed specialist. Riposte inflicts Bleed."',
+      ],
+
+      description: [
+        [
+          {
+            title: "Candles of Hope +1",
+            text: "Extra Candle of Hope on reaching the 2nd Inn.",
+          },
+          {
+            title: "Riposte Combo (33%)",
+            text: "Target add Combo token when using Riposte.",
+          },
+        ],
+        [
+          { title: "If Rank = 1:", text: "+25% DMG" },
+          { title: "If Rank = 3:", text: "-25% DMG" },
+          { title: "If Rank = 4:", text: "-50% DMG" },
+          { title: "Point Blank Shot", text: "Add Riposte" },
+        ],
+        [
+          { title: "Ranged Skills:", text: "+25% DMG" },
+          { title: "Melee Skills:", text: "-25% DMG" },
+          { title: "Buff Speed", text: "+3 Speed" },
+          { title: "Grapeshot Blast", text: "Add Strength" },
+        ],
+        [
+          { title: "Buff HP", text: "+15% MAXHP" },
+          { title: "Ranged Skills:", text: "-75% DMG" },
+          { title: "Apply On Melee-Hit :", text: "-10% Bleed RES" },
+          { title: "Highway Robbery", text: "Steal Positive Token" },
+          { title: "Double Cross", text: "Remove Block" },
+        ],
+      ],
     },
     description:
       "The Man-at-Arms is essentially a tank who takes punishments to protect his more fragile teammates thanks to his easy access to Taunt and Block. Man-at-Arms can be effective at dealing damage as well.His entire skillset is highly flexible; allowing him to adapt to any Rank or Party. Because of his toughness and ability to protect his allies the Man-at-Arms can become the backbone of any team composition.",
@@ -921,10 +1035,48 @@ const heroesData = {
     ],
     skills: [
       {
+        id: 0,
         name: "Wicked Slice",
       },
       {
+        id: 1,
         name: "Pistol Shot",
+      },
+      {
+        id: 2,
+        name: "Duelist's Advance",
+      },
+      {
+        id: 3,
+        name: "Tracking Shot",
+      },
+      {
+        id: 4,
+        name: "Take Aim",
+      },
+      {
+        id: 5,
+        name: "Point Blank Shot",
+      },
+      {
+        id: 6,
+        name: "Grapeshot Blast",
+      },
+      {
+        id: 7,
+        name: "Open Vein",
+      },
+      {
+        id: 8,
+        name: "Double Tap",
+      },
+      {
+        id: 9,
+        name: "Highway Robbery",
+      },
+      {
+        id: 10,
+        name: "Double Cross",
       },
     ],
   },
@@ -939,8 +1091,46 @@ const heroesData = {
       "I drift in the starless skies of the void.",
     ],
     paths: {
-      name: ["Wanderer", "Ritualist", "Warlock", "Aspirant"],
-      description: ["AAA", "BBB", "CCC", "DDD"],
+      name: ["Wanderer", "Rogue", "Sharpshot", "Yellowhand"],
+      skillsArray: [[], [0, 2, 4, 5, 6], [1, 4, 5, 6, 8], [3, 6, 7, 9, 10]],
+      cites: [
+        '"Default skills. Rewards candles upon reaching the second Inn"',
+        '"A brawler focused on front rank combat and Riposte."',
+        '"A back rank role that emphasizes ranged skill use"',
+        '"A rank-flexible Bleed specialist. Riposte inflicts Bleed."',
+      ],
+
+      description: [
+        [
+          {
+            title: "Candles of Hope +1",
+            text: "Extra Candle of Hope on reaching the 2nd Inn.",
+          },
+          {
+            title: "Riposte Combo (33%)",
+            text: "Target add Combo token when using Riposte.",
+          },
+        ],
+        [
+          { title: "If Rank = 1:", text: "+25% DMG" },
+          { title: "If Rank = 3:", text: "-25% DMG" },
+          { title: "If Rank = 4:", text: "-50% DMG" },
+          { title: "Point Blank Shot", text: "Add Riposte" },
+        ],
+        [
+          { title: "Ranged Skills:", text: "+25% DMG" },
+          { title: "Melee Skills:", text: "-25% DMG" },
+          { title: "Buff Speed", text: "+3 Speed" },
+          { title: "Grapeshot Blast", text: "Add Strength" },
+        ],
+        [
+          { title: "Buff HP", text: "+15% MAXHP" },
+          { title: "Ranged Skills:", text: "-75% DMG" },
+          { title: "Apply On Melee-Hit :", text: "-10% Bleed RES" },
+          { title: "Highway Robbery", text: "Steal Positive Token" },
+          { title: "Double Cross", text: "Remove Block" },
+        ],
+      ],
     },
     description:
       "the Occultist focuses on applying Negative Tokens to enemies and healing critically injured allies. As players progress, they unlock offensive skills that utilize Unchecked Power, enabling the Occultist to deal significant damage and apply powerful effects. However, harnessing Unchecked Power also introduces subtle risks for the Occultist.",
@@ -1037,10 +1227,48 @@ const heroesData = {
     ],
     skills: [
       {
+        id: 0,
         name: "Wicked Slice",
       },
       {
+        id: 1,
         name: "Pistol Shot",
+      },
+      {
+        id: 2,
+        name: "Duelist's Advance",
+      },
+      {
+        id: 3,
+        name: "Tracking Shot",
+      },
+      {
+        id: 4,
+        name: "Take Aim",
+      },
+      {
+        id: 5,
+        name: "Point Blank Shot",
+      },
+      {
+        id: 6,
+        name: "Grapeshot Blast",
+      },
+      {
+        id: 7,
+        name: "Open Vein",
+      },
+      {
+        id: 8,
+        name: "Double Tap",
+      },
+      {
+        id: 9,
+        name: "Highway Robbery",
+      },
+      {
+        id: 10,
+        name: "Double Cross",
       },
     ],
   },
@@ -1055,8 +1283,46 @@ const heroesData = {
       "Let me prescribe a more ...holistic regimen.",
     ],
     paths: {
-      name: ["Wanderer", "Surgeon", "Alchemist", "Physician"],
-      description: ["AAA", "BBB", "CCC", "DDD"],
+      name: ["Wanderer", "Rogue", "Sharpshot", "Yellowhand"],
+      skillsArray: [[], [0, 2, 4, 5, 6], [1, 4, 5, 6, 8], [3, 6, 7, 9, 10]],
+      cites: [
+        '"Default skills. Rewards candles upon reaching the second Inn"',
+        '"A brawler focused on front rank combat and Riposte."',
+        '"A back rank role that emphasizes ranged skill use"',
+        '"A rank-flexible Bleed specialist. Riposte inflicts Bleed."',
+      ],
+
+      description: [
+        [
+          {
+            title: "Candles of Hope +1",
+            text: "Extra Candle of Hope on reaching the 2nd Inn.",
+          },
+          {
+            title: "Riposte Combo (33%)",
+            text: "Target add Combo token when using Riposte.",
+          },
+        ],
+        [
+          { title: "If Rank = 1:", text: "+25% DMG" },
+          { title: "If Rank = 3:", text: "-25% DMG" },
+          { title: "If Rank = 4:", text: "-50% DMG" },
+          { title: "Point Blank Shot", text: "Add Riposte" },
+        ],
+        [
+          { title: "Ranged Skills:", text: "+25% DMG" },
+          { title: "Melee Skills:", text: "-25% DMG" },
+          { title: "Buff Speed", text: "+3 Speed" },
+          { title: "Grapeshot Blast", text: "Add Strength" },
+        ],
+        [
+          { title: "Buff HP", text: "+15% MAXHP" },
+          { title: "Ranged Skills:", text: "-75% DMG" },
+          { title: "Apply On Melee-Hit :", text: "-10% Bleed RES" },
+          { title: "Highway Robbery", text: "Steal Positive Token" },
+          { title: "Double Cross", text: "Remove Block" },
+        ],
+      ],
     },
     description:
       "The Plague Doctor is a reliable healer and supportive-damage dealer, with utility, diversity, and usefulness with her skills. The Plague Doctor is capable of dealing a surprisingly massive amount of Blight damage, with some respectable Direct and Bleed damage. Due to her lack of defensive skills and low-HP. The Plague Doctor is best utilized in the back Ranks, where she has access to most of her skills, and avoids harm from the dangerous front Ranks.",
@@ -1133,10 +1399,48 @@ const heroesData = {
     ],
     skills: [
       {
+        id: 0,
         name: "Wicked Slice",
       },
       {
+        id: 1,
         name: "Pistol Shot",
+      },
+      {
+        id: 2,
+        name: "Duelist's Advance",
+      },
+      {
+        id: 3,
+        name: "Tracking Shot",
+      },
+      {
+        id: 4,
+        name: "Take Aim",
+      },
+      {
+        id: 5,
+        name: "Point Blank Shot",
+      },
+      {
+        id: 6,
+        name: "Grapeshot Blast",
+      },
+      {
+        id: 7,
+        name: "Open Vein",
+      },
+      {
+        id: 8,
+        name: "Double Tap",
+      },
+      {
+        id: 9,
+        name: "Highway Robbery",
+      },
+      {
+        id: 10,
+        name: "Double Cross",
       },
     ],
   },

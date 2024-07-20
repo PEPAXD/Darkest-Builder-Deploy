@@ -26,6 +26,26 @@ import Virtuoso from "../assets/img/paths/jester/Dd2_path_virtuoso.webp";
 import Soloist from "../assets/img/paths/jester/Dd2_path_soloist.webp";
 import Intermezzo from "../assets/img/paths/jester/Dd2_path_intermezzo.webp";
 
+//Leper
+import Tempest from "../assets/img/paths/leper/Dd2_path_tempest.webp";
+import Poet from "../assets/img/paths/leper/Dd2_path_poet.webp";
+import Monarch from "../assets/img/paths/leper/Dd2_path_monarch.webp";
+
+//manAtArms
+import Sergeant from "../assets/img/paths/manAtArms/Dd2_path_sergeant.webp";
+import Bulwark from "../assets/img/paths/manAtArms/Dd2_path_bulwark.webp";
+import Vanguard from "../assets/img/paths/manAtArms/Dd2_path_vanguard.webp";
+
+//Occultist
+import Ritualist from "../assets/img/paths/occultist/Dd2_path_ritualist.webp";
+import Warlock from "../assets/img/paths/occultist/Dd2_path_warlock.webp";
+import Aspirant from "../assets/img/paths/occultist/Dd2_path_aspirant.webp";
+
+//plagueDoctor
+import Surgeon from "../assets/img/paths/plagueDoctor/Dd2_path_surgeon.webp";
+import Alchemist from "../assets/img/paths/plagueDoctor/Dd2_path_alchemist.webp";
+import Physician from "../assets/img/paths/plagueDoctor/Dd2_path_physician.webp";
+
 const pathsHero = [
   {
     //Highwayman
@@ -46,6 +66,26 @@ const pathsHero = [
     //Jester
     name: ["Wanderer", "Virtuoso", "Soloist", "Intermezzo"],
     src: [Wanderer, Virtuoso, Soloist, Intermezzo],
+  },
+  {
+    //Leper
+    name: ["Wanderer", "Tempest", "Poet", "Monarch"],
+    src: [Wanderer, Tempest, Poet, Monarch],
+  },
+  {
+    //manAtArms
+    name: ["Wanderer", "Sergeant", "Bulwark", "Vanguard"],
+    src: [Wanderer, Sergeant, Bulwark, Vanguard],
+  },
+  {
+    //Occultist
+    name: ["Wanderer", "Ritualist", "Warlock", "Aspirant"],
+    src: [Wanderer, Ritualist, Warlock, Aspirant],
+  },
+  {
+    //plagueDoctor
+    name: ["Wanderer", "Surgeon", "Alchemist", "Physician"],
+    src: [Wanderer, Surgeon, Alchemist, Physician],
   },
 ];
 
