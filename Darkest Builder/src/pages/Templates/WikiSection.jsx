@@ -280,6 +280,7 @@ function WikiSection({ url_Bg }) {
                               heroesData[heroArray].skills[selectedSkill]
                             }
                             arrowCheck={0}
+                            heroIndex={heroArray}
                           />
                         </li>
                       </ul>
@@ -290,9 +291,7 @@ function WikiSection({ url_Bg }) {
                     {heroesData[heroArray].skills[selectedSkill].description}
                   </p>
 
-                  <div className="statsHigh">
-
-                  </div>
+                  <div className="statsHigh"></div>
                 </div>
               </div>
 
@@ -327,6 +326,7 @@ function WikiSection({ url_Bg }) {
                         arrowCheck={heroesData[heroArray].paths.skillsArray[
                           heroPaths
                         ].includes(index)}
+                        heroIndex={heroArray}
                       />
                     </label>
                     <i
