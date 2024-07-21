@@ -687,47 +687,47 @@ const heroesData = {
     skills: [
       {
         id: 0,
-        name: "Wicked Slice",
+        name: "Razor's Wit",
       },
       {
         id: 1,
-        name: "Pistol Shot",
+        name: "Fade to Black",
       },
       {
         id: 2,
-        name: "Duelist's Advance",
+        name: "Slice Off",
       },
       {
         id: 3,
-        name: "Tracking Shot",
+        name: "Battle Ballad",
       },
       {
         id: 4,
-        name: "Take Aim",
+        name: "Inspiring Tune",
       },
       {
         id: 5,
-        name: "Point Blank Shot",
+        name: "Harvest",
       },
       {
         id: 6,
-        name: "Grapeshot Blast",
+        name: "Finale",
       },
       {
         id: 7,
-        name: "Open Vein",
+        name: "Solo",
       },
       {
         id: 8,
-        name: "Double Tap",
+        name: "Play Out",
       },
       {
         id: 9,
-        name: "Highway Robbery",
+        name: "Encore",
       },
       {
         id: 10,
-        name: "Double Cross",
+        name: "Echoing March",
       },
     ],
   },

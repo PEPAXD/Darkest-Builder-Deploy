@@ -43,6 +43,19 @@ import breakthrough from "../assets/img/paths/hellion/Dd2_ability_breakthrough.w
 import rauciousrevelry from "../assets/img/paths/hellion/Dd2_ability_rauciousrevelry.webp";
 import howlingend from "../assets/img/paths/hellion/Dd2_ability_howlingend.webp";
 
+//import jester
+import razorswit from "../assets/img/paths/jester/Dd2_ability_razorswit.webp";
+import fadetoblack from "../assets/img/paths/jester/Dd2_ability_fadetoblack.webp";
+import sliceoff from "../assets/img/paths/jester/Dd2_ability_sliceoff.webp";
+import battleballad from "../assets/img/paths/jester/Dd2_ability_battleballad.webp";
+import inspiringtune from "../assets/img/paths/jester/Dd2_ability_inspiringtune.webp";
+import harvest from "../assets/img/paths/jester/Dd2_ability_harvest.webp";
+import finale from "../assets/img/paths/jester/Dd2_ability_finale.webp";
+import solo from "../assets/img/paths/jester/Dd2_ability_solo.webp";
+import playout from "../assets/img/paths/jester/Dd2_ability_playout.webp";
+import encore from "../assets/img/paths/jester/Dd2_ability_encore.webp";
+import echoingmarch from "../assets/img/paths/jester/Dd2_ability_echoingmarch.webp";
+
 const skillsHero = [
   {
     name: "Highwayman",
@@ -90,6 +103,22 @@ const skillsHero = [
       breakthrough,
       rauciousrevelry,
       howlingend,
+    ],
+  },
+  {
+    name: "Jester",
+    skills: [
+      razorswit,
+      fadetoblack,
+      sliceoff,
+      battleballad,
+      inspiringtune,
+      harvest,
+      finale,
+      solo,
+      playout,
+      encore,
+      echoingmarch,
     ],
   },
   // TODO: Add more heroes
