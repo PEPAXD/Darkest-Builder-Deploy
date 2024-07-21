@@ -30,6 +30,19 @@ import Pirouette from "../assets/img/paths/grave-robber/Dd2_ability_pirouette.we
 import Repartee from "../assets/img/paths/grave-robber/Dd2_ability_repartee.webp";
 import Shadowfade from "../assets/img/paths/grave-robber/Dd2_ability_shadowfade.webp";
 
+//import hellion
+import wickedhack from "../assets/img/paths/hellion/Dd2_ability_wickedhack.webp";
+import ironswan from "../assets/img/paths/hellion/Dd2_ability_ironswan.webp";
+import barbaricyawp from "../assets/img/paths/hellion/Dd2_ability_barbaricyawp.webp";
+import ifitbleeds from "../assets/img/paths/hellion/Dd2_ability_ifitbleeds.webp";
+import toetotoe from "../assets/img/paths/hellion/Dd2_ability_toetotoe.webp";
+import adrenalinerush from "../assets/img/paths/hellion/Dd2_ability_adrenalinerush.webp";
+import bleedout from "../assets/img/paths/hellion/Dd2_ability_bleedout.webp";
+import bloodlust from "../assets/img/paths/hellion/Dd2_ability_bloodlust.webp";
+import breakthrough from "../assets/img/paths/hellion/Dd2_ability_breakthrough.webp";
+import rauciousrevelry from "../assets/img/paths/hellion/Dd2_ability_rauciousrevelry.webp";
+import howlingend from "../assets/img/paths/hellion/Dd2_ability_howlingend.webp";
+
 const skillsHero = [
   {
     name: "Highwayman",
@@ -63,6 +76,22 @@ const skillsHero = [
       Shadowfade,
     ],
   },
+  {
+    name: "Hellion",
+    skills: [
+      wickedhack,
+      ironswan,
+      barbaricyawp,
+      ifitbleeds,
+      toetotoe,
+      adrenalinerush,
+      bleedout,
+      bloodlust,
+      breakthrough,
+      rauciousrevelry,
+      howlingend,
+    ],
+  },
   // TODO: Add more heroes
 ];
 
@@ -71,7 +100,10 @@ function skillFrame({ skillData, arrowCheck, heroIndex }) {
     <div className="skillBox">
       <div className="skillFrame">
         <IoMdArrowDropdown style={{ opacity: arrowCheck ? 1 : 0 }} />
-        <img src={skillsHero[heroIndex].skills[skillData.id]} alt={skillData.name} />
+        <img
+          src={skillsHero[heroIndex].skills[skillData.id]}
+          alt={skillData.name}
+        />
       </div>
     </div>
   );

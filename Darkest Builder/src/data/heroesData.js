@@ -320,47 +320,47 @@ const heroesData = {
     skills: [
       {
         id: 0,
-        name: "Wicked Slice",
+        name: "Pick to the Face",
       },
       {
         id: 1,
-        name: "Pistol Shot",
+        name: "Thrown Dagger",
       },
       {
         id: 2,
-        name: "Duelist's Advance",
+        name: "Flashing Daggers",
       },
       {
         id: 3,
-        name: "Tracking Shot",
+        name: "Poison Dart",
       },
       {
         id: 4,
-        name: "Take Aim",
+        name: "Absinthe",
       },
       {
         id: 5,
-        name: "Point Blank Shot",
+        name: "Dead of Night",
       },
       {
         id: 6,
-        name: "Grapeshot Blast",
+        name: "Glint in the Dark",
       },
       {
         id: 7,
-        name: "Open Vein",
+        name: "Lunge",
       },
       {
         id: 8,
-        name: "Double Tap",
+        name: "Pirouette",
       },
       {
         id: 9,
-        name: "Highway Robbery",
+        name: "Repartee",
       },
       {
         id: 10,
-        name: "Double Cross",
+        name: "Shadow Fade",
       },
     ],
   },
@@ -514,47 +514,47 @@ const heroesData = {
     skills: [
       {
         id: 0,
-        name: "Wicked Slice",
+        name: "Wicked Hack",
       },
       {
         id: 1,
-        name: "Pistol Shot",
+        name: "Iron Swan",
       },
       {
         id: 2,
-        name: "Duelist's Advance",
+        name: "Barbaric YAWP!",
       },
       {
         id: 3,
-        name: "Tracking Shot",
+        name: "If It Bleeds",
       },
       {
         id: 4,
-        name: "Take Aim",
+        name: "Toe to Toe",
       },
       {
         id: 5,
-        name: "Point Blank Shot",
+        name: "Adrenaline Rush",
       },
       {
         id: 6,
-        name: "Grapeshot Blast",
+        name: "Bleed Out",
       },
       {
         id: 7,
-        name: "Open Vein",
+        name: "Bloodlust",
       },
       {
         id: 8,
-        name: "Double Tap",
+        name: "Breakthrough",
       },
       {
         id: 9,
-        name: "Highway Robbery",
+        name: "Raucous Revelry",
       },
       {
         id: 10,
-        name: "Double Cross",
+        name: "Howling End",
       },
     ],
   },
