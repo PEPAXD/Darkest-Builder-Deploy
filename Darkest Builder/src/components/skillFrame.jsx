@@ -56,6 +56,19 @@ import playout from "../assets/img/paths/jester/Dd2_ability_playout.webp";
 import encore from "../assets/img/paths/jester/Dd2_ability_encore.webp";
 import echoingmarch from "../assets/img/paths/jester/Dd2_ability_echoingmarch.webp";
 
+//import leper
+import Dd2_ability_chop from "../assets/img/paths/leper/Dd2_ability_chop.webp";
+import Dd2_ability_purge from "../assets/img/paths/leper/Dd2_ability_purge.webp";
+import Dd2_ability_withstand from "../assets/img/paths/leper/Dd2_ability_withstand.webp";
+import Dd2_ability_solemnity from "../assets/img/paths/leper/Dd2_ability_solemnity.webp";
+import Dd2_ability_reflection from "../assets/img/paths/leper/Dd2_ability_reflection.webp";
+import Dd2_ability_hew from "../assets/img/paths/leper/Dd2_ability_hew.webp";
+import Dd2_ability_revenge from "../assets/img/paths/leper/Dd2_ability_revenge.webp";
+import Dd2_ability_intimidate from "../assets/img/paths/leper/Dd2_ability_intimidate.webp";
+import Dd2_ability_ruin from "../assets/img/paths/leper/Dd2_ability_ruin.webp";
+import Dd2_ability_break from "../assets/img/paths/leper/Dd2_ability_break.webp";
+import Dd2_ability_bash from "../assets/img/paths/leper/Dd2_ability_bash.webp";
+
 const skillsHero = [
   {
     name: "Highwayman",
@@ -119,6 +132,22 @@ const skillsHero = [
       playout,
       encore,
       echoingmarch,
+    ],
+  },
+  {
+    name: "Leper",
+    skills: [
+      Dd2_ability_chop,
+      Dd2_ability_purge,
+      Dd2_ability_withstand,
+      Dd2_ability_solemnity,
+      Dd2_ability_reflection,
+      Dd2_ability_hew,
+      Dd2_ability_revenge,
+      Dd2_ability_intimidate,
+      Dd2_ability_ruin,
+      Dd2_ability_break,
+      Dd2_ability_bash,
     ],
   },
   // TODO: Add more heroes
