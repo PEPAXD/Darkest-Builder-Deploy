@@ -2101,47 +2101,47 @@ const heroesData = {
     skills: [
       {
         id: 0,
-        name: "Wicked Slice",
+        name: "Smite",
       },
       {
         id: 1,
-        name: "Pistol Shot",
+        name: "Stunning Blow",
       },
       {
         id: 2,
-        name: "Duelist's Advance",
+        name: "Zealous Accusation",
       },
       {
         id: 3,
-        name: "Tracking Shot",
+        name: "Inspiring Cry",
       },
       {
         id: 4,
-        name: "Take Aim",
+        name: "Rallying Cry",
       },
       {
         id: 5,
-        name: "Point Blank Shot",
+        name: "Reap",
       },
       {
         id: 6,
-        name: "Grapeshot Blast",
+        name: "Battle Heal",
       },
       {
         id: 7,
-        name: "Open Vein",
+        name: "Bulwark of Faith",
       },
       {
         id: 8,
-        name: "Double Tap",
+        name: "Holy Lance",
       },
       {
         id: 9,
-        name: "Highway Robbery",
+        name: "Radiance",
       },
       {
         id: 10,
-        name: "Double Cross",
+        name: "Tenacity",
       },
     ],
   },

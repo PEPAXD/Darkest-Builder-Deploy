@@ -147,6 +147,19 @@ import finishhim from "../assets/img/paths/bountyHunter/Bh_skill_finishhim_100_(
 import uppercut from "../assets/img/paths/bountyHunter/Bh_skill_uppercut_100_(1).webp";
 import bodyguard from "../assets/img/paths/bountyHunter/Bh_skill_bodyguard_100_(1).webp";
 
+//import crusader
+import Skill_icon_crusader_smite from "../assets/img/paths/crusader/Skill_icon_crusader_smite.webp";
+import Skill_icon_crusader_stunning_blow from "../assets/img/paths/crusader/Skill_icon_crusader_stunning_blow.webp";
+import Skill_icon_crusader_zealous_accusation from "../assets/img/paths/crusader/Skill_icon_crusader_zealous_accusation.webp";
+import Skill_icon_crusader_inspiring_cry from "../assets/img/paths/crusader/Skill_icon_crusader_inspiring_cry.webp";
+import Skill_icon_crusader_rallying_cry from "../assets/img/paths/crusader/Skill_icon_crusader_rallying_cry.webp";
+import Skill_icon_crusader_reap from "../assets/img/paths/crusader/Skill_icon_crusader_reap.webp";
+import Skill_icon_crusader_battle_heal from "../assets/img/paths/crusader/Skill_icon_crusader_battle_heal.webp";
+import Skill_icon_crusader_bulwark_of_faith from "../assets/img/paths/crusader/Skill_icon_crusader_bulwark_of_faith.webp";
+import Skill_icon_crusader_holy_lance from "../assets/img/paths/crusader/Skill_icon_crusader_holy_lance.webp";
+import Skill_icon_crusader_radiance from "../assets/img/paths/crusader/Skill_icon_crusader_radiance.webp";
+import Skill_icon_crusader_tenacity from "../assets/img/paths/crusader/Skill_icon_crusader_tenacity.webp";
+
 const skillsHero = [
   {
     name: "Highwayman",
@@ -323,6 +336,23 @@ const skillsHero = [
       finishhim,
       uppercut,
       bodyguard,
+    ],
+  },
+
+  {
+    name: "Crusader",
+    skills: [
+      Skill_icon_crusader_smite,
+      Skill_icon_crusader_stunning_blow,
+      Skill_icon_crusader_zealous_accusation,
+      Skill_icon_crusader_inspiring_cry,
+      Skill_icon_crusader_rallying_cry,
+      Skill_icon_crusader_reap,
+      Skill_icon_crusader_battle_heal,
+      Skill_icon_crusader_bulwark_of_faith,
+      Skill_icon_crusader_holy_lance,
+      Skill_icon_crusader_radiance,
+      Skill_icon_crusader_tenacity,
     ],
   },
 
