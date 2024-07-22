@@ -1036,47 +1036,47 @@ const heroesData = {
     skills: [
       {
         id: 0,
-        name: "Wicked Slice",
+        name: "Crush",
       },
       {
         id: 1,
-        name: "Pistol Shot",
+        name: "Rampart",
       },
       {
         id: 2,
-        name: "Duelist's Advance",
+        name: "Defender",
       },
       {
         id: 3,
-        name: "Tracking Shot",
+        name: "Bolster",
       },
       {
         id: 4,
-        name: "Take Aim",
+        name: "Hold the Line",
       },
       {
         id: 5,
-        name: "Point Blank Shot",
+        name: "Bellow",
       },
       {
         id: 6,
-        name: "Grapeshot Blast",
+        name: "Retribution",
       },
       {
         id: 7,
-        name: "Open Vein",
+        name: "Command",
       },
       {
         id: 8,
-        name: "Double Tap",
+        name: "Stand Fast",
       },
       {
         id: 9,
-        name: "Highway Robbery",
+        name: "Courageous Abandon",
       },
       {
         id: 10,
-        name: "Double Cross",
+        name: "Strategic Withdrawal",
       },
     ],
   },

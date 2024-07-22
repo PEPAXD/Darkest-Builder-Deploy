@@ -69,6 +69,19 @@ import Dd2_ability_ruin from "../assets/img/paths/leper/Dd2_ability_ruin.webp";
 import Dd2_ability_break from "../assets/img/paths/leper/Dd2_ability_break.webp";
 import Dd2_ability_bash from "../assets/img/paths/leper/Dd2_ability_bash.webp";
 
+//import manAtArms
+import Dd2_ability_crush from "../assets/img/paths/manAtArms/Dd2_ability_crush.webp";
+import Dd2_ability_rampart from "../assets/img/paths/manAtArms/Dd2_ability_rampart.webp";
+import Dd2_ability_defender from "../assets/img/paths/manAtArms/Dd2_ability_defender.webp";
+import Dd2_ability_bolster from "../assets/img/paths/manAtArms/Dd2_ability_bolster.webp";
+import Dd2_ability_holdtheline from "../assets/img/paths/manAtArms/Dd2_ability_holdtheline.webp";
+import Dd2_ability_bellow from "../assets/img/paths/manAtArms/Dd2_ability_bellow.webp";
+import Dd2_ability_retribution from "../assets/img/paths/manAtArms/Dd2_ability_retribution.webp";
+import Dd2_ability_command from "../assets/img/paths/manAtArms/Dd2_ability_command.webp";
+import Dd2_ability_standfast from "../assets/img/paths/manAtArms/Dd2_ability_standfast.webp";
+import Dd2_ability_courageousabandon from "../assets/img/paths/manAtArms/Dd2_ability_courageousabandon.webp";
+import Dd2_ability_strategicwithdrawal from "../assets/img/paths/manAtArms/Dd2_ability_strategicwithdrawal.webp";
+
 const skillsHero = [
   {
     name: "Highwayman",
@@ -148,6 +161,22 @@ const skillsHero = [
       Dd2_ability_ruin,
       Dd2_ability_break,
       Dd2_ability_bash,
+    ],
+  },
+  {
+    name: "ManAtArms",
+    skills: [
+      Dd2_ability_crush,
+      Dd2_ability_rampart,
+      Dd2_ability_defender,
+      Dd2_ability_bolster,
+      Dd2_ability_holdtheline,
+      Dd2_ability_bellow,
+      Dd2_ability_retribution,
+      Dd2_ability_command,
+      Dd2_ability_standfast,
+      Dd2_ability_courageousabandon,
+      Dd2_ability_strategicwithdrawal,
     ],
   },
   // TODO: Add more heroes
