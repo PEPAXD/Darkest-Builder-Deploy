@@ -1228,47 +1228,47 @@ const heroesData = {
     skills: [
       {
         id: 0,
-        name: "Wicked Slice",
+        name: "Sacrificial Stab",
       },
       {
         id: 1,
-        name: "Pistol Shot",
+        name: "Abyssal Artillery",
       },
       {
         id: 2,
-        name: "Duelist's Advance",
+        name: "Weakening Curse",
       },
       {
         id: 3,
-        name: "Tracking Shot",
+        name: "Wyrd Reconstruction",
       },
       {
         id: 4,
-        name: "Take Aim",
+        name: "Daemon's Pull",
       },
       {
         id: 5,
-        name: "Point Blank Shot",
+        name: "Vulnerability Hex",
       },
       {
         id: 6,
-        name: "Grapeshot Blast",
+        name: "Binding Shadows",
       },
       {
         id: 7,
-        name: "Open Vein",
+        name: "Malediction",
       },
       {
         id: 8,
-        name: "Double Tap",
+        name: "Anamnesis",
       },
       {
         id: 9,
-        name: "Highway Robbery",
+        name: "The Burning Stars",
       },
       {
         id: 10,
-        name: "Double Cross",
+        name: "Chaotic Offering",
       },
     ],
   },

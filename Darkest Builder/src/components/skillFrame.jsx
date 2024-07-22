@@ -82,6 +82,19 @@ import Dd2_ability_standfast from "../assets/img/paths/manAtArms/Dd2_ability_sta
 import Dd2_ability_courageousabandon from "../assets/img/paths/manAtArms/Dd2_ability_courageousabandon.webp";
 import Dd2_ability_strategicwithdrawal from "../assets/img/paths/manAtArms/Dd2_ability_strategicwithdrawal.webp";
 
+//import occultist
+import Dd2_ability_sacrificialstab from "../assets/img/paths/occultist/Dd2_ability_sacrificialstab.webp";
+import Dd2_ability_abyssalartillery from "../assets/img/paths/occultist/Dd2_ability_abyssalartillery.webp";
+import Dd2_ability_weakeningcurse from "../assets/img/paths/occultist/Dd2_ability_weakeningcurse.webp";
+import Dd2_ability_wyrdreconstruction from "../assets/img/paths/occultist/Dd2_ability_wyrdreconstruction.webp";
+import Dd2_ability_daemonspull from "../assets/img/paths/occultist/Dd2_ability_daemonspull.webp";
+import Dd2_ability_vulnerabilityhex from "../assets/img/paths/occultist/Dd2_ability_vulnerabilityhex.webp";
+import Dd2_ability_bindingshadows from "../assets/img/paths/occultist/Dd2_ability_bindingshadows.webp";
+import Dd2_ability_malediction from "../assets/img/paths/occultist/Dd2_ability_malediction.webp";
+import Dd2_ability_anamnesis from "../assets/img/paths/occultist/Dd2_ability_anamnesis.webp";
+import Dd2_ability_theburningstars from "../assets/img/paths/occultist/Dd2_ability_theburningstars.webp";
+import Dd2_ability_chaoticoffering from "../assets/img/paths/occultist/Dd2_ability_chaoticoffering.webp";
+
 const skillsHero = [
   {
     name: "Highwayman",
@@ -177,6 +190,22 @@ const skillsHero = [
       Dd2_ability_standfast,
       Dd2_ability_courageousabandon,
       Dd2_ability_strategicwithdrawal,
+    ],
+  },
+  {
+    name: "Occultist",
+    skills: [
+      Dd2_ability_sacrificialstab,
+      Dd2_ability_abyssalartillery,
+      Dd2_ability_weakeningcurse,
+      Dd2_ability_wyrdreconstruction,
+      Dd2_ability_daemonspull,
+      Dd2_ability_vulnerabilityhex,
+      Dd2_ability_bindingshadows,
+      Dd2_ability_malediction,
+      Dd2_ability_anamnesis,
+      Dd2_ability_theburningstars,
+      Dd2_ability_chaoticoffering,
     ],
   },
   // TODO: Add more heroes
