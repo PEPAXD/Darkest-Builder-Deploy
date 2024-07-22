@@ -1400,47 +1400,47 @@ const heroesData = {
     skills: [
       {
         id: 0,
-        name: "Wicked Slice",
+        name: "Noxious Blast",
       },
       {
         id: 1,
-        name: "Pistol Shot",
+        name: "Blinding Gas",
       },
       {
         id: 2,
-        name: "Duelist's Advance",
+        name: "Incision",
       },
       {
         id: 3,
-        name: "Tracking Shot",
+        name: "Battlefield Medicine",
       },
       {
         id: 4,
-        name: "Take Aim",
+        name: "Ounce of Prevention",
       },
       {
         id: 5,
-        name: "Point Blank Shot",
+        name: "Plague Grenade",
       },
       {
         id: 6,
-        name: "Grapeshot Blast",
+        name: "Emboldening Vapours",
       },
       {
         id: 7,
-        name: "Open Vein",
+        name: "Disorienting Blast",
       },
       {
         id: 8,
-        name: "Double Tap",
+        name: "Indiscriminate Science",
       },
       {
         id: 9,
-        name: "Highway Robbery",
+        name: "Cause of Death",
       },
       {
         id: 10,
-        name: "Double Cross",
+        name: "Magnesium Rain",
       },
     ],
   },
@@ -1606,47 +1606,47 @@ const heroesData = {
     skills: [
       {
         id: 0,
-        name: "Wicked Slice",
+        name: "Hand of Light",
       },
       {
         id: 1,
-        name: "Pistol Shot",
+        name: "Illumination",
       },
       {
         id: 2,
-        name: "Duelist's Advance",
+        name: "Judgement",
       },
       {
         id: 3,
-        name: "Tracking Shot",
+        name: "Divine Grace",
       },
       {
         id: 4,
-        name: "Take Aim",
+        name: "Consecration of Fortitude",
       },
       {
         id: 5,
-        name: "Point Blank Shot",
+        name: "Ministrations",
       },
       {
         id: 6,
-        name: "Grapeshot Blast",
+        name: "Mace Bash",
       },
       {
         id: 7,
-        name: "Open Vein",
+        name: "Sanctuary",
       },
       {
         id: 8,
-        name: "Double Tap",
+        name: "Consecration of Light",
       },
       {
         id: 9,
-        name: "Highway Robbery",
+        name: "Divine Comfort",
       },
       {
         id: 10,
-        name: "Double Cross",
+        name: "Mantra",
       },
     ],
   },
@@ -1788,43 +1788,43 @@ const heroesData = {
     skills: [
       {
         id: 0,
-        name: "Wicked Slice",
+        name: "Searing Strike",
       },
       {
         id: 1,
-        name: "Pistol Shot",
+        name: "Firefly",
       },
       {
         id: 2,
-        name: "Duelist's Advance",
+        name: "Smokescreen",
       },
       {
         id: 3,
-        name: "Tracking Shot",
+        name: "Run and Hide",
       },
       {
         id: 4,
-        name: "Take Aim",
+        name: "Hearthlight",
       },
       {
         id: 5,
-        name: "Point Blank Shot",
+        name: "Ransack",
       },
       {
         id: 6,
-        name: "Grapeshot Blast",
+        name: "Cauterize",
       },
       {
         id: 7,
-        name: "Open Vein",
+        name: "Controlled Burn",
       },
       {
         id: 8,
-        name: "Double Tap",
+        name: "Dragonfly",
       },
       {
         id: 9,
-        name: "Highway Robbery",
+        name: "Firestarter",
       },
       {
         id: 10,
@@ -1931,47 +1931,47 @@ const heroesData = {
     skills: [
       {
         id: 0,
-        name: "Wicked Slice",
+        name: "Collect Bounty",
       },
       {
         id: 1,
-        name: "Pistol Shot",
+        name: "Mark for Death",
       },
       {
         id: 2,
-        name: "Duelist's Advance",
+        name: "Come Hither",
       },
       {
         id: 3,
-        name: "Tracking Shot",
+        name: "Caltrops",
       },
       {
         id: 4,
-        name: "Take Aim",
+        name: "Flashbang",
       },
       {
         id: 5,
-        name: "Point Blank Shot",
+        name: "Staredown",
       },
       {
         id: 6,
-        name: "Grapeshot Blast",
+        name: "Hurlbat",
       },
       {
         id: 7,
-        name: "Open Vein",
+        name: "No Escape",
       },
       {
         id: 8,
-        name: "Double Tap",
+        name: "Finish Him",
       },
       {
         id: 9,
-        name: "Highway Robbery",
+        name: "Uppercut",
       },
       {
         id: 10,
-        name: "Double Cross",
+        name: "Bodyguard",
       },
     ],
   },

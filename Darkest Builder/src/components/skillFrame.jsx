@@ -95,6 +95,58 @@ import Dd2_ability_anamnesis from "../assets/img/paths/occultist/Dd2_ability_ana
 import Dd2_ability_theburningstars from "../assets/img/paths/occultist/Dd2_ability_theburningstars.webp";
 import Dd2_ability_chaoticoffering from "../assets/img/paths/occultist/Dd2_ability_chaoticoffering.webp";
 
+//import plagueDoctor
+import Dd2_ability_noxiousblast from "../assets/img/paths/plagueDoctor/Dd2_ability_noxiousblast.webp";
+import Dd2_ability_blindinggas from "../assets/img/paths/plagueDoctor/Dd2_ability_blindinggas.webp";
+import Dd2_ability_incision from "../assets/img/paths/plagueDoctor/Dd2_ability_incision.webp";
+import Dd2_ability_battlefieldmedicine from "../assets/img/paths/plagueDoctor/Dd2_ability_battlefieldmedicine.webp";
+import Dd2_ability_ounceofprevention from "../assets/img/paths/plagueDoctor/Dd2_ability_ounceofprevention.webp";
+import Dd2_ability_plaguegrenade from "../assets/img/paths/plagueDoctor/Dd2_ability_plaguegrenade.webp";
+import Dd2_ability_emboldeningvapours from "../assets/img/paths/plagueDoctor/Dd2_ability_emboldeningvapours.webp";
+import Dd2_ability_disorientingblast from "../assets/img/paths/plagueDoctor/Dd2_ability_disorientingblast.webp";
+import Dd2_ability_indiscriminatescience from "../assets/img/paths/plagueDoctor/Dd2_ability_indiscriminatescience.webp";
+import Dd2_ability_causeofdeath from "../assets/img/paths/plagueDoctor/Dd2_ability_causeofdeath.webp";
+import Dd2_ability_magnesiumrain from "../assets/img/paths/plagueDoctor/Dd2_ability_magnesiumrain.webp";
+
+//import Vestal
+import Skill_icon_vestal_hand_of_light from "../assets/img/paths/vestal/Skill_icon_vestal_hand_of_light.webp";
+import Skill_icon_vestal_illumination from "../assets/img/paths/vestal/Skill_icon_vestal_illumination.webp";
+import Skill_icon_vestal_judgement from "../assets/img/paths/vestal/Skill_icon_vestal_judgement.webp";
+import Dd2_vestal_divine_grace from "../assets/img/paths/vestal/Dd2_vestal_divine_grace.webp";
+import Skill_icon_vestal_blessing_of_fortitude from "../assets/img/paths/vestal/Skill_icon_vestal_blessing_of_fortitude.webp";
+import Skill_icon_vestal_ministration from "../assets/img/paths/vestal/Skill_icon_vestal_ministration.webp";
+import Skill_icon_vestal_mash_bash from "../assets/img/paths/vestal/Skill_icon_vestal_mash_bash.webp";
+import Skill_icon_vestal_sanctuary from "../assets/img/paths/vestal/Skill_icon_vestal_sanctuary.webp";
+import Skill_icon_vestal_blessing_of_light from "../assets/img/paths/vestal/Skill_icon_vestal_blessing_of_light.webp";
+import Skill_icon_vestal_divine_comfort from "../assets/img/paths/vestal/Skill_icon_vestal_divine_comfort.webp";
+import Skill_icon_vestal_mantra from "../assets/img/paths/vestal/Skill_icon_vestal_mantra.webp";
+
+//import runaway
+import Dd2_ability_searingstrike from "../assets/img/paths/Runaway/Dd2_ability_searingstrike.webp";
+import Dd2_ability_firefly from "../assets/img/paths/Runaway/Dd2_ability_firefly.webp";
+import Dd2_ability_smokescreen from "../assets/img/paths/Runaway/Dd2_ability_smokescreen.webp";
+import Dd2_ability_runandhide from "../assets/img/paths/Runaway/Dd2_ability_runandhide.webp";
+import Dd2_ability_hearthlight from "../assets/img/paths/Runaway/Dd2_ability_hearthlight.webp";
+import Dd2_ability_ransack from "../assets/img/paths/Runaway/Dd2_ability_ransack.webp";
+import Dd2_ability_cauterize from "../assets/img/paths/Runaway/Dd2_ability_cauterize.webp";
+import Dd2_ability_controlledburn from "../assets/img/paths/Runaway/Dd2_ability_controlledburn.webp";
+import Dd2_ability_dragonfly from "../assets/img/paths/Runaway/Dd2_ability_dragonfly.webp";
+import Dd2_ability_firestarter from "../assets/img/paths/Runaway/Dd2_ability_firestarter.webp";
+import Dd2_ability_backdraft from "../assets/img/paths/Runaway/Dd2_ability_backdraft.webp";
+
+//import bountyHunter
+import collectbounty from "../assets/img/paths/bountyHunter/Bh_skill_collectbounty_100_(1).webp";
+import markfordeath from "../assets/img/paths/bountyHunter/Bh_skill_markfordeath_100_(1).webp";
+import comehither from "../assets/img/paths/bountyHunter/Bh_skill_comehither_100_(1).webp";
+import caltrops from "../assets/img/paths/bountyHunter/Bh_skill_caltrops_100_(1).webp";
+import flashbang from "../assets/img/paths/bountyHunter/Bh_skill_flashbang_100_(1).webp";
+import staredown from "../assets/img/paths/bountyHunter/Bh_skill_staredown_100_(1).webp";
+import hurlbat from "../assets/img/paths/bountyHunter/Bh_skill_hurlbat_100_(1).webp";
+import no_escape from "../assets/img/paths/bountyHunter/Bh_skill_no_escape_100_(1).webp";
+import finishhim from "../assets/img/paths/bountyHunter/Bh_skill_finishhim_100_(1).webp";
+import uppercut from "../assets/img/paths/bountyHunter/Bh_skill_uppercut_100_(1).webp";
+import bodyguard from "../assets/img/paths/bountyHunter/Bh_skill_bodyguard_100_(1).webp";
+
 const skillsHero = [
   {
     name: "Highwayman",
@@ -208,6 +260,72 @@ const skillsHero = [
       Dd2_ability_chaoticoffering,
     ],
   },
+  {
+    name: "PlagueDoctor",
+    skills: [
+      Dd2_ability_noxiousblast,
+      Dd2_ability_blindinggas,
+      Dd2_ability_incision,
+      Dd2_ability_battlefieldmedicine,
+      Dd2_ability_ounceofprevention,
+      Dd2_ability_plaguegrenade,
+      Dd2_ability_emboldeningvapours,
+      Dd2_ability_disorientingblast,
+      Dd2_ability_indiscriminatescience,
+      Dd2_ability_causeofdeath,
+      Dd2_ability_magnesiumrain,
+    ],
+  },
+  {
+    name: "Vestal",
+    skills: [
+      Skill_icon_vestal_hand_of_light,
+      Skill_icon_vestal_illumination,
+      Skill_icon_vestal_judgement,
+      Dd2_vestal_divine_grace,
+      Skill_icon_vestal_blessing_of_fortitude,
+      Skill_icon_vestal_ministration,
+      Skill_icon_vestal_mash_bash,
+      Skill_icon_vestal_sanctuary,
+      Skill_icon_vestal_blessing_of_light,
+      Skill_icon_vestal_divine_comfort,
+      Skill_icon_vestal_mantra,
+    ],
+  },
+  {
+    name: "Runaway",
+    skills: [
+      Dd2_ability_searingstrike,
+      Dd2_ability_firefly,
+      Dd2_ability_smokescreen,
+      Dd2_ability_runandhide,
+      Dd2_ability_hearthlight,
+      Dd2_ability_ransack,
+      Dd2_ability_cauterize,
+      Dd2_ability_controlledburn,
+      Dd2_ability_dragonfly,
+      Dd2_ability_firestarter,
+      Dd2_ability_backdraft,
+    ],
+  },
+
+  {
+    name: "BountyHunter",
+    skills: [
+      collectbounty,
+      markfordeath,
+      comehither,
+      caltrops,
+      flashbang,
+      staredown,
+      hurlbat,
+      no_escape,
+      finishhim,
+      uppercut,
+      bodyguard,
+    ],
+  },
+
   // TODO: Add more heroes
 ];
 
