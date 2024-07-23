@@ -160,6 +160,32 @@ import Skill_icon_crusader_holy_lance from "../assets/img/paths/crusader/Skill_i
 import Skill_icon_crusader_radiance from "../assets/img/paths/crusader/Skill_icon_crusader_radiance.webp";
 import Skill_icon_crusader_tenacity from "../assets/img/paths/crusader/Skill_icon_crusader_tenacity.webp";
 
+//import duelist
+import Skill_icon_duelist_touche from "../assets/img/paths/duelist/Skill_icon_duelist_touche.webp";
+import Skill_icon_duelist_feint from "../assets/img/paths/duelist/Skill_icon_duelist_feint.webp";
+import Skill_icon_duelist_disengage from "../assets/img/paths/duelist/Skill_icon_duelist_disengage.webp";
+import Skill_icon_duelist_flick from "../assets/img/paths/duelist/Skill_icon_duelist_flick.webp";
+import Skill_icon_duelist_preparation from "../assets/img/paths/duelist/Skill_icon_duelist_preparation.webp";
+import Skill_icon_duelist_the_boot from "../assets/img/paths/duelist/Skill_icon_duelist_the_boot.webp";
+import Skill_icon_duelist_again from "../assets/img/paths/duelist/Skill_icon_duelist_again.webp";
+import Skill_icon_duelist_fleche from "../assets/img/paths/duelist/Skill_icon_duelist_fleche.webp";
+import Skill_icon_duelist_meditation from "../assets/img/paths/duelist/Skill_icon_duelist_meditation.webp";
+import Skill_icon_duelist_coup_de_grace from "../assets/img/paths/duelist/Skill_icon_duelist_coup_de_grace.webp";
+import Skill_icon_duelist_ruthless_instruction from "../assets/img/paths/duelist/Skill_icon_duelist_ruthless_instruction.webp";
+
+//import flagellant
+import Skill_icon_flagellant_punish from "../assets/img/paths/flagellant/Skill_icon_flagellant_punish.webp";
+import Skill_icon_flagellant_fester from "../assets/img/paths/flagellant/Skill_icon_flagellant_fester.webp";
+import Skill_icon_flagellant_undying from "../assets/img/paths/flagellant/Skill_icon_flagellant_undying.webp";
+import Skill_icon_flagellant_endure from "../assets/img/paths/flagellant/Skill_icon_flagellant_endure.webp";
+import Skill_icon_flagellant_lashs_gift from "../assets/img/paths/flagellant/Skill_icon_flagellant_lashs_gift.webp";
+import Skill_icon_flagellant_rain_of_sorrows from "../assets/img/paths/flagellant/Skill_icon_flagellant_rain_of_sorrows.webp";
+import Skill_icon_flagellant_more_more from "../assets/img/paths/flagellant/Skill_icon_flagellant_more_more.webp";
+import Skill_icon_flagellant_suffer from "../assets/img/paths/flagellant/Skill_icon_flagellant_suffer.webp";
+import Skill_icon_flagellant_sepsis from "../assets/img/paths/flagellant/Skill_icon_flagellant_sepsis.webp";
+import Skill_icon_flagellant_deathless from "../assets/img/paths/flagellant/Skill_icon_flagellant_deathless.webp";
+import Skill_icon_flagellant_necrosis from "../assets/img/paths/flagellant/Skill_icon_flagellant_necrosis.webp";
+
 const skillsHero = [
   {
     name: "Highwayman",
@@ -356,7 +382,38 @@ const skillsHero = [
     ],
   },
 
-  // TODO: Add more heroes
+  {
+    name: "Duelist",
+    skills: [
+      Skill_icon_duelist_touche,
+      Skill_icon_duelist_feint,
+      Skill_icon_duelist_disengage,
+      Skill_icon_duelist_flick,
+      Skill_icon_duelist_preparation,
+      Skill_icon_duelist_the_boot,
+      Skill_icon_duelist_again,
+      Skill_icon_duelist_fleche,
+      Skill_icon_duelist_meditation,
+      Skill_icon_duelist_coup_de_grace,
+      Skill_icon_duelist_ruthless_instruction,
+    ],
+  },
+  {
+    name: "Flagellant",
+    skills: [
+      Skill_icon_flagellant_punish,
+      Skill_icon_flagellant_fester,
+      Skill_icon_flagellant_undying,
+      Skill_icon_flagellant_endure,
+      Skill_icon_flagellant_lashs_gift,
+      Skill_icon_flagellant_rain_of_sorrows,
+      Skill_icon_flagellant_more_more,
+      Skill_icon_flagellant_suffer,
+      Skill_icon_flagellant_sepsis,
+      Skill_icon_flagellant_deathless,
+      Skill_icon_flagellant_necrosis,
+    ],
+  },
 ];
 
 function skillFrame({ skillData, arrowCheck, heroIndex }) {

@@ -2301,47 +2301,47 @@ const heroesData = {
     skills: [
       {
         id: 0,
-        name: "Wicked Slice",
+        name: "Touché",
       },
       {
         id: 1,
-        name: "Pistol Shot",
+        name: "Feint",
       },
       {
         id: 2,
-        name: "Duelist's Advance",
+        name: "Disengage",
       },
       {
         id: 3,
-        name: "Tracking Shot",
+        name: "Flick",
       },
       {
         id: 4,
-        name: "Take Aim",
+        name: "Preparation",
       },
       {
         id: 5,
-        name: "Point Blank Shot",
+        name: "The Boot",
       },
       {
         id: 6,
-        name: "Grapeshot Blast",
+        name: "Again!",
       },
       {
         id: 7,
-        name: "Open Vein",
+        name: "Flèche",
       },
       {
         id: 8,
-        name: "Double Tap",
+        name: "Meditation",
       },
       {
         id: 9,
-        name: "Highway Robbery",
+        name: "Coup de Grâce",
       },
       {
         id: 10,
-        name: "Double Cross",
+        name: "Ruthless Instruction",
       },
     ],
   },
@@ -2491,47 +2491,47 @@ const heroesData = {
     skills: [
       {
         id: 0,
-        name: "Wicked Slice",
+        name: "Punish",
       },
       {
         id: 1,
-        name: "Pistol Shot",
+        name: "Fester",
       },
       {
         id: 2,
-        name: "Duelist's Advance",
+        name: "Deathless",
       },
       {
         id: 3,
-        name: "Tracking Shot",
+        name: "Endure",
       },
       {
         id: 4,
-        name: "Take Aim",
+        name: "Lash's Gift",
       },
       {
         id: 5,
-        name: "Point Blank Shot",
+        name: "Acid Rain",
       },
       {
         id: 6,
-        name: "Grapeshot Blast",
+        name: "More! MORE!",
       },
       {
         id: 7,
-        name: "Open Vein",
+        name: "Suffer",
       },
       {
         id: 8,
-        name: "Double Tap",
+        name: "Sepsis",
       },
       {
         id: 9,
-        name: "Highway Robbery",
+        name: "Undying",
       },
       {
         id: 10,
-        name: "Double Cross",
+        name: "Necrosis",
       },
     ],
   },
