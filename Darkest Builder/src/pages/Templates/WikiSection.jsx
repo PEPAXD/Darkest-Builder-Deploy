@@ -287,7 +287,13 @@ function WikiSection({ url_Bg }) {
                           />
                         </li>
                         <li>
-                          <BasicStat title={"Type"} iconSkill={0} />
+                          <BasicStat
+                            title={"Type"}
+                            iconSkill={
+                              heroesData[heroArray].skills[selectedSkill]
+                                .Type
+                            }
+                          />
                         </li>
                         <li>
                           <BasicStat title={"Rank"} paintBalls={[1, 2, 3, 4]} />

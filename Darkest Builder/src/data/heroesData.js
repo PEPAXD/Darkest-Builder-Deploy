@@ -145,46 +145,179 @@ const heroesData = {
       {
         id: 0,
         name: "Wicked Slice",
+        Type: 0,
+
+        skillsPaths: [
+          {
+            Rank: [2, 3, 4],
+            Target: [1, 2],
+          },
+          {
+            Rank: [3, 4],
+            Target: [1, 2],
+          },
+        ],
       },
       {
         id: 1,
         name: "Pistol Shot",
+
+        Type: 1,
+
+        skillsPaths: [
+          {
+            Rank: [2, 3, 4],
+            Target: [1, 2],
+          },
+          {
+            Rank: [3, 4],
+            Target: [1, 2],
+          },
+        ],
       },
       {
         id: 2,
         name: "Duelist's Advance",
+        Type: 0,
+
+        skillsPaths: [
+          {
+            Rank: [2, 3, 4],
+            Target: [1, 2],
+          },
+          {
+            Rank: [3, 4],
+            Target: [1, 2],
+          },
+        ],
       },
       {
         id: 3,
         name: "Tracking Shot",
+        Type: 0,
+
+        skillsPaths: [
+          {
+            Rank: [2, 3, 4],
+            Target: [1, 2],
+          },
+          {
+            Rank: [3, 4],
+            Target: [1, 2],
+          },
+        ],
       },
       {
         id: 4,
         name: "Take Aim",
+        Type: 0,
+
+        skillsPaths: [
+          {
+            Rank: [2, 3, 4],
+            Target: [1, 2],
+          },
+          {
+            Rank: [3, 4],
+            Target: [1, 2],
+          },
+        ],
       },
       {
         id: 5,
         name: "Point Blank Shot",
+        Type: 0,
+
+        skillsPaths: [
+          {
+            Rank: [2, 3, 4],
+            Target: [1, 2],
+          },
+          {
+            Rank: [3, 4],
+            Target: [1, 2],
+          },
+        ],
       },
       {
         id: 6,
         name: "Grapeshot Blast",
+        Type: 0,
+
+        skillsPaths: [
+          {
+            Rank: [2, 3, 4],
+            Target: [1, 2],
+          },
+          {
+            Rank: [3, 4],
+            Target: [1, 2],
+          },
+        ],
       },
       {
         id: 7,
         name: "Open Vein",
+        Type: 0,
+
+        skillsPaths: [
+          {
+            Rank: [2, 3, 4],
+            Target: [1, 2],
+          },
+          {
+            Rank: [3, 4],
+            Target: [1, 2],
+          },
+        ],
       },
       {
         id: 8,
         name: "Double Tap",
+        Type: 0,
+
+        skillsPaths: [
+          {
+            Rank: [2, 3, 4],
+            Target: [1, 2],
+          },
+          {
+            Rank: [3, 4],
+            Target: [1, 2],
+          },
+        ],
       },
       {
         id: 9,
         name: "Highway Robbery",
+        Type: 0,
+
+        skillsPaths: [
+          {
+            Rank: [2, 3, 4],
+            Target: [1, 2],
+          },
+          {
+            Rank: [3, 4],
+            Target: [1, 2],
+          },
+        ],
       },
       {
         id: 10,
         name: "Double Cross",
+        Type: 0,
+
+        skillsPaths: [
+          {
+            Rank: [2, 3, 4],
+            Target: [1, 2],
+          },
+          {
+            Rank: [3, 4],
+            Target: [1, 2],
+          },
+        ],
       },
     ],
   },
