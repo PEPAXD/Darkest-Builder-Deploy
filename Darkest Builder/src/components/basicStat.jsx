@@ -29,8 +29,8 @@ function basicStat({ title, iconSkill, paintBalls }) {
 
   return (
     <>
+      {/* skillType */}
       <b>{title}</b>
-
       {title === "Type" && (
         <div className="iconSkill">
           {icons[iconSkill].icon}
@@ -38,6 +38,7 @@ function basicStat({ title, iconSkill, paintBalls }) {
         </div>
       )}
 
+      {/* positionsCharacters */}
       {(title === "Rank" || title === "Target") && (
         <div className="positionBalls">
           {numbersBall.map((number, index) => (

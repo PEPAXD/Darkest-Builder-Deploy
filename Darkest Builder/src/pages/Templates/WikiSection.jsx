@@ -268,7 +268,10 @@ function WikiSection({ url_Bg }) {
 
                   <div className="topBarSkill">
                     <h3>{heroesData[heroArray].skills[selectedSkill].name}</h3>
-                    <UpgradeButton />
+                    {/*
+                     NextFeature
+                     <UpgradeButton /> 
+                     */}
                   </div>
 
                   <div className="dataSkill">
@@ -281,6 +284,18 @@ function WikiSection({ url_Bg }) {
                             }
                             arrowCheck={0}
                             heroIndex={heroArray}
+                          />
+                        </li>
+                        <li>
+                          <BasicStat title={"Type"} iconSkill={0} />
+                        </li>
+                        <li>
+                          <BasicStat title={"Rank"} paintBalls={[1, 2, 3, 4]} />
+                        </li>
+                        <li>
+                          <BasicStat
+                            title={"Target"}
+                            paintBalls={[1, 2, 3, 4]}
                           />
                         </li>
                       </ul>
