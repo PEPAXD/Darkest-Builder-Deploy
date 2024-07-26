@@ -154,7 +154,6 @@ const heroesData = {
           },
           {
             Rank: [3, 4],
-            Target: [3, 4],
           },
           {},
           {},
@@ -168,14 +167,11 @@ const heroesData = {
 
         skillsPaths: [
           {
-            Rank: [2, 3, 4],
-            Target: [1, 2],
-          },
-          {
-            Rank: [3, 4],
-            Target: [3, 4],
+            Rank: [1, 2, 3],
+            Target: [2, 3, 4],
           },
           {},
+          { Rank: [1, 2] },
           {},
         ],
       },
@@ -186,29 +182,27 @@ const heroesData = {
 
         skillsPaths: [
           {
-            Rank: [2, 3, 4],
-            Target: [1, 2],
+            Rank: [1, 2, 3],
+            Target: [1, 2, 3],
           },
-          {
-            Rank: [3, 4],
-            Target: [1, 2],
-          },
+          {},
+          {},
+          {},
         ],
       },
       {
         id: 3,
         name: "Tracking Shot",
-        Type: 0,
+        Type: 1,
 
         skillsPaths: [
           {
-            Rank: [2, 3, 4],
-            Target: [1, 2],
+            Rank: [1, 2, 3, 4],
+            Target: [1, 2, 3, 4],
           },
-          {
-            Rank: [3, 4],
-            Target: [1, 2],
-          },
+          {},
+          {},
+          {},
         ],
       },
       {
@@ -869,7 +863,6 @@ const heroesData = {
           { Rank: [1], Target: [1, 2] },
           {},
         ],
-        
       },
       {
         id: 1,
