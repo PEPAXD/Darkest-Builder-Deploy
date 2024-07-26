@@ -2,6 +2,9 @@ import React from "react";
 
 import "./styles/basicStat.css";
 
+//import database
+import heroesData from "../data/heroesData.js";
+
 //import icons
 import { TbClockBolt, TbArrowBigUpLinesFilled } from "react-icons/tb";
 import { GiBowman, GiSwordman, GiHealthNormal } from "react-icons/gi";
@@ -23,7 +26,20 @@ const icons = [
   },
 ];
 
-function basicStat({ title, iconSkill, paintBalls }) {
+function basicStat({
+  title,
+  iconSkill,
+  paintBalls,
+
+  heroArray = [0],
+  selectedSkill,
+}) {
+
+
+  paintBalls =
+    paintBalls ||
+    heroesData[heroArray].skills[selectedSkill].skillsPaths[0].Rank;
+
   //positionsCharacters
   const numbersBall = [1, 2, 3, 4];
 

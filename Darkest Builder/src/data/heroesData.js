@@ -156,6 +156,8 @@ const heroesData = {
             Rank: [3, 4],
             Target: [1, 2],
           },
+          {},
+          {},
         ],
       },
       {
@@ -454,10 +456,32 @@ const heroesData = {
       {
         id: 0,
         name: "Pick to the Face",
+        Type: 0,
+
+        skillsPaths: [
+          {
+            Rank: [0],
+            Target: [1, 2],
+          },
+          {},
+          { Rank: [1], Target: [1, 2] },
+          {},
+        ],
       },
       {
         id: 1,
         name: "Thrown Dagger",
+        Type: 0,
+
+        skillsPaths: [
+          {
+            Rank: [0],
+            Target: [1, 2],
+          },
+          {},
+          { Rank: [1], Target: [1, 2] },
+          {},
+        ],
       },
       {
         id: 2,
@@ -648,6 +672,17 @@ const heroesData = {
       {
         id: 0,
         name: "Wicked Hack",
+        Type: 0,
+
+        skillsPaths: [
+          {
+            Rank: [0],
+            Target: [1, 2],
+          },
+          {},
+          { Rank: [1], Target: [1, 2] },
+          {},
+        ],
       },
       {
         id: 1,
@@ -821,6 +856,18 @@ const heroesData = {
       {
         id: 0,
         name: "Razor's Wit",
+        Type: 0,
+
+        skillsPaths: [
+          {
+            Rank: [0],
+            Target: [1, 2],
+          },
+          {},
+          { Rank: [1], Target: [1, 2] },
+          {},
+        ],
+        
       },
       {
         id: 1,
@@ -1003,6 +1050,17 @@ const heroesData = {
       {
         id: 0,
         name: "Chop",
+        Type: 0,
+
+        skillsPaths: [
+          {
+            Rank: [0],
+            Target: [1, 2],
+          },
+          {},
+          { Rank: [1], Target: [1, 2] },
+          {},
+        ],
       },
       {
         id: 1,
@@ -1170,6 +1228,17 @@ const heroesData = {
       {
         id: 0,
         name: "Crush",
+        Type: 0,
+
+        skillsPaths: [
+          {
+            Rank: [0],
+            Target: [1, 2],
+          },
+          {},
+          { Rank: [1], Target: [1, 2] },
+          {},
+        ],
       },
       {
         id: 1,
@@ -1362,6 +1431,17 @@ const heroesData = {
       {
         id: 0,
         name: "Sacrificial Stab",
+        Type: 0,
+
+        skillsPaths: [
+          {
+            Rank: [0],
+            Target: [1, 2],
+          },
+          {},
+          { Rank: [1], Target: [1, 2] },
+          {},
+        ],
       },
       {
         id: 1,
@@ -1534,6 +1614,17 @@ const heroesData = {
       {
         id: 0,
         name: "Noxious Blast",
+        Type: 0,
+
+        skillsPaths: [
+          {
+            Rank: [0],
+            Target: [1, 2],
+          },
+          {},
+          { Rank: [1], Target: [1, 2] },
+          {},
+        ],
       },
       {
         id: 1,
@@ -1740,6 +1831,17 @@ const heroesData = {
       {
         id: 0,
         name: "Hand of Light",
+        Type: 0,
+
+        skillsPaths: [
+          {
+            Rank: [0],
+            Target: [1, 2],
+          },
+          {},
+          { Rank: [1], Target: [1, 2] },
+          {},
+        ],
       },
       {
         id: 1,
@@ -1922,6 +2024,17 @@ const heroesData = {
       {
         id: 0,
         name: "Searing Strike",
+        Type: 0,
+
+        skillsPaths: [
+          {
+            Rank: [0],
+            Target: [1, 2],
+          },
+          {},
+          { Rank: [1], Target: [1, 2] },
+          {},
+        ],
       },
       {
         id: 1,
@@ -2065,6 +2178,17 @@ const heroesData = {
       {
         id: 0,
         name: "Collect Bounty",
+        Type: 0,
+
+        skillsPaths: [
+          {
+            Rank: [0],
+            Target: [1, 2],
+          },
+          {},
+          { Rank: [1], Target: [1, 2] },
+          {},
+        ],
       },
       {
         id: 1,
@@ -2235,6 +2359,17 @@ const heroesData = {
       {
         id: 0,
         name: "Smite",
+        Type: 0,
+
+        skillsPaths: [
+          {
+            Rank: [0],
+            Target: [1, 2],
+          },
+          {},
+          { Rank: [1], Target: [1, 2] },
+          {},
+        ],
       },
       {
         id: 1,
@@ -2435,6 +2570,17 @@ const heroesData = {
       {
         id: 0,
         name: "Touché",
+        Type: 0,
+
+        skillsPaths: [
+          {
+            Rank: [0],
+            Target: [1, 2],
+          },
+          {},
+          { Rank: [1], Target: [1, 2] },
+          {},
+        ],
       },
       {
         id: 1,
@@ -2625,6 +2771,17 @@ const heroesData = {
       {
         id: 0,
         name: "Punish",
+        Type: 0,
+
+        skillsPaths: [
+          {
+            Rank: [0],
+            Target: [1, 2],
+          },
+          {},
+          { Rank: [1], Target: [1, 2] },
+          {},
+        ],
       },
       {
         id: 1,
