@@ -220,6 +220,7 @@ const heroesData = {
         id: 4,
         name: "Take Aim",
         Type: 2,
+        Cooldown: 3,
 
         skillsPaths: [
           {

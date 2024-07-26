@@ -294,8 +294,6 @@ function WikiSection({ url_Bg }) {
                             iconSkill={
                               heroesData[heroArray].skills[selectedSkill].Type
                             }
-                            heroesData={heroesData}
-                            selectedSkill={selectedSkill}
                           />
                         </li>
                         <li>
@@ -318,6 +316,15 @@ function WikiSection({ url_Bg }) {
                             }
                             heroesData={heroesData}
                             selectedSkill={selectedSkill}
+                          />
+                        </li>
+                        <li>
+                          <BasicStat
+                            title={"Cooldown"}
+                            iconSkill={
+                              heroesData[heroArray].skills[selectedSkill]
+                                .Cooldown
+                            }
                           />
                         </li>
                       </ul>

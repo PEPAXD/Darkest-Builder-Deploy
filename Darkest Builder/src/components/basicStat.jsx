@@ -24,6 +24,10 @@ const icons = [
     tag: "Buff",
     icon: <GiIciclesAura />,
   },
+  {
+    tag: "Cooldown",
+    icon: <TbClockBolt />,
+  },
 ];
 
 function basicStat({
@@ -53,6 +57,12 @@ function basicStat({
         <div className="iconSkill">
           {icons[iconSkill].icon}
           <i> {icons[iconSkill].tag}</i>
+        </div>
+      )}
+      {title === "Cooldown" && (
+        <div className="iconSkill">
+          {icons[3].icon}
+          <i>{iconSkill}</i>
         </div>
       )}
 
