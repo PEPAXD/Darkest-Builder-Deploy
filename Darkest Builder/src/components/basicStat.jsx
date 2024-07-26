@@ -17,7 +17,7 @@ const icons = [
     icon: <GiBroadDagger style={{ transform: "rotate(-90deg)" }} />,
   },
   {
-    tag: "Rank",
+    tag: "Ranged",
     icon: <GiPocketBow style={{ transform: "rotate(-90deg)" }} />,
   },
   {

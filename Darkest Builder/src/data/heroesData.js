@@ -173,8 +173,10 @@ const heroesData = {
           },
           {
             Rank: [3, 4],
-            Target: [1, 2],
+            Target: [3, 4],
           },
+          {},
+          {},
         ],
       },
       {
