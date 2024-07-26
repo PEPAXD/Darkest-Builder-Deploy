@@ -158,6 +158,9 @@ const heroesData = {
           {},
           {},
         ],
+
+        description:
+          "High damage skill that hits the Front-rank. Has Execution, helping bypass Death Armor which would let enemies survive a Deathblow.",
       },
       {
         id: 1,
@@ -174,6 +177,9 @@ const heroesData = {
           { Rank: [1, 2] },
           {},
         ],
+
+        description:
+          "High damage skills that hits the Back-ranks. Applies Daze/ Stun when Target has combo. Most used as a utility but still has enough damage to kill most enemies, is the only HWM skill that can directly damage Rank 4..",
       },
       {
         id: 2,
@@ -189,6 +195,9 @@ const heroesData = {
           {},
           {},
         ],
+
+        description:
+          "Forward 1. Gives access to Riposte, Highwayman Riposte has a chance to apply Combo on enemies, this make HWM's Riposte valuable as a DMG skill, Finisher Tool and a Support skill.",
       },
       {
         id: 3,
@@ -204,22 +213,26 @@ const heroesData = {
           {},
           {},
         ],
+        description:
+          "Hard counter dodge, dodgeplus Dodge. Very useful to counter certain enemies as no only Ignores and Remove dodgeplus but also prevents enemies to Gain dodgeplus / Dodge for 2 Turns. Also adds Combo and Removes Stealth as an added bonus.",
       },
       {
         id: 4,
         name: "Take Aim",
-        Type: 0,
+        Type: 2,
 
         skillsPaths: [
           {
-            Rank: [2, 3, 4],
-            Target: [1, 2],
+            Rank: [1, 2, 3, 4],
+            Target: ["SELF"],
           },
-          {
-            Rank: [3, 4],
-            Target: [1, 2],
-          },
+          {},
+          {},
+          {},
         ],
+
+        description:
+          "Is the cornerstone of HWM's damage output. It generates crit, dodge(and Dd2 token speed when mastered) while simultaneously clearing blind. Is recommended to always use this skills in combination with other DMG skills as the guaranteed Crit will greatly improve your DPS.",
       },
       {
         id: 5,
