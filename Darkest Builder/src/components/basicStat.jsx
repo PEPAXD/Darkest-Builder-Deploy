@@ -30,18 +30,20 @@ function basicStat({
   title,
   iconSkill,
   paintBalls,
-
   heroArray = [0],
   selectedSkill,
 }) {
-
-
-  paintBalls =
-    paintBalls ||
-    heroesData[heroArray].skills[selectedSkill].skillsPaths[0].Rank;
-
   //positionsCharacters
   const numbersBall = [1, 2, 3, 4];
+
+  //paintBalls return skillsPaths[0].Rank
+  paintBalls =
+    paintBalls ||
+    (title === "Rank"
+      ? heroesData[heroArray].skills[selectedSkill].skillsPaths[0].Rank
+      : title === "Target"
+      ? heroesData[heroArray].skills[selectedSkill].skillsPaths[0].Target
+      : paintBalls);
 
   return (
     <>

@@ -310,7 +310,10 @@ function WikiSection({ url_Bg }) {
                         <li>
                           <BasicStat
                             title={"Target"}
-                            paintBalls={[1, 2, 3, 4]}
+                            paintBalls={
+                              heroesData[heroArray].skills[selectedSkill]
+                                .skillsPaths[heroPaths].Target
+                            }
                             heroesData={heroesData}
                             selectedSkill={selectedSkill}
                           />
