@@ -318,15 +318,20 @@ function WikiSection({ url_Bg }) {
                             selectedSkill={selectedSkill}
                           />
                         </li>
-                        <li>
-                          <BasicStat
-                            title={"Cooldown"}
-                            iconSkill={
-                              heroesData[heroArray].skills[selectedSkill]
-                                .Cooldown
-                            }
-                          />
-                        </li>
+
+                        {/* //CooldownStatCheck */}
+                        {heroesData[heroArray].skills[selectedSkill]
+                          .Cooldown && (
+                          <li>
+                            <BasicStat
+                              title={"Cooldown"}
+                              iconSkill={
+                                heroesData[heroArray].skills[selectedSkill]
+                                  .Cooldown
+                              }
+                            />
+                          </li>
+                        )}
                       </ul>
                     </div>
                   </div>
