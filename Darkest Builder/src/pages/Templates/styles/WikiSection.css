@@ -349,7 +349,7 @@
         ul {
           display: flex;
           flex-direction: row;
-          align-items: flex-start;
+          align-items: center;
           justify-content: space-between;
 
           width: 90%;
@@ -357,7 +357,7 @@
           li {
             align-items: center;
             list-style: none;
-            gap: 0.5rem;
+            gap: 1rem;
           }
         }
       }

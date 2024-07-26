@@ -59,18 +59,33 @@ function basicStat({
       {/* positionsCharacters */}
       {(title === "Rank" || title === "Target") && (
         <div className="positionBalls">
-          {numbersBall.map((number, index) => (
-            <span
-              key={index}
+          {paintBalls.length === 1 && paintBalls[0] === 0 ? (
+            <div
               style={{
-                background: paintBalls.includes(number)
-                  ? title === "Rank"
-                    ? "#aa8c45"
-                    : "#2a6383"
-                  : "#333",
+                backgroundColor: "#2a6383",
+                color: "white",
+                padding: "0rem 2rem",
+                borderRadius: "1rem",
+                fontStyle: "italic",
+                fontWeight: "300",
               }}
-            ></span>
-          ))}
+            >
+              Self
+            </div>
+          ) : (
+            numbersBall.map((number, index) => (
+              <span
+                key={index}
+                style={{
+                  background: paintBalls.includes(number)
+                    ? title === "Rank"
+                      ? "#aa8c45"
+                      : "#2a6383"
+                    : "#333",
+                }}
+              ></span>
+            ))
+          )}
         </div>
       )}
     </>

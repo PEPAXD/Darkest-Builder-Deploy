@@ -224,7 +224,7 @@ const heroesData = {
         skillsPaths: [
           {
             Rank: [1, 2, 3, 4],
-            Target: ["SELF"],
+            Target: [0],
           },
           {},
           {},
