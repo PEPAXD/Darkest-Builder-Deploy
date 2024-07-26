@@ -93,6 +93,7 @@ function WikiSection({ url_Bg }) {
       }
     });
     setHeroPaths(0);
+    setSelectedSkill(0);
   };
 
   //SelectorSkills
@@ -125,6 +126,7 @@ function WikiSection({ url_Bg }) {
                 onSelect={(item) => {
                   setHeroArray(item.id - 1);
                   setHeroPaths(0);
+                  setSelectedSkill(0);
                 }}
                 styling={{
                   color: "white",
