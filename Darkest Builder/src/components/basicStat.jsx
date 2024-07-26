@@ -62,7 +62,7 @@ function basicStat({
           {paintBalls.length === 1 && paintBalls[0] === 0 ? (
             <div
               style={{
-                backgroundColor: "#2a6383",
+                backgroundColor: "rgb(0, 125, 100)",
                 color: "white",
                 padding: "0rem 2rem",
                 borderRadius: "1rem",
