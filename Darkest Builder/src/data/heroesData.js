@@ -228,10 +228,15 @@ const heroesData = {
             Cooldown: 2,
           },
           {
+            Rank: [2, 3, 4],
             Cooldown: 3,
           },
-          {},
-          {},
+          {
+            Cooldown: 2,
+          },
+          {
+            Cooldown: 2,
+          },
         ],
 
         description:
