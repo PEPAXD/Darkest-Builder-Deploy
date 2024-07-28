@@ -321,13 +321,13 @@ function WikiSection({ url_Bg }) {
 
                         {/* //CooldownStatCheck */}
                         {heroesData[heroArray].skills[selectedSkill]
-                          .Cooldown && (
+                          .skillsPaths[heroPaths].Cooldown && (
                           <li>
                             <BasicStat
                               title={"Cooldown"}
                               iconSkill={
                                 heroesData[heroArray].skills[selectedSkill]
-                                  .Cooldown
+                                  .skillsPaths[heroPaths].Cooldown
                               }
                             />
                           </li>
