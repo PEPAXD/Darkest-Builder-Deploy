@@ -300,7 +300,7 @@
 
   background-color: #000;
 
-  margin: 2% 0%;
+  margin: 2% 0% 1% 0%;
 
   .skillsDescription {
     display: flex;
@@ -423,6 +423,8 @@
 }
 
 .skillsHeroArray {
+  margin-top: 2%;
+
   .label {
     display: flex;
     flex-direction: column;

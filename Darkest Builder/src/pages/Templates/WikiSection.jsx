@@ -256,8 +256,6 @@ function WikiSection({ url_Bg }) {
               <h2>Skills and Paths</h2>
               <hr />
 
-              <cite>{heroesData[heroArray].paths.cites[heroPaths]}</cite>
-
               <div className="pathContainer">
                 <PathHero
                   heroIndex={heroArray}
@@ -343,6 +341,8 @@ function WikiSection({ url_Bg }) {
                   <div className="statsHigh"></div>
                 </div>
               </div>
+
+              <cite>{heroesData[heroArray].paths.cites[heroPaths]}</cite>
 
               <div className="skillsHeroArray">
                 {heroesData[heroArray].skills.map((skill, index) => (

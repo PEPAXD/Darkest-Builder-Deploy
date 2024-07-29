@@ -367,7 +367,8 @@ const heroesData = {
           {},
           {},
         ],
-        description: "can apply Vulnerable to enemies and block to Self. Is best pair with other heroes that can use Vulnerable. Take Aim can make this Skill more effective as Crits ignores +20% Debuff RES.",
+        description:
+          "can apply Vulnerable to enemies and block to Self. Is best pair with other heroes that can use Vulnerable. Take Aim can make this Skill more effective as Crits ignores +20% Debuff RES.",
       },
     ],
   },
@@ -383,7 +384,7 @@ const heroesData = {
     ],
 
     paths: {
-      name: ["Wanderer", "Rogue", "Sharpshot", "Yellowhand"],
+      name: ["Wanderer", "Deadeye", "Venomdrop", "Nightsworn"],
       skillsArray: [[], [0, 2, 4, 5, 6], [1, 4, 5, 6, 8], [3, 6, 7, 9, 10]],
       cites: [
         '"Default skills. Rewards candles upon reaching the second Inn"',
@@ -508,32 +509,58 @@ const heroesData = {
 
         skillsPaths: [
           {
-            Rank: [0],
+            Rank: [2, 3, 4],
             Target: [1, 2],
           },
           {},
-          { Rank: [1], Target: [1, 2] },
+          {},
           {},
         ],
+        description:
+          "Melee option to deal with frontliners. Ignores and Remove block from enemies. Like most of her skills, is very effective with Combo since it gives an extra +50% CRIT chance. Combined with Gr-stiff-drinkStiff Drink (+50% DMG) the skill can deliver a powerful blow.",
       },
       {
         id: 1,
         name: "Thrown Dagger",
-        Type: 0,
+        Type: 1,
 
         skillsPaths: [
           {
-            Rank: [0],
+            Rank: [1, 2, 3],
             Target: [1, 2],
           },
+          {
+            Rank: [1, 2],
+          },
           {},
-          { Rank: [1], Target: [1, 2] },
           {},
         ],
+        description:
+          "Ranged option, can hit back-lines and certain front-lines. It can bypass both Guard and Dodge when Grave Robbe has Stealth. Having the highest CRIT chance of all GR Moves (alongisde Lunge Dd2 ability lunge) makes this move very deadly combined with +50% CRIT on Combo.",
       },
       {
         id: 2,
         name: "Flashing Daggers",
+        Type: 1,
+
+        skillsPaths: [
+          {
+            Rank: [1, 2, 3],
+            Target: [2, 3],
+          },
+          {
+            Rank: [1, 2],
+            Target: [3, 4],
+          },
+          {},
+          {
+            Rank: [1, 2, 3],
+            Target: [2, 3, 4],
+            Cooldown: 1,
+          },
+        ],
+        description:
+          "Ranged option, can hit back-lines and certain front-lines. It can bypass both Guard and Dodge when Grave Robbe has Stealth. Having the highest CRIT chance of all GR Moves (alongisde Lunge Dd2 ability lunge) makes this move very deadly combined with +50% CRIT on Combo.",
       },
       {
         id: 3,
