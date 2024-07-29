@@ -245,34 +245,47 @@ const heroesData = {
       {
         id: 5,
         name: "Point Blank Shot",
-        Type: 0,
+        Type: 1,
 
         skillsPaths: [
           {
-            Rank: [2, 3, 4],
-            Target: [1, 2],
+            Rank: [4],
+            Target: [1],
           },
-          {
-            Rank: [3, 4],
-            Target: [1, 2],
-          },
+          {},
+          {},
+          {},
         ],
+
+        description:
+          "is a highly devastating skill, but has rather strict Rank requirement (Only can be used in Rank 1). Makes good combo with another Dancing heroes that can move HWM to Rank",
       },
       {
         id: 6,
         name: "Grapeshot Blast",
-        Type: 0,
+        Type: 1,
 
         skillsPaths: [
+          {
+            Rank: [1, 2, 3, 4],
+            Target: [1, 2],
+          },
+          {
+            Rank: [4],
+            Target: [1, 2, 3],
+          },
+          {
+            Rank: [1, 2],
+            Target: [3, 4],
+          },
           {
             Rank: [2, 3, 4],
             Target: [1, 2],
           },
-          {
-            Rank: [3, 4],
-            Target: [1, 2],
-          },
         ],
+
+        description:
+          "Multi-hit attack. Due to the Low Base DMG is preferably used to remove Tokens and to finish off enemies at low health. Combined with Dd2 ability takeaimTake Aim can be used as a Pseudo Stress Healer (it procs Stress heal chance two times)",
       },
       {
         id: 7,
@@ -288,23 +301,32 @@ const heroesData = {
             Rank: [3, 4],
             Target: [1, 2],
           },
+          {},
+          {},
         ],
+
+        description:
+          "Moderate Damage skill that hits the front ranks. Althought the direct damage is not high, the skill shines when the Target has Combo as it doubles the Bleed Dealt.",
       },
       {
         id: 8,
         name: "Double Tap",
-        Type: 0,
+        Type: 1,
 
         skillsPaths: [
           {
-            Rank: [2, 3, 4],
-            Target: [1, 2],
+            Rank: [2, 3],
+            Target: [2, 3],
           },
+          {},
           {
-            Rank: [3, 4],
-            Target: [1, 2],
+            Rank: [1, 2, 3],
+            Target: [1, 2, 3],
           },
+          {},
         ],
+        description:
+          "High damage skill that hits the Middle-ranks. Has Execution 1 (when upgraded), and deals more DMG when the enemy is a low Icon HP dd2 HP. Works as a main DMG Skill, as a Finisher and is most effective the more health has the enemy.",
       },
       {
         id: 9,
@@ -313,14 +335,23 @@ const heroesData = {
 
         skillsPaths: [
           {
-            Rank: [2, 3, 4],
-            Target: [1, 2],
+            Rank: [1, 2, 3],
+            Target: [1, 2, 3],
+            Cooldown: 1,
           },
           {
-            Rank: [3, 4],
-            Target: [1, 2],
+            Cooldown: 1,
+          },
+          {
+            Cooldown: 1,
+          },
+          {
+            Rank: [2, 3, 4],
+            Cooldown: 1,
           },
         ],
+        description:
+          "is extremely useful against enemies that can apply positive Tokens on themselves or allies,as it can remove these Tokens and destroy enemies' advantages to alleviate combat risks. With the skill upgraded, the Highwayman can also steal powerful Tokens to increase his damage and defense",
       },
       {
         id: 10,
@@ -329,14 +360,14 @@ const heroesData = {
 
         skillsPaths: [
           {
-            Rank: [2, 3, 4],
-            Target: [1, 2],
-          },
-          {
             Rank: [3, 4],
             Target: [1, 2],
           },
+          {},
+          {},
+          {},
         ],
+        description: "can apply Vulnerable to enemies and block to Self. Is best pair with other heroes that can use Vulnerable. Take Aim can make this Skill more effective as Crits ignores +20% Debuff RES.",
       },
     ],
   },
