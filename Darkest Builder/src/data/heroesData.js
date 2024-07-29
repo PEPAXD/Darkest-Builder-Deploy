@@ -565,10 +565,37 @@ const heroesData = {
       {
         id: 3,
         name: "Poison Dart",
+        Type: 1,
+
+        skillsPaths: [
+          {
+            Rank: [1, 2, 3],
+            Target: [1, 2, 3, 4],
+          },
+          {},
+          {},
+          {},
+        ],
+        description:
+          "source of Blight. Can hit all Ranks and it benefits greatly from the crit chance due to Blight (Extra Duration/Ignore Blight RES). IT has a lower CRIT chance than other Ranged Options but shares the +50% CRIT on Combo with makes this move incredible effective.",
       },
       {
         id: 4,
         name: "Absinthe",
+        Type: 2,
+
+        skillsPaths: [
+          {
+            Rank: [1, 2, 3, 4],
+            Target: [0],
+            Uses: 3,
+          },
+          {},
+          {},
+          {},
+        ],
+
+        description: "Primary panic button. Heals HP and applies a good amount of Dodge and speed. It is advisable to equip this skill as it is one of the major sources of self-sustain for Grave robber.",
       },
       {
         id: 5,
