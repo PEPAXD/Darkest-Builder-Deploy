@@ -330,6 +330,20 @@ function WikiSection({ url_Bg }) {
                             />
                           </li>
                         )}
+
+                        {/* //UsesStatCheck */}
+                        {heroesData[heroArray].skills[selectedSkill]
+                          .skillsPaths[heroPaths].Uses && (
+                          <li>
+                            <BasicStat
+                              title={"Uses"}
+                              iconSkill={
+                                heroesData[heroArray].skills[selectedSkill]
+                                  .skillsPaths[heroPaths].Uses
+                              }
+                            />
+                          </li>
+                        )}
                       </ul>
                     </div>
                   </div>

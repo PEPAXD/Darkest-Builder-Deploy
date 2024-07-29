@@ -8,8 +8,12 @@ import heroesData from "../data/heroesData.js";
 //import icons
 import { TbClockBolt, TbArrowBigUpLinesFilled } from "react-icons/tb";
 import { GiBowman, GiSwordman, GiHealthNormal } from "react-icons/gi";
-import { GiPocketBow, GiBroadDagger, GiIciclesAura } from "react-icons/gi";
-import { PiBatteryVerticalHigh } from "react-icons/pi";
+import {
+  GiPocketBow,
+  GiBroadDagger,
+  GiIciclesAura,
+  GiFireBottle,
+} from "react-icons/gi";
 
 const icons = [
   {
@@ -22,11 +26,15 @@ const icons = [
   },
   {
     tag: "Buff",
-    icon: <GiIciclesAura />,
+    icon: <GiIciclesAura style={{ transform: "scale(1.1)" }} />,
   },
   {
     tag: "Cooldown",
-    icon: <TbClockBolt />,
+    icon: <TbClockBolt style={{ transform: "scale(1.1)" }} />,
+  },
+  {
+    tag: "Uses",
+    icon: <GiFireBottle style={{ transform: "scale(1.2)" }} />,
   },
 ];
 
@@ -62,6 +70,12 @@ function basicStat({
       {title === "Cooldown" && (
         <div className="iconSkill">
           {icons[3].icon}
+          <i>{iconSkill}</i>
+        </div>
+      )}
+      {title === "Uses" && (
+        <div className="iconSkill">
+          {icons[4].icon}
           <i>{iconSkill}</i>
         </div>
       )}

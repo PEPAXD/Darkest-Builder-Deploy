@@ -590,12 +590,19 @@ const heroesData = {
             Target: [0],
             Uses: 3,
           },
-          {},
-          {},
-          {},
+          {
+            Uses: 3,
+          },
+          {
+            Uses: 3,
+          },
+          {
+            Uses: 3,
+          },
         ],
 
-        description: "Primary panic button. Heals HP and applies a good amount of Dodge and speed. It is advisable to equip this skill as it is one of the major sources of self-sustain for Grave robber.",
+        description:
+          "Primary panic button. Heals HP and applies a good amount of Dodge and speed. It is advisable to equip this skill as it is one of the major sources of self-sustain for Grave robber.",
       },
       {
         id: 5,
