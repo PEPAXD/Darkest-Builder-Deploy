@@ -97,14 +97,30 @@ function basicStat({ title, iconSkill, paintBalls }) {
       {/* positionsCharacters for Target */}
       {title === "Target" && (
         <div className="positionBalls">
-          {numbersBall.map((number, index) => (
-            <span
-              key={index}
+          {paintBalls.length === 1 && paintBalls[0] === 0 ? (
+            <div
               style={{
-                background: paintBalls.includes(number) ? "#2a6383" : "#333",
+                backgroundColor: "rgb(0, 125, 100)",
+                color: "white",
+                padding: "0rem 2rem",
+
+                fontSize: "0.8em",
+                fontStyle: "italic",
+                fontWeight: "300",
               }}
-            ></span>
-          ))}
+            >
+              Self
+            </div>
+          ) : (
+            numbersBall.map((number, index) => (
+              <span
+                key={index}
+                style={{
+                  background: paintBalls.includes(number) ? "#2a6383" : "#333",
+                }}
+              ></span>
+            ))
+          )}
         </div>
       )}
     </>

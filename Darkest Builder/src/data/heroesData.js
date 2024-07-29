@@ -180,9 +180,15 @@ const heroesData = {
             Rank: [1, 2, 3],
             Target: [2, 3, 4],
           },
-          {},
-          { Rank: [1, 2] },
-          {},
+          {
+            Rank: [1, 2, 3],
+            Target: [2, 3, 4],
+          },
+          { Rank: [1, 2], Target: [2, 3, 4] },
+          {
+            Rank: [1, 2, 3],
+            Target: [2, 3, 4],
+          },
         ],
 
         description:
@@ -198,9 +204,18 @@ const heroesData = {
             Rank: [1, 2, 3],
             Target: [1, 2, 3],
           },
-          {},
-          {},
-          {},
+          {
+            Rank: [1, 2, 3],
+            Target: [1, 2, 3],
+          },
+          {
+            Rank: [1, 2, 3],
+            Target: [1, 2, 3],
+          },
+          {
+            Rank: [1, 2, 3],
+            Target: [1, 2, 3],
+          },
         ],
 
         description:
@@ -216,9 +231,18 @@ const heroesData = {
             Rank: [1, 2, 3, 4],
             Target: [1, 2, 3, 4],
           },
-          {},
-          {},
-          {},
+          {
+            Rank: [1, 2, 3, 4],
+            Target: [1, 2, 3, 4],
+          },
+          {
+            Rank: [1, 2, 3, 4],
+            Target: [1, 2, 3, 4],
+          },
+          {
+            Rank: [1, 2, 3, 4],
+            Target: [1, 2, 3, 4],
+          },
         ],
         description:
           "Hard counter dodge, dodgeplus Dodge. Very useful to counter certain enemies as no only Ignores and Remove dodgeplus but also prevents enemies to Gain dodgeplus / Dodge for 2 Turns. Also adds Combo and Removes Stealth as an added bonus.",
@@ -236,12 +260,17 @@ const heroesData = {
           },
           {
             Rank: [2, 3, 4],
+            Target: [0],
             Cooldown: 3,
           },
           {
+            Rank: [1, 2, 3, 4],
+            Target: [0],
             Cooldown: 2,
           },
           {
+            Rank: [1, 2, 3, 4],
+            Target: [0],
             Cooldown: 2,
           },
         ],
@@ -259,9 +288,18 @@ const heroesData = {
             Rank: [4],
             Target: [1],
           },
-          {},
-          {},
-          {},
+          {
+            Rank: [4],
+            Target: [1],
+          },
+          {
+            Rank: [4],
+            Target: [1],
+          },
+          {
+            Rank: [4],
+            Target: [1],
+          },
         ],
 
         description:
