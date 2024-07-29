@@ -607,6 +607,33 @@ const heroesData = {
       {
         id: 5,
         name: "Dead of Night",
+        Type: 0,
+
+        skillsPaths: [
+          {
+            Rank: [1, 2, 3, 4],
+            Target: [1, 2, 3, 4],
+            Uses: 3,
+          },
+          {
+            Target: [1, 2, 3, 4],
+
+            Uses: 3,
+          },
+          {
+            Target: [1, 2, 3, 4],
+
+            Uses: 3,
+          },
+          {
+            Target: [1, 2, 3, 4],
+
+            Uses: 3,
+          },
+        ],
+
+        description:
+          "amazing Self-sustain move . Heals HP, Stress and adds Stealth.The only drawback of this move is it requires a enemy Corpse to work. If the fight doesnt have any Corpse (like boss fights) It is better to temporarily replace this skill with another one.",
       },
       {
         id: 6,

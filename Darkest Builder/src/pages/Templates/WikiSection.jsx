@@ -349,7 +349,12 @@ function WikiSection({ url_Bg }) {
                   </div>
 
                   <p>
-                    {heroesData[heroArray].skills[selectedSkill].description}
+                    {heroesData[heroArray].skills[selectedSkill].description
+                      .charAt(0)
+                      .toUpperCase() +
+                      heroesData[heroArray].skills[
+                        selectedSkill
+                      ].description.slice(1)}
                   </p>
 
                   <div className="statsHigh"></div>
