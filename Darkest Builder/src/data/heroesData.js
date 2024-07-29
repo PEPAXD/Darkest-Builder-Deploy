@@ -154,9 +154,16 @@ const heroesData = {
           },
           {
             Rank: [3, 4],
+            Target: [1, 2],
           },
-          {},
-          {},
+          {
+            Rank: [2, 3, 4],
+            Target: [1, 2],
+          },
+          {
+            Rank: [2, 3, 4],
+            Target: [1, 2],
+          },
         ],
 
         description:
@@ -638,18 +645,74 @@ const heroesData = {
       {
         id: 6,
         name: "Glint in the Dark",
+        Type: 1,
+
+        skillsPaths: [
+          {
+            Rank: [2, 3, 4],
+            Target: [1, 2, 3],
+          },
+          {},
+          {},
+          {},
+        ],
+
+        description:
+          "is one of the most unique Skill in the game as is the only Skill that Bypass Death's Door ( If Grave Robber has Stealth ). Combined with a respectable amount of damage this makes the most difficult fights in the game easier. High threats such as Exemplar (50% Deathsdoor RES) can be killed much faster with this ability.",
       },
       {
         id: 7,
         name: "Lunge",
+        Type: 0,
+
+        skillsPaths: [
+          {
+            Rank: [1, 2],
+            Target: [1, 2, 3],
+          },
+          {
+            Target: [1, 2, 3],
+          },
+          {
+            Target: [1, 2, 3],
+          },
+          {
+            Target: [1, 2, 3],
+          },
+        ],
+
+        description:
+          "has the highest CRIT chance of all GR Moves (alongisde Thrown Dagger) wich makes it a very deadly move. This is one of the moves that benefits the most from Trinkets (Example: Trinket cultist silent treatment Silent Treatment, Heartseeker (all)Heartseeker , Sharpness charm (all)Sharpness Charm.) since it's flaws (Huge, inconsistence, damage ranges reliant on CRITs) can be easily denied with Trinkets.",
       },
       {
         id: 8,
         name: "Pirouette",
+        Type: 1,
+
+        skillsPaths: [
+          { Rank: [3, 4], Target: [1, 2], Cooldown: 1 },
+          { Rank: [3, 4], Target: [1, 2] },
+          { Rank: [3, 4], Target: [1, 2] },
+          { Rank: [3, 4], Target: [1, 2] },
+        ],
+
+        description:
+          "High damage, high crit move that hits both Front-rank, a very deadly skill that can kill both Front-ranks in a single blow with the correct Trinkets and some Luck. It moves Grave Robber Backwards and apply daze to her but the payoff is worth the huge Damage potential of this skill.",
       },
       {
         id: 9,
         name: "Repartee",
+        Type: 2,
+
+        skillsPaths: [
+          { Rank: [1, 2, 3, 4], Target: [0], Cooldown: 2 },
+          { Rank: [1, 2, 3, 4], Target: [0] },
+          { Rank: [1, 2, 3, 4], Target: [0], Cooldown: 2 },
+          { Rank: [1, 2, 3, 4], Target: [1, 2, 3, 4], Cooldown: 3 },
+        ],
+
+        description:
+          "applies DodgePlus x3 and Taunt making Grave Robber a 'Dodge Tank'. Although DodgePlus reduces all damage to zero, GR's low Base HP could cause an unlucky roll to put Grave Robber at risk.",
       },
       {
         id: 10,

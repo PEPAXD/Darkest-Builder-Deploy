@@ -38,24 +38,9 @@ const icons = [
   },
 ];
 
-function basicStat({
-  title,
-  iconSkill,
-  paintBalls,
-  heroArray = [0],
-  selectedSkill,
-}) {
+function basicStat({ title, iconSkill, paintBalls }) {
   //positionsCharacters
   const numbersBall = [1, 2, 3, 4];
-
-  //paintBalls return skillsPaths[0].Rank
-  paintBalls =
-    paintBalls ||
-    (title === "Rank"
-      ? heroesData[heroArray].skills[selectedSkill].skillsPaths[0].Rank
-      : title === "Target"
-      ? heroesData[heroArray].skills[selectedSkill].skillsPaths[0].Target
-      : paintBalls);
 
   return (
     <>
@@ -80,8 +65,8 @@ function basicStat({
         </div>
       )}
 
-      {/* positionsCharacters */}
-      {(title === "Rank" || title === "Target") && (
+      {/* positionsCharacters for Rank */}
+      {title === "Rank" && (
         <div className="positionBalls">
           {paintBalls.length === 1 && paintBalls[0] === 0 ? (
             <div
@@ -101,15 +86,25 @@ function basicStat({
               <span
                 key={index}
                 style={{
-                  background: paintBalls.includes(number)
-                    ? title === "Rank"
-                      ? "#aa8c45"
-                      : "#2a6383"
-                    : "#333",
+                  background: paintBalls.includes(number) ? "#aa8c45" : "#333",
                 }}
               ></span>
             ))
           )}
+        </div>
+      )}
+
+      {/* positionsCharacters for Target */}
+      {title === "Target" && (
+        <div className="positionBalls">
+          {numbersBall.map((number, index) => (
+            <span
+              key={index}
+              style={{
+                background: paintBalls.includes(number) ? "#2a6383" : "#333",
+              }}
+            ></span>
+          ))}
         </div>
       )}
     </>

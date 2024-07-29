@@ -277,6 +277,8 @@ function WikiSection({ url_Bg }) {
                   <div className="dataSkill">
                     <div className="basicStats">
                       <ul>
+
+                        {/* //SkillFrameIMG */}
                         <li>
                           <SkillFrame
                             skillData={
@@ -286,6 +288,8 @@ function WikiSection({ url_Bg }) {
                             heroIndex={heroArray}
                           />
                         </li>
+
+                        {/* //TypeStatCheck */}
                         <li>
                           <BasicStat
                             title={"Type"}
@@ -294,28 +298,34 @@ function WikiSection({ url_Bg }) {
                             }
                           />
                         </li>
-                        <li>
-                          <BasicStat
-                            title={"Rank"}
-                            paintBalls={
-                              heroesData[heroArray].skills[selectedSkill]
-                                .skillsPaths[heroPaths].Rank
-                            }
-                            heroArray={heroArray}
-                            selectedSkill={selectedSkill}
-                          />
-                        </li>
-                        <li>
-                          <BasicStat
-                            title={"Target"}
-                            paintBalls={
-                              heroesData[heroArray].skills[selectedSkill]
-                                .skillsPaths[heroPaths].Target
-                            }
-                            heroesData={heroesData}
-                            selectedSkill={selectedSkill}
-                          />
-                        </li>
+
+                        {/* //RankStatCheck */}
+                        {heroesData[heroArray].skills[selectedSkill]
+                          .skillsPaths[heroPaths].Rank && (
+                          <li>
+                            <BasicStat
+                              title={"Rank"}
+                              paintBalls={
+                                heroesData[heroArray].skills[selectedSkill]
+                                  .skillsPaths[heroPaths].Rank
+                              }
+                            />
+                          </li>
+                        )}
+
+                        {/* //TargetStatCheck */}
+                        {heroesData[heroArray].skills[selectedSkill]
+                          .skillsPaths[heroPaths].Target && (
+                          <li>
+                            <BasicStat
+                              title={"Target"}
+                              paintBalls={
+                                heroesData[heroArray].skills[selectedSkill]
+                                  .skillsPaths[heroPaths].Target
+                              }
+                            />
+                          </li>
+                        )}
 
                         {/* //CooldownStatCheck */}
                         {heroesData[heroArray].skills[selectedSkill]
@@ -345,6 +355,7 @@ function WikiSection({ url_Bg }) {
                           </li>
                         )}
                       </ul>
+                      
                     </div>
                   </div>
 
