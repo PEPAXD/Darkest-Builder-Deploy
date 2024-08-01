@@ -459,9 +459,9 @@ const heroesData = {
       skillsArray: [[], [0, 2, 4, 5, 6], [1, 4, 5, 6, 8], [3, 6, 7, 9, 10]],
       cites: [
         '"Default skills. Rewards candles upon reaching the second Inn"',
-        '"A brawler focused on front rank combat and Riposte."',
-        '"A back rank role that emphasizes ranged skill use"',
-        '"A rank-flexible Bleed specialist. Riposte inflicts Bleed."',
+        '"A back rank role with a heavy emphasis on CRIT and reach."',
+        '"Rank-flexible role that expands the Grave Robbers Blight capabilities."',
+        '"A flexible role with a variety of Stealth-oriented offense and counter-defense skills."',
       ],
 
       description: [
@@ -476,23 +476,34 @@ const heroesData = {
           },
         ],
         [
-          { title: "If Rank = 1:", text: "+25% DMG" },
-          { title: "If Rank = 3:", text: "-25% DMG" },
-          { title: "If Rank = 4:", text: "-50% DMG" },
-          { title: "Point Blank Shot", text: "Add Riposte" },
+          {
+            title: "Buff Ranged Skills:",
+            text: "Increased damage and crit chance",
+          },
+          { title: "Debuff Melee Damage", text: "Decreased Melee damage" },
+          { title: "Debuff Mov RES", text: "-33% movement resistance" },
         ],
         [
-          { title: "Ranged Skills:", text: "+25% DMG" },
-          { title: "Melee Skills:", text: "-25% DMG" },
-          { title: "Buff Speed", text: "+3 Speed" },
-          { title: "Grapeshot Blast", text: "Add Strength" },
+          {
+            title: "Blight Application Bonus",
+            text: "Applies +2 Blight from attacks when in Stealth",
+          },
+          { title: "Speed Reduction", text: "-3 Speed" },
+          {
+            title: "Blight Resistance Piercing",
+            text: "Lunge, Pirouette, and Shadow Fade gain 30% Blight resistance piercing",
+          },
+          {
+            title: "Flashing Daggers",
+            text: "Flashing Daggers applies 2 (4) Blight",
+          },
         ],
         [
-          { title: "Buff HP", text: "+15% MAXHP" },
-          { title: "Ranged Skills:", text: "-75% DMG" },
-          { title: "Apply On Melee-Hit :", text: "-10% Bleed RES" },
-          { title: "Highway Robbery", text: "Steal Positive Token" },
-          { title: "Double Cross", text: "Remove Block" },
+          {
+            title: "Stealth Damage Boost",
+            text: "+50% damage when attacking from Stealth",
+          },
+          { title: "Health Reduction", text: "-20% Max HP" },
         ],
       ],
     },
