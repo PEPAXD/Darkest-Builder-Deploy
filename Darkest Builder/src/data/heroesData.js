@@ -594,12 +594,21 @@ const heroesData = {
             Rank: [2, 3, 4],
             Target: [1, 2],
           },
-          {},
-          {},
-          {},
+          {
+            Rank: [2, 3, 4],
+            Target: [1, 2],
+          },
+          {
+            Rank: [2, 3, 4],
+            Target: [1, 2],
+          },
+          {
+            Rank: [2, 3, 4],
+            Target: [1, 2],
+          },
         ],
         description:
-          "Melee option to deal with frontliners. Ignores and Remove block from enemies. Like most of her skills, is very effective with Combo since it gives an extra +50% CRIT chance. Combined with Gr-stiff-drinkStiff Drink (+50% DMG) the skill can deliver a powerful blow.",
+          "Melee option to deal with frontliners. Ignores and Remove block from enemies. Like most of her skills, is very effective with Combo since it gives an extra +50% CRIT chance. Combined with Stiff Drink (+50% DMG) the skill can deliver a powerful blow.",
       },
       {
         id: 1,
@@ -609,16 +618,23 @@ const heroesData = {
         skillsPaths: [
           {
             Rank: [1, 2, 3],
-            Target: [1, 2],
+            Target: [2, 3, 4],
           },
           {
             Rank: [1, 2],
+            Target: [2, 3, 4],
           },
-          {},
-          {},
+          {
+            Rank: [1, 2, 3],
+            Target: [2, 3, 4],
+          },
+          {
+            Rank: [1, 2, 3],
+            Target: [2, 3, 4],
+          },
         ],
         description:
-          "Ranged option, can hit back-lines and certain front-lines. It can bypass both Guard and Dodge when Grave Robbe has Stealth. Having the highest CRIT chance of all GR Moves (alongisde Lunge Dd2 ability lunge) makes this move very deadly combined with +50% CRIT on Combo.",
+          "Ranged option, can hit back-lines and certain front-lines. It can bypass both Guard and Dodge when Grave Robbe has Stealth. Having the highest CRIT chance of all GR Moves (alongisde ability lunge) makes this move very deadly combined with +50% CRIT on Combo.",
       },
       {
         id: 2,
@@ -634,7 +650,10 @@ const heroesData = {
             Rank: [1, 2],
             Target: [3, 4],
           },
-          {},
+          {
+            Rank: [1, 2, 3],
+            Target: [2, 3],
+          },
           {
             Rank: [1, 2, 3],
             Target: [2, 3, 4],
@@ -642,7 +661,7 @@ const heroesData = {
           },
         ],
         description:
-          "Ranged option, can hit back-lines and certain front-lines. It can bypass both Guard and Dodge when Grave Robbe has Stealth. Having the highest CRIT chance of all GR Moves (alongisde Lunge Dd2 ability lunge) makes this move very deadly combined with +50% CRIT on Combo.",
+          "Ranged option, can hit back-lines and certain front-lines. It can bypass both Guard and Dodge when Grave Robbe has Stealth. Having the highest CRIT chance of all GR Moves (alongisde ability lunge) makes this move very deadly combined with +50% CRIT on Combo.",
       },
       {
         id: 3,
@@ -654,9 +673,18 @@ const heroesData = {
             Rank: [1, 2, 3],
             Target: [1, 2, 3, 4],
           },
-          {},
-          {},
-          {},
+          {
+            Rank: [1, 2, 3],
+            Target: [1, 2, 3, 4],
+          },
+          {
+            Rank: [1, 2, 3],
+            Target: [1, 2, 3, 4],
+          },
+          {
+            Rank: [1, 2, 3],
+            Target: [1, 2, 3, 4],
+          },
         ],
         description:
           "source of Blight. Can hit all Ranks and it benefits greatly from the crit chance due to Blight (Extra Duration/Ignore Blight RES). IT has a lower CRIT chance than other Ranged Options but shares the +50% CRIT on Combo with makes this move incredible effective.",
@@ -673,12 +701,18 @@ const heroesData = {
             Uses: 3,
           },
           {
+            Rank: [1, 2, 3, 4],
+            Target: [0],
             Uses: 3,
           },
           {
+            Rank: [1, 2, 3, 4],
+            Target: [0],
             Uses: 3,
           },
           {
+            Rank: [1, 2, 3, 4],
+            Target: [0],
             Uses: 3,
           },
         ],
