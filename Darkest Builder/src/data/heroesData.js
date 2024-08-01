@@ -728,21 +728,21 @@ const heroesData = {
         skillsPaths: [
           {
             Rank: [1, 2, 3, 4],
-            Target: [1, 2, 3, 4],
+            Corpse: [1, 2, 3, 4],
             Uses: 3,
           },
           {
-            Target: [1, 2, 3, 4],
+            Corpse: [1, 2, 3, 4],
 
             Uses: 3,
           },
           {
-            Target: [1, 2, 3, 4],
+            Corpse: [1, 2, 3, 4],
 
             Uses: 3,
           },
           {
-            Target: [1, 2, 3, 4],
+            Corpse: [1, 2, 3, 4],
 
             Uses: 3,
           },

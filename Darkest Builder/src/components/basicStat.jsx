@@ -68,29 +68,14 @@ function basicStat({ title, iconSkill, paintBalls }) {
       {/* positionsCharacters for Rank */}
       {title === "Rank" && (
         <div className="positionBalls">
-          {paintBalls.length === 1 && paintBalls[0] === 0 ? (
-            <div
+          {numbersBall.map((number, index) => (
+            <span
+              key={index}
               style={{
-                backgroundColor: "rgb(0, 125, 100)",
-                color: "white",
-                padding: "0rem 2rem",
-                borderRadius: "1rem",
-                fontStyle: "italic",
-                fontWeight: "300",
+                background: paintBalls.includes(number) ? "#aa8c45" : "#333",
               }}
-            >
-              Self
-            </div>
-          ) : (
-            numbersBall.map((number, index) => (
-              <span
-                key={index}
-                style={{
-                  background: paintBalls.includes(number) ? "#aa8c45" : "#333",
-                }}
-              ></span>
-            ))
-          )}
+            ></span>
+          ))}
         </div>
       )}
 
@@ -121,6 +106,20 @@ function basicStat({ title, iconSkill, paintBalls }) {
               ></span>
             ))
           )}
+        </div>
+      )}
+
+      {/* positionsCharacters for Corpse */}
+      {title === "Corpse" && (
+        <div className="positionBalls">
+          {numbersBall.map((number, index) => (
+            <span
+              key={index}
+              style={{
+                background: paintBalls.includes(number) ? "#8b0000 " : "#333",
+              }}
+            ></span>
+          ))}
         </div>
       )}
     </>

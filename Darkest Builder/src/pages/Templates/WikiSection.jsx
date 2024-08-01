@@ -277,7 +277,6 @@ function WikiSection({ url_Bg }) {
                   <div className="dataSkill">
                     <div className="basicStats">
                       <ul>
-
                         {/* //SkillFrameIMG */}
                         <li>
                           <SkillFrame
@@ -327,6 +326,20 @@ function WikiSection({ url_Bg }) {
                           </li>
                         )}
 
+                        {/* //CorpseStatCheck */}
+                        {heroesData[heroArray].skills[selectedSkill]
+                          .skillsPaths[heroPaths].Corpse && (
+                          <li>
+                            <BasicStat
+                              title={"Corpse"}
+                              paintBalls={
+                                heroesData[heroArray].skills[selectedSkill]
+                                  .skillsPaths[heroPaths].Corpse
+                              }
+                            />
+                          </li>
+                        )}
+
                         {/* //CooldownStatCheck */}
                         {heroesData[heroArray].skills[selectedSkill]
                           .skillsPaths[heroPaths].Cooldown && (
@@ -355,7 +368,6 @@ function WikiSection({ url_Bg }) {
                           </li>
                         )}
                       </ul>
-                      
                     </div>
                   </div>
 
