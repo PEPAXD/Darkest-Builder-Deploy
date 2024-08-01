@@ -343,11 +343,17 @@ const heroesData = {
             Target: [1, 2],
           },
           {
-            Rank: [3, 4],
+            Rank: [2, 3, 4],
             Target: [1, 2],
           },
-          {},
-          {},
+          {
+            Rank: [2, 3, 4],
+            Target: [1, 2],
+          },
+          {
+            Rank: [2, 3, 4],
+            Target: [1, 2],
+          },
         ],
 
         description:
@@ -363,12 +369,18 @@ const heroesData = {
             Rank: [2, 3],
             Target: [2, 3],
           },
-          {},
+          {
+            Rank: [2, 3],
+            Target: [2, 3],
+          },
           {
             Rank: [1, 2, 3],
-            Target: [1, 2, 3],
+            Target: [1, 2, 3, "Not Corpse"],
           },
-          {},
+          {
+            Rank: [2, 3],
+            Target: [2, 3],
+          },
         ],
         description:
           "High damage skill that hits the Middle-ranks. Has Execution 1 (when upgraded), and deals more DMG when the enemy is a low Icon HP dd2 HP. Works as a main DMG Skill, as a Finisher and is most effective the more health has the enemy.",
@@ -385,13 +397,18 @@ const heroesData = {
             Cooldown: 1,
           },
           {
+            Rank: [1, 2, 3],
+            Target: [1, 2, 3],
             Cooldown: 1,
           },
           {
+            Rank: [1, 2, 3],
+            Target: [1, 2, 3],
             Cooldown: 1,
           },
           {
             Rank: [2, 3, 4],
+            Target: [1, 2, 3],
             Cooldown: 1,
           },
         ],
@@ -408,9 +425,18 @@ const heroesData = {
             Rank: [3, 4],
             Target: [1, 2],
           },
-          {},
-          {},
-          {},
+          {
+            Rank: [3, 4],
+            Target: [1, 2],
+          },
+          {
+            Rank: [3, 4],
+            Target: [1, 2],
+          },
+          {
+            Rank: [3, 4],
+            Target: [1, 2],
+          },
         ],
         description:
           "can apply Vulnerable to enemies and block to Self. Is best pair with other heroes that can use Vulnerable. Take Aim can make this Skill more effective as Crits ignores +20% Debuff RES.",
