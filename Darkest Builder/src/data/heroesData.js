@@ -456,7 +456,7 @@ const heroesData = {
 
     paths: {
       name: ["Wanderer", "Deadeye", "Venomdrop", "Nightsworn"],
-      skillsArray: [[], [0, 2, 4, 5, 6], [1, 4, 5, 6, 8], [3, 6, 7, 9, 10]],
+      skillsArray: [[], [1, 2, 4, 9, 5], [1, 2, 3, 4, 10], [1, 2, 7, 8, 9]],
       cites: [
         '"Default skills. Rewards candles upon reaching the second Inn"',
         '"A back rank role with a heavy emphasis on CRIT and reach."',
