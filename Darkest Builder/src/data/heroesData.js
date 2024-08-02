@@ -732,18 +732,18 @@ const heroesData = {
             Uses: 3,
           },
           {
+            Rank: [1, 2, 3, 4],
             Corpse: [1, 2, 3, 4],
-
             Uses: 3,
           },
           {
+            Rank: [1, 2, 3, 4],
             Corpse: [1, 2, 3, 4],
-
             Uses: 3,
           },
           {
+            Rank: [1, 2, 3, 4],
             Corpse: [1, 2, 3, 4],
-
             Uses: 3,
           },
         ],
@@ -761,9 +761,18 @@ const heroesData = {
             Rank: [2, 3, 4],
             Target: [1, 2, 3],
           },
-          {},
-          {},
-          {},
+          {
+            Rank: [2, 3, 4],
+            Target: [1, 2, 3],
+          },
+          {
+            Rank: [2, 3, 4],
+            Target: [1, 2, 3],
+          },
+          {
+            Rank: [2, 3, 4],
+            Target: [1, 2, 3],
+          },
         ],
 
         description:
@@ -780,12 +789,15 @@ const heroesData = {
             Target: [1, 2, 3],
           },
           {
+            Rank: [1, 2],
             Target: [1, 2, 3],
           },
           {
+            Rank: [1, 2],
             Target: [1, 2, 3],
           },
           {
+            Rank: [1, 2],
             Target: [1, 2, 3],
           },
         ],
@@ -800,9 +812,9 @@ const heroesData = {
 
         skillsPaths: [
           { Rank: [3, 4], Target: [1, 2], Cooldown: 1 },
-          { Rank: [3, 4], Target: [1, 2] },
-          { Rank: [3, 4], Target: [1, 2] },
-          { Rank: [3, 4], Target: [1, 2] },
+          { Rank: [3, 4], Target: [1, 2], Cooldown: 1 },
+          { Rank: [3, 4], Target: [1, 2], Cooldown: 1 },
+          { Rank: [3, 4], Target: [1, 2], Cooldown: 1 },
         ],
 
         description:
