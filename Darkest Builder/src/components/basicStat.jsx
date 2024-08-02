@@ -29,6 +29,10 @@ const icons = [
     icon: <GiIciclesAura style={{ transform: "scale(1.1)" }} />,
   },
   {
+    tag: "Heal",
+    icon: <GiHealthNormal style={{ transform: "scale(1.1)" }} />,
+  },
+  {
     tag: "Cooldown",
     icon: <TbClockBolt style={{ transform: "scale(1.1)" }} />,
   },

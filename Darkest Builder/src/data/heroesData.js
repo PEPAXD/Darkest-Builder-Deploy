@@ -860,7 +860,7 @@ const heroesData = {
     ],
     paths: {
       name: ["Wanderer", "Ravager", "Berserker", "Carcass"],
-      skillsArray: [[], [0, 2, 4, 5, 6], [1, 4, 5, 6, 8], [3, 6, 7, 9, 10]],
+      skillsArray: [[], [0, 1, 4, 5, 9], [0, 3, 5, 7, 9], [2, 3, 4, 8, 9]],
       cites: [
         '"Default skills. Rewards candles upon reaching the second Inn"',
         '"A front ranks role that enhances damage at the cost of Bleed capabilities."',
@@ -1017,35 +1017,171 @@ const heroesData = {
 
         skillsPaths: [
           {
-            Rank: [0],
+            Rank: [3, 4],
             Target: [1, 2],
           },
-          {},
-          { Rank: [1], Target: [1, 2] },
-          {},
+          {
+            Rank: [3, 4],
+            Target: [1, 2],
+          },
+          {
+            Rank: [3, 4],
+            Target: [1, 2],
+          },
+          {
+            Rank: [3, 4],
+            Target: [1, 2],
+          },
         ],
 
-        description: "a",
+        description:
+          "Front-line Melee attack. Does a respectable amount of damage and doesn't add Winded, combined with Combo can do high amounts of damage enough to kill most enemies in one hit.",
       },
       {
         id: 1,
         name: "Iron Swan",
+        Type: 0,
+
+        skillsPaths: [
+          {
+            Rank: [4],
+            Target: [1],
+          },
+          {
+            Rank: [4],
+            Target: [1],
+          },
+          {
+            Rank: [4],
+            Target: [1],
+          },
+          {
+            Rank: [4],
+            Target: [1],
+          },
+        ],
+
+        description:
+          "respectable melee attack that has the main advantage of hitting rank 4, this is the only way for hellion to hit rank 4 which makes this move very valuable since Back-rank enemies tend to have low HP.",
       },
       {
         id: 2,
         name: "Barbaric YAWP!",
+        Type: 1,
+
+        skillsPaths: [
+          {
+            Rank: [3, 4],
+            Target: [1, 2],
+            Cooldown: 1,
+          },
+          {
+            Rank: [3, 4],
+            Target: [1, 2],
+            Cooldown: 1,
+          },
+          {
+            Rank: [3, 4],
+            Target: [1, 2],
+            Cooldown: 1,
+          },
+          {
+            Rank: [3, 4],
+            Target: [1, 2],
+            Cooldown: 1,
+          },
+        ],
+
+        description:
+          " support skill that serves the purpose of Weak the enemy and Stun when Combo. If you haave enough combo this move can really shine as a support tool for the team by disrupting and disabling the enemy frontline.",
       },
       {
         id: 3,
         name: "If It Bleeds",
+        Type: 0,
+
+        skillsPaths: [
+          {
+            Rank: [2, 3],
+            Target: [2, 3],
+          },
+          {
+            Rank: [2, 3],
+            Target: [2, 3],
+          },
+          {
+            Rank: [2, 3],
+            Target: [2, 3],
+          },
+          {
+            Rank: [2, 3],
+            Target: [2, 3],
+          },
+        ],
+
+        description:
+          "respectable damage and Bleed attack that hits Rank 2 and Rank 3. The main advantage of this ability is being able to hit the Back-ranks with a good punch (Is the only way to hit rank 3 with Hellion). Requires Hellion to be in rank 2 or 3 which can be disfavorable depending of the team.",
       },
       {
         id: 4,
         name: "Toe to Toe",
+        Type: 0,
+
+        skillsPaths: [
+          {
+            Rank: [2, 3, 4],
+            Target: [1, 2],
+          },
+          {
+            Rank: [2, 3, 4],
+            Target: [1, 2],
+          },
+          {
+            Rank: [2, 3, 4],
+            Target: [1, 2],
+          },
+          {
+            Rank: [2, 3, 4],
+            Target: [1, 2],
+          },
+        ],
+
+        description:
+          "main tank ability of Hellion. GIves Taunt and Immobilize and Clears Winded but doesn't give Defensive Tokens like Block. Hellion's passive makes this a good thing since you want her to be at Low Icon HP, This ability mixed with Self-healing Skills gives high survivability and protection to other team Members.",
       },
       {
         id: 5,
         name: "Adrenaline Rush",
+        Type: 3,
+
+        skillsPaths: [
+          {
+            Rank: [1, 2, 3, 4],
+            Target: [0],
+            Cooldown: 3,
+            Uses: 2,
+          },
+          {
+            Rank: [1, 2, 3, 4],
+            Target: [0],
+            Cooldown: 3,
+            Uses: 2,
+          },
+          {
+            Rank: [1, 2, 3, 4],
+            Target: [0],
+            Cooldown: 3,
+            Uses: 2,
+          },
+          {
+            Rank: [1, 2, 3, 4],
+            Target: [0],
+            Cooldown: 3,
+            Uses: 2,
+          },
+        ],
+
+        description: "amazing Self-heal move . Heals HP, and Removes all DOTS, is only usable when Low HP, besides the main Healing it gives a buff (Healing on Hit). Combine this with Cleave attacks like Combat Items or Barbaric Yawp to maximize the more Healing per Turn.",
       },
       {
         id: 6,
