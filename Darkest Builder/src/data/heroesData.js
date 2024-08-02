@@ -470,10 +470,6 @@ const heroesData = {
             title: "Candles of Hope +1",
             text: "Extra Candle of Hope on reaching the 2nd Inn.",
           },
-          {
-            title: "Riposte Combo (33%)",
-            text: "Target add Combo token when using Riposte.",
-          },
         ],
         [
           {
@@ -847,7 +843,8 @@ const heroesData = {
           { Rank: [3, 4], Target: [0], Cooldown: 2 },
         ],
 
-        description: "Moves Back 2, gives speed and applies unconditional Stealth to Grave Robber, most of Grave Robber skills have extra benefits with Stealth wich makes this skill a Combo move. Although there are better alternatives to get Stealth.",
+        description:
+          "Moves Back 2, gives speed and applies unconditional Stealth to Grave Robber, most of Grave Robber skills have extra benefits with Stealth wich makes this skill a Combo move. Although there are better alternatives to get Stealth.",
       },
     ],
   },
@@ -862,13 +859,13 @@ const heroesData = {
       "Again! I can take it!",
     ],
     paths: {
-      name: ["Wanderer", "Rogue", "Sharpshot", "Yellowhand"],
+      name: ["Wanderer", "Ravager", "Berserker", "Carcass"],
       skillsArray: [[], [0, 2, 4, 5, 6], [1, 4, 5, 6, 8], [3, 6, 7, 9, 10]],
       cites: [
         '"Default skills. Rewards candles upon reaching the second Inn"',
-        '"A brawler focused on front rank combat and Riposte."',
-        '"A back rank role that emphasizes ranged skill use"',
-        '"A rank-flexible Bleed specialist. Riposte inflicts Bleed."',
+        '"A front ranks role that enhances damage at the cost of Bleed capabilities."',
+        '"A front ranks role that sacrifices HP in favor of Bleed."',
+        '"A front ranks role that absorbs significant punishment."',
       ],
 
       description: [
@@ -877,29 +874,43 @@ const heroesData = {
             title: "Candles of Hope +1",
             text: "Extra Candle of Hope on reaching the 2nd Inn.",
           },
+        ],
+        [
+          { title: "Max HP Boost", text: "+20% MaxHP" },
+          { title: "More DMG Rank 1 ", text: "If Rank = 1: +25% DMG" },
+          { title: "Bleed Chance Reduction", text: "-33% Bleed" },
+          { title: "Turn Start Bleed", text: "Turn Start: Bleed x3 (25%)" },
+        ],
+        [
+          { title: "Max HP Reduction", text: "-20% MaxHP" },
+          { title: "Death's Door Resistance", text: "+10% Deathsdoor RES" },
+          { title: "Increased Bleed Chance", text: "+33% Bleed" },
           {
-            title: "Riposte Combo (33%)",
-            text: "Target add Combo token when using Riposte.",
+            title: "BoostCrit on Bleed Skills",
+            text: "Bleed-causing Skills: +10% CRIT",
           },
         ],
         [
-          { title: "If Rank = 1:", text: "+25% DMG" },
-          { title: "If Rank = 3:", text: "-25% DMG" },
-          { title: "If Rank = 4:", text: "-50% DMG" },
-          { title: "Point Blank Shot", text: "Add Riposte" },
-        ],
-        [
-          { title: "Ranged Skills:", text: "+25% DMG" },
-          { title: "Melee Skills:", text: "-25% DMG" },
-          { title: "Buff Speed", text: "+3 Speed" },
-          { title: "Grapeshot Blast", text: "Add Strength" },
-        ],
-        [
-          { title: "Buff HP", text: "+15% MAXHP" },
-          { title: "Ranged Skills:", text: "-75% DMG" },
-          { title: "Apply On Melee-Hit :", text: "-10% Bleed RES" },
-          { title: "Highway Robbery", text: "Steal Positive Token" },
-          { title: "Double Cross", text: "Remove Block" },
+          {
+            title: "Stress Reduction on CRIT",
+            text: "CRIT: Heal 0-2 Stress Stress",
+          },
+          {
+            title: "Barbaric YAWP",
+            text: "Taunt x2",
+          },
+          {
+            title: "Wicked Hack",
+            text: "Target Remove block",
+          },
+          {
+            title: "Turn Start",
+            text: "Add winded",
+          },
+          {
+            title: "Turn End",
+            text: "Add Per winded: block (75%)",
+          },
         ],
       ],
     },
@@ -1013,6 +1024,8 @@ const heroesData = {
           { Rank: [1], Target: [1, 2] },
           {},
         ],
+
+        description: "a",
       },
       {
         id: 1,
