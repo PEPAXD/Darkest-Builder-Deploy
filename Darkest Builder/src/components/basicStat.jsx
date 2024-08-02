@@ -58,13 +58,13 @@ function basicStat({ title, iconSkill, paintBalls }) {
       )}
       {title === "Cooldown" && (
         <div className="iconSkill">
-          {icons[3].icon}
+          {icons[4].icon}
           <i>{iconSkill}</i>
         </div>
       )}
       {title === "Uses" && (
         <div className="iconSkill">
-          {icons[4].icon}
+          {icons[5].icon}
           <i>{iconSkill}</i>
         </div>
       )}

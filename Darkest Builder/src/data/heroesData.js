@@ -1181,27 +1181,158 @@ const heroesData = {
           },
         ],
 
-        description: "amazing Self-heal move . Heals HP, and Removes all DOTS, is only usable when Low HP, besides the main Healing it gives a buff (Healing on Hit). Combine this with Cleave attacks like Combat Items or Barbaric Yawp to maximize the more Healing per Turn.",
+        description:
+          "amazing Self-heal move . Heals HP, and Removes all DOTS, is only usable when Low HP, besides the main Healing it gives a buff (Healing on Hit). Combine this with Cleave attacks like Combat Items or Barbaric Yawp to maximize the more Healing per Turn.",
       },
       {
         id: 6,
         name: "Bleed Out",
+
+        Type: 0,
+
+        skillsPaths: [
+          {
+            Rank: [4],
+            Target: [1],
+          },
+          {
+            Rank: [4],
+            Target: [1],
+          },
+          {
+            Rank: [4],
+            Target: [1],
+          },
+          {
+            Rank: [4],
+            Target: [1],
+          },
+        ],
+
+        description:
+          "High damage and Bleed, can easily achieve high amounts of bleed when spammed. It applies Winded but this is barely a downside since the main damage is the bleed damage (DOTS are unnafected by Winded). HIgh HP targets can be killed easily with the high amount of dot.",
       },
       {
         id: 7,
         name: "Bloodlust",
+
+        Type: 2,
+
+        skillsPaths: [
+          {
+            Rank: [2, 3, 4],
+            Target: [0],
+            Cooldown: 2,
+          },
+          {
+            Rank: [2, 3, 4],
+            Target: [0],
+            Cooldown: 2,
+          },
+          {
+            Rank: [2, 3, 4],
+            Target: [0],
+            Cooldown: 2,
+          },
+          {
+            Rank: [2, 3, 4],
+            Target: [0],
+            Cooldown: 2,
+          },
+        ],
+        description:
+          "gives Hellion a 5 turns that her Damage against Bleed, doesn't have a cooldown and Clears winded, this gives a potential 100%-150% Extra damage. It requires setup but the amount of damage it can provided combined with other Skills and heroes is worth the effort. (Example: Howling End, Jester)",
       },
       {
         id: 8,
         name: "Breakthrough",
+
+        Type: 0,
+        skillsPaths: [
+          {
+            Rank: [1, 2, 3],
+            Target: [1, 2, 3],
+            Cooldown: 1,
+          },
+          {
+            Rank: [1, 2, 3],
+            Target: [1, 2, 3],
+            Cooldown: 1,
+          },
+          {
+            Rank: [1, 2, 3],
+            Target: [1, 2, 3],
+            Cooldown: 1,
+          },
+          {
+            Rank: [1, 2, 3],
+            Target: [1, 2, 3],
+            Cooldown: 1,
+          },
+        ],
+
+        description:
+          "Support skill that counters high Block and Guard matchups at cost of Winded. (Example: Combat turnorder enemy lost battalion foot soldierLost Batallion). This is the only skill that makes enemies unable to Obtain Block. Also moves Hellion Forward 2 which is handy for heavy disruptions enemies and Shuffle.",
       },
       {
         id: 9,
         name: "Raucous Revelry",
+
+        Type: 2,
+        skillsPaths: [
+          {
+            Rank: [1, 2, 3, 4],
+            Ally: [1, 2, 3, 4],
+            Cooldown: 1,
+          },
+          {
+            Rank: [1, 2, 3, 4],
+            Ally: [1, 2, 3, 4],
+            Cooldown: 1,
+          },
+          {
+            Rank: [1, 2, 3, 4],
+            Ally: [1, 2, 3, 4],
+            Cooldown: 1,
+          },
+          {
+            Rank: [1, 2, 3, 4],
+            Ally: [1, 2, 3, 4],
+            Cooldown: 1,
+          },
+        ],
+        description:
+          "Huge Stress-heal skill that heals when Low HP. it can heal up to 3 stress + 1 stress to allies which is enough to prevent Meltdowns. The only downside is the cooldown and it applies Winded.",
       },
       {
         id: 10,
         name: "Howling End",
+
+        Type: 0,
+        skillsPaths: [
+          {
+            Rank: [3, 4],
+            Target: [1, 2],
+            Cooldown: 3,
+          },
+          {
+            Rank: [3, 4],
+            Target: [1, 2],
+            Cooldown: 3,
+          },
+          {
+            Rank: [3, 4],
+            Target: [1, 2],
+            Cooldown: 3,
+          },
+          {
+            Rank: [3, 4],
+            Target: [1, 2],
+            Cooldown: 3,
+          },
+        ],
+        description:
+          "HUGE damage front-line attack that gives Winded. This attack derives a very powerful blow and with trinkets and buffs has the potential to instakill almost every enemy in the game (Exception Bosses). Moves Hellion Back 1 wich can be used to combo with other moves like If it Bleeds and Breakthrough",
       },
     ],
   },
