@@ -829,7 +829,7 @@ const heroesData = {
           { Rank: [1, 2, 3, 4], Target: [0], Cooldown: 2 },
           { Rank: [1, 2, 3, 4], Target: [0] },
           { Rank: [1, 2, 3, 4], Target: [0], Cooldown: 2 },
-          { Rank: [1, 2, 3, 4], Target: [1, 2, 3, 4], Cooldown: 3 },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 3 },
         ],
 
         description:

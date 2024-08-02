@@ -122,6 +122,20 @@ function basicStat({ title, iconSkill, paintBalls }) {
           ))}
         </div>
       )}
+
+      {/* positionsCharacters for Ally */}
+      {title === "Ally" && (
+        <div className="positionBalls">
+          {numbersBall.map((number, index) => (
+            <span
+              key={index}
+              style={{
+                background: paintBalls.includes(number) ? "#009f6b" : "#333",
+              }}
+            ></span>
+          ))}
+        </div>
+      )}
     </>
   );
 }

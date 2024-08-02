@@ -340,6 +340,22 @@ function WikiSection({ url_Bg }) {
                           </li>
                         )}
 
+                        
+                        {/* //AllyStatCheck */}
+                        {heroesData[heroArray].skills[selectedSkill]
+                          .skillsPaths[heroPaths].Ally && (
+                          <li>
+                            <BasicStat
+                              title={"Ally"}
+                              paintBalls={
+                                heroesData[heroArray].skills[selectedSkill]
+                                  .skillsPaths[heroPaths].Ally
+                              }
+                            />
+                          </li>
+                        )}
+
+
                         {/* //CooldownStatCheck */}
                         {heroesData[heroArray].skills[selectedSkill]
                           .skillsPaths[heroPaths].Cooldown && (
