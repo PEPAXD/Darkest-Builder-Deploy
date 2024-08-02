@@ -838,6 +838,16 @@ const heroesData = {
       {
         id: 10,
         name: "Shadow Fade",
+        Type: 2,
+
+        skillsPaths: [
+          { Rank: [3, 4], Target: [0], Cooldown: 2 },
+          { Rank: [3, 4], Target: [0], Cooldown: 2 },
+          { Rank: [3, 4], Target: [0], Cooldown: 2 },
+          { Rank: [3, 4], Target: [0], Cooldown: 2 },
+        ],
+
+        description: "Moves Back 2, gives speed and applies unconditional Stealth to Grave Robber, most of Grave Robber skills have extra benefits with Stealth wich makes this skill a Combo move. Although there are better alternatives to get Stealth.",
       },
     ],
   },
