@@ -1347,13 +1347,13 @@ const heroesData = {
       "Let's keep this melody moving...",
     ],
     paths: {
-      name: ["Wanderer", "Rogue", "Sharpshot", "Yellowhand"],
-      skillsArray: [[], [0, 2, 4, 5, 6], [1, 4, 5, 6, 8], [3, 6, 7, 9, 10]],
+      name: ["Wanderer", "Virtuoso", "Soloist", "Intermezzo"],
+      skillsArray: [[], [0, 1, 4, 5, 9], [1, 4, 6, 7, 9], [3, 4, 8, 9, 10]],
       cites: [
         '"Default skills. Rewards candles upon reaching the second Inn"',
-        '"A brawler focused on front rank combat and Riposte."',
-        '"A back rank role that emphasizes ranged skill use"',
-        '"A rank-flexible Bleed specialist. Riposte inflicts Bleed."',
+        '"A role that sacrifices resistances for Speed and party support."',
+        '"A role that trades survivability and Speed for damage and Bleed"',
+        '"A role that amplifies the potency of sound to dangerous heights for all."',
       ],
 
       description: [
@@ -1362,30 +1362,76 @@ const heroesData = {
             title: "Candles of Hope +1",
             text: "Extra Candle of Hope on reaching the 2nd Inn.",
           },
+        ],
+        [
           {
-            title: "Riposte Combo (33%)",
-            text: "Target add Combo token when using Riposte.",
+            title: "Max HP Boost",
+            text: "20% maxHP"
           },
+          {
+            title: "Speed Surge",
+            text: "Speed +3."
+          },
+          {
+            title: "Bleed Resistance Drop",
+            text: "-20% bleed RES"
+          },
+          {
+            title: "Blight Resistance Drop",
+            text: "-20% blight RES"
+          },
+          {
+            title: "Burn Resistance Drop",
+            text: "-20% burn RES"
+          },
+          {
+            title: "Stress Resistance Chance",
+            text: "15% chance to Ally gain stress resistance"
+          }
         ],
+        
         [
-          { title: "If Rank = 1:", text: "+25% DMG" },
-          { title: "If Rank = 3:", text: "-25% DMG" },
-          { title: "If Rank = 4:", text: "-50% DMG" },
-          { title: "Point Blank Shot", text: "Add Riposte" },
+          {
+            title: "Damage Boost",
+            text: "20% DMG."
+          },
+          {
+            title: "Bleed Chance Increase",
+            text: "33% bleed chance."
+          },
+          {
+            title: "Bleed Skill Crit Boost",
+            text: "Bleed gain +10% crit."
+          },
+          {
+            title: "Max HP Reduction",
+            text: "-20% maxHP"
+          },
+          {
+            title: "Speed Reduction",
+            text: "-3 speed"
+          }
         ],
+        
         [
-          { title: "Ranged Skills:", text: "+25% DMG" },
-          { title: "Melee Skills:", text: "-25% DMG" },
-          { title: "Buff Speed", text: "+3 Speed" },
-          { title: "Grapeshot Blast", text: "Add Strength" },
+          {
+            title: "Song Skills: Bleed",
+            text: "Applies Bleed x2."
+          },
+          {
+            title: "Inspiring Tune",
+            text: "+20% stress resistance."
+          },
+          {
+            title: "Echoing March",
+            text: "Applies Bleed x2 when moving."
+          },
+          {
+            title: "Battle Ballad & Play Out",
+            text: "10% crit, 20% dodge, or 35% strength."
+          }
         ],
-        [
-          { title: "Buff HP", text: "+15% MAXHP" },
-          { title: "Ranged Skills:", text: "-75% DMG" },
-          { title: "Apply On Melee-Hit :", text: "-10% Bleed RES" },
-          { title: "Highway Robbery", text: "Steal Positive Token" },
-          { title: "Double Cross", text: "Remove Block" },
-        ],
+        
       ],
     },
     description:
@@ -1473,10 +1519,21 @@ const heroesData = {
             Rank: [0],
             Target: [1, 2],
           },
-          {},
-          { Rank: [1], Target: [1, 2] },
-          {},
+          {
+            Rank: [0],
+            Target: [1, 2],
+          },
+          {
+            Rank: [0],
+            Target: [1, 2],
+          },
+          {
+            Rank: [0],
+            Target: [1, 2],
+          },
         ],
+
+        description: "a",
       },
       {
         id: 1,
