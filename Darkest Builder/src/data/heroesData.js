@@ -1366,72 +1366,71 @@ const heroesData = {
         [
           {
             title: "Max HP Boost",
-            text: "20% maxHP"
+            text: "20% maxHP",
           },
           {
             title: "Speed Surge",
-            text: "Speed +3."
+            text: "Speed +3.",
           },
           {
             title: "Bleed Resistance Drop",
-            text: "-20% bleed RES"
+            text: "-20% bleed RES",
           },
           {
             title: "Blight Resistance Drop",
-            text: "-20% blight RES"
+            text: "-20% blight RES",
           },
           {
             title: "Burn Resistance Drop",
-            text: "-20% burn RES"
+            text: "-20% burn RES",
           },
           {
             title: "Stress Resistance Chance",
-            text: "15% chance to Ally gain stress resistance"
-          }
+            text: "15% chance to Ally gain stress resistance",
+          },
         ],
-        
+
         [
           {
             title: "Damage Boost",
-            text: "20% DMG."
+            text: "20% DMG.",
           },
           {
             title: "Bleed Chance Increase",
-            text: "33% bleed chance."
+            text: "33% bleed chance.",
           },
           {
             title: "Bleed Skill Crit Boost",
-            text: "Bleed gain +10% crit."
+            text: "Bleed gain +10% crit.",
           },
           {
             title: "Max HP Reduction",
-            text: "-20% maxHP"
+            text: "-20% maxHP",
           },
           {
             title: "Speed Reduction",
-            text: "-3 speed"
-          }
+            text: "-3 speed",
+          },
         ],
-        
+
         [
           {
             title: "Song Skills: Bleed",
-            text: "Applies Bleed x2."
+            text: "Applies Bleed x2.",
           },
           {
             title: "Inspiring Tune",
-            text: "+20% stress resistance."
+            text: "+20% stress resistance.",
           },
           {
             title: "Echoing March",
-            text: "Applies Bleed x2 when moving."
+            text: "Applies Bleed x2 when moving.",
           },
           {
             title: "Battle Ballad & Play Out",
-            text: "10% crit, 20% dodge, or 35% strength."
-          }
+            text: "10% crit, 20% dodge, or 35% strength.",
+          },
         ],
-        
       ],
     },
     description:
@@ -1516,64 +1515,323 @@ const heroesData = {
 
         skillsPaths: [
           {
-            Rank: [0],
-            Target: [1, 2],
+            Rank: [1, 2, 3],
+            Target: [1, 2, 3],
           },
           {
-            Rank: [0],
-            Target: [1, 2],
+            Rank: [1, 2, 3],
+            Target: [1, 2, 3],
           },
           {
-            Rank: [0],
-            Target: [1, 2],
+            Rank: [1, 2, 3],
+            Target: [1, 2, 3],
           },
           {
-            Rank: [0],
-            Target: [1, 2],
+            Rank: [1, 2, 3],
+            Target: [1, 2, 3],
           },
         ],
 
-        description: "a",
+        description:
+          "Razor’s Wit is part of the 'Jester Engine' that rotates the Jester back and forth. It moves Jester forward, applies combo, and gains a dodge token on upgrade. This skill is essential for combo application and works well with various characters, enhancing Jester's Finale.",
       },
       {
         id: 1,
         name: "Fade to Black",
+        Type: 0,
+
+        skillsPaths: [
+          {
+            Rank: [2, 3, 4],
+            Target: [1, 2, 3],
+          },
+          {
+            Rank: [2, 3, 4],
+            Target: [1, 2, 3],
+          },
+          {
+            Rank: [2, 3, 4],
+            Target: [1, 2, 3],
+          },
+          {
+            Rank: [2, 3, 4],
+            Target: [1, 2, 3],
+          },
+        ],
+
+        description:
+          "This move is the other half of the 'Jester Engine', slightly better when upgraded due to its blind effect, which always activates if the enemy survives to attack. However, it requires an upgrade to apply combo, unlike Razor’s Wit. Together with Wit, it allows Jester to move back and forth, continuously applying combo, creating a strong and versatile setup that enhances many team compositions with stuns and high damage.",
       },
       {
         id: 2,
         name: "Slice Off",
+        Type: 0,
+
+        skillsPaths: [
+          {
+            Rank: [2, 3],
+            Target: [2, 3],
+          },
+          {
+            Rank: [2, 3],
+            Target: [2, 3],
+          },
+          {
+            Rank: [2, 3],
+            Target: [2, 3],
+          },
+          {
+            Rank: [2, 3],
+            Target: [2, 3],
+          },
+        ],
+        description:
+          "Slice Off is a strong damage move with a unique upgraded effect that transfers damage. This makes it highly effective, especially when combined with characters like Audrey, Dismas, Hellion, and Leper. It sets up a DoT Death’s Door check and damage transfer, enhancing direct damage. Despite its limited targeting range, it works well with setups like a double lunge Grave Robber and Virtuoso Jester, or any high-damage hero. This move allows Jester to stay in the middle ranks, accessing both frontline and backline attacks.",
       },
       {
         id: 3,
         name: "Battle Ballad",
+
+        Type: 2,
+
+        skillsPaths: [
+          {
+            Rank: [1, 2, 3],
+            Ally: [1, 2, 3],
+          },
+          {
+            Rank: [1, 2, 3],
+            Ally: [1, 2, 3],
+          },
+          {
+            Rank: [1, 2, 3],
+            Ally: [1, 2, 3],
+          },
+          {
+            Rank: [1, 2, 3],
+            Ally: [1, 2, 3],
+          },
+        ],
+
+        description:
+          "Battle Ballad is less effective than Slice Off, providing a single strength token and unreliable crits. Its main strength is fixing party composition and clearing combo, useful in specific fights like the Shroud and against the Act 2 boss. Best used in buff and support-heavy builds.",
       },
       {
         id: 4,
         name: "Inspiring Tune",
+        Type: 2,
+        skillsPaths: [
+          {
+            Rank: [1, 2],
+            Ally: [1, 2, 3, 4],
+            Cooldown: 1,
+          },
+          {
+            Rank: [1, 2],
+            Ally: [1, 2, 3, 4],
+            Cooldown: 1,
+          },          {
+            Rank: [1, 2],
+            Ally: [1, 2, 3, 4],
+            Cooldown: 1,
+          },          {
+            Rank: [1, 2],
+            Ally: [1, 2, 3, 4],
+            Cooldown: 1,
+          },
+        ],
+
+        description: "This stress heal is effective and removes horror but isn't always available to Sarmenti in all ranks. It provides more healing than Bolster+ if Barristan is stressed but can struggle with widespread stress.",
+
       },
       {
         id: 5,
         name: "Harvest",
+        Type: 0,
+
+        skillsPaths: [
+          {
+            Rank: [2, 3],
+            Target: [2, 3],
+          
+          },
+          {
+            Rank: [2, 3],
+            Target: [2, 3],
+          
+          },
+          {
+            Rank: [2, 3],
+            Target: [2, 3],
+          
+          },
+          {
+            Rank: [2, 3],
+            Target: [2, 3],
+          
+          },
+
+
+        ],
+
+        description: "This cleave move offers high value with more direct damage and useful DoT compared to Plague Grenade. It can set up stuns and handle multiple tokens. It’s effective in fights like beast dens but less so against cultists where backline cleaves excel. It’s versatile but not the strongest option for all situations.",
       },
       {
         id: 6,
         name: "Finale",
+        Type: 0,
+
+        skillsPaths: [
+          {
+            Rank: [3, 4],
+            Target: [1,2, 3,4],
+            Cooldown: 2,
+          },
+          {
+            Rank: [3, 4],
+            Target: [1,2, 3,4],
+            Cooldown: 2,
+          },
+          {
+            Rank: [3, 4],
+            Target: [1,2, 3,4],
+            Cooldown: 2,
+          },
+          {
+            Rank: [3, 4],
+            Target: [1,2, 3,4],
+            Cooldown: 2,
+          },
+
+        ],
+
+        description: "Finale delivers the best combo token payoff, adding 6-10 extra damage. It pairs well with Smokescreen but has drawbacks like daze and vuln. Despite this, it remains highly effective, dealing 20-26 damage in Jester comps.",
       },
       {
         id: 7,
         name: "Solo",
+
+        Type: 1,
+
+        
+        skillsPaths: [
+          {
+            Rank: [1, 2],
+            Target: [1,2, 3,4],
+            Cooldown: 1,
+          },
+          {
+            Rank: [1, 2],
+            Target: [1,2, 3,4],
+            Cooldown: 1,
+          },
+          {
+            Rank: [1, 2],
+            Target: [1,2, 3,4],
+            Cooldown: 1,
+          },
+          {
+            Rank: [1, 2],
+            Target: [1,2, 3,4],
+            Cooldown: 1,
+          },
+
+        ],
+        description: "Solo moves Jester to the front, applying combo and removing a dodge token. It boosts mitigation and sets up for Finale or Fade to Black next turn. However, it limits Jester’s options initially, restricting him to Finale or Fade. Be sure you want to use one of these moves, or be prepared to shuffle Jester back with a friendly skill.",
       },
       {
         id: 8,
         name: "Play Out",
+        Type: 2,
+
+        skillsPaths: [
+          {
+            Rank: [1, 2,3],
+            Ally: [2, 3,4],
+            Cooldown: 1,
+          },
+          {
+            Rank: [1, 2,3],
+            Ally: [2, 3,4],
+            Cooldown: 1,
+          },
+          {
+            Rank: [1, 2,3],
+            Ally: [2, 3,4],
+            Cooldown: 1,
+          },
+          {
+            Rank: [1, 2,3],
+            Ally: [2, 3,4],
+            Cooldown: 1,
+          },
+        ],
+
+        description: "This move mirrors Battle Ballad, offering reactive mitigation and positioning. It effectively counters threats like Exemplar’s Prelude by pushing back and removing combo. While it provides block+ and can handle pulls, it has lower tempo. Both moves can be used flexibly in intermezzo setups and may boost relationships.",
       },
       {
         id: 9,
         name: "Encore",
+
+        Type: 2,
+
+        skillsPaths: [
+          {
+            Rank: [1, 2],
+            Ally: [1,2, 3,4],
+            Cooldown: 3,
+          },
+          {
+            Rank: [1, 2],
+            Ally: [1,2, 3,4],
+            Cooldown: 3,
+          },
+          {
+            Rank: [1, 2],
+            Ally: [1,2, 3,4],
+            Cooldown: 3,
+          },
+          {
+            Rank: [1, 2],
+            Ally: [1,2, 3,4],
+            Cooldown: 3,
+          },
+        ],
+        description: "Encore is the strongest move, letting Jester perform any other move at the cost of his turn. It can heal, deal damage, guard, or use items but gives him a weak and daze token (or just daze when upgraded). The upgrade reduces cooldown. Essential for Jester if he's in the back, but use it strategically for best results.",
+
+
       },
       {
         id: 10,
         name: "Echoing March",
+
+        Type: 1,
+
+        skillsPaths: [
+          {
+            Rank: [1, 2],
+            Target: [2, 3,4],
+            Cooldown: 1,
+          },
+          {
+            Rank: [1, 2],
+            Target: [2, 3,4],
+            Cooldown: 1,
+          },
+          {
+            Rank: [1, 2],
+            Target: [2, 3,4],
+            Cooldown: 1,
+          },
+          {
+            Rank: [1, 2],
+            Target: [2, 3,4],
+            Cooldown: 1,
+          },
+
+        ],
+
+        description: "Echoing March can move a target up to 4 times, disabling enemies like Cherubs or Heralds. It has a base pull of 1 and applies bleed if upgraded. It’s powerful for shutting down enemies but less versatile than other pulls.",
       },
     ],
   },
