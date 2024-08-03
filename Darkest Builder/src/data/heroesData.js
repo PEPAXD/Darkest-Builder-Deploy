@@ -1630,19 +1630,21 @@ const heroesData = {
             Rank: [1, 2],
             Ally: [1, 2, 3, 4],
             Cooldown: 1,
-          },          {
+          },
+          {
             Rank: [1, 2],
             Ally: [1, 2, 3, 4],
             Cooldown: 1,
-          },          {
+          },
+          {
             Rank: [1, 2],
             Ally: [1, 2, 3, 4],
             Cooldown: 1,
           },
         ],
 
-        description: "This stress heal is effective and removes horror but isn't always available to Sarmenti in all ranks. It provides more healing than Bolster+ if Barristan is stressed but can struggle with widespread stress.",
-
+        description:
+          "This stress heal is effective and removes horror but isn't always available to Sarmenti in all ranks. It provides more healing than Bolster+ if Barristan is stressed but can struggle with widespread stress.",
       },
       {
         id: 5,
@@ -1653,28 +1655,23 @@ const heroesData = {
           {
             Rank: [2, 3],
             Target: [2, 3],
-          
           },
           {
             Rank: [2, 3],
             Target: [2, 3],
-          
           },
           {
             Rank: [2, 3],
             Target: [2, 3],
-          
           },
           {
             Rank: [2, 3],
             Target: [2, 3],
-          
           },
-
-
         ],
 
-        description: "This cleave move offers high value with more direct damage and useful DoT compared to Plague Grenade. It can set up stuns and handle multiple tokens. It’s effective in fights like beast dens but less so against cultists where backline cleaves excel. It’s versatile but not the strongest option for all situations.",
+        description:
+          "This cleave move offers high value with more direct damage and useful DoT compared to Plague Grenade. It can set up stuns and handle multiple tokens. It’s effective in fights like beast dens but less so against cultists where backline cleaves excel. It’s versatile but not the strongest option for all situations.",
       },
       {
         id: 6,
@@ -1684,28 +1681,28 @@ const heroesData = {
         skillsPaths: [
           {
             Rank: [3, 4],
-            Target: [1,2, 3,4],
+            Target: [1, 2, 3, 4],
             Cooldown: 2,
           },
           {
             Rank: [3, 4],
-            Target: [1,2, 3,4],
+            Target: [1, 2, 3, 4],
             Cooldown: 2,
           },
           {
             Rank: [3, 4],
-            Target: [1,2, 3,4],
+            Target: [1, 2, 3, 4],
             Cooldown: 2,
           },
           {
             Rank: [3, 4],
-            Target: [1,2, 3,4],
+            Target: [1, 2, 3, 4],
             Cooldown: 2,
           },
-
         ],
 
-        description: "Finale delivers the best combo token payoff, adding 6-10 extra damage. It pairs well with Smokescreen but has drawbacks like daze and vuln. Despite this, it remains highly effective, dealing 20-26 damage in Jester comps.",
+        description:
+          "Finale delivers the best combo token payoff, adding 6-10 extra damage. It pairs well with Smokescreen but has drawbacks like daze and vuln. Despite this, it remains highly effective, dealing 20-26 damage in Jester comps.",
       },
       {
         id: 7,
@@ -1713,31 +1710,30 @@ const heroesData = {
 
         Type: 1,
 
-        
         skillsPaths: [
           {
             Rank: [1, 2],
-            Target: [1,2, 3,4],
+            Target: [1, 2, 3, 4],
             Cooldown: 1,
           },
           {
             Rank: [1, 2],
-            Target: [1,2, 3,4],
+            Target: [1, 2, 3, 4],
             Cooldown: 1,
           },
           {
             Rank: [1, 2],
-            Target: [1,2, 3,4],
+            Target: [1, 2, 3, 4],
             Cooldown: 1,
           },
           {
             Rank: [1, 2],
-            Target: [1,2, 3,4],
+            Target: [1, 2, 3, 4],
             Cooldown: 1,
           },
-
         ],
-        description: "Solo moves Jester to the front, applying combo and removing a dodge token. It boosts mitigation and sets up for Finale or Fade to Black next turn. However, it limits Jester’s options initially, restricting him to Finale or Fade. Be sure you want to use one of these moves, or be prepared to shuffle Jester back with a friendly skill.",
+        description:
+          "Solo moves Jester to the front, applying combo and removing a dodge token. It boosts mitigation and sets up for Finale or Fade to Black next turn. However, it limits Jester’s options initially, restricting him to Finale or Fade. Be sure you want to use one of these moves, or be prepared to shuffle Jester back with a friendly skill.",
       },
       {
         id: 8,
@@ -1746,28 +1742,29 @@ const heroesData = {
 
         skillsPaths: [
           {
-            Rank: [1, 2,3],
-            Ally: [2, 3,4],
+            Rank: [1, 2, 3],
+            Ally: [2, 3, 4],
             Cooldown: 1,
           },
           {
-            Rank: [1, 2,3],
-            Ally: [2, 3,4],
+            Rank: [1, 2, 3],
+            Ally: [2, 3, 4],
             Cooldown: 1,
           },
           {
-            Rank: [1, 2,3],
-            Ally: [2, 3,4],
+            Rank: [1, 2, 3],
+            Ally: [2, 3, 4],
             Cooldown: 1,
           },
           {
-            Rank: [1, 2,3],
-            Ally: [2, 3,4],
+            Rank: [1, 2, 3],
+            Ally: [2, 3, 4],
             Cooldown: 1,
           },
         ],
 
-        description: "This move mirrors Battle Ballad, offering reactive mitigation and positioning. It effectively counters threats like Exemplar’s Prelude by pushing back and removing combo. While it provides block+ and can handle pulls, it has lower tempo. Both moves can be used flexibly in intermezzo setups and may boost relationships.",
+        description:
+          "This move mirrors Battle Ballad, offering reactive mitigation and positioning. It effectively counters threats like Exemplar’s Prelude by pushing back and removing combo. While it provides block+ and can handle pulls, it has lower tempo. Both moves can be used flexibly in intermezzo setups and may boost relationships.",
       },
       {
         id: 9,
@@ -1778,28 +1775,27 @@ const heroesData = {
         skillsPaths: [
           {
             Rank: [1, 2],
-            Ally: [1,2, 3,4],
+            Ally: [1, 2, 3, 4],
             Cooldown: 3,
           },
           {
             Rank: [1, 2],
-            Ally: [1,2, 3,4],
+            Ally: [1, 2, 3, 4],
             Cooldown: 3,
           },
           {
             Rank: [1, 2],
-            Ally: [1,2, 3,4],
+            Ally: [1, 2, 3, 4],
             Cooldown: 3,
           },
           {
             Rank: [1, 2],
-            Ally: [1,2, 3,4],
+            Ally: [1, 2, 3, 4],
             Cooldown: 3,
           },
         ],
-        description: "Encore is the strongest move, letting Jester perform any other move at the cost of his turn. It can heal, deal damage, guard, or use items but gives him a weak and daze token (or just daze when upgraded). The upgrade reduces cooldown. Essential for Jester if he's in the back, but use it strategically for best results.",
-
-
+        description:
+          "Encore is the strongest move, letting Jester perform any other move at the cost of his turn. It can heal, deal damage, guard, or use items but gives him a weak and daze token (or just daze when upgraded). The upgrade reduces cooldown. Essential for Jester if he's in the back, but use it strategically for best results.",
       },
       {
         id: 10,
@@ -1810,28 +1806,28 @@ const heroesData = {
         skillsPaths: [
           {
             Rank: [1, 2],
-            Target: [2, 3,4],
+            Target: [2, 3, 4],
             Cooldown: 1,
           },
           {
             Rank: [1, 2],
-            Target: [2, 3,4],
+            Target: [2, 3, 4],
             Cooldown: 1,
           },
           {
             Rank: [1, 2],
-            Target: [2, 3,4],
+            Target: [2, 3, 4],
             Cooldown: 1,
           },
           {
             Rank: [1, 2],
-            Target: [2, 3,4],
+            Target: [2, 3, 4],
             Cooldown: 1,
           },
-
         ],
 
-        description: "Echoing March can move a target up to 4 times, disabling enemies like Cherubs or Heralds. It has a base pull of 1 and applies bleed if upgraded. It’s powerful for shutting down enemies but less versatile than other pulls.",
+        description:
+          "Echoing March can move a target up to 4 times, disabling enemies like Cherubs or Heralds. It has a base pull of 1 and applies bleed if upgraded. It’s powerful for shutting down enemies but less versatile than other pulls.",
       },
     ],
   },
@@ -1862,70 +1858,69 @@ const heroesData = {
             text: "Extra Candle of Hope on reaching the 2nd Inn.",
           },
         ],
-[
-  { 
-    title: "Devastating Chop Power!", 
-    text: "+33% Damage Chop"
-  },
-  { 
-    title: "Buff Resistance", 
-    text: "+33% Debuff RES"
-  },
-  { 
-    title: "Immunity to Disease", 
-    text: "+100% Disease RES"
-  },
-  { 
-    title: "Debuff MaxHP", 
-    text: "-25% Max HP"
-  },
-  { 
-    title: "Slower Speed", 
-    text: "-3 Speed"
-  }
-],
-[
-  { 
-    title: "Enhanced Healing Skills", 
-    text: "+50% Healing Given"
-  },
-  { 
-    title: "Stun Resistance", 
-    text: "+50% Stun RES"
-  },
-  { 
-    title: "Move Resistance", 
-    text: "+50% Move RES"
-  },
-  { 
-    title: "Damage Reduction", 
-    text: "-25% DMG"
-  }
-],
+        [
+          {
+            title: "Devastating Chop Power!",
+            text: "+33% Damage Chop",
+          },
+          {
+            title: "Buff Resistance",
+            text: "+33% Debuff RES",
+          },
+          {
+            title: "Immunity to Disease",
+            text: "+100% Disease RES",
+          },
+          {
+            title: "Debuff MaxHP",
+            text: "-25% Max HP",
+          },
+          {
+            title: "Slower Speed",
+            text: "-3 Speed",
+          },
+        ],
+        [
+          {
+            title: "Enhanced Healing Skills",
+            text: "+50% Healing Given",
+          },
+          {
+            title: "Stun Resistance",
+            text: "+50% Stun RES",
+          },
+          {
+            title: "Move Resistance",
+            text: "+50% Move RES",
+          },
+          {
+            title: "Damage Reduction",
+            text: "-25% DMG",
+          },
+        ],
 
-[
-  { 
-    title: "Reduced MaxHP", 
-    text: "-30% Max HP"
-  },
-  { 
-    title: "Chop Skills Penalty", 
-    text: "-75% DMG"
-  },
-  { 
-    title: "Target Vulnerability", 
-    text: "Purge & Intimidate Skills: Vulnerable"
-  },
-  { 
-    title: "Combat Start Boost", 
-    text: "Cosmic: +50% Max HP and +2 Speed"
-  },
-  { 
-    title: "Chop Skills Enhancement", 
-    text: "+100% DMG"
-  }
-],
-
+        [
+          {
+            title: "Reduced MaxHP",
+            text: "-30% Max HP",
+          },
+          {
+            title: "Chop Skills Penalty",
+            text: "-75% DMG",
+          },
+          {
+            title: "Target Vulnerability",
+            text: "Purge & Intimidate Skills: Vulnerable",
+          },
+          {
+            title: "Combat Start Boost",
+            text: "Cosmic: +50% Max HP and +2 Speed",
+          },
+          {
+            title: "Chop Skills Enhancement",
+            text: "+100% DMG",
+          },
+        ],
       ],
     },
     description:
@@ -2019,64 +2014,217 @@ const heroesData = {
 
         skillsPaths: [
           {
-            Rank: [1, 2],
+            Rank: [3, 4],
             Target: [1, 2],
           },
           {
-            Rank: [1, 2],
+            Rank: [3, 4],
             Target: [1, 2],
           },
           {
-            Rank: [1, 2],
+            Rank: [3, 4],
             Target: [1, 2],
           },
           {
-            Rank: [1, 2],
+            Rank: [3, 4],
             Target: [1, 2],
           },
         ],
 
-        description: "a",
+        description:
+          "The Leper's 'Chop' deals high damage but can cause blindness, reducing accuracy. With Tempest, blindness chances drop to less than a third. To manage this, use combo with specific enemies, items that clear blindness, or combat items. Unlike other characters, the Leper only needs combo when blinded, making it easier to manage.",
       },
       {
         id: 1,
         name: "Purge",
+        Type: 0,
+
+        skillsPaths: [
+          {
+            Rank: [4],
+            Target: [1],
+          },
+          {
+            Rank: [4],
+            Target: [1],
+          },
+          {
+            Rank: [4],
+            Target: [1],
+          },
+          {
+            Rank: [4],
+            Target: [1],
+          },
+        ],
+        description:
+          "'Purge' clears corpses and provides strong knockback but is often ineffective due to Leper’s slow speed and the presence of corpses. It's useful if no other corpse-clear options are available or if knockback is specifically needed.",
       },
       {
         id: 2,
         name: "Withstand",
+        Type: 2,
+
+        skillsPaths: [
+          {
+            Rank: [2, 3, 4],
+            Target: [0],
+            Cooldown: 3,
+            Uses: 2,
+          },
+          {
+            Rank: [2, 3, 4],
+            Target: [0],
+            Cooldown: 3,
+            Uses: 2,
+          },
+          {
+            Rank: [2, 3, 4],
+            Target: [0],
+            Cooldown: 3,
+            Uses: 2,
+          },
+          {
+            Rank: [2, 3, 4],
+            Target: [0],
+            Cooldown: 3,
+            Uses: 2,
+          },
+        ],
+        description:
+          "**Withstand** is a Leper ability offering DoT and move resist, which Leper values. It doesn't drastically change his stats but adds similar value to Ounce. The taunt uses initial block tokens, with further tokens providing extra mitigation. This ability is useful as Leper often takes damage, reducing it even for offensive Tempest Lepers.",
       },
       {
         id: 3,
         name: "Solemnity",
+        Type: 3,
+
+        skillsPaths: [
+          {
+            Rank: [3, 4],
+            Target: [0],
+            Uses: 2,
+          },
+          {
+            Rank: [3, 4],
+            Target: [0],
+            Uses: 2,
+          },
+          {
+            Rank: [3, 4],
+            Target: [0],
+            Uses: 2,
+          },
+          {
+            Rank: [3, 4],
+            Target: [0],
+            Uses: 2,
+          },
+        ],
+        description:
+          "best self-heal and self-stress heal in the game, with a 50% HP heal and stress reduction regardless of current stress. The only drawback is its limited use, preventing immortality. The Poet ability boosts self-heal to 50/75%, making the Leper a powerful stress tank in the short term. However, it is a selfish stress heal and doesn't benefit others like Raucous and Bolster.",
       },
       {
         id: 4,
         name: "Reflection",
+        Type: 2,
+
+        skillsPaths: [
+          { Rank: [3, 4], Target: [0], Cooldown: 1 },
+          { Rank: [3, 4], Target: [0], Cooldown: 1 },
+          { Rank: [3, 4], Target: [0], Cooldown: 1 },
+          { Rank: [3, 4], Target: [0], Cooldown: 1 },
+        ],
+
+        description:
+          "This move helps manage Leper's blind and stress, offering debuff resistance without a use limit. It's useful for clearing combos and reducing stress to 0, especially against Exemplar and in Act 2. However, it's a low tempo move and usually only worth equipping if you lack better options for blind or need extra stress healing.",
       },
       {
         id: 5,
         name: "Hew",
+        Type: 0,
+
+        skillsPaths: [
+          { Rank: [3, 4], Target: [1, 2] },
+          { Rank: [3, 4], Target: [1, 2] },
+          { Rank: [3, 4], Target: [1, 2] },
+          { Rank: [3, 4], Target: [1, 2] },
+        ],
+
+        description:
+          "This 2-target cleave deals more damage than others and ignores blind if either target has combo. It's useful against Monarch and better than Chop outside of Cosmic fights. It can prevent damage waste or serve as a defensive pinger, though it’s less appealing due to the risk of blinding Leper.",
       },
       {
         id: 6,
         name: "Revenge",
+
+        Type: 2,
+        skillsPaths: [
+          { Rank: [1, 2, 3, 4], Target: [0], Cooldown: 3, Uses: 2 },
+          { Rank: [1, 2, 3, 4], Target: [0], Cooldown: 3, Uses: 2 },
+          { Rank: [1, 2, 3, 4], Target: [0], Cooldown: 3, Uses: 2 },
+          { Rank: [1, 2, 3, 4], Target: [0], Cooldown: 3, Uses: 2 },
+        ],
+
+        description:
+          "Revenge is a slow buff that provides value over time, especially if Leper hits three times. It’s less effective in quick fights and requires combo and accuracy support. Using other moves can waste the buff, but it can significantly boost damage when used effectively.",
       },
       {
         id: 7,
         name: "Intimidate",
+        Type: 0,
+
+        skillsPaths: [
+          { Rank: [4], Target: [1, 2, 3, 4] },
+          { Rank: [4], Target: [1, 2, 3, 4] },
+          { Rank: [4], Target: [1, 2, 3, 4] },
+          { Rank: [4], Target: [1, 2, 3, 4] },
+        ],
+
+        description:
+          "Intimidate offers pings, taunts, weak application, and stealth counter. It also deals some damage and doesn’t generate blind, making it a better blind cure than Reflection. The Monarch version adds vulnerable, which is useful due to Leper’s often-disabled damage move. It’s great for tanking and debuffing but has a rank 1 requirement.",
       },
       {
         id: 8,
         name: "Ruin",
+        Type: 2,
+
+        skillsPaths: [
+          { Rank: [2, 3, 4], Target: [0], Cooldown: 3, Uses: 2 },
+          { Rank: [2, 3, 4], Target: [0], Cooldown: 3, Uses: 2 },
+          { Rank: [2, 3, 4], Target: [0], Cooldown: 3, Uses: 2 },
+          { Rank: [2, 3, 4], Target: [0], Cooldown: 3, Uses: 2 },
+        ],
+        description:
+          "This move has issues because its 20% damage buffs expire together, unlike Revenge. It’s better if Leper can be hit multiple times quickly but generally, Revenge is easier to use. Noisemakers or Encore can help improve its effectiveness by directing more damage to Leper.",
       },
       {
         id: 9,
         name: "Break",
+        Type: 0,
+
+        skillsPaths: [
+          { Rank: [3, 4], Target: [1, 2] },
+          { Rank: [3, 4], Target: [1, 2] },
+          { Rank: [3, 4], Target: [1, 2] },
+          { Rank: [3, 4], Target: [1, 2] },
+        ],
+        description:
+          "This move does slightly more damage than Chop and removes Block, useful against enemies with stacked Block. However, it suffers from the same blind issue as Hew and Chop and only ignores blind with an upgrade. Intimidate is usually a better option for dealing with Block.",
       },
       {
         id: 10,
         name: "Bash",
+        Type: 0,
+
+        skillsPaths: [
+          { Rank: [3, 4], Target: [1, 2] },
+          { Rank: [3, 4], Target: [1, 2] },
+          { Rank: [3, 4], Target: [1, 2] },
+          { Rank: [3, 4], Target: [1, 2] },
+        ],
+        description:
+          "This move can create a daze-stun combo with Barristan if both are upgraded and fast enough. It's useful for locking Leper in place, enabling daze stuns, and immobilizing enemies, especially in the Foetor lair boss fight. It doesn’t generate blind, offering more flexibility. While not a staple, it has niche uses in specific comps.",
       },
     ],
   },
