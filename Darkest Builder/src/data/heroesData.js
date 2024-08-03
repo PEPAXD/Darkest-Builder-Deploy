@@ -1846,13 +1846,13 @@ const heroesData = {
       "To rule, one must learn to serve.",
     ],
     paths: {
-      name: ["Wanderer", "Rogue", "Sharpshot", "Yellowhand"],
-      skillsArray: [[], [0, 2, 4, 5, 6], [1, 4, 5, 6, 8], [3, 6, 7, 9, 10]],
+      name: ["Wanderer", "Tempest", "Poet", "Monarch"],
+      skillsArray: [[], [0, 3, 4, 8, 10], [2, 3, 4, 7, 10], [0, 2, 3, 4, 7]],
       cites: [
         '"Default skills. Rewards candles upon reaching the second Inn"',
-        '"A brawler focused on front rank combat and Riposte."',
-        '"A back rank role that emphasizes ranged skill use"',
-        '"A rank-flexible Bleed specialist. Riposte inflicts Bleed."',
+        '"A role that trades HP and Speed for focused power and resistance."',
+        '"A defensive role that trades power for survivability."',
+        '"A role that excels in battle against cosmic horrors."',
       ],
 
       description: [
@@ -1861,30 +1861,71 @@ const heroesData = {
             title: "Candles of Hope +1",
             text: "Extra Candle of Hope on reaching the 2nd Inn.",
           },
-          {
-            title: "Riposte Combo (33%)",
-            text: "Target add Combo token when using Riposte.",
-          },
         ],
-        [
-          { title: "If Rank = 1:", text: "+25% DMG" },
-          { title: "If Rank = 3:", text: "-25% DMG" },
-          { title: "If Rank = 4:", text: "-50% DMG" },
-          { title: "Point Blank Shot", text: "Add Riposte" },
-        ],
-        [
-          { title: "Ranged Skills:", text: "+25% DMG" },
-          { title: "Melee Skills:", text: "-25% DMG" },
-          { title: "Buff Speed", text: "+3 Speed" },
-          { title: "Grapeshot Blast", text: "Add Strength" },
-        ],
-        [
-          { title: "Buff HP", text: "+15% MAXHP" },
-          { title: "Ranged Skills:", text: "-75% DMG" },
-          { title: "Apply On Melee-Hit :", text: "-10% Bleed RES" },
-          { title: "Highway Robbery", text: "Steal Positive Token" },
-          { title: "Double Cross", text: "Remove Block" },
-        ],
+[
+  { 
+    title: "Devastating Chop Power!", 
+    text: "+33% Damage Chop"
+  },
+  { 
+    title: "Buff Resistance", 
+    text: "+33% Debuff RES"
+  },
+  { 
+    title: "Immunity to Disease", 
+    text: "+100% Disease RES"
+  },
+  { 
+    title: "Debuff MaxHP", 
+    text: "-25% Max HP"
+  },
+  { 
+    title: "Slower Speed", 
+    text: "-3 Speed"
+  }
+],
+[
+  { 
+    title: "Enhanced Healing Skills", 
+    text: "+50% Healing Given"
+  },
+  { 
+    title: "Stun Resistance", 
+    text: "+50% Stun RES"
+  },
+  { 
+    title: "Move Resistance", 
+    text: "+50% Move RES"
+  },
+  { 
+    title: "Damage Reduction", 
+    text: "-25% DMG"
+  }
+],
+
+[
+  { 
+    title: "Reduced MaxHP", 
+    text: "-30% Max HP"
+  },
+  { 
+    title: "Chop Skills Penalty", 
+    text: "-75% DMG"
+  },
+  { 
+    title: "Target Vulnerability", 
+    text: "Purge & Intimidate Skills: Vulnerable"
+  },
+  { 
+    title: "Combat Start Boost", 
+    text: "Cosmic: +50% Max HP and +2 Speed"
+  },
+  { 
+    title: "Chop Skills Enhancement", 
+    text: "+100% DMG"
+  }
+],
+
       ],
     },
     description:
@@ -1978,13 +2019,24 @@ const heroesData = {
 
         skillsPaths: [
           {
-            Rank: [0],
+            Rank: [1, 2],
             Target: [1, 2],
           },
-          {},
-          { Rank: [1], Target: [1, 2] },
-          {},
+          {
+            Rank: [1, 2],
+            Target: [1, 2],
+          },
+          {
+            Rank: [1, 2],
+            Target: [1, 2],
+          },
+          {
+            Rank: [1, 2],
+            Target: [1, 2],
+          },
         ],
+
+        description: "a",
       },
       {
         id: 1,
