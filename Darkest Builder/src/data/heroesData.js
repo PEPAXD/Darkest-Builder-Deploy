@@ -2239,13 +2239,13 @@ const heroesData = {
       "Look death in the eye.",
     ],
     paths: {
-      name: ["Wanderer", "Rogue", "Sharpshot", "Yellowhand"],
+      name: ["Wanderer", "Sergeant", "Bulwark", "Vanguard"],
       skillsArray: [[], [0, 2, 4, 5, 6], [1, 4, 5, 6, 8], [3, 6, 7, 9, 10]],
       cites: [
         '"Default skills. Rewards candles upon reaching the second Inn"',
-        '"A brawler focused on front rank combat and Riposte."',
-        '"A back rank role that emphasizes ranged skill use"',
-        '"A rank-flexible Bleed specialist. Riposte inflicts Bleed."',
+        '"A role that trades damage for support survivability."',
+        '"A role that enhances the potency of shield attacks at the expense of Crush."',
+        '"A role that focuses on Crush and Riposte at the expense of Resistance."',
       ],
 
       description: [
@@ -2254,29 +2254,62 @@ const heroesData = {
             title: "Candles of Hope +1",
             text: "Extra Candle of Hope on reaching the 2nd Inn.",
           },
-          {
-            title: "Riposte Combo (33%)",
-            text: "Target add Combo token when using Riposte.",
+        ],
+        [
+          { 
+            title: "Damage Reduction", 
+            text: "-20% DMG" 
           },
+          { 
+            title: "Movement Resist", 
+            text: "+100% Move RES" 
+          },
+          { 
+            title: "Self Ability", 
+            text: "Bolster Remove Weak" 
+          },
+          { 
+            title: "Ally Buff", 
+            text: "All DOT RES (20%)" 
+          }
         ],
+        
         [
-          { title: "If Rank = 1:", text: "+25% DMG" },
-          { title: "If Rank = 3:", text: "-25% DMG" },
-          { title: "If Rank = 4:", text: "-50% DMG" },
-          { title: "Point Blank Shot", text: "Add Riposte" },
+          { 
+            title: "Crush & Riposte Skills", 
+            text: "-25% DMG" 
+          },
+          { 
+            title: "Shield Attack Skills", 
+            text: "+50% DMG" 
+          },
+          { 
+            title: "Shield Attack Skills", 
+            text: "+10% Stun" 
+          },
+          { 
+            title: "Self Ability", 
+            text: "Stand Fast Skills: Taunt x2" 
+          }
         ],
+        
         [
-          { title: "Ranged Skills:", text: "+25% DMG" },
-          { title: "Melee Skills:", text: "-25% DMG" },
-          { title: "Buff Speed", text: "+3 Speed" },
-          { title: "Grapeshot Blast", text: "Add Strength" },
-        ],
-        [
-          { title: "Buff HP", text: "+15% MAXHP" },
-          { title: "Ranged Skills:", text: "-75% DMG" },
-          { title: "Apply On Melee-Hit :", text: "-10% Bleed RES" },
-          { title: "Highway Robbery", text: "Steal Positive Token" },
-          { title: "Double Cross", text: "Remove Block" },
+          { 
+            title: "Max HP", 
+            text: "+20% Max HP" 
+          },
+          { 
+            title: "Riposte Skills", 
+            text: "+25% DMG" 
+          },
+          { 
+            title: "Crush Skills", 
+            text: "+50% DMG" 
+          },
+          { 
+            title: "Damage over Time Resist", 
+            text: "-20% DOT RES" 
+          }
         ],
       ],
     },
@@ -2360,9 +2393,11 @@ const heroesData = {
             Target: [1, 2],
           },
           {},
-          { Rank: [1], Target: [1, 2] },
+          {},
           {},
         ],
+
+        description: "a",
       },
       {
         id: 1,
