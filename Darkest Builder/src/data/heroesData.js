@@ -2686,49 +2686,90 @@ const heroesData = {
             Rank: [2,3,4],
             Target: [1, 2,3],
           },
-
+          {
+            Rank: [2,3,4],
+            Target: [1, 2,3],
+          },          {
+            Rank: [2,3,4],
+            Target: [1, 2,3],
+          },          {
+            Rank: [2,3,4],
+            Target: [1, 2,3],
+          },
         ],
-        description: "a",
+        description: "The 'stab' move is effective for rank 3 attacks but unusable in rank 4. The UP mechanic requires a combo, which isn't immediately valuable. Gaining a damage bonus or stun is preferable. Using two combo tokens or killing an enemy grants UP, with the latter being better for immediate use.",
       },
       {
         id: 1,
         name: "Abyssal Artillery",
+
+        Type: 1,
+        skillsPaths: [{Rank: [1,2], Target: [3,4]},{Rank: [1,2], Target: [3,4]},{Rank: [1,2], Target: [3,4]},{Rank: [1,2], Target: [3,4]},],
+        description: "The UP mechanic enhances a strong backline cleave move, effective with moves like grenade and iron swan. Setting up UP requires a turn and is best with a Warlock Occultist. Double stuns are powerful but hard to achieve.",
       },
       {
         id: 2,
         name: "Weakening Curse",
+        Type: 1,
+        skillsPaths: [{Rank: [1,2,3,4], Target: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Target: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Target: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Target: [1,2,3,4], Cooldown: 1},],
+        description: "Weakening Curse is a reliable debuff that applies Weak, effective against bosses. It has good range and can set up UP for stab moves. It’s especially useful with Ritualist and commonly used outside of Aspirant Occultists.",
       },
       {
         id: 3,
         name: "Wyrd Reconstruction",
+        Type: 3,
+        skillsPaths: [{Rank: [1,2,3,4], Ally: [1,2,3,4]},{Rank: [1,2,3,4], Ally: [1,2,3,4]},{Rank: [1,2,3,4], Ally: [1,2,3,4]},{Rank: [1,2,3,4], Ally: [1,2,3,4]},],
+        description: "Wyrd Reconstruction is a versatile but unreliable heal with high variance and a 33% threshold. UP can improve healing with critical heals, but it still has risks. Best as a backup heal, especially for Ritualist Occultists, and can combo with Cauterize. Avoid using it as the sole heal unless necessary.",
       },
       {
         id: 4,
         name: "Daemon's Pull",
+        Type: 1,
+        skillsPaths: [{Rank: [1,2,3], Target:[3,4]},{Rank: [1,2,3], Target:[3,4]},{Rank: [1,2,3], Target:[3,4]},{Rank: [1,2,3], Target:[3,4]},],
+        description: "Daemon’s Pull is highly versatile, dealing damage, applying combo, and clearing corpses while disrupting backline enemies. It excels in setting up targets for follow-ups or stuns and is useful in most Occultist kits. Its main limitation is in boss fights, though it can still be situationally helpful. The UP stun is less useful compared to Arty but can be a good alternative.",
       },
       {
         id: 5,
         name: "Vulnerability Hex",
+        Type: 1,
+        skillsPaths: [{Rank: [1,2,3,4], Target: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Target: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Target: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Target: [1,2,3,4], Cooldown: 1},],
+        description: "Vulnerability Hex is a top-tier damage transfer move that clears dodge and applies vulnerability for big hitters. It's especially useful with Alhazred, enhancing his utility. Its effectiveness drops against high debuff resistance enemies or without strong direct damage allies.",
       },
       {
         id: 6,
         name: "Binding Shadows",
+        Type: 0,
+        skillsPaths: [{Rank: [1,2,3], Target: [1,2,3,]},{Rank: [1,2,3], Target: [1,2,3,]},{Rank: [1,2,3], Target: [1,2,3,]},{Rank: [1,2,3], Target: [1,2,3,]},],
+        description: "Binding Shadows is similar to Stab in use and damage but generates UP on use half the time when upgraded. Its key advantage is the forward 1 movement, making it ideal for Aspirant Occultists in double lunge or Seraph Vestal comps. It's useful with the Tangle trophy when not expecting a kill. Generally, Stab is preferred unless specific movement is needed, as Binding Shadows can't be used in rank 4.",
       },
       {
         id: 7,
         name: "Malediction",
+        Type: 1,
+        skillsPaths: [{Rank: [1,2,3,4], Target: [1,2,3,4]},{Rank: [1,2,3,4], Target: [1,2,3,4]},{Rank: [1,2,3,4], Target: [1,2,3,4]},{Rank: [1,2,3,4], Target: [1,2,3,4]},],
+        description: "Malediction, an UP-only move, temporarily applies DoT, which is best for slow, tanky enemies but often ineffective otherwise. It can fail, wasting a turn. It shines with Cause of Death, converting DoT to immediate damage, but is rarely useful due to its setup requirements. Its value would improve if the debuff were permanent or round-based.",
       },
       {
         id: 8,
         name: "Anamnesis",
+        Type: 0,
+        skillsPaths: [{Rank: [3,4], Target: [1,2,3,4]},{Rank: [3,4], Target: [1,2,3,4]},{Rank: [3,4], Target: [1,2,3,4]},{Rank: [3,4], Target: [1,2,3,4]},],
+        description: "Anamnesis is a powerful cleave move needing two UP, typically used by turn 2. Its value declines as fights progress. It checks both block and dodge, but Magnesium Rain offers similar DoT damage with less setup. It's best for Aspirant builds and can be effective against the act 1 boss, but is generally a rare pick.",
       },
       {
         id: 9,
         name: "The Burning Stars",
+        Type: 1,
+        skillsPaths: [{Rank: [1,2,3], Target: [1,2,3,4]},{Rank: [1,2,3], Target: [1,2,3,4]},{Rank: [1,2,3], Target: [1,2,3,4]},{Rank: [1,2,3], Target: [1,2,3,4]},],
+        description: "The move is strong, comparable to two stabs, and applies combo while ignoring block. Its main drawback is the use requirement, which slows down its use. It has good range and adds value with combo. While not ideal for building around, it’s a useful addition for longer fights or as a backup in the Act 2 fight. It’s best with Warlock Occultists or if you plan to generate UP through stabs or Chaotic Offering.",
       },
       {
         id: 10,
         name: "Chaotic Offering",
+        Type: 2,
+
+        skillsPaths: [{Rank: [1,2,3,4], Target: [0], Cooldown: 3},{Rank: [1,2,3,4], Target: [0], Cooldown: 3},{Rank: [1,2,3,4], Target: [0], Cooldown: 3},{Rank: [1,2,3,4], Target: [0], Cooldown: 3},],
+        description: "Chaotic Offering is a low-tempo move that lets you use a UP move next turn but has risky random side effects like Weak, Daze, or Shuffle, which can disrupt your strategy. The buff can be valuable, but its downsides often make it less favorable, especially when paired with moves like Stars.",
       },
     ],
   },
@@ -2758,30 +2799,19 @@ const heroesData = {
             title: "Candles of Hope +1",
             text: "Extra Candle of Hope on reaching the 2nd Inn.",
           },
-          {
-            title: "Riposte Combo (33%)",
-            text: "Target add Combo token when using Riposte.",
-          },
         ],
         [
-          { title: "If Rank = 1:", text: "+25% DMG" },
-          { title: "If Rank = 3:", text: "-25% DMG" },
-          { title: "If Rank = 4:", text: "-50% DMG" },
-          { title: "Point Blank Shot", text: "Add Riposte" },
+          { title: "", text: "" },
         ],
         [
-          { title: "Ranged Skills:", text: "+25% DMG" },
-          { title: "Melee Skills:", text: "-25% DMG" },
-          { title: "Buff Speed", text: "+3 Speed" },
-          { title: "Grapeshot Blast", text: "Add Strength" },
+          { title: "", text: "" },
         ],
+
         [
-          { title: "Buff HP", text: "+15% MAXHP" },
-          { title: "Ranged Skills:", text: "-75% DMG" },
-          { title: "Apply On Melee-Hit :", text: "-10% Bleed RES" },
-          { title: "Highway Robbery", text: "Steal Positive Token" },
-          { title: "Double Cross", text: "Remove Block" },
+          { title: "", text: "" },
         ],
+
+
       ],
     },
     description:
@@ -2861,21 +2891,16 @@ const heroesData = {
       {
         id: 0,
         name: "Noxious Blast",
-        Type: 0,
-
-        skillsPaths: [
-          {
-            Rank: [0],
-            Target: [1, 2],
-          },
-          {},
-          { Rank: [1], Target: [1, 2] },
-          {},
-        ],
+        Type: 1,
+        skillsPaths:[{},{},{},{}],
+        description: "a",
       },
       {
         id: 1,
         name: "Blinding Gas",
+        Type: 1,
+        skillsPaths:[{},{},{},{}],
+        description: "a",
       },
       {
         id: 2,
