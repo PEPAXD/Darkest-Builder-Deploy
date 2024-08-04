@@ -2240,7 +2240,7 @@ const heroesData = {
     ],
     paths: {
       name: ["Wanderer", "Sergeant", "Bulwark", "Vanguard"],
-      skillsArray: [[], [0, 2, 4, 5, 6], [1, 4, 5, 6, 8], [3, 6, 7, 9, 10]],
+      skillsArray: [[], [3, 2, 4, 5, 7], [1, 4, 5, 9, 8], [0, 6, 4, 3, 5]],
       cites: [
         '"Default skills. Rewards candles upon reaching the second Inn"',
         '"A role that trades damage for support survivability."',
@@ -2389,62 +2389,106 @@ const heroesData = {
 
         skillsPaths: [
           {
-            Rank: [0],
-            Target: [1, 2],
+            Rank: [3,4],
+            Target: [1, 2,3],
           },
-          {},
-          {},
-          {},
+          {
+            Rank: [3,4],
+            Target: [1, 2,3],
+          },          {
+            Rank: [3,4],
+            Target: [1, 2,3],
+          },          {
+            Rank: [3,4],
+            Target: [1, 2,3],
+          },
         ],
 
-        description: "a",
+        description: "Front-line melee attack with respectable damage and good reach being able to hit Rank 3. Is essential in any Front-line Man-at-Arms build, thanks to the offensive and supportive versatility. ( Heal 10%-20% when combo)",
       },
       {
         id: 1,
         name: "Rampart",
+        Type: 0,
+
+        skillsPaths:[{Rank: [2,3,4], Target: [1,2]},{Rank: [2,3,4], Target: [1,2]},{Rank: [2,3,4], Target: [1,2]},{Rank: [2,3,4], Target: [1,2]},],
+        description: "Rank-flexible melee/shield attack with decent damage. Has the main advantage of moving Forward 1 (Move to a more favorable position) while at the same time pushing enemies Backwards 1 (displacing enemies to disfavorable positions). It also applies Dake, Stun, a very good counter againsts any type of enemy.",
       },
       {
         id: 2,
         name: "Defender",
+        Type: 2,
+
+        skillsPaths: [{Rank: [1,2,3,4], Ally: [1,2,3,4]},{Rank: [1,2,3,4], Ally: [1,2,3,4]},{Rank: [1,2,3,4], Ally: [1,2,3,4]},{Rank: [1,2,3,4], Ally: [1,2,3,4]},],
+        description: "excelent Support move giving Man-at-Arms Block and Guard to allies. Giving a low-HP Ally a safety-net to maintain the Team alive since all attacks will be redirected to Man-at-Arms. It can be used in all ranks and doesn't have a cooldown, making this skill very safe and reliable to use in any situation.",
       },
       {
         id: 3,
         name: "Bolster",
+        Type: 2,
+
+        skillsPaths: [{Rank:[1,2,3,4], Ally: [1,2,3,4], Cooldown:1},{Rank:[1,2,3,4], Ally: [1,2,3,4], Cooldown:1},{Rank:[1,2,3,4], Ally: [1,2,3,4], Cooldown:1},{Rank:[1,2,3,4], Ally: [1,2,3,4], Cooldown:1},],
+        description: "excelent Support move that Stress heal both Allies and Man-at-Arms while also removing Weak and Vulnerable. It can be used in all ranks and has low cooldown making this skill very safe and reliable in any build or situation.",
       },
       {
         id: 4,
         name: "Hold the Line",
+        Type: 0,
+
+        skillsPaths:[{Rank: [1,2,3], Target:[1,2]},{Rank: [1,2,3], Target:[1,2]},{Rank: [1,2,3], Target:[1,2]},{Rank: [1,2,3], Target:[1,2]},],
+        description: "Melee/Shield attack that moves Man-at-Arms Forward 3, is advised to equip this skills when using Rank 1 Man-at-arms as it will put you in your favorable position instantly while also Immobilize and Block (Less disruption and less damage recieved).",
       },
       {
         id: 5,
         name: "Bellow",
+        Type: 1,
+
+        skillsPaths:[{Rank:[1,2,3,4], Target:[1,2,3,4], Cooldown:1},{Rank:[1,2,3,4], Target:[1,2,3,4], Cooldown:1},{Rank:[1,2,3,4], Target:[1,2,3,4], Cooldown:1},{Rank:[1,2,3,4], Target:[1,2,3,4], Cooldown:1},],
+        description: "puts the enemy team in a direct disadvantage with a heavy Speed Debuff, Riposte and Crit Removal. As a cleave attack, it also has the advantage of removing several Dodge at the same time, this skill is perfect to counter certain matchups and enemy factions (Example: Combat turnorder enemy shared spider spitterCreature Den, Combat turnorder enemy cultist Exemplar)",
       },
       {
         id: 6,
         name: "Retribution",
+        Type: 2,
+        skillsPaths:[{Rank: [1,2,3,4], Target:[0], Cooldown:2},{Rank: [1,2,3,4], Target:[0], Cooldown:2},{Rank: [1,2,3,4], Target:[0], Cooldown:2},{Rank: [1,2,3,4], Target:[0], Cooldown:2},],
+        description: "excelent tank skill that gives Taunt, Riposte and Block at the same time. Making enemies target Man-at-Arms, reducing incoming damage and dealing (posibly killing) enemies all at the same time. Very efficient tempo gain in most if not all encounters.",
       },
       {
         id: 7,
         name: "Command",
+
+        Type: 2,
+        skillsPaths: [{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1,},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1,},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1,},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1,},],
+        description: "good support skill that removes Blind and giving Strength. Is a good counter to certain matchups (Combat turnorder enemy coastal leviathan Fisherfolk, Combat turnorder enemy fanatic librarian Fanatics), Quirks/Diseases and Certain skills (Portraits-Leper's constant Blind can be completely nullified by this ability)",
       },
       {
         id: 8,
         name: "Stand Fast",
+
+        Type: 2,
+        skillsPaths: [{Rank: [3,4], Target: [0], Cooldown: 2},{Rank: [3,4], Target: [0], Cooldown: 2},{Rank: [3,4], Target: [0], Cooldown: 2},{Rank: [3,4], Target: [0], Cooldown: 2},],
+        description: "gives the Man-at-Arms,already excellent Tank capabilities, even more self-sustain. Adds constant Block tokens every turn. Recommended to use if you get constant Taunt, generation, (via trinkets or Bulwark) so you will get the most out of this skill.",
       },
       {
         id: 9,
         name: "Courageous Abandon",
+        Type: 0,
+        skillsPaths: [{Rank: [4], Target: [1], Cooldown: 2},{Rank: [4], Target: [1], Cooldown: 2},{Rank: [4], Target: [1], Cooldown: 2},{Rank: [4], Target: [1], Cooldown: 2},],
+        description: "is the skill with the highest Single-target Damage potential of Man-at-Arms. Requires constant Block generation(Deals +100% DMG when Block). Consider combining it with Stand Fast or Portraits-Vestal Consecration of Fortitude to get the highest damage faster.",
       },
       {
         id: 10,
         name: "Strategic Withdrawal",
+        Type: 0,
+        skillsPaths: [{Rank: [3,4], Target:[1,2], Cooldown: 1},{Rank: [3,4], Target:[1,2], Cooldown: 1},{Rank: [3,4], Target:[1,2], Cooldown: 1},{Rank: [3,4], Target:[1,2], Cooldown: 1},],
+        description: "respectable damage and support skill that applies Combo, Consider combining it with heroes that require constant Combo. (Example:Portraits-Leper) . Moves Back 1 and Heals 33% HP + Adds blockplus Death's Door. Is a good combo tool and safety skill that can give Man-at-Arms good survability in disfavorable situations.",
       },
     ],
   },
 
   6: {
     name: "Occultist",
-    rolePlay: ["BACK RANK", "RANGED DMG", "HEALER", "OFFENSIVE SUPPORT"],
+    rolePlay: ["BACK RANK", "RANGED DMG", "HEALER", "OFFENSIVE SUPP"],
     cite: [
       "To know the abyss, one must embrace it.",
       "A curse upon my enemies, and a curse upon myself.",
@@ -2452,13 +2496,13 @@ const heroesData = {
       "I drift in the starless skies of the void.",
     ],
     paths: {
-      name: ["Wanderer", "Rogue", "Sharpshot", "Yellowhand"],
-      skillsArray: [[], [0, 2, 4, 5, 6], [1, 4, 5, 6, 8], [3, 6, 7, 9, 10]],
+      name: ["Wanderer", "Ritualist", "Warlock", "Aspirant"],
+      skillsArray: [[], [2, 3, 5, 7, 10], [1, 4, 5, 9, 10], [0, 2, 3, 4, 9]],
       cites: [
         '"Default skills. Rewards candles upon reaching the second Inn"',
-        '"A brawler focused on front rank combat and Riposte."',
-        '"A back rank role that emphasizes ranged skill use"',
-        '"A rank-flexible Bleed specialist. Riposte inflicts Bleed."',
+        '"A role that enhances support at the risk of unexpected vulnerability."',
+        '"A role that enhances ranged offense at the cost of survivability."',
+        '"A role that emphasizes melee over curses."',
       ],
 
       description: [
@@ -2467,30 +2511,75 @@ const heroesData = {
             title: "Candles of Hope +1",
             text: "Extra Candle of Hope on reaching the 2nd Inn.",
           },
-          {
-            title: "Riposte Combo (33%)",
-            text: "Target add Combo token when using Riposte.",
+        ],
+        [
+          { 
+            title: "Healing Skills", 
+            text: "+33% Healing Given" 
           },
+          { 
+            title: "Cursing Skills", 
+            text: "+10% Debuff Chance" 
+          },
+          { 
+            title: "Cursing Skills", 
+            text: "strength (15%)" 
+          },
+          { 
+            title: "Cursing Skills", 
+            text: "Crit (15%)" 
+          },
+          { 
+            title: "Cursing Skills", 
+            text: "Dodgeplus (15%)" 
+          },
+          { 
+            title: "Turn Start", 
+            text: "Vulnerable (33%)" 
+          }
         ],
         [
-          { title: "If Rank = 1:", text: "+25% DMG" },
-          { title: "If Rank = 3:", text: "-25% DMG" },
-          { title: "If Rank = 4:", text: "-50% DMG" },
-          { title: "Point Blank Shot", text: "Add Riposte" },
-        ],
+          { 
+            title: "Max Icon HP", 
+            text: "-20% MaxHP" 
+          },
+          { 
+            title: "Ranged Skills", 
+            text: "+25% DMG" 
+          },
+          { 
+            title: "Turn Start", 
+            text: "Uncheckedpower (33%)" 
+          }
+        ]
+        ,
         [
-          { title: "Ranged Skills:", text: "+25% DMG" },
-          { title: "Melee Skills:", text: "-25% DMG" },
-          { title: "Buff Speed", text: "+3 Speed" },
-          { title: "Grapeshot Blast", text: "Add Strength" },
+          { 
+            title: "Max Icon HP", 
+            text: "+25% Max HP" 
+          },
+          { 
+            title: "Melee Skills", 
+            text: "+25% DMG" 
+          },
+          { 
+            title: "Anamnesis Skills", 
+            text: "+125% DMG" 
+          },
+          { 
+            title: "Cursing Skills", 
+            text: "-15% Debuff Chance" 
+          },
+          { 
+            title: "Cursing Skills", 
+            text: "-15% Debuff RES" 
+          },
+          { 
+            title: "Combat Start", 
+            text: "Blockplus" 
+          }
         ],
-        [
-          { title: "Buff HP", text: "+15% MAXHP" },
-          { title: "Ranged Skills:", text: "-75% DMG" },
-          { title: "Apply On Melee-Hit :", text: "-10% Bleed RES" },
-          { title: "Highway Robbery", text: "Steal Positive Token" },
-          { title: "Double Cross", text: "Remove Block" },
-        ],
+        
       ],
     },
     description:
@@ -2594,13 +2683,12 @@ const heroesData = {
 
         skillsPaths: [
           {
-            Rank: [0],
-            Target: [1, 2],
+            Rank: [2,3,4],
+            Target: [1, 2,3],
           },
-          {},
-          { Rank: [1], Target: [1, 2] },
-          {},
+
         ],
+        description: "a",
       },
       {
         id: 1,
