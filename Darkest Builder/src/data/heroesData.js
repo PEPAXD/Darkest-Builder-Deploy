@@ -2784,13 +2784,13 @@ const heroesData = {
       "Let me prescribe a more ...holistic regimen.",
     ],
     paths: {
-      name: ["Wanderer", "Rogue", "Sharpshot", "Yellowhand"],
-      skillsArray: [[], [0, 2, 4, 5, 6], [1, 4, 5, 6, 8], [3, 6, 7, 9, 10]],
+      name: ["Wanderer", "Surgeon", "Alchemist", "Physician"],
+      skillsArray: [[], [2, 3, 4, 8, 10], [0, 3, 4, 5, 8], [3, 4, 6, 8, 10]],
       cites: [
         '"Default skills. Rewards candles upon reaching the second Inn"',
-        '"A brawler focused on front rank combat and Riposte."',
-        '"A back rank role that emphasizes ranged skill use"',
-        '"A rank-flexible Bleed specialist. Riposte inflicts Bleed."',
+        '"A role that empowers Incision and healing at the expense of Blight."',
+        '"A role that improves Blight and Resistance while undermining health."',
+        '"A role that enhances utility at the expense of Blight and Bleed."',
       ],
 
       description: [
@@ -2801,15 +2801,70 @@ const heroesData = {
           },
         ],
         [
-          { title: "", text: "" },
+          { 
+            title: "Max HP Boost", 
+            text: "+25% Max HP" 
+          },
+          { 
+            title: "Melee Damage Increase", 
+            text: "+50% DMG Melee" 
+          },
+          { 
+            title: "Enhanced Healing", 
+            text: "+33% Healing Given" 
+          },
+          { 
+            title: "Reduced Blight Chance", 
+            text: "-33% Blight Chance" 
+          }
         ],
+        
         [
-          { title: "", text: "" },
+          { 
+            title: "Reduced Max HP", 
+            text: "-20% Max HP" 
+          },
+          { 
+            title: "Blight Boost", 
+            text: "+33% Blight Chance +10% CRIT" 
+          },
+          { 
+            title: "Enhanced Stun Resistance", 
+            text: "+50% Stun RES" 
+          },
+          { 
+            title: "Boost Resistance", 
+            text: "+20% RES Blight, Bleed And Burn " 
+          },
+          { 
+            title: "Debuff Resistance", 
+            text: "+33% Debuff RES" 
+          }
         ],
-
+        
         [
-          { title: "", text: "" },
+          { 
+            title: "Reduced DOT Damage", 
+            text: "DOT Skills: -2 Dealt" 
+          },
+          { 
+            title: "Disorienting Blast", 
+            text: "+20% Stun" 
+          },
+          { 
+            title: "Stress Resistance Boost", 
+            text: "+15% Stress RES" 
+          },
+          { 
+            title: "Emboldening Vapours", 
+            text: "Strength Boost" 
+          },
+          { 
+            title: "Disorienting Blast", 
+            text: "Vulnerability Increase" 
+          }
         ],
+        
 
 
       ],
