@@ -2256,60 +2256,60 @@ const heroesData = {
           },
         ],
         [
-          { 
-            title: "Damage Reduction", 
-            text: "-20% DMG" 
+          {
+            title: "Damage Reduction",
+            text: "-20% DMG",
           },
-          { 
-            title: "Movement Resist", 
-            text: "+100% Move RES" 
+          {
+            title: "Movement Resist",
+            text: "+100% Move RES",
           },
-          { 
-            title: "Self Ability", 
-            text: "Bolster Remove Weak" 
+          {
+            title: "Self Ability",
+            text: "Bolster Remove Weak",
           },
-          { 
-            title: "Ally Buff", 
-            text: "All DOT RES (20%)" 
-          }
+          {
+            title: "Ally Buff",
+            text: "All DOT RES (20%)",
+          },
         ],
-        
+
         [
-          { 
-            title: "Crush & Riposte Skills", 
-            text: "-25% DMG" 
+          {
+            title: "Crush & Riposte Skills",
+            text: "-25% DMG",
           },
-          { 
-            title: "Shield Attack Skills", 
-            text: "+50% DMG" 
+          {
+            title: "Shield Attack Skills",
+            text: "+50% DMG",
           },
-          { 
-            title: "Shield Attack Skills", 
-            text: "+10% Stun" 
+          {
+            title: "Shield Attack Skills",
+            text: "+10% Stun",
           },
-          { 
-            title: "Self Ability", 
-            text: "Stand Fast Skills: Taunt x2" 
-          }
+          {
+            title: "Self Ability",
+            text: "Stand Fast Skills: Taunt x2",
+          },
         ],
-        
+
         [
-          { 
-            title: "Max HP", 
-            text: "+20% Max HP" 
+          {
+            title: "Max HP",
+            text: "+20% Max HP",
           },
-          { 
-            title: "Riposte Skills", 
-            text: "+25% DMG" 
+          {
+            title: "Riposte Skills",
+            text: "+25% DMG",
           },
-          { 
-            title: "Crush Skills", 
-            text: "+50% DMG" 
+          {
+            title: "Crush Skills",
+            text: "+50% DMG",
           },
-          { 
-            title: "Damage over Time Resist", 
-            text: "-20% DOT RES" 
-          }
+          {
+            title: "Damage over Time Resist",
+            text: "-20% DOT RES",
+          },
         ],
       ],
     },
@@ -2389,99 +2389,162 @@ const heroesData = {
 
         skillsPaths: [
           {
-            Rank: [3,4],
-            Target: [1, 2,3],
+            Rank: [3, 4],
+            Target: [1, 2, 3],
           },
           {
-            Rank: [3,4],
-            Target: [1, 2,3],
-          },          {
-            Rank: [3,4],
-            Target: [1, 2,3],
-          },          {
-            Rank: [3,4],
-            Target: [1, 2,3],
+            Rank: [3, 4],
+            Target: [1, 2, 3],
+          },
+          {
+            Rank: [3, 4],
+            Target: [1, 2, 3],
+          },
+          {
+            Rank: [3, 4],
+            Target: [1, 2, 3],
           },
         ],
 
-        description: "Front-line melee attack with respectable damage and good reach being able to hit Rank 3. Is essential in any Front-line Man-at-Arms build, thanks to the offensive and supportive versatility. ( Heal 10%-20% when combo)",
+        description:
+          "Front-line melee attack with respectable damage and good reach being able to hit Rank 3. Is essential in any Front-line Man-at-Arms build, thanks to the offensive and supportive versatility. ( Heal 10%-20% when combo)",
       },
       {
         id: 1,
         name: "Rampart",
         Type: 0,
 
-        skillsPaths:[{Rank: [2,3,4], Target: [1,2]},{Rank: [2,3,4], Target: [1,2]},{Rank: [2,3,4], Target: [1,2]},{Rank: [2,3,4], Target: [1,2]},],
-        description: "Rank-flexible melee/shield attack with decent damage. Has the main advantage of moving Forward 1 (Move to a more favorable position) while at the same time pushing enemies Backwards 1 (displacing enemies to disfavorable positions). It also applies Dake, Stun, a very good counter againsts any type of enemy.",
+        skillsPaths: [
+          { Rank: [2, 3, 4], Target: [1, 2] },
+          { Rank: [2, 3, 4], Target: [1, 2] },
+          { Rank: [2, 3, 4], Target: [1, 2] },
+          { Rank: [2, 3, 4], Target: [1, 2] },
+        ],
+        description:
+          "Rank-flexible melee/shield attack with decent damage. Has the main advantage of moving Forward 1 (Move to a more favorable position) while at the same time pushing enemies Backwards 1 (displacing enemies to disfavorable positions). It also applies Dake, Stun, a very good counter againsts any type of enemy.",
       },
       {
         id: 2,
         name: "Defender",
         Type: 2,
 
-        skillsPaths: [{Rank: [1,2,3,4], Ally: [1,2,3,4]},{Rank: [1,2,3,4], Ally: [1,2,3,4]},{Rank: [1,2,3,4], Ally: [1,2,3,4]},{Rank: [1,2,3,4], Ally: [1,2,3,4]},],
-        description: "excelent Support move giving Man-at-Arms Block and Guard to allies. Giving a low-HP Ally a safety-net to maintain the Team alive since all attacks will be redirected to Man-at-Arms. It can be used in all ranks and doesn't have a cooldown, making this skill very safe and reliable to use in any situation.",
+        skillsPaths: [
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4] },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4] },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4] },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4] },
+        ],
+        description:
+          "excelent Support move giving Man-at-Arms Block and Guard to allies. Giving a low-HP Ally a safety-net to maintain the Team alive since all attacks will be redirected to Man-at-Arms. It can be used in all ranks and doesn't have a cooldown, making this skill very safe and reliable to use in any situation.",
       },
       {
         id: 3,
         name: "Bolster",
         Type: 2,
 
-        skillsPaths: [{Rank:[1,2,3,4], Ally: [1,2,3,4], Cooldown:1},{Rank:[1,2,3,4], Ally: [1,2,3,4], Cooldown:1},{Rank:[1,2,3,4], Ally: [1,2,3,4], Cooldown:1},{Rank:[1,2,3,4], Ally: [1,2,3,4], Cooldown:1},],
-        description: "excelent Support move that Stress heal both Allies and Man-at-Arms while also removing Weak and Vulnerable. It can be used in all ranks and has low cooldown making this skill very safe and reliable in any build or situation.",
+        skillsPaths: [
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 1 },
+        ],
+        description:
+          "excelent Support move that Stress heal both Allies and Man-at-Arms while also removing Weak and Vulnerable. It can be used in all ranks and has low cooldown making this skill very safe and reliable in any build or situation.",
       },
       {
         id: 4,
         name: "Hold the Line",
         Type: 0,
 
-        skillsPaths:[{Rank: [1,2,3], Target:[1,2]},{Rank: [1,2,3], Target:[1,2]},{Rank: [1,2,3], Target:[1,2]},{Rank: [1,2,3], Target:[1,2]},],
-        description: "Melee/Shield attack that moves Man-at-Arms Forward 3, is advised to equip this skills when using Rank 1 Man-at-arms as it will put you in your favorable position instantly while also Immobilize and Block (Less disruption and less damage recieved).",
+        skillsPaths: [
+          { Rank: [1, 2, 3], Target: [1, 2] },
+          { Rank: [1, 2, 3], Target: [1, 2] },
+          { Rank: [1, 2, 3], Target: [1, 2] },
+          { Rank: [1, 2, 3], Target: [1, 2] },
+        ],
+        description:
+          "Melee/Shield attack that moves Man-at-Arms Forward 3, is advised to equip this skills when using Rank 1 Man-at-arms as it will put you in your favorable position instantly while also Immobilize and Block (Less disruption and less damage recieved).",
       },
       {
         id: 5,
         name: "Bellow",
         Type: 1,
 
-        skillsPaths:[{Rank:[1,2,3,4], Target:[1,2,3,4], Cooldown:1},{Rank:[1,2,3,4], Target:[1,2,3,4], Cooldown:1},{Rank:[1,2,3,4], Target:[1,2,3,4], Cooldown:1},{Rank:[1,2,3,4], Target:[1,2,3,4], Cooldown:1},],
-        description: "puts the enemy team in a direct disadvantage with a heavy Speed Debuff, Riposte and Crit Removal. As a cleave attack, it also has the advantage of removing several Dodge at the same time, this skill is perfect to counter certain matchups and enemy factions (Example: Combat turnorder enemy shared spider spitterCreature Den, Combat turnorder enemy cultist Exemplar)",
+        skillsPaths: [
+          { Rank: [1, 2, 3, 4], Target: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Target: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Target: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Target: [1, 2, 3, 4], Cooldown: 1 },
+        ],
+        description:
+          "puts the enemy team in a direct disadvantage with a heavy Speed Debuff, Riposte and Crit Removal. As a cleave attack, it also has the advantage of removing several Dodge at the same time, this skill is perfect to counter certain matchups and enemy factions (Example: Combat turnorder enemy shared spider spitterCreature Den, Combat turnorder enemy cultist Exemplar)",
       },
       {
         id: 6,
         name: "Retribution",
         Type: 2,
-        skillsPaths:[{Rank: [1,2,3,4], Target:[0], Cooldown:2},{Rank: [1,2,3,4], Target:[0], Cooldown:2},{Rank: [1,2,3,4], Target:[0], Cooldown:2},{Rank: [1,2,3,4], Target:[0], Cooldown:2},],
-        description: "excelent tank skill that gives Taunt, Riposte and Block at the same time. Making enemies target Man-at-Arms, reducing incoming damage and dealing (posibly killing) enemies all at the same time. Very efficient tempo gain in most if not all encounters.",
+        skillsPaths: [
+          { Rank: [1, 2, 3, 4], Target: [0], Cooldown: 2 },
+          { Rank: [1, 2, 3, 4], Target: [0], Cooldown: 2 },
+          { Rank: [1, 2, 3, 4], Target: [0], Cooldown: 2 },
+          { Rank: [1, 2, 3, 4], Target: [0], Cooldown: 2 },
+        ],
+        description:
+          "excelent tank skill that gives Taunt, Riposte and Block at the same time. Making enemies target Man-at-Arms, reducing incoming damage and dealing (posibly killing) enemies all at the same time. Very efficient tempo gain in most if not all encounters.",
       },
       {
         id: 7,
         name: "Command",
 
         Type: 2,
-        skillsPaths: [{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1,},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1,},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1,},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1,},],
-        description: "good support skill that removes Blind and giving Strength. Is a good counter to certain matchups (Combat turnorder enemy coastal leviathan Fisherfolk, Combat turnorder enemy fanatic librarian Fanatics), Quirks/Diseases and Certain skills (Portraits-Leper's constant Blind can be completely nullified by this ability)",
+        skillsPaths: [
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 1 },
+        ],
+        description:
+          "good support skill that removes Blind and giving Strength. Is a good counter to certain matchups (Combat turnorder enemy coastal leviathan Fisherfolk, Combat turnorder enemy fanatic librarian Fanatics), Quirks/Diseases and Certain skills (Portraits-Leper's constant Blind can be completely nullified by this ability)",
       },
       {
         id: 8,
         name: "Stand Fast",
 
         Type: 2,
-        skillsPaths: [{Rank: [3,4], Target: [0], Cooldown: 2},{Rank: [3,4], Target: [0], Cooldown: 2},{Rank: [3,4], Target: [0], Cooldown: 2},{Rank: [3,4], Target: [0], Cooldown: 2},],
-        description: "gives the Man-at-Arms,already excellent Tank capabilities, even more self-sustain. Adds constant Block tokens every turn. Recommended to use if you get constant Taunt, generation, (via trinkets or Bulwark) so you will get the most out of this skill.",
+        skillsPaths: [
+          { Rank: [3, 4], Target: [0], Cooldown: 2 },
+          { Rank: [3, 4], Target: [0], Cooldown: 2 },
+          { Rank: [3, 4], Target: [0], Cooldown: 2 },
+          { Rank: [3, 4], Target: [0], Cooldown: 2 },
+        ],
+        description:
+          "gives the Man-at-Arms,already excellent Tank capabilities, even more self-sustain. Adds constant Block tokens every turn. Recommended to use if you get constant Taunt, generation, (via trinkets or Bulwark) so you will get the most out of this skill.",
       },
       {
         id: 9,
         name: "Courageous Abandon",
         Type: 0,
-        skillsPaths: [{Rank: [4], Target: [1], Cooldown: 2},{Rank: [4], Target: [1], Cooldown: 2},{Rank: [4], Target: [1], Cooldown: 2},{Rank: [4], Target: [1], Cooldown: 2},],
-        description: "is the skill with the highest Single-target Damage potential of Man-at-Arms. Requires constant Block generation(Deals +100% DMG when Block). Consider combining it with Stand Fast or Portraits-Vestal Consecration of Fortitude to get the highest damage faster.",
+        skillsPaths: [
+          { Rank: [4], Target: [1], Cooldown: 2 },
+          { Rank: [4], Target: [1], Cooldown: 2 },
+          { Rank: [4], Target: [1], Cooldown: 2 },
+          { Rank: [4], Target: [1], Cooldown: 2 },
+        ],
+        description:
+          "is the skill with the highest Single-target Damage potential of Man-at-Arms. Requires constant Block generation(Deals +100% DMG when Block). Consider combining it with Stand Fast or Portraits-Vestal Consecration of Fortitude to get the highest damage faster.",
       },
       {
         id: 10,
         name: "Strategic Withdrawal",
         Type: 0,
-        skillsPaths: [{Rank: [3,4], Target:[1,2], Cooldown: 1},{Rank: [3,4], Target:[1,2], Cooldown: 1},{Rank: [3,4], Target:[1,2], Cooldown: 1},{Rank: [3,4], Target:[1,2], Cooldown: 1},],
-        description: "respectable damage and support skill that applies Combo, Consider combining it with heroes that require constant Combo. (Example:Portraits-Leper) . Moves Back 1 and Heals 33% HP + Adds blockplus Death's Door. Is a good combo tool and safety skill that can give Man-at-Arms good survability in disfavorable situations.",
+        skillsPaths: [
+          { Rank: [3, 4], Target: [1, 2], Cooldown: 1 },
+          { Rank: [3, 4], Target: [1, 2], Cooldown: 1 },
+          { Rank: [3, 4], Target: [1, 2], Cooldown: 1 },
+          { Rank: [3, 4], Target: [1, 2], Cooldown: 1 },
+        ],
+        description:
+          "respectable damage and support skill that applies Combo, Consider combining it with heroes that require constant Combo. (Example:Portraits-Leper) . Moves Back 1 and Heals 33% HP + Adds blockplus Death's Door. Is a good combo tool and safety skill that can give Man-at-Arms good survability in disfavorable situations.",
       },
     ],
   },
@@ -2513,73 +2576,71 @@ const heroesData = {
           },
         ],
         [
-          { 
-            title: "Healing Skills", 
-            text: "+33% Healing Given" 
+          {
+            title: "Healing Skills",
+            text: "+33% Healing Given",
           },
-          { 
-            title: "Cursing Skills", 
-            text: "+10% Debuff Chance" 
+          {
+            title: "Cursing Skills",
+            text: "+10% Debuff Chance",
           },
-          { 
-            title: "Cursing Skills", 
-            text: "strength (15%)" 
+          {
+            title: "Cursing Skills",
+            text: "strength (15%)",
           },
-          { 
-            title: "Cursing Skills", 
-            text: "Crit (15%)" 
+          {
+            title: "Cursing Skills",
+            text: "Crit (15%)",
           },
-          { 
-            title: "Cursing Skills", 
-            text: "Dodgeplus (15%)" 
+          {
+            title: "Cursing Skills",
+            text: "Dodgeplus (15%)",
           },
-          { 
-            title: "Turn Start", 
-            text: "Vulnerable (33%)" 
-          }
+          {
+            title: "Turn Start",
+            text: "Vulnerable (33%)",
+          },
         ],
         [
-          { 
-            title: "Max Icon HP", 
-            text: "-20% MaxHP" 
+          {
+            title: "Max Icon HP",
+            text: "-20% MaxHP",
           },
-          { 
-            title: "Ranged Skills", 
-            text: "+25% DMG" 
+          {
+            title: "Ranged Skills",
+            text: "+25% DMG",
           },
-          { 
-            title: "Turn Start", 
-            text: "Uncheckedpower (33%)" 
-          }
-        ]
-        ,
-        [
-          { 
-            title: "Max Icon HP", 
-            text: "+25% Max HP" 
+          {
+            title: "Turn Start",
+            text: "Uncheckedpower (33%)",
           },
-          { 
-            title: "Melee Skills", 
-            text: "+25% DMG" 
-          },
-          { 
-            title: "Anamnesis Skills", 
-            text: "+125% DMG" 
-          },
-          { 
-            title: "Cursing Skills", 
-            text: "-15% Debuff Chance" 
-          },
-          { 
-            title: "Cursing Skills", 
-            text: "-15% Debuff RES" 
-          },
-          { 
-            title: "Combat Start", 
-            text: "Blockplus" 
-          }
         ],
-        
+        [
+          {
+            title: "Max Icon HP",
+            text: "+25% Max HP",
+          },
+          {
+            title: "Melee Skills",
+            text: "+25% DMG",
+          },
+          {
+            title: "Anamnesis Skills",
+            text: "+125% DMG",
+          },
+          {
+            title: "Cursing Skills",
+            text: "-15% Debuff Chance",
+          },
+          {
+            title: "Cursing Skills",
+            text: "-15% Debuff RES",
+          },
+          {
+            title: "Combat Start",
+            text: "Blockplus",
+          },
+        ],
       ],
     },
     description:
@@ -2683,93 +2744,156 @@ const heroesData = {
 
         skillsPaths: [
           {
-            Rank: [2,3,4],
-            Target: [1, 2,3],
+            Rank: [2, 3, 4],
+            Target: [1, 2, 3],
           },
           {
-            Rank: [2,3,4],
-            Target: [1, 2,3],
-          },          {
-            Rank: [2,3,4],
-            Target: [1, 2,3],
-          },          {
-            Rank: [2,3,4],
-            Target: [1, 2,3],
+            Rank: [2, 3, 4],
+            Target: [1, 2, 3],
+          },
+          {
+            Rank: [2, 3, 4],
+            Target: [1, 2, 3],
+          },
+          {
+            Rank: [2, 3, 4],
+            Target: [1, 2, 3],
           },
         ],
-        description: "The 'stab' move is effective for rank 3 attacks but unusable in rank 4. The UP mechanic requires a combo, which isn't immediately valuable. Gaining a damage bonus or stun is preferable. Using two combo tokens or killing an enemy grants UP, with the latter being better for immediate use.",
+        description:
+          "The 'stab' move is effective for rank 3 attacks but unusable in rank 4. The UP mechanic requires a combo, which isn't immediately valuable. Gaining a damage bonus or stun is preferable. Using two combo tokens or killing an enemy grants UP, with the latter being better for immediate use.",
       },
       {
         id: 1,
         name: "Abyssal Artillery",
 
         Type: 1,
-        skillsPaths: [{Rank: [1,2], Target: [3,4]},{Rank: [1,2], Target: [3,4]},{Rank: [1,2], Target: [3,4]},{Rank: [1,2], Target: [3,4]},],
-        description: "The UP mechanic enhances a strong backline cleave move, effective with moves like grenade and iron swan. Setting up UP requires a turn and is best with a Warlock Occultist. Double stuns are powerful but hard to achieve.",
+        skillsPaths: [
+          { Rank: [1, 2], Target: [3, 4] },
+          { Rank: [1, 2], Target: [3, 4] },
+          { Rank: [1, 2], Target: [3, 4] },
+          { Rank: [1, 2], Target: [3, 4] },
+        ],
+        description:
+          "The UP mechanic enhances a strong backline cleave move, effective with moves like grenade and iron swan. Setting up UP requires a turn and is best with a Warlock Occultist. Double stuns are powerful but hard to achieve.",
       },
       {
         id: 2,
         name: "Weakening Curse",
         Type: 1,
-        skillsPaths: [{Rank: [1,2,3,4], Target: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Target: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Target: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Target: [1,2,3,4], Cooldown: 1},],
-        description: "Weakening Curse is a reliable debuff that applies Weak, effective against bosses. It has good range and can set up UP for stab moves. It’s especially useful with Ritualist and commonly used outside of Aspirant Occultists.",
+        skillsPaths: [
+          { Rank: [1, 2, 3, 4], Target: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Target: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Target: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Target: [1, 2, 3, 4], Cooldown: 1 },
+        ],
+        description:
+          "Weakening Curse is a reliable debuff that applies Weak, effective against bosses. It has good range and can set up UP for stab moves. It’s especially useful with Ritualist and commonly used outside of Aspirant Occultists.",
       },
       {
         id: 3,
         name: "Wyrd Reconstruction",
         Type: 3,
-        skillsPaths: [{Rank: [1,2,3,4], Ally: [1,2,3,4]},{Rank: [1,2,3,4], Ally: [1,2,3,4]},{Rank: [1,2,3,4], Ally: [1,2,3,4]},{Rank: [1,2,3,4], Ally: [1,2,3,4]},],
-        description: "Wyrd Reconstruction is a versatile but unreliable heal with high variance and a 33% threshold. UP can improve healing with critical heals, but it still has risks. Best as a backup heal, especially for Ritualist Occultists, and can combo with Cauterize. Avoid using it as the sole heal unless necessary.",
+        skillsPaths: [
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4] },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4] },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4] },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4] },
+        ],
+        description:
+          "Wyrd Reconstruction is a versatile but unreliable heal with high variance and a 33% threshold. UP can improve healing with critical heals, but it still has risks. Best as a backup heal, especially for Ritualist Occultists, and can combo with Cauterize. Avoid using it as the sole heal unless necessary.",
       },
       {
         id: 4,
         name: "Daemon's Pull",
         Type: 1,
-        skillsPaths: [{Rank: [1,2,3], Target:[3,4]},{Rank: [1,2,3], Target:[3,4]},{Rank: [1,2,3], Target:[3,4]},{Rank: [1,2,3], Target:[3,4]},],
-        description: "Daemon’s Pull is highly versatile, dealing damage, applying combo, and clearing corpses while disrupting backline enemies. It excels in setting up targets for follow-ups or stuns and is useful in most Occultist kits. Its main limitation is in boss fights, though it can still be situationally helpful. The UP stun is less useful compared to Arty but can be a good alternative.",
+        skillsPaths: [
+          { Rank: [1, 2, 3], Target: [3, 4] },
+          { Rank: [1, 2, 3], Target: [3, 4] },
+          { Rank: [1, 2, 3], Target: [3, 4] },
+          { Rank: [1, 2, 3], Target: [3, 4] },
+        ],
+        description:
+          "Daemon’s Pull is highly versatile, dealing damage, applying combo, and clearing corpses while disrupting backline enemies. It excels in setting up targets for follow-ups or stuns and is useful in most Occultist kits. Its main limitation is in boss fights, though it can still be situationally helpful. The UP stun is less useful compared to Arty but can be a good alternative.",
       },
       {
         id: 5,
         name: "Vulnerability Hex",
         Type: 1,
-        skillsPaths: [{Rank: [1,2,3,4], Target: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Target: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Target: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Target: [1,2,3,4], Cooldown: 1},],
-        description: "Vulnerability Hex is a top-tier damage transfer move that clears dodge and applies vulnerability for big hitters. It's especially useful with Alhazred, enhancing his utility. Its effectiveness drops against high debuff resistance enemies or without strong direct damage allies.",
+        skillsPaths: [
+          { Rank: [1, 2, 3, 4], Target: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Target: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Target: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Target: [1, 2, 3, 4], Cooldown: 1 },
+        ],
+        description:
+          "Vulnerability Hex is a top-tier damage transfer move that clears dodge and applies vulnerability for big hitters. It's especially useful with Alhazred, enhancing his utility. Its effectiveness drops against high debuff resistance enemies or without strong direct damage allies.",
       },
       {
         id: 6,
         name: "Binding Shadows",
         Type: 0,
-        skillsPaths: [{Rank: [1,2,3], Target: [1,2,3,]},{Rank: [1,2,3], Target: [1,2,3,]},{Rank: [1,2,3], Target: [1,2,3,]},{Rank: [1,2,3], Target: [1,2,3,]},],
-        description: "Binding Shadows is similar to Stab in use and damage but generates UP on use half the time when upgraded. Its key advantage is the forward 1 movement, making it ideal for Aspirant Occultists in double lunge or Seraph Vestal comps. It's useful with the Tangle trophy when not expecting a kill. Generally, Stab is preferred unless specific movement is needed, as Binding Shadows can't be used in rank 4.",
+        skillsPaths: [
+          { Rank: [1, 2, 3], Target: [1, 2, 3] },
+          { Rank: [1, 2, 3], Target: [1, 2, 3] },
+          { Rank: [1, 2, 3], Target: [1, 2, 3] },
+          { Rank: [1, 2, 3], Target: [1, 2, 3] },
+        ],
+        description:
+          "Binding Shadows is similar to Stab in use and damage but generates UP on use half the time when upgraded. Its key advantage is the forward 1 movement, making it ideal for Aspirant Occultists in double lunge or Seraph Vestal comps. It's useful with the Tangle trophy when not expecting a kill. Generally, Stab is preferred unless specific movement is needed, as Binding Shadows can't be used in rank 4.",
       },
       {
         id: 7,
         name: "Malediction",
         Type: 1,
-        skillsPaths: [{Rank: [1,2,3,4], Target: [1,2,3,4]},{Rank: [1,2,3,4], Target: [1,2,3,4]},{Rank: [1,2,3,4], Target: [1,2,3,4]},{Rank: [1,2,3,4], Target: [1,2,3,4]},],
-        description: "Malediction, an UP-only move, temporarily applies DoT, which is best for slow, tanky enemies but often ineffective otherwise. It can fail, wasting a turn. It shines with Cause of Death, converting DoT to immediate damage, but is rarely useful due to its setup requirements. Its value would improve if the debuff were permanent or round-based.",
+        skillsPaths: [
+          { Rank: [1, 2, 3, 4], Target: [1, 2, 3, 4] },
+          { Rank: [1, 2, 3, 4], Target: [1, 2, 3, 4] },
+          { Rank: [1, 2, 3, 4], Target: [1, 2, 3, 4] },
+          { Rank: [1, 2, 3, 4], Target: [1, 2, 3, 4] },
+        ],
+        description:
+          "Malediction, an UP-only move, temporarily applies DoT, which is best for slow, tanky enemies but often ineffective otherwise. It can fail, wasting a turn. It shines with Cause of Death, converting DoT to immediate damage, but is rarely useful due to its setup requirements. Its value would improve if the debuff were permanent or round-based.",
       },
       {
         id: 8,
         name: "Anamnesis",
         Type: 0,
-        skillsPaths: [{Rank: [3,4], Target: [1,2,3,4]},{Rank: [3,4], Target: [1,2,3,4]},{Rank: [3,4], Target: [1,2,3,4]},{Rank: [3,4], Target: [1,2,3,4]},],
-        description: "Anamnesis is a powerful cleave move needing two UP, typically used by turn 2. Its value declines as fights progress. It checks both block and dodge, but Magnesium Rain offers similar DoT damage with less setup. It's best for Aspirant builds and can be effective against the act 1 boss, but is generally a rare pick.",
+        skillsPaths: [
+          { Rank: [3, 4], Target: [1, 2, 3, 4] },
+          { Rank: [3, 4], Target: [1, 2, 3, 4] },
+          { Rank: [3, 4], Target: [1, 2, 3, 4] },
+          { Rank: [3, 4], Target: [1, 2, 3, 4] },
+        ],
+        description:
+          "Anamnesis is a powerful cleave move needing two UP, typically used by turn 2. Its value declines as fights progress. It checks both block and dodge, but Magnesium Rain offers similar DoT damage with less setup. It's best for Aspirant builds and can be effective against the act 1 boss, but is generally a rare pick.",
       },
       {
         id: 9,
         name: "The Burning Stars",
         Type: 1,
-        skillsPaths: [{Rank: [1,2,3], Target: [1,2,3,4]},{Rank: [1,2,3], Target: [1,2,3,4]},{Rank: [1,2,3], Target: [1,2,3,4]},{Rank: [1,2,3], Target: [1,2,3,4]},],
-        description: "The move is strong, comparable to two stabs, and applies combo while ignoring block. Its main drawback is the use requirement, which slows down its use. It has good range and adds value with combo. While not ideal for building around, it’s a useful addition for longer fights or as a backup in the Act 2 fight. It’s best with Warlock Occultists or if you plan to generate UP through stabs or Chaotic Offering.",
+        skillsPaths: [
+          { Rank: [1, 2, 3], Target: [1, 2, 3, 4] },
+          { Rank: [1, 2, 3], Target: [1, 2, 3, 4] },
+          { Rank: [1, 2, 3], Target: [1, 2, 3, 4] },
+          { Rank: [1, 2, 3], Target: [1, 2, 3, 4] },
+        ],
+        description:
+          "The move is strong, comparable to two stabs, and applies combo while ignoring block. Its main drawback is the use requirement, which slows down its use. It has good range and adds value with combo. While not ideal for building around, it’s a useful addition for longer fights or as a backup in the Act 2 fight. It’s best with Warlock Occultists or if you plan to generate UP through stabs or Chaotic Offering.",
       },
       {
         id: 10,
         name: "Chaotic Offering",
         Type: 2,
 
-        skillsPaths: [{Rank: [1,2,3,4], Target: [0], Cooldown: 3},{Rank: [1,2,3,4], Target: [0], Cooldown: 3},{Rank: [1,2,3,4], Target: [0], Cooldown: 3},{Rank: [1,2,3,4], Target: [0], Cooldown: 3},],
-        description: "Chaotic Offering is a low-tempo move that lets you use a UP move next turn but has risky random side effects like Weak, Daze, or Shuffle, which can disrupt your strategy. The buff can be valuable, but its downsides often make it less favorable, especially when paired with moves like Stars.",
+        skillsPaths: [
+          { Rank: [1, 2, 3, 4], Target: [0], Cooldown: 3 },
+          { Rank: [1, 2, 3, 4], Target: [0], Cooldown: 3 },
+          { Rank: [1, 2, 3, 4], Target: [0], Cooldown: 3 },
+          { Rank: [1, 2, 3, 4], Target: [0], Cooldown: 3 },
+        ],
+        description:
+          "Chaotic Offering is a low-tempo move that lets you use a UP move next turn but has risky random side effects like Weak, Daze, or Shuffle, which can disrupt your strategy. The buff can be valuable, but its downsides often make it less favorable, especially when paired with moves like Stars.",
       },
     ],
   },
@@ -2801,72 +2925,69 @@ const heroesData = {
           },
         ],
         [
-          { 
-            title: "Max HP Boost", 
-            text: "+25% Max HP" 
+          {
+            title: "Max HP Boost",
+            text: "+25% Max HP",
           },
-          { 
-            title: "Melee Damage Increase", 
-            text: "+50% DMG Melee" 
+          {
+            title: "Melee Damage Increase",
+            text: "+50% DMG Melee",
           },
-          { 
-            title: "Enhanced Healing", 
-            text: "+33% Healing Given" 
+          {
+            title: "Enhanced Healing",
+            text: "+33% Healing Given",
           },
-          { 
-            title: "Reduced Blight Chance", 
-            text: "-33% Blight Chance" 
-          }
+          {
+            title: "Reduced Blight Chance",
+            text: "-33% Blight Chance",
+          },
         ],
-        
-        [
-          { 
-            title: "Reduced Max HP", 
-            text: "-20% Max HP" 
-          },
-          { 
-            title: "Blight Boost", 
-            text: "+33% Blight Chance +10% CRIT" 
-          },
-          { 
-            title: "Enhanced Stun Resistance", 
-            text: "+50% Stun RES" 
-          },
-          { 
-            title: "Boost Resistance", 
-            text: "+20% RES Blight, Bleed And Burn " 
-          },
-          { 
-            title: "Debuff Resistance", 
-            text: "+33% Debuff RES" 
-          }
-        ],
-        
-        [
-          { 
-            title: "Reduced DOT Damage", 
-            text: "DOT Skills: -2 Dealt" 
-          },
-          { 
-            title: "Disorienting Blast", 
-            text: "+20% Stun" 
-          },
-          { 
-            title: "Stress Resistance Boost", 
-            text: "+15% Stress RES" 
-          },
-          { 
-            title: "Emboldening Vapours", 
-            text: "Strength Boost" 
-          },
-          { 
-            title: "Disorienting Blast", 
-            text: "Vulnerability Increase" 
-          }
-        ],
-        
 
+        [
+          {
+            title: "Reduced Max HP",
+            text: "-20% Max HP",
+          },
+          {
+            title: "Blight Boost",
+            text: "+33% Blight Chance +10% CRIT",
+          },
+          {
+            title: "Enhanced Stun Resistance",
+            text: "+50% Stun RES",
+          },
+          {
+            title: "Boost Resistance",
+            text: "+20% RES Blight, Bleed And Burn ",
+          },
+          {
+            title: "Debuff Resistance",
+            text: "+33% Debuff RES",
+          },
+        ],
 
+        [
+          {
+            title: "Reduced DOT Damage",
+            text: "DOT Skills: -2 Dealt",
+          },
+          {
+            title: "Disorienting Blast",
+            text: "+20% Stun",
+          },
+          {
+            title: "Stress Resistance Boost",
+            text: "+15% Stress RES",
+          },
+          {
+            title: "Emboldening Vapours",
+            text: "Strength Boost",
+          },
+          {
+            title: "Disorienting Blast",
+            text: "Vulnerability Increase",
+          },
+        ],
       ],
     },
     description:
@@ -2947,81 +3068,146 @@ const heroesData = {
         id: 0,
         name: "Noxious Blast",
         Type: 1,
-        skillsPaths:[{Rank: [1,2,3], Target: [1,2]},{Rank: [1,2,3], Target: [1,2]},{Rank: [1,2,3], Target: [1,2]},{Rank: [1,2,3], Target: [1,2]},],
-        description: "is capable to inflict high Blight damage to a single front-Rank enemies. The DOT damage ignores Block tokens which makes this skill perfect for dealing with the front-ranks where Block tends to be.",
+        skillsPaths: [
+          { Rank: [1, 2, 3], Target: [1, 2] },
+          { Rank: [1, 2, 3], Target: [1, 2] },
+          { Rank: [1, 2, 3], Target: [1, 2] },
+          { Rank: [1, 2, 3], Target: [1, 2] },
+        ],
+        description:
+          "is capable to inflict high Blight damage to a single front-Rank enemies. The DOT damage ignores Block tokens which makes this skill perfect for dealing with the front-ranks where Block tends to be.",
       },
       {
         id: 1,
         name: "Blinding Gas",
         Type: 1,
-        skillsPaths:[{Rank:[1,2], Target: [3,4], Cooldown: 1},{Rank:[1,2], Target: [3,4], Cooldown: 1},{Rank:[1,2], Target: [3,4], Cooldown: 1},{Rank:[1,2], Target: [3,4], Cooldown: 1},],
-        description: "inflicts respectable Blight damage to the Back-Ranks (3 and 4 positions), enemies in this positions tend to have Low Max Icon HP so this will quickly mow-down enemies with relative ease.",
+        skillsPaths: [
+          { Rank: [1, 2], Target: [3, 4], Cooldown: 1 },
+          { Rank: [1, 2], Target: [3, 4], Cooldown: 1 },
+          { Rank: [1, 2], Target: [3, 4], Cooldown: 1 },
+          { Rank: [1, 2], Target: [3, 4], Cooldown: 1 },
+        ],
+        description:
+          "inflicts respectable Blight damage to the Back-Ranks (3 and 4 positions), enemies in this positions tend to have Low Max Icon HP so this will quickly mow-down enemies with relative ease.",
       },
       {
         id: 2,
         name: "Incision",
         Type: 0,
-        skillsPaths: [{Rank: [2,3,4], Target: [1,2]},{Rank: [2,3,4], Target: [1,2]},{Rank: [2,3,4], Target: [1,2]},{Rank: [2,3,4], Target: [1,2]},],
-        description: "a very reliable attack with average physical damage and high Bleed, for when Blight damage is ineffective; Like in the Foetor, where enemies have high Blight RES)",
+        skillsPaths: [
+          { Rank: [2, 3, 4], Target: [1, 2] },
+          { Rank: [2, 3, 4], Target: [1, 2] },
+          { Rank: [2, 3, 4], Target: [1, 2] },
+          { Rank: [2, 3, 4], Target: [1, 2] },
+        ],
+        description:
+          "a very reliable attack with average physical damage and high Bleed, for when Blight damage is ineffective; Like in the Foetor, where enemies have high Blight RES)",
       },
       {
         id: 3,
         name: "Battlefield Medicine",
         Type: 3,
-        skillsPaths: [{Rank:[1,2], Ally: [1,2,3,4], Uses: 3},{Rank:[1,2], Ally: [1,2,3,4], Uses: 3},{Rank:[1,2], Ally: [1,2,3,4], Uses: 3},{Rank:[1,2], Ally: [1,2,3,4], Uses: 3},],
-        description: "can be used to heal allies that are on low HP, Deathsdoor or are suffering from DOTS Bleed, Blight, Burn effects. When upgraded it will heal the DOTs from Plague Doctor as well. However, this skill will not be reliable for drawn-out battles, especially boss battles, due to its limited use (3 for each battle).",
+        skillsPaths: [
+          { Rank: [1, 2], Ally: [1, 2, 3, 4], Uses: 3 },
+          { Rank: [1, 2], Ally: [1, 2, 3, 4], Uses: 3 },
+          { Rank: [1, 2], Ally: [1, 2, 3, 4], Uses: 3 },
+          { Rank: [1, 2], Ally: [1, 2, 3, 4], Uses: 3 },
+        ],
+        description:
+          "can be used to heal allies that are on low HP, Deathsdoor or are suffering from DOTS Bleed, Blight, Burn effects. When upgraded it will heal the DOTs from Plague Doctor as well. However, this skill will not be reliable for drawn-out battles, especially boss battles, due to its limited use (3 for each battle).",
       },
       {
         id: 4,
         name: "Ounce of Prevention",
         Type: 2,
-        skillsPaths: [{Rank:[1,2], Ally:[1,2,3,4], Cooldown:3},{Rank:[1,2], Ally:[1,2,3,4], Cooldown:3},{Rank:[1,2], Ally:[1,2,3,4], Cooldown:3},{Rank:[1,2], Ally:[1,2,3,4], Cooldown:3},],
-        description: "helps the Plague Doctor and her allies withstand All type of DOTS Bleed, Blight, Burn while also buffing Disease RES, perfect for heavy dot and disease dot encounters like The Creature Den and The Foetor. It is a good idea to equip this skill when you are going to face those enemies.",
+        skillsPaths: [
+          { Rank: [1, 2], Ally: [1, 2, 3, 4], Cooldown: 3 },
+          { Rank: [1, 2], Ally: [1, 2, 3, 4], Cooldown: 3 },
+          { Rank: [1, 2], Ally: [1, 2, 3, 4], Cooldown: 3 },
+          { Rank: [1, 2], Ally: [1, 2, 3, 4], Cooldown: 3 },
+        ],
+        description:
+          "helps the Plague Doctor and her allies withstand All type of DOTS Bleed, Blight, Burn while also buffing Disease RES, perfect for heavy dot and disease dot encounters like The Creature Den and The Foetor. It is a good idea to equip this skill when you are going to face those enemies.",
       },
       {
         id: 5,
         name: "Plague Grenade",
         Type: 1,
-        skillsPaths: [{Rank: [1,2], Target: [3,4]},{Rank: [1,2], Target: [3,4]},{Rank: [1,2], Target: [3,4]},{Rank: [1,2], Target: [3,4]},],
-        description: "inflicts respectable Blight damage to the Back-Ranks (3 and 4 positions), enemies in this positions tend to have Low Max HP so this will quickly mow-down enemies with relative ease.",
+        skillsPaths: [
+          { Rank: [1, 2], Target: [3, 4] },
+          { Rank: [1, 2], Target: [3, 4] },
+          { Rank: [1, 2], Target: [3, 4] },
+          { Rank: [1, 2], Target: [3, 4] },
+        ],
+        description:
+          "inflicts respectable Blight damage to the Back-Ranks (3 and 4 positions), enemies in this positions tend to have Low Max HP so this will quickly mow-down enemies with relative ease.",
       },
       {
         id: 6,
         name: "Emboldening Vapours",
         Type: 2,
-        skillsPaths: [{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1},],
-        description: "applies 2 Strength and Speed on allies, consider pair it with heroes that benefits the most Example: Highwayman, Leper, Dmg hero)",
+        skillsPaths: [
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 1 },
+        ],
+        description:
+          "applies 2 Strength and Speed on allies, consider pair it with heroes that benefits the most Example: Highwayman, Leper, Dmg hero)",
       },
       {
         id: 7,
         name: "Disorienting Blast",
         Type: 1,
-        skillsPaths: [{Rank: [1,2,3], Target: [2,3,4]},{Rank: [1,2,3], Target: [2,3,4]},{Rank: [1,2,3], Target: [2,3,4]},{Rank: [1,2,3], Target: [2,3,4]},],
-        description: "can displace a back-Rank target, bring it to a more vulnerable position or Shuffle a front - Rank target where is less effective. The skill also applies Daze so that other Heroes can gain the upper hand. If the enemy already has Daze or Combo the skill will stun instead.",
+        skillsPaths: [
+          { Rank: [1, 2, 3], Target: [2, 3, 4] },
+          { Rank: [1, 2, 3], Target: [2, 3, 4] },
+          { Rank: [1, 2, 3], Target: [2, 3, 4] },
+          { Rank: [1, 2, 3], Target: [2, 3, 4] },
+        ],
+        description:
+          "can displace a back-Rank target, bring it to a more vulnerable position or Shuffle a front - Rank target where is less effective. The skill also applies Daze so that other Heroes can gain the upper hand. If the enemy already has Daze or Combo the skill will stun instead.",
       },
       {
         id: 8,
         name: "Indiscriminate Science",
         Type: 3,
-        skillsPaths: [{Rank: [1,2,3], Ally: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3], Ally: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3], Ally: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3], Ally: [1,2,3,4], Cooldown: 1},],
-        description: "does not have a limit on use and offers a much greater healing potential at the expense of losing Positive and Negative Tokens. To get a solid heal, the skill should be used on Heroes that hold or can apply a large number of Positive Tokens on themselves.( Example: Highwayman, Graverobber )",
+        skillsPaths: [
+          { Rank: [1, 2, 3], Ally: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2, 3], Ally: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2, 3], Ally: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2, 3], Ally: [1, 2, 3, 4], Cooldown: 1 },
+        ],
+        description:
+          "does not have a limit on use and offers a much greater healing potential at the expense of losing Positive and Negative Tokens. To get a solid heal, the skill should be used on Heroes that hold or can apply a large number of Positive Tokens on themselves.( Example: Highwayman, Graverobber )",
       },
       {
         id: 9,
         name: "Cause of Death",
         Type: 0,
 
-        skillsPaths: [{Rank:[2,3,4], Target: [1,2,3], Cooldown: 2},{Rank:[2,3,4], Target: [1,2,3], Cooldown: 2},{Rank:[2,3,4], Target: [1,2,3], Cooldown: 2},{Rank:[2,3,4], Target: [1,2,3], Cooldown: 2},],
-        description: "turns most (or all) of the DOT accumulated on a target into instant physical damage. Paired with other DOT heroes ( Examples: Runaway, Occultist ) Cause of Death is capable to be the most lethal Plague Doctor skill. It ignores strength 2 and crit but also Ignores block from enemies which gives this skill a huge damage potential.",
-
+        skillsPaths: [
+          { Rank: [2, 3, 4], Target: [1, 2, 3], Cooldown: 2 },
+          { Rank: [2, 3, 4], Target: [1, 2, 3], Cooldown: 2 },
+          { Rank: [2, 3, 4], Target: [1, 2, 3], Cooldown: 2 },
+          { Rank: [2, 3, 4], Target: [1, 2, 3], Cooldown: 2 },
+        ],
+        description:
+          "turns most (or all) of the DOT accumulated on a target into instant physical damage. Paired with other DOT heroes ( Examples: Runaway, Occultist ) Cause of Death is capable to be the most lethal Plague Doctor skill. It ignores strength 2 and crit but also Ignores block from enemies which gives this skill a huge damage potential.",
       },
       {
         id: 10,
         name: "Magnesium Rain",
         Type: 1,
 
-        skillsPaths: [{Rank: [1,2], Target: [1,2,3,4], Cooldown: 2},{Rank: [1,2], Target: [1,2,3,4], Cooldown: 2},{Rank: [1,2], Target: [1,2,3,4], Cooldown: 2},{Rank: [1,2], Target: [1,2,3,4], Cooldown: 2},],
-        description: "can quickly remove Dodge from enemies and clear Corpses allowing her team to deal with out-of-reach threats. Due to its mechanic of clearing all Corpses at same time, is particularly helpful against Plague Eaters in Foetor region or Creature Den monsters, as these enemies can consume their allies' corpses to gain huge advantages for themselves, such as healing and access to dangerous skills.",
+        skillsPaths: [
+          { Rank: [1, 2], Target: [1, 2, 3, 4], Cooldown: 2 },
+          { Rank: [1, 2], Target: [1, 2, 3, 4], Cooldown: 2 },
+          { Rank: [1, 2], Target: [1, 2, 3, 4], Cooldown: 2 },
+          { Rank: [1, 2], Target: [1, 2, 3, 4], Cooldown: 2 },
+        ],
+        description:
+          "can quickly remove Dodge from enemies and clear Corpses allowing her team to deal with out-of-reach threats. Due to its mechanic of clearing all Corpses at same time, is particularly helpful against Plague Eaters in Foetor region or Creature Den monsters, as these enemies can consume their allies' corpses to gain huge advantages for themselves, such as healing and access to dangerous skills.",
       },
     ],
   },
@@ -3036,13 +3222,13 @@ const heroesData = {
       "Witness ye the holy radiance of the Light!",
     ],
     paths: {
-      name: ["Wanderer", "Rogue", "Sharpshot", "Yellowhand"],
-      skillsArray: [[], [0, 2, 4, 5, 6], [1, 4, 5, 6, 8], [3, 6, 7, 9, 10]],
+      name: ["Wanderer", "Confessor", "Chaplain", "Seraph"],
+      skillsArray: [[], [1, 2, 4, 5, 8], [4, 7, 8, 9, 10], [2, 4, 5, 8, 9]],
       cites: [
         '"Default skills. Rewards candles upon reaching the second Inn"',
-        '"A brawler focused on front rank combat and Riposte."',
-        '"A back rank role that emphasizes ranged skill use"',
-        '"A rank-flexible Bleed specialist. Riposte inflicts Bleed."',
+        '"Rank-flexible role that specializes in debuffs and token removal."',
+        '"Rank-flexible role focused on party defense."',
+        '"Back rank support role that specializes in Consecrations."',
       ],
 
       description: [
@@ -3052,29 +3238,45 @@ const heroesData = {
             text: "Extra Candle of Hope on reaching the 2nd Inn.",
           },
           {
-            title: "Riposte Combo (33%)",
-            text: "Target add Combo token when using Riposte.",
+            title: "+1 Conviction Token",
+            text: "Add Conviction",
+          }
+        ],
+        [
+          {
+            title: "Conviction at Turn Start",
+            text: "Turn Start: Add Conviction Conviction",
+          },
+          {
+            title: "Debuff RES Piercing",
+            text: "+5% Debuff RES Piercing per Conviction",
           },
         ],
         [
-          { title: "If Rank = 1:", text: "+25% DMG" },
-          { title: "If Rank = 3:", text: "-25% DMG" },
-          { title: "If Rank = 4:", text: "-50% DMG" },
-          { title: "Point Blank Shot", text: "Add Riposte" },
-        ],
+          {
+            title: "Conviction When Hit",
+            text: "Gain Conviction When Hit",
+          },
+          {
+            title: "Increased Stun Resistance",
+            text: "+10% Stun RES per Conviction",
+          },
+          {
+            title: "Move Resistance",
+            text: "+10% Move RES per Conviction",
+          }
+        ], 
         [
-          { title: "Ranged Skills:", text: "+25% DMG" },
-          { title: "Melee Skills:", text: "-25% DMG" },
-          { title: "Buff Speed", text: "+3 Speed" },
-          { title: "Grapeshot Blast", text: "Add Strength" },
-        ],
-        [
-          { title: "Buff HP", text: "+15% MAXHP" },
-          { title: "Ranged Skills:", text: "-75% DMG" },
-          { title: "Apply On Melee-Hit :", text: "-10% Bleed RES" },
-          { title: "Highway Robbery", text: "Steal Positive Token" },
-          { title: "Double Cross", text: "Remove Block" },
-        ],
+          {
+            title: "Gain on Consecration",
+            text: "Gain Conviction Conviction When a Consecration Activates",
+          },
+          {
+            title: "Extended Duration",
+            text: "Consecrations Last 5 Rounds",
+          }
+        ]
+        
       ],
     },
     description:
@@ -3192,53 +3394,101 @@ const heroesData = {
 
         skillsPaths: [
           {
-            Rank: [0],
-            Target: [1, 2],
+            Rank: [3,4],
+            Target: [1, 2,3],
           },
-          {},
-          { Rank: [1], Target: [1, 2] },
-          {},
+          {
+            Rank: [3,4],
+            Target: [1, 2],
+          },          {
+            Rank: [3,4],
+            Target: [1, 2,3],
+          },          {
+            Rank: [3,4],
+            Target: [1, 2,3],
+          },
         ],
+
+        description: "**Hand of Light** is a Vestal ability that varies by path. The *Confessor* variant retains the strength buff, making it ideal for *mace bash* and hitting multiple front-row targets. It's favored for its token pinging and mitigation, though all variants are viable for a front-rank Vestal.",
       },
       {
         id: 1,
         name: "Illumination",
+        Type: 1,
+
+        skillsPaths: [{Rank: [1,2,3,4], Target: [1,2,3,4]},
+        {Rank: [1,2,3], Target: [1,2,3,4]},
+        {Rank: [1,2,3,4], Target: [1,2,3,4]},
+        {Rank: [1,2,3,4], Target: [1,2,3,4]},],
+        description: "The normal variant of this move is a weaker version of *Tracking Shot*, mainly useful for checking Dodge and Stealth but lacking impact outside of Dodge-heavy fights. The *Confessor* variant, however, is much stronger, destroying 2-3 tokens and countering Stealth. This makes it a staple in most *Confessor* setups due to its versatility and effectiveness in various situations.",
       },
       {
         id: 2,
         name: "Judgement",
+        Type: 1,
+        skillsPaths: [{Rank: [1,2], Target: [1,2,3,4]},{Rank: [1,2], Target: [1,2,3,4]},{Rank: [1,2], Target: [1,2,3,4]},{Rank: [1,2], Target: [1,2,3,4]},],
+        description: "Upgraded *Judgment* deals 8-14 damage and 4 burn at 3 conviction, making it key for backline Vestals, especially *Seraph*. The *Confessor* variant applies debuffs instead but is less impactful since the full effect often comes too late in a fight. It works best in longer battles but can feel underwhelming compared to other debuffs.",
       },
       {
         id: 3,
         name: "Divine Grace",
+        Type: 3,
+
+        skillsPaths: [{Rank: [1,2], Ally: [1,2,3,4], Cooldown: 2},{Rank: [1,2], Ally: [1,2,3,4], Cooldown: 2},{Rank: [1,2], Ally: [1,2,3,4], Cooldown: 2},{Rank: [1,2], Ally: [1,2,3,4], Cooldown: 2},],
+        description: "*Divine Grace* uses 3 conviction for a powerful, nearly doubled heal, but has a 2-turn cooldown. It's a top-tier directed heal, though it competes with other conviction-based moves like *Judgment*. Best for backline Vestals, especially *Seraph*, who generate ample conviction. Its consistency and strength make it highly valuable.",
       },
       {
         id: 4,
         name: "Consecration of Fortitude",
+        Type: 2,
+
+        skillsPaths: [{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 3},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 3},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 3},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 5},],
+        description: "This consecration is the stronger of Vestal's two, especially when upgraded, providing valuable *Dodge+* and *Block+* tokens. It excels in dance teams, allowing multiple heroes to benefit from buffs, and is particularly effective with *Seraph Vestal* for strong mitigation. While usable with other paths, it's best with *Seraph*.",
       },
       {
         id: 5,
         name: "Ministrations",
+        Type: 2,
+        skillsPaths: [{Rank: [1,2], Ally: [1,2,3,4], Cooldown:1},{Rank: [1,2], Ally: [1,2,3,4], Cooldown:1},{Rank: [1,2], Ally: [1,2,3,4], Cooldown:1},{Rank: [1,2], Ally: [1,2,3,4], Cooldown:1},],
+        description: "*Ministrations* is useful for curing stuns and dazes, trading Vestal’s turn for the enemy’s. It’s most effective in fights with frequent stuns or with *Pocket Watch*. Removing DoTs offers indirect healing but is less critical. Generally, it serves as a situational filler rather than a core choice.",
       },
       {
         id: 6,
         name: "Mace Bash",
+        Type: 0,
+        skillsPaths: [{Rank:[3,4], Target: [1,2]},{Rank:[3,4], Target: [1,2]},{Rank:[3,4], Target: [1,2]},{Rank:[3,4], Target: [1,2]},],
+        description: "*Mace Bash* is the main damage move for frontline Vestal, scaling well with modifiers and requiring 3 conviction for bonus damage. It's especially effective when paired with *Hand of Light*, reaching 16-20 damage and ignoring defensive tokens. Chaplain Vestal can use it frequently, while *Confessor* gets it at a useful turn 3. Overall, it’s a reliable choice for any front-rank Vestal.",
       },
       {
         id: 7,
         name: "Sanctuary",
+        Type: 2,
+        skillsPaths: [{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1},],
+        description: "The generic Vestal version of this move provides both damage absorption and stress healing, useful on any path. The *Chaplain* variant offers extra guard and defense, ideal for tank setups, especially if Vestal needs to absorb hits for conviction. While the generic version is more versatile, the *Chaplain* version excels in providing additional protection.",
       },
       {
         id: 8,
         name: "Consecration of Light",
+        Type: 2,
+        skillsPaths: [{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 3},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 3},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 3},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 5},],
+        description: "*Consecration of Light* provides value over time, especially with *Seraph* and dancing setups. It offers damage through strength, but crit tokens from the upgrade are less reliable. It's better used with bulky or backline setups, while *Fortitude* might be preferable otherwise. For slow-roll or fast-roll Vestal builds, it can be useful depending on the team composition.",
       },
       {
         id: 9,
         name: "Divine Comfort",
+        Type: 3,
+        skillsPaths: [{Rank: [1,2,3], Ally:[1,2,3,4], Cooldown: 4},{Rank: [1,2,3], Ally:[1,2,3,4], Cooldown: 4},{Rank: [1,2,3], Ally:[1,2,3,4], Cooldown: 4},{Rank: [1,2,3], Ally:[1,2,3,4], Cooldown: 4},],
+        description: "This move is more about mitigation through regen than direct healing, given its long cooldown and slow effect. It provides consistent damage reduction by healing over time, ignoring thresholds. Useful in most setups, especially for rank 2 Vestals, but should be used proactively as a mitigative tool rather than a primary heal.",
       },
       {
         id: 10,
         name: "Mantra",
+        Type: 3,
+        skillsPaths: [{Rank:[1,2], Ally: [1,2,3,4]},
+        {Rank:[1,2], Ally: [1,2,3,4]},
+        {Rank:[1,2,3,4], Ally: [1,2,3,4], Cooldown:1},
+        {Rank:[1,2], Ally: [1,2,3,4]},],
+        description: "The *Chaplain* and *Seraph* mantras are the best options, with *Chaplain* offering useful self-healing and stress relief, and *Seraph* providing strong healing at the cost of dropping consecrations. The *Wanderer* and *Confessor* mantras are less effective due to their slow impact and short duration. Overall, prioritize *Chaplain* and *Seraph* if you have the space.",
       },
     ],
   },
