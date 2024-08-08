@@ -3503,13 +3503,13 @@ const heroesData = {
       "I have nothing, and so I have everything.",
     ],
     paths: {
-      name: ["Wanderer", "Rogue", "Sharpshot", "Yellowhand"],
+      name: ["Wanderer", "Arsonist", "Survivor", "Orphan"],
       skillsArray: [[], [0, 2, 4, 5, 6], [1, 4, 5, 6, 8], [3, 6, 7, 9, 10]],
       cites: [
         '"Default skills. Rewards candles upon reaching the second Inn"',
-        '"A brawler focused on front rank combat and Riposte."',
-        '"A back rank role that emphasizes ranged skill use"',
-        '"A rank-flexible Bleed specialist. Riposte inflicts Bleed."',
+        '"A role that sacrifices direct damage to revel in the flames."',
+        '"A role that enhances survivability while weakening Burn skills."',
+        '"A role that relies on positioning to influence direct damage and Burn."',
       ],
 
       description: [
@@ -3518,30 +3518,62 @@ const heroesData = {
             title: "Candles of Hope +1",
             text: "Extra Candle of Hope on reaching the 2nd Inn.",
           },
+        ],
+        [
           {
-            title: "Riposte Combo (33%)",
-            text: "Target add Combo token when using Riposte.",
+            title: "Increased Burn Chance",
+            text: "+33% Burn Chance",
           },
+          {
+            title: "Burn Crit Chance Boost",
+            text: "Burn-causing Skills: +10% CRIT",
+          },
+          {
+            title: "Damage Reduction",
+            text: "-25% DMG",
+          },
+          {
+            title: "Turn Start Effect",
+            text: "Burn x3 (25%)",
+          }
         ],
         [
-          { title: "If Rank = 1:", text: "+25% DMG" },
-          { title: "If Rank = 3:", text: "-25% DMG" },
-          { title: "If Rank = 4:", text: "-50% DMG" },
-          { title: "Point Blank Shot", text: "Add Riposte" },
+          {
+            title: "Enhanced Healing Skills",
+            text: "+50% Healing Given",
+          },
+          {
+            title: "Healing-Over-Time",
+            text: "+50% Healing-Over-Time Given",
+          },
+          {
+            title: "Reduced Burn Chance",
+            text: "-20% Burn Chance",
+          },
+          {
+            title: "Combat Start Effects",
+            text: "Dodge x2, Speed Boost",
+          }
         ],
         [
-          { title: "Ranged Skills:", text: "+25% DMG" },
-          { title: "Melee Skills:", text: "-25% DMG" },
-          { title: "Buff Speed", text: "+3 Speed" },
-          { title: "Grapeshot Blast", text: "Add Strength" },
+          {
+            title: "Reduced Max HP",
+            text: "-20% Max HP",
+          },
+          {
+            title: "Burn Damage on Rank",
+            text: "If Rank =1: -2 Burn Dealt If Rank =2: -1 Burn Dealt If Rank =3: +1 Burn Dealt If Rank =4: +2 Burn Dealt",
+          },
+          {
+            title: "Damage on Rank",
+            text: "If Rank =1: +40% DMG If Rank =2: +20% DMG If Rank =3: -20% DMG If Rank =4: -40% DMG",
+          },
+          {
+            title: "Self Effect",
+            text: "Firestarter Crit Boost",
+          }
         ],
-        [
-          { title: "Buff HP", text: "+15% MAXHP" },
-          { title: "Ranged Skills:", text: "-75% DMG" },
-          { title: "Apply On Melee-Hit :", text: "-10% Bleed RES" },
-          { title: "Highway Robbery", text: "Steal Positive Token" },
-          { title: "Double Cross", text: "Remove Block" },
-        ],
+        
       ],
     },
     description:
@@ -3638,10 +3670,20 @@ const heroesData = {
             Rank: [0],
             Target: [1, 2],
           },
-          {},
-          { Rank: [1], Target: [1, 2] },
-          {},
+          {
+            Rank: [0],
+            Target: [1, 2],
+          },
+          {
+            Rank: [0],
+            Target: [1, 2],
+          },
+          {
+            Rank: [0],
+            Target: [1, 2],
+          },
         ],
+        description: "a",
       },
       {
         id: 1,
