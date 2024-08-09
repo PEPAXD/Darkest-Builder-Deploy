@@ -3767,18 +3767,34 @@ const heroesData = {
     paths: {
       name: ["Professional"],
       skillsArray: [[]],
-      cites: ['"Default skills. Rewards candles upon reaching the second Inn"'],
+      cites: ['"The Bounty Hunter only has a single path"'],
 
       description: [
         [
           {
-            title: "Candles of Hope +1",
-            text: "Extra Candle of Hope on reaching the 2nd Inn.",
+            title: "Path and Hiring",
+            text: "One path, which has no effects. Can only be hired once per run",
           },
           {
-            title: "Riposte Combo (33%)",
-            text: "Target add Combo token when using Riposte.",
+            title: "Denial",
+            text: "45%",
           },
+          {
+            title: "Resentment",
+            text: "40%",
+          },
+          {
+            title: "Obsession",
+            text: "37.5%",
+          },
+          {
+            title: "Ambition",
+            text: "35%",
+          },
+          {
+            title: "Cowardice",
+            text: "33%",
+          }
         ],
       ],
     },
@@ -3870,6 +3886,8 @@ const heroesData = {
           {},
           {},
         ],
+
+        description: "a",
       },
       {
         id: 1,
