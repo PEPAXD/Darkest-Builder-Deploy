@@ -4025,13 +4025,13 @@ const heroesData = {
       "When the wind whips violent, rally to my standard!",
     ],
     paths: {
-      name: ["Wanderer", "Rogue", "Sharpshot", "Yellowhand"],
-      skillsArray: [[], [0, 2, 4, 5, 6], [1, 4, 5, 6, 8], [3, 6, 7, 9, 10]],
+      name: ["Wanderer", "Aggressor", "Templar", "Banneret"],
+      skillsArray: [[], [0, 5, 10, 2, 6], [0, 2, 4, 7, 9], [2, 6, 8, 9, 10]],
       cites: [
         '"Default skills. Rewards candles upon reaching the second Inn"',
-        '"A brawler focused on front rank combat and Riposte."',
-        '"A back rank role that emphasizes ranged skill use"',
-        '"A rank-flexible Bleed specialist. Riposte inflicts Bleed."',
+        '"A front rank fighter who cleanses and slays with Burnholy fire."',
+        '"A self-sufficient defender who protects allies while regenerating injuries."',
+        '"An armored supporter with improved reach, capable of healing and wide-range buffs."',
       ],
 
       description: [
@@ -4040,30 +4040,54 @@ const heroesData = {
             title: "Candles of Hope +1",
             text: "Extra Candle of Hope on reaching the 2nd Inn.",
           },
+        ],
+        [
           {
-            title: "Riposte Combo (33%)",
-            text: "Target add Combo token when using Riposte.",
+            title: "Smite Execution",
+            text: "Grants Execution on burning targets; reduces Stress if it kills.",
           },
+          {
+            title: "Reap Adjustment",
+            text: "No longer heals; grants Execution and decreases healing on burning targets, adds Strength if it kills.",
+          },
+          {
+            title: "Tenacity Effect",
+            text: "Melee hits on burning targets heal the Crusader.",
+          }
         ],
         [
-          { title: "If Rank = 1:", text: "+25% DMG" },
-          { title: "If Rank = 3:", text: "-25% DMG" },
-          { title: "If Rank = 4:", text: "-50% DMG" },
-          { title: "Point Blank Shot", text: "Add Riposte" },
+          {
+            title: "Smite Stress Relief",
+            text: "Reduces Stress if the target has Combo tokens.",
+          },
+          {
+            title: "Rallying Cry Boost",
+            text: "Grants Guard and increased healing; adds HP regeneration if the target's health is below 33%.",
+          },
+          {
+            title: "Tenacity Buff",
+            text: "Grants Block, debuff resistance, and increases healing received.",
+          }
         ],
         [
-          { title: "Ranged Skills:", text: "+25% DMG" },
-          { title: "Melee Skills:", text: "-25% DMG" },
-          { title: "Buff Speed", text: "+3 Speed" },
-          { title: "Grapeshot Blast", text: "Add Strength" },
+          {
+            title: "Zealous Accusation",
+            text: "Causes Burn and adds a Combo token.",
+          },
+          {
+            title: "Battle Heal",
+            text: "Has one extra charge and heals up to 30% of a target's HP.",
+          },
+          {
+            title: "Rallying Cry",
+            text: "Also applies the Immobilized effect.",
+          },
+          {
+            title: "Tenacity Adjustment",
+            text: "Grants a Block token, but no longer adds debuff resistance.",
+          }
         ],
-        [
-          { title: "Buff HP", text: "+15% MAXHP" },
-          { title: "Ranged Skills:", text: "-75% DMG" },
-          { title: "Apply On Melee-Hit :", text: "-10% Bleed RES" },
-          { title: "Highway Robbery", text: "Steal Positive Token" },
-          { title: "Double Cross", text: "Remove Block" },
-        ],
+
       ],
     },
     description:
