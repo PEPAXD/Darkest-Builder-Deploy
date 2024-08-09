@@ -3767,7 +3767,7 @@ const heroesData = {
     paths: {
       name: ["Professional"],
       skillsArray: [[]],
-      cites: ['"The Bounty Hunter only has a single path"'],
+      cites: ['"On time, on budget."'],
 
       description: [
         [
@@ -3879,55 +3879,138 @@ const heroesData = {
 
         skillsPaths: [
           {
-            Rank: [0],
-            Target: [0],
+            Rank: [2,3,4],
+            Target: [1,2],
           },
-          {},
-          {},
-          {},
         ],
 
-        description: "a",
+        description: "This move is indeed a top-tier front-rank damage option, outclassing Wicked Hack with its sheer power and straightforward application. It performs exceptionally well with or without combo, and when combined with combo, it rivals Howling End in terms of damage output, making it a reliable staple for any high-damage setup.",
       },
       {
         id: 1,
         name: "Mark for Death",
+        Type: 1,
+        skillsPaths: [
+          {
+            Rank: [1,2,3,4],
+            Target: [1,2,3,4],
+            Cooldown: 1,
+          },
+        ],
+        description: "This damage transfer is a powerful tool, effectively enhancing BH's already formidable damage capabilities. It functions similarly to a superior Vuln Hex, but with BH’s tendency to focus on maximizing his own damage rather than setting up others, it can be a bit situational. When used strategically, particularly in cases where BH can capitalize on combo or bypass enemy defenses, it remains a valuable asset.",
       },
       {
         id: 2,
         name: "Come Hither",
+        Type: 1,
+        skillsPaths: [
+          {
+            Rank: [1,2,3,4],
+            Target: [3,4],
+          },
+        ],
+        description: "This move on BH, though not as strong as Daemon’s Pull, remains highly effective. It provides valuable disruption by pulling enemies, making it especially useful against Cherubs and Trumpets. While it might not surpass Daemon’s Pull, its utility in setting up quick kills or disrupting enemy formations still makes it a powerful tool in BH’s arsenal.",
       },
       {
         id: 3,
         name: "Caltrops",
+        Type: 1,
+        skillsPaths: [
+          {
+            Rank: [1,2,3],
+            Target: [3,4],
+          },
+        ],
+        description:"This move is relatively weak, offering modest DoT damage and minor debuffs. It lacks impact compared to dedicated backline DoT options and its debuffs are often underwhelming. The move resist and speed penalties are situationally useful but generally not worth the slot. It’s a niche pick, typically chosen only when no better options are available.",
       },
       {
         id: 4,
         name: "Flashbang",
+        Type: 1,
+        skillsPaths: [
+          {
+            Rank: [1,2,3],
+            Target: [1,2,3],
+            Cooldown: 1,
+          },
+        ],
+        description: "This move is a more reliable Disorienting Blast, with blind replacing the odd % chance to weak. It’s primarily used for its shuffle or combo stun potential, and the added blind is a bonus. Often, Collect Bounty is preferred for a kill or setup, but this move is solid, offering basic utility that feels fair within BH’s kit.",
       },
       {
         id: 5,
         name: "Staredown",
+        Type: 1,
+        skillsPaths: [
+          {
+            Rank: [1,2,3,4],
+            Target: [1,2,3,4],
+            Cooldown: 1,
+          },
+        ],
+        description: "This move functions as an intimidate with added utility for clearing vuln, making it a solid choice for tanking. It’s useful to draw aggro and keep BH alive until the end of the region. You might use it frequently when other moves aren’t needed or to manage enemy attention. If BH dies, there’s no refund, but you can afford to have him take hits until the last fight.",
       },
       {
         id: 6,
         name: "Hurlbat",
+        Type: 1,
+        skillsPaths: [
+          {
+            Rank: [1,2,],
+            Target: [1,2,3,4],
+          },
+        ],
+        description: "This move provides flexible and reliable damage, hitting any target with a strong attack and offering a burn bonus. It’s particularly effective if you have a backline BH, complementing sniping teams and pairing well with burn setups like those with Bonnie and Junia. Even without the burn, its ability to deliver 6-10 damage to any enemy is highly valuable.",
       },
       {
         id: 7,
         name: "No Escape",
+        Type: 1,
+        skillsPaths: [
+          {
+            Rank: [1,2,],
+            Target: [3,4],
+            Cooldown: 2,
+          },
+        ],
+        description: "This move is a reliable backline stun, reminiscent of the powerful stuns from DD1. It’s excellent in this game, especially since it’s balanced around combo and daze stuns. With the ability to ignore dodge, it can consistently stun enemies like cherubs or spitter spiders, making it a top choice for backline BHs unless facing enemies with extremely high stun resist, which is rare.",
       },
       {
         id: 8,
         name: "Finish Him",
+        Type:0,
+        skillsPaths: [
+          {
+            Rank: [2,3,4],
+            Target: [1,2,3],
+          },
+        ],
+        description: "Finish Him suffers from a similar issue as in DD1: you rarely plan to strike the stunned target directly. However, if you’re running stun-heavy comps, it provides additional damage. It has a bit more reach than 'Collect Bounty' but is generally less preferred compared to options like 'Hurlbat' for utility. It's useful for finishing off enemies with DBR but is considered a weaker direct damage option compared to other moves like 'Hurlbat' and 'Collect Bounty.'",
       },
       {
         id: 9,
         name: "Uppercut",
+        Type: 0,
+        skillsPaths: [
+          {
+            Rank: [3,4],
+            Target: [1,2],
+            Cooldown: 2,
+          },
+        ],
+        description: "This move's primary strength is its straightforward stun capability, making it highly effective for managing frontlines. Although it lacks dodge ignoring and replaces combo with knockback, the higher damage and versatility in targeting different ranks make it a valuable option. It's an excellent choice for any frontline BH and pairs well with Jester for tactical flexibility.",
       },
       {
         id: 10,
         name: "Bodyguard",
+        Type: 2,
+        skillsPaths: [
+          {
+            Rank: [1,2,3,4],
+            Ally: [1,2,3,4],
+            Cooldown: 1,
+          },
+        ],
+        description: "This move is essentially an unupgraded Defender, which is solid but underwhelming compared to BH’s other abilities. It offers valuable utility by allowing him to absorb damage, but it’s often overshadowed by his more impactful moves. Still, it's useful in situations where BH needs to protect allies, though Staredown is generally preferred for its versatility.",
       },
     ],
   },
@@ -4066,9 +4149,10 @@ const heroesData = {
             Target: [1, 2],
           },
           {},
-          { Rank: [1], Target: [1, 2] },
+          {},
           {},
         ],
+        description: "a",
       },
       {
         id: 1,
