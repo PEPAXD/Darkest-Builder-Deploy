@@ -3667,63 +3667,95 @@ const heroesData = {
 
         skillsPaths: [
           {
-            Rank: [0],
+            Rank: [3,4],
             Target: [1, 2],
           },
           {
-            Rank: [0],
+            Rank: [3,4],
             Target: [1, 2],
-          },
-          {
-            Rank: [0],
+          },          {
+            Rank: [3,4],
             Target: [1, 2],
-          },
-          {
-            Rank: [0],
+          },          {
+            Rank: [3,4],
             Target: [1, 2],
           },
         ],
-        description: "a",
+        description: "*Searing Strike* is a decent damage move but less effective for Bonnie, who excels in DoT damage with moves like *Firefly*, *Dragonfly*, and *Controlled Burn*. Its utility as a hybrid damage move is less relevant to her kit, and its front-only use can limit its effectiveness. It also has some anti-synergy with her main paths, *Arsonist* and *Orphan*. Overall, while not a bad move, it struggles to find a good role in most of Bonnie's setups.",
       },
       {
         id: 1,
         name: "Firefly",
+        Type: 1,
+
+        skillsPaths: [{Rank: [1,2], Target: [2,3,4]},{Rank: [1,2], Target: [2,3,4]},{Rank: [1,2], Target: [2,3,4]},{Rank: [1,2], Target: [2,3,4]},],
+        description: "*Firefly* is Bonnie's staple DoT damage move for back rank setups, with broad targeting and only slightly less DoT than *Noxious Blast*. Its combo effect allows for AoE burn that bypasses most defensive mechanics, making it effective against enemies with Death’s Door Resistance (DBR). While the AoE burn is weaker, it helps manage thresholds and ensures follow-up DoT applications are less necessary. Generally, it's a reliable move for targeting enemies you want to eliminate, similar to *Noxious Blast*.",
+
       },
       {
         id: 2,
         name: "Smokescreen",
+        Type: 1,
+        skillsPaths: [{Rank: [1,2,3,4], Target: [1,2,3], Cooldown: 1},{Rank: [1,2,3,4], Target: [1,2,3], Cooldown: 1},{Rank: [1,2,3,4], Target: [1,2,3], Cooldown: 1},{Rank: [1,2,3,4], Target: [1,2,3], Cooldown: 1},],
+        description: "*Smokescreen+* is a powerful debuff, applying two blind tokens, a vuln token, and a combo, making it the best single-target debuff in the game. It's effective in most Bonnie setups and works well for enhancing damage, especially with characters like Hellion and Leper. The only downside is that enemies might be killed too quickly, limiting the blind's impact. However, it's less useful against blind-immune enemies like the Act 3 boss.",
       },
       {
         id: 3,
         name: "Run and Hide",
+        Type: 2,
+        skillsPaths: [{Rank: [1,2,3,4], Target: [0], Cooldown:2},{Rank: [1,2,3,4], Target: [0], Cooldown:2},{Rank: [1,2,3,4], Target: [0], Cooldown:2},{Rank: [1,2,3,4], Target: [0], Cooldown:2},],
+        description: "*Run and Hide* is a niche self-sustain move for Bonnie, providing stealth and regen but with low synergy with her kit. It’s useful when she needs to drop aggro or create an 'anti-tank' effect by forcing the other front-rank character to soak up damage. However, it's generally low-tempo and less impactful compared to her other moves like Dragonfly. This move has rare synergies and is situational at best.",
       },
       {
         id: 4,
         name: "Hearthlight",
+        Type: 1,
+        skillsPaths: [{Rank: [1,2,3,4], Target: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Target: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Target: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Target: [1,2,3,4], Cooldown: 1},],
+        description: "*Hearthlight* is a utility move that counters dodge and stealth, making it valuable in fights against dodge-heavy enemies like beast dens and cultists. The upgraded version also cures blindness on allies, which is particularly useful in areas like the Shroud. While it deals no damage, its utility in removing dodge, curing blind, and countering stealth makes it a strong pick in specific situations, especially against certain bosses.",
       },
       {
         id: 5,
         name: "Ransack",
+        Type: 0,
+        skillsPaths: [{Rank: [1,2,3,4], Target: [2,3,4]},{Rank: [1,2,3,4], Target: [2,3,4]},{Rank: [1,2,3,4], Target: [2,3,4]},{Rank: [1,2,3,4], Target: [2,3,4]},],
+        description: "*Ransack* is a utility move for Bonnie, offering a weak pull and some damage with burn. Its inability to target rank 4 and its single-rank pull make it less effective compared to other pull abilities. While it can fit into double lunge or dance comps, and helps reposition Bonnie for moves like *Dragonfly* or *Backdraft*, it doesn't stand out in power. It's useful when you need a pull or dance move, but it's generally a weaker option in those roles.",
       },
       {
         id: 6,
         name: "Cauterize",
+        Type: 3,
+        skillsPaths: [{Rank: [1,2,3], Ally:[1,2,3,4], Uses: 3},{Rank: [1,2,3], Ally:[1,2,3,4], Uses: 3},{Rank: [1,2,3], Ally:[1,2,3,4], Uses: 3},{Rank: [1,2,3], Ally:[1,2,3,4], Uses: 3},],
+        description: "*Cauterize* is a versatile heal that can be used whenever a target is bleeding, which is a common condition in most fights. This makes it a reliable option, especially when facing enemies like bandits and cultists who frequently apply bleed. It also synergizes well with self-bleed comps, such as those involving Ravager Hellion or Leper with Ruin+, and can even complement the Occultist’s *Wyrd Healing* in a pinch. Given its utility, *Cauterize* is often a staple in Bonnie builds, though it's wise to swap it out in bleed-immune fights.",
       },
       {
         id: 7,
         name: "Controlled Burn",
+        Type: 1,
+        skillsPaths: [{Rank: [2,3,4], Target: [1,2,3,4], Cooldown: 3},{Rank: [2,3,4], Target: [1,2,3,4], Cooldown: 3},{Rank: [2,3,4], Target: [1,2,3,4], Cooldown: 3},{Rank: [2,3,4], Target: [1,2,3,4], Cooldown: 3},],
+        description: "*Controlled Burn* excels in rank 3, applying burn and bypassing stealth and dodge. It deals significant damage, especially to enemies with low burn resist or multiple actions, like the Act 3 boss. The persistent rank token can also affect shuffled enemies. However, it doesn't check block and may not suit fast-moving teams.",
       },
       {
         id: 8,
         name: "Dragonfly",
+        Type: 1,
+        skillsPaths: [{Rank: [3,4], Target: [1,2]},{Rank: [3,4], Target: [1,2]},{Rank: [3,4], Target: [1,2]},{Rank: [3,4], Target: [1,2]},],
+        description: "*Incendiary Grenade* offers a front rank DoT cleave with a bonus combo application. Its effectiveness is somewhat limited by its range and Bonnie's vulnerability in the front ranks. While it requires careful positioning or support from dancers or the Tangle Trophy, it provides substantial value when used correctly. Consider using it as a starting move or with a safer strategy involving Smoke and Firefly.",
       },
       {
         id: 9,
         name: "Firestarter",
+        Type: 2,
+        skillsPaths: [{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 2, Uses: 2},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 2, Uses: 2},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 2, Uses: 2},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 2},],
+        description: "This move is most valuable when used with cleaves, amplifying their burn effects significantly. While it can offer some utility when applied randomly to a friendly, its true strength lies in enhancing cleave moves like Magnesium Rain or Grapeshot Blast. The Orphan version adds a crit token, but it's not essential. Without synergy with cleaves or ripostes, its utility is limited, making it a situational choice for those with the right setup.",
       },
       {
         id: 10,
-        name: "Double Cross",
+        name: "Backdraft",
+
+        Type: 1,
+        skillsPaths: [{Rank: [3,4], Target: [2,3,4], Cooldown: 1},{Rank: [3,4], Target: [2,3,4], Cooldown: 1},{Rank: [3,4], Target: [2,3,4], Cooldown: 1},{Rank: [3,4], Target: [2,3,4], Cooldown: 1},],
+        description: "Backdraft is a high-damage move that excels with a team built around burn. Its effectiveness depends on getting Bonnie to the front and applying substantial burn first, making it less suitable for singular enemies or high-move bosses. It pairs well with burn-focused strategies like Dragonfly setups, but requires careful positioning and team coordination. Despite its niche use, when executed well, it can deal massive damage, especially in slower comps.",
+
       },
     ],
   },
