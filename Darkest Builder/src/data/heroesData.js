@@ -4344,64 +4344,118 @@ const heroesData = {
         name: "Zealous Accusation",
         Type: 1,
 
-        skillsPaths: [{Rank: [3,4], Target: [1,2]},{Rank: [3,4], Target: [1,2]},{Rank: [3,4], Target: [1,2]},{Rank: [1,2], Target: [3,4]},],
-        description: "Don’t overlook Zealous Accusation. It’s a powerful cleave, akin to a sturdier Dragonfly, dealing 4 burn to two targets with the Favorite Toy Memory. This move excels against frontline targets with block or dodge, setting up combos and enabling moves like Backdraft. Crusader’s speed is a minor drawback, but it’s generally the better cleave compared to Reap. For back-line Crusaders, Banneret’s version trades one DoT for combo application, making it a strong choice for rank 3 or 4, especially when paired with a Sharpshot or other combo-focused setups.",
+        skillsPaths: [
+          { Rank: [3, 4], Target: [1, 2] },
+          { Rank: [3, 4], Target: [1, 2] },
+          { Rank: [3, 4], Target: [1, 2] },
+          { Rank: [1, 2], Target: [3, 4] },
+        ],
+        description:
+          "Don’t overlook Zealous Accusation. It’s a powerful cleave, akin to a sturdier Dragonfly, dealing 4 burn to two targets with the Favorite Toy Memory. This move excels against frontline targets with block or dodge, setting up combos and enabling moves like Backdraft. Crusader’s speed is a minor drawback, but it’s generally the better cleave compared to Reap. For back-line Crusaders, Banneret’s version trades one DoT for combo application, making it a strong choice for rank 3 or 4, especially when paired with a Sharpshot or other combo-focused setups.",
       },
       {
         id: 3,
         name: "Inspiring Cry",
         Type: 2,
-        skillsPaths: [{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1},],
-        description: "This move offers a unique twist on Inspiring Tune, providing stress healing specifically for Reynauld rather than the target when upgraded. While it can be used anywhere and offers a valuable stress heal, it’s often less flexible compared to other stress heal options since it only benefits Reynauld. This makes it less appealing compared to moves like Bolster+, especially given the effectiveness of Aggressor's Smite. It remains useful but is often less prioritized in favor of other options in Reynauld’s kit.",
+        skillsPaths: [
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 1 },
+        ],
+        description:
+          "This move offers a unique twist on Inspiring Tune, providing stress healing specifically for Reynauld rather than the target when upgraded. While it can be used anywhere and offers a valuable stress heal, it’s often less flexible compared to other stress heal options since it only benefits Reynauld. This makes it less appealing compared to moves like Bolster+, especially given the effectiveness of Aggressor's Smite. It remains useful but is often less prioritized in favor of other options in Reynauld’s kit.",
       },
       {
         id: 4,
         name: "Rallying Cry",
         Type: 2,
-        skillsPaths: [{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 2},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 3},],
-        description: "This stun cure is a niche choice, only offering its full potential with an upgrade. Its value is limited compared to other Crusader options, with self-weak removal being less effective given Zealous’s capabilities. The Templar version adds a guard effect with healing received and regen transfer, but doesn’t protect Reynauld himself. The Banneret version applies immobilize to your entire team, useful in specific scenarios but often less practical overall.",
+        skillsPaths: [
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 2 },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 3 },
+        ],
+        description:
+          "This stun cure is a niche choice, only offering its full potential with an upgrade. Its value is limited compared to other Crusader options, with self-weak removal being less effective given Zealous’s capabilities. The Templar version adds a guard effect with healing received and regen transfer, but doesn’t protect Reynauld himself. The Banneret version applies immobilize to your entire team, useful in specific scenarios but often less practical overall.",
       },
       {
         id: 5,
         name: "Reap",
         Type: 0,
-        skillsPaths: [{Rank: [3,4], Target: [1,2]},{Rank: [3,4], Target: [1,2]},{Rank: [3,4], Target: [1,2]},{Rank: [3,4], Target: [1,2]},],
-        description: "Reap is more niche than Zealous but offers a powerful heal on combo, especially against low HP enemies with DoTs. The Aggressor version swaps the heal for Execution 1 on burning targets, but it faces similar challenges as unupgraded Smite. The strength bonus on kill is nice, but its situational nature and mastery requirement make it less appealing. Reap also works with the Aggressor version of Tenacity, unlike Zealous.",
+        skillsPaths: [
+          { Rank: [3, 4], Target: [1, 2] },
+          { Rank: [3, 4], Target: [1, 2] },
+          { Rank: [3, 4], Target: [1, 2] },
+          { Rank: [3, 4], Target: [1, 2] },
+        ],
+        description:
+          "Reap is more niche than Zealous but offers a powerful heal on combo, especially against low HP enemies with DoTs. The Aggressor version swaps the heal for Execution 1 on burning targets, but it faces similar challenges as unupgraded Smite. The strength bonus on kill is nice, but its situational nature and mastery requirement make it less appealing. Reap also works with the Aggressor version of Tenacity, unlike Zealous.",
       },
       {
         id: 6,
         name: "Battle Heal",
         Type: 3,
-        skillsPaths: [{Rank: [3,4], Ally: [1,2,3,4], Cooldown: 2, Uses: 3},{Rank: [3,4], Ally: [1,2,3,4], Cooldown: 2, Uses: 3},{Rank: [3,4], Ally: [1,2,3,4], Cooldown: 2, Uses: 3},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 2, Uses: 4},],
-        description: "The 2-turn cooldown on upgraded Battle Heal makes the upgrade feel necessary, as the unupgraded version is weaker than Battlefield Medicine. The Banneret version is more versatile, allowing it to be used on any target and adding an extra use. This makes it generally the better version, but the main priority is upgrading to reduce cooldown and improve efficiency.",
+        skillsPaths: [
+          { Rank: [3, 4], Ally: [1, 2, 3, 4], Cooldown: 2, Uses: 3 },
+          { Rank: [3, 4], Ally: [1, 2, 3, 4], Cooldown: 2, Uses: 3 },
+          { Rank: [3, 4], Ally: [1, 2, 3, 4], Cooldown: 2, Uses: 3 },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 2, Uses: 4 },
+        ],
+        description:
+          "The 2-turn cooldown on upgraded Battle Heal makes the upgrade feel necessary, as the unupgraded version is weaker than Battlefield Medicine. The Banneret version is more versatile, allowing it to be used on any target and adding an extra use. This makes it generally the better version, but the main priority is upgrading to reduce cooldown and improve efficiency.",
       },
       {
         id: 7,
         name: "Bulwark of Faith",
         Type: 2,
-        skillsPaths: [{Rank: [3,4], Target: [0], Cooldown: 2},{Rank: [3,4], Target: [0], Cooldown: 2},{Rank: [3,4], Target: [0], Cooldown: 2},{Rank: [3,4], Target: [0], Cooldown: 2},],
-        description: "Reynauld's taunt move is a strong option for tanking, providing 2 block unupgraded and up to 3 taunt when upgraded, making it a reliable way to draw enemy attention. The regen adds some mitigation, though it's more about reducing incoming damage than actual healing. The downside is the lack of Block+ and the 2-turn cooldown, so timing is crucial. Despite these limitations, the taunt is extremely valuable, and this move is almost always worth using, especially if Reynauld is your primary tank.",
+        skillsPaths: [
+          { Rank: [3, 4], Target: [0], Cooldown: 2 },
+          { Rank: [3, 4], Target: [0], Cooldown: 2 },
+          { Rank: [3, 4], Target: [0], Cooldown: 2 },
+          { Rank: [3, 4], Target: [0], Cooldown: 2 },
+        ],
+        description:
+          "Reynauld's taunt move is a strong option for tanking, providing 2 block unupgraded and up to 3 taunt when upgraded, making it a reliable way to draw enemy attention. The regen adds some mitigation, though it's more about reducing incoming damage than actual healing. The downside is the lack of Block+ and the 2-turn cooldown, so timing is crucial. Despite these limitations, the taunt is extremely valuable, and this move is almost always worth using, especially if Reynauld is your primary tank.",
       },
       {
         id: 8,
         name: "Holy Lance",
         Type: 1,
-        skillsPaths: [{Rank: [1,2], Target: [2,3,4]},{Rank: [1,2], Target: [2,3,4]},{Rank: [1,2], Target: [2,3,4]},{Rank: [1,2], Target: [2,3,4]},],
-        description: "It sounds like you're diving deep into the mechanics of Reynauld's moveset, analyzing the effectiveness of *Holy Lance* within different team setups. Your insight on how its value is spread across damage, utility, and combo potential highlights the need for thoughtful consideration when scaling this move. Balancing it against other options like *Zealous* or *Smite*, which benefit more directly from scaling, shows your understanding of how to maximize the effectiveness of a team composition.",
-       },
+        skillsPaths: [
+          { Rank: [1, 2], Target: [2, 3, 4] },
+          { Rank: [1, 2], Target: [2, 3, 4] },
+          { Rank: [1, 2], Target: [2, 3, 4] },
+          { Rank: [1, 2], Target: [2, 3, 4] },
+        ],
+        description:
+          "It sounds like you're diving deep into the mechanics of Reynauld's moveset, analyzing the effectiveness of *Holy Lance* within different team setups. Your insight on how its value is spread across damage, utility, and combo potential highlights the need for thoughtful consideration when scaling this move. Balancing it against other options like *Zealous* or *Smite*, which benefit more directly from scaling, shows your understanding of how to maximize the effectiveness of a team composition.",
+      },
       {
         id: 9,
         name: "Radiance",
         Type: 2,
-        skillsPaths: [{Rank: [1,2,3,4], Target: [0], Cooldown: 4},{Rank: [1,2,3,4], Target: [0], Cooldown: 4},{Rank: [1,2,3,4], Target: [0], Cooldown: 4},{Rank: [1,2,3,4], Target: [0], Cooldown: 4},],
-        description: "Radiance provides buffs but has a slow payoff, making it less appealing compared to more immediate options like Smite or Zealous. It's better with Bonnie but still suffers from the four-turn delay. While it can synergize with Templar's guard skill or healing buffs, there are usually more effective moves to use in most situations.",
+        skillsPaths: [
+          { Rank: [1, 2, 3, 4], Target: [0], Cooldown: 4 },
+          { Rank: [1, 2, 3, 4], Target: [0], Cooldown: 4 },
+          { Rank: [1, 2, 3, 4], Target: [0], Cooldown: 4 },
+          { Rank: [1, 2, 3, 4], Target: [0], Cooldown: 4 },
+        ],
+        description:
+          "Radiance provides buffs but has a slow payoff, making it less appealing compared to more immediate options like Smite or Zealous. It's better with Bonnie but still suffers from the four-turn delay. While it can synergize with Templar's guard skill or healing buffs, there are usually more effective moves to use in most situations.",
       },
       {
         id: 10,
         name: "Tenacity",
         Type: 2,
-        skillsPaths: [{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 2},{Rank: [1,2,3,4], Target: [0], Cooldown: 4},{Rank: [3,4], Target: [0], Cooldown: 2},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 3},],
-        description: "Tenacity offers four different versions tailored to various playstyles. The Wanderer and Banneret versions provide valuable block tokens to allies, enhancing their mitigation. The Templar version focuses on increasing Crusader's healing received, making it ideal for absorbing and recovering from damage. The Aggressor version, though limited to melee skills, can be powerful with the right setup, potentially rivaling Adrenaline Rush in specific situations.",
+        skillsPaths: [
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 2 },
+          { Rank: [1, 2, 3, 4], Target: [0], Cooldown: 4 },
+          { Rank: [3, 4], Target: [0], Cooldown: 2 },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 3 },
+        ],
+        description:
+          "Tenacity offers four different versions tailored to various playstyles. The Wanderer and Banneret versions provide valuable block tokens to allies, enhancing their mitigation. The Templar version focuses on increasing Crusader's healing received, making it ideal for absorbing and recovering from damage. The Aggressor version, though limited to melee skills, can be powerful with the right setup, potentially rivaling Adrenaline Rush in specific situations.",
       },
     ],
   },
@@ -4416,13 +4470,13 @@ const heroesData = {
       "I live for this",
     ],
     paths: {
-      name: ["Wanderer", "Rogue", "Sharpshot", "Yellowhand"],
-      skillsArray: [[], [0, 2, 4, 5, 6], [1, 4, 5, 6, 8], [3, 6, 7, 9, 10]],
+      name: ["Wanderer", "Instructrice", "Antagoniste", "Intrépide"],
+      skillsArray: [[], [1, 4, 7, 8, 9], [1, 2, 4, 6, 10], [0, 2, 4, 7, 9]],
       cites: [
         '"Default skills. Rewards candles upon reaching the second Inn"',
-        '"A brawler focused on front rank combat and Riposte."',
-        '"A back rank role that emphasizes ranged skill use"',
-        '"A rank-flexible Bleed specialist. Riposte inflicts Bleed."',
+        '"A back row taskmaster capable of driving allies forward, whatever the cost."',
+        '"Skilled at disrupting the enemy, creating opening for allies to exploit."',
+        '"A rank-flexible, extremely high-risk role with high damage potential."',
       ],
 
       description: [
@@ -4431,22 +4485,56 @@ const heroesData = {
             title: "Candles of Hope +1",
             text: "Extra Candle of Hope on reaching the 2nd Inn.",
           },
+
+          {
+            title: "Aggressive Stance",
+            text: "On Riposte: Heal Self: 10% (33%)",
+          },
+          {
+            title: "Defensive Stance",
+            text: "On Riposte: Gain Dodge (33%)",
+          },
         ],
-        [
-          { title: "", text: "" },
-          { title: "", text: "" },
-          { title: "", text: "" },
-        ],
-        [
-          { title: "", text: "" },
-          { title: "", text: "" },
-          { title: "", text: "" },
-        ],
-        [
-          { title: "", text: "" },
-          { title: "", text: "" },
-          { title: "", text: "" },
-        ],
+        
+          [
+            {
+              title: "Aggressive Stance",
+              text: "On Killing Blow: Gain Regeneration3.",
+            },
+            {
+              title: "Defensive Stance",
+              text: "On Killing Blow: Reduce Stress by 1.",
+            },
+            {
+              title: "Bug Note",
+              text: "The 'On Killing Blow' effects also trigger when destroying corpses. This might be a bug.",
+            }
+          ],
+          [
+            {
+              title: "Aggressive Stance",
+              text: "Skills gain +20% Debuff RES Piercing.",
+            },
+            {
+              title: "Defensive Stance",
+              text: "Sword Skills gain -5% Debuff RES.",
+            }
+          ],
+          [
+            {
+              title: "Stance Passive Effects",
+              text: "Increase power and risk alike, stacking up to 5 times. Effects are lost when damaged.",
+            },
+            {
+              title: "Aggressive Stance",
+              text: "Gain when Missed: +5% CRIT, -10% Damage over Time RES.",
+            },
+            {
+              title: "Defensive Stance",
+              text: "Gain when Missed: +20% DMG Dealt, +40% DMG Received.",
+            }
+          ],
+          
       ],
     },
     description:
@@ -4765,9 +4853,11 @@ const heroesData = {
             Target: [1, 2],
           },
           {},
-          { Rank: [1], Target: [1, 2] },
+          {},
           {},
         ],
+
+        description: "a",
       },
       {
         id: 1,
