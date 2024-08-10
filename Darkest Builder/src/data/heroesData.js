@@ -4495,46 +4495,45 @@ const heroesData = {
             text: "On Riposte: Gain Dodge (33%)",
           },
         ],
-        
-          [
-            {
-              title: "Aggressive Stance",
-              text: "On Killing Blow: Gain Regeneration3.",
-            },
-            {
-              title: "Defensive Stance",
-              text: "On Killing Blow: Reduce Stress by 1.",
-            },
-            {
-              title: "Bug Note",
-              text: "The 'On Killing Blow' effects also trigger when destroying corpses. This might be a bug.",
-            }
-          ],
-          [
-            {
-              title: "Aggressive Stance",
-              text: "Skills gain +20% Debuff RES Piercing.",
-            },
-            {
-              title: "Defensive Stance",
-              text: "Sword Skills gain -5% Debuff RES.",
-            }
-          ],
-          [
-            {
-              title: "Stance Passive Effects",
-              text: "Increase power and risk alike, stacking up to 5 times. Effects are lost when damaged.",
-            },
-            {
-              title: "Aggressive Stance",
-              text: "Gain when Missed: +5% CRIT, -10% Damage over Time RES.",
-            },
-            {
-              title: "Defensive Stance",
-              text: "Gain when Missed: +20% DMG Dealt, +40% DMG Received.",
-            }
-          ],
-          
+
+        [
+          {
+            title: "Aggressive Stance",
+            text: "On Killing Blow: Gain Regeneration3.",
+          },
+          {
+            title: "Defensive Stance",
+            text: "On Killing Blow: Reduce Stress by 1.",
+          },
+          {
+            title: "Bug Note",
+            text: "The 'On Killing Blow' effects also trigger when destroying corpses. This might be a bug.",
+          },
+        ],
+        [
+          {
+            title: "Aggressive Stance",
+            text: "Skills gain +20% Debuff RES Piercing.",
+          },
+          {
+            title: "Defensive Stance",
+            text: "Sword Skills gain -5% Debuff RES.",
+          },
+        ],
+        [
+          {
+            title: "Stance Passive Effects",
+            text: "Increase power and risk alike, stacking up to 5 times. Effects are lost when damaged.",
+          },
+          {
+            title: "Aggressive Stance",
+            text: "Gain when Missed: +5% CRIT, -10% Damage over Time RES.",
+          },
+          {
+            title: "Defensive Stance",
+            text: "Gain when Missed: +20% DMG Dealt, +40% DMG Received.",
+          },
+        ],
       ],
     },
     description:
@@ -4646,55 +4645,100 @@ const heroesData = {
 
         skillsPaths: [
           {
-            Rank: [0],
+            Rank: [1, 2, 3, 4],
             Target: [1, 2],
           },
-          {},
-          {},
-          {},
+          {
+            Rank: [1, 2, 3, 4],
+            Target: [1, 2],
+          },
+          {
+            Rank: [2, 3, 4],
+            Target: [1, 2, 3],
+          },
+          {
+            Rank: [1, 2, 3, 4],
+            Target: [1, 2],
+          },
         ],
 
-        description: "a",
+        description:
+          "Touche Average damage attack with low crit chance. Moves Duelist forward when Token dul aggressive and backward when Token dul defensive. When upgraded grants stance tokens depending on rank if none are currently applied",
       },
       {
         id: 1,
         name: "Feint",
+        Type: 0,
+        skillsPaths: [
+          { Rank: [2, 3, 4], Target: [1, 2] },
+          { Rank: [2, 3, 4], Target: [1, 2] },
+          { Rank: [2, 3, 4], Target: [1, 2] },
+          { Rank: [2, 3, 4], Target: [1, 2], Cooldown: 1 },
+        ],
+        description: "Feint Below average damage attack which switches Duelists current stance and applies Riposte Riposte. Important skill for switching stances and can be used from all Ranks but 4",
       },
       {
         id: 2,
         name: "Disengage",
+        Type: 0,
+        skillsPaths: [{Rank: [2,3,4,], Target: [1,2,3]},{Rank: [2,3,4,], Target: [1,2,3]},{Rank: [2,3,4,], Target: [1,2,3]},{Rank: [2,3,4,], Target: [1,2,3], Cooldown: 1},],
+        description: "Disengage Backwards moving skill which applies Token dul defensive stance.png as well as Dodge. Effects applied to the target change depending on the Path Duelist uses as well as which stance she's in at the time of using the skill",
       },
       {
         id: 3,
         name: "Flick",
+        Type:0,
+        skillsPaths: [{Rank: [3,4], Target: [1,2]},{Rank: [3,4], Target: [1,2]},{Rank: [3,4], Target: [1,2]},{Rank: [3,4], Target: [1,2]},],
+        description: "Flick Average damage attack whose effects change depending on the stance Duelist is in. During Token dul aggressive stance.pngAggressive the attack will ignore BlockBlock, and during Token dul defensive stance.pngDefensive ignores DodgeDodge. When upgraded will pierce 1 Death ArmorDeath Armor which can be useful for finishing off larger enemies or bosses",
       },
       {
         id: 4,
         name: "Preparation",
+        Type: 2,
+        skillsPaths: [{Rank: [1,2,3,4], Target: [0], Cooldown: 1},{Rank: [1,2,3,4], Target: [0], Cooldown: 1},{Rank: [1,2,3,4], Target: [0], Cooldown: 1},{Rank: [1,2,3,4], Target: [0], Cooldown: 1},],
+        description: "Preparation Self buff which switches Duelist to Token dul aggressive stance.pngAggressive while providing Icon speed.pngSpeed and StrengthStrength tokens for extra damage. When upgraded provides extra Riposte damage when used in Token dul defensive stance.pngDefensive or CritCrit when used in Token dul aggressive stance.pngAggressive",
       },
       {
         id: 5,
         name: "The Boot",
+        Type: 0,
+        skillsPaths: [{Rank: [2,3,4], Target: [1,2]},{Rank: [2,3,4], Target: [1,2]},{Rank: [2,3,4], Target: [1,2]},{Rank: [2,3,4], Target: [1,2]},],
+        description: "The Boot Below average damage knockback skill which requires Token dul aggressive Aggressive stance. Good for disrupting certain enemy formations. Applies ComboCombo and knocks back an additional rank when upgraded",
       },
       {
         id: 6,
         name: "Again!",
+        Type: 2,
+        skillsPaths: [{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 5, Uses: 2},{Rank: [1,2,], Ally: [1,2,3,4], Cooldown: 3},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 5, Uses: 2},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 5, Uses: 2},],
+        description: "Again! Buff skill which requires Token dul Aggressive to use. Clears all skill cooldowns on the target which can allow for repeated uses of many skills that otherwise have long cooldowns. Removes stance tokens when used. When upgraded can be used during either stance and has a 50% chance to not remove tokens",
       },
       {
         id: 7,
         name: "Flèche",
+        Type: 0,
+        skillsPaths: [{Rank: [1,2,3,], Target: [1,2,3,]},{Rank: [1,2,3,], Target: [1,2,3,]},{Rank: [1,2,3,], Target: [1,2,3,]},{Rank: [1,2,3,], Target: [1,2,3,]},],
+        description: "Fleche High damage high crit skill which moves Duelist forward to the front rank when used. Switches Duelist to Token dul aggressive and gains 30% extra damage when used in Token dul aggressive stance.pngAggressive. Clears all dodge tokens upon use. When upgraded gains 5% extra crit in Token dul aggressive ",
       },
       {
         id: 8,
         name: "Meditation",
+        Type: 2,
+        skillsPaths: [{Rank: [1,2,3,4], Target: [0], Cooldown: 1},{Rank: [1,2,3,4], Target: [0], Cooldown: 1},{Rank: [1,2,3,4], Target: [0], Cooldown: 1},{Rank: [1,2,3,4], Target: [0], Cooldown: 1},],
+        description: "Meditation Stance switch skill which switches Duelist to Token dul defensive stance.pngDefensive and gives 3 DodgeDodge. Adds TauntTaunt when used in Defensive and Riposte Riposte when used in Aggressive. When upgraded adds Dodge+Dodge+ and removes ComboCombo",
       },
       {
         id: 9,
         name: "Coup de Grâce",
+        Type: 1,
+        skillsPaths: [{Rank: [1,2,3,4], Target: [1,2,3,4], Cooldown:1},{Rank: [1,2,], Target: [2,3,4], Cooldown:1},{Rank: [1,2,3,4], Target: [2,3,4], Cooldown:2},{Rank: [1,2,3,4], Target: [2,3,4], Cooldown:2},],
+        description: "Coup De Grace Duelists only ranged skill which deals flat damage and requires Token dul defensive stance.pngDefensive. Ignores both weak, Block and pierces one hit of Death Armor which can be very useful for killing low health enemies. When upgraded pierces an extra hit of Death Armor",
       },
       {
         id: 10,
         name: "Ruthless Instruction",
+        Type: 2,
+        skillsPaths: [{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1},{Rank: [1,2], Ally: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1},],
+        description: "Ruthless Instruction Buff skill which requires Token dul defensive and applies 2 DodgeDodge to the target. When upgraded can be used in either stance, with Token dul aggressive giving a BuffBuff which lets the target ignore Blind",
       },
     ],
   },
