@@ -3240,7 +3240,7 @@ const heroesData = {
           {
             title: "+1 Conviction Token",
             text: "Add Conviction",
-          }
+          },
         ],
         [
           {
@@ -3264,8 +3264,8 @@ const heroesData = {
           {
             title: "Move Resistance",
             text: "+10% Move RES per Conviction",
-          }
-        ], 
+          },
+        ],
         [
           {
             title: "Gain on Consecration",
@@ -3274,9 +3274,8 @@ const heroesData = {
           {
             title: "Extended Duration",
             text: "Consecrations Last 5 Rounds",
-          }
-        ]
-        
+          },
+        ],
       ],
     },
     description:
@@ -3394,101 +3393,158 @@ const heroesData = {
 
         skillsPaths: [
           {
-            Rank: [3,4],
-            Target: [1, 2,3],
+            Rank: [3, 4],
+            Target: [1, 2, 3],
           },
           {
-            Rank: [3,4],
+            Rank: [3, 4],
             Target: [1, 2],
-          },          {
-            Rank: [3,4],
-            Target: [1, 2,3],
-          },          {
-            Rank: [3,4],
-            Target: [1, 2,3],
+          },
+          {
+            Rank: [3, 4],
+            Target: [1, 2, 3],
+          },
+          {
+            Rank: [3, 4],
+            Target: [1, 2, 3],
           },
         ],
 
-        description: "**Hand of Light** is a Vestal ability that varies by path. The *Confessor* variant retains the strength buff, making it ideal for *mace bash* and hitting multiple front-row targets. It's favored for its token pinging and mitigation, though all variants are viable for a front-rank Vestal.",
+        description:
+          "**Hand of Light** is a Vestal ability that varies by path. The *Confessor* variant retains the strength buff, making it ideal for *mace bash* and hitting multiple front-row targets. It's favored for its token pinging and mitigation, though all variants are viable for a front-rank Vestal.",
       },
       {
         id: 1,
         name: "Illumination",
         Type: 1,
 
-        skillsPaths: [{Rank: [1,2,3,4], Target: [1,2,3,4]},
-        {Rank: [1,2,3], Target: [1,2,3,4]},
-        {Rank: [1,2,3,4], Target: [1,2,3,4]},
-        {Rank: [1,2,3,4], Target: [1,2,3,4]},],
-        description: "The normal variant of this move is a weaker version of *Tracking Shot*, mainly useful for checking Dodge and Stealth but lacking impact outside of Dodge-heavy fights. The *Confessor* variant, however, is much stronger, destroying 2-3 tokens and countering Stealth. This makes it a staple in most *Confessor* setups due to its versatility and effectiveness in various situations.",
+        skillsPaths: [
+          { Rank: [1, 2, 3, 4], Target: [1, 2, 3, 4] },
+          { Rank: [1, 2, 3], Target: [1, 2, 3, 4] },
+          { Rank: [1, 2, 3, 4], Target: [1, 2, 3, 4] },
+          { Rank: [1, 2, 3, 4], Target: [1, 2, 3, 4] },
+        ],
+        description:
+          "The normal variant of this move is a weaker version of *Tracking Shot*, mainly useful for checking Dodge and Stealth but lacking impact outside of Dodge-heavy fights. The *Confessor* variant, however, is much stronger, destroying 2-3 tokens and countering Stealth. This makes it a staple in most *Confessor* setups due to its versatility and effectiveness in various situations.",
       },
       {
         id: 2,
         name: "Judgement",
         Type: 1,
-        skillsPaths: [{Rank: [1,2], Target: [1,2,3,4]},{Rank: [1,2], Target: [1,2,3,4]},{Rank: [1,2], Target: [1,2,3,4]},{Rank: [1,2], Target: [1,2,3,4]},],
-        description: "Upgraded *Judgment* deals 8-14 damage and 4 burn at 3 conviction, making it key for backline Vestals, especially *Seraph*. The *Confessor* variant applies debuffs instead but is less impactful since the full effect often comes too late in a fight. It works best in longer battles but can feel underwhelming compared to other debuffs.",
+        skillsPaths: [
+          { Rank: [1, 2], Target: [1, 2, 3, 4] },
+          { Rank: [1, 2], Target: [1, 2, 3, 4] },
+          { Rank: [1, 2], Target: [1, 2, 3, 4] },
+          { Rank: [1, 2], Target: [1, 2, 3, 4] },
+        ],
+        description:
+          "Upgraded *Judgment* deals 8-14 damage and 4 burn at 3 conviction, making it key for backline Vestals, especially *Seraph*. The *Confessor* variant applies debuffs instead but is less impactful since the full effect often comes too late in a fight. It works best in longer battles but can feel underwhelming compared to other debuffs.",
       },
       {
         id: 3,
         name: "Divine Grace",
         Type: 3,
 
-        skillsPaths: [{Rank: [1,2], Ally: [1,2,3,4], Cooldown: 2},{Rank: [1,2], Ally: [1,2,3,4], Cooldown: 2},{Rank: [1,2], Ally: [1,2,3,4], Cooldown: 2},{Rank: [1,2], Ally: [1,2,3,4], Cooldown: 2},],
-        description: "*Divine Grace* uses 3 conviction for a powerful, nearly doubled heal, but has a 2-turn cooldown. It's a top-tier directed heal, though it competes with other conviction-based moves like *Judgment*. Best for backline Vestals, especially *Seraph*, who generate ample conviction. Its consistency and strength make it highly valuable.",
+        skillsPaths: [
+          { Rank: [1, 2], Ally: [1, 2, 3, 4], Cooldown: 2 },
+          { Rank: [1, 2], Ally: [1, 2, 3, 4], Cooldown: 2 },
+          { Rank: [1, 2], Ally: [1, 2, 3, 4], Cooldown: 2 },
+          { Rank: [1, 2], Ally: [1, 2, 3, 4], Cooldown: 2 },
+        ],
+        description:
+          "*Divine Grace* uses 3 conviction for a powerful, nearly doubled heal, but has a 2-turn cooldown. It's a top-tier directed heal, though it competes with other conviction-based moves like *Judgment*. Best for backline Vestals, especially *Seraph*, who generate ample conviction. Its consistency and strength make it highly valuable.",
       },
       {
         id: 4,
         name: "Consecration of Fortitude",
         Type: 2,
 
-        skillsPaths: [{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 3},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 3},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 3},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 5},],
-        description: "This consecration is the stronger of Vestal's two, especially when upgraded, providing valuable *Dodge+* and *Block+* tokens. It excels in dance teams, allowing multiple heroes to benefit from buffs, and is particularly effective with *Seraph Vestal* for strong mitigation. While usable with other paths, it's best with *Seraph*.",
+        skillsPaths: [
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 3 },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 3 },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 3 },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 5 },
+        ],
+        description:
+          "This consecration is the stronger of Vestal's two, especially when upgraded, providing valuable *Dodge+* and *Block+* tokens. It excels in dance teams, allowing multiple heroes to benefit from buffs, and is particularly effective with *Seraph Vestal* for strong mitigation. While usable with other paths, it's best with *Seraph*.",
       },
       {
         id: 5,
         name: "Ministrations",
         Type: 2,
-        skillsPaths: [{Rank: [1,2], Ally: [1,2,3,4], Cooldown:1},{Rank: [1,2], Ally: [1,2,3,4], Cooldown:1},{Rank: [1,2], Ally: [1,2,3,4], Cooldown:1},{Rank: [1,2], Ally: [1,2,3,4], Cooldown:1},],
-        description: "*Ministrations* is useful for curing stuns and dazes, trading Vestal’s turn for the enemy’s. It’s most effective in fights with frequent stuns or with *Pocket Watch*. Removing DoTs offers indirect healing but is less critical. Generally, it serves as a situational filler rather than a core choice.",
+        skillsPaths: [
+          { Rank: [1, 2], Ally: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2], Ally: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2], Ally: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2], Ally: [1, 2, 3, 4], Cooldown: 1 },
+        ],
+        description:
+          "*Ministrations* is useful for curing stuns and dazes, trading Vestal’s turn for the enemy’s. It’s most effective in fights with frequent stuns or with *Pocket Watch*. Removing DoTs offers indirect healing but is less critical. Generally, it serves as a situational filler rather than a core choice.",
       },
       {
         id: 6,
         name: "Mace Bash",
         Type: 0,
-        skillsPaths: [{Rank:[3,4], Target: [1,2]},{Rank:[3,4], Target: [1,2]},{Rank:[3,4], Target: [1,2]},{Rank:[3,4], Target: [1,2]},],
-        description: "*Mace Bash* is the main damage move for frontline Vestal, scaling well with modifiers and requiring 3 conviction for bonus damage. It's especially effective when paired with *Hand of Light*, reaching 16-20 damage and ignoring defensive tokens. Chaplain Vestal can use it frequently, while *Confessor* gets it at a useful turn 3. Overall, it’s a reliable choice for any front-rank Vestal.",
+        skillsPaths: [
+          { Rank: [3, 4], Target: [1, 2] },
+          { Rank: [3, 4], Target: [1, 2] },
+          { Rank: [3, 4], Target: [1, 2] },
+          { Rank: [3, 4], Target: [1, 2] },
+        ],
+        description:
+          "*Mace Bash* is the main damage move for frontline Vestal, scaling well with modifiers and requiring 3 conviction for bonus damage. It's especially effective when paired with *Hand of Light*, reaching 16-20 damage and ignoring defensive tokens. Chaplain Vestal can use it frequently, while *Confessor* gets it at a useful turn 3. Overall, it’s a reliable choice for any front-rank Vestal.",
       },
       {
         id: 7,
         name: "Sanctuary",
         Type: 2,
-        skillsPaths: [{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1},],
-        description: "The generic Vestal version of this move provides both damage absorption and stress healing, useful on any path. The *Chaplain* variant offers extra guard and defense, ideal for tank setups, especially if Vestal needs to absorb hits for conviction. While the generic version is more versatile, the *Chaplain* version excels in providing additional protection.",
+        skillsPaths: [
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 1 },
+        ],
+        description:
+          "The generic Vestal version of this move provides both damage absorption and stress healing, useful on any path. The *Chaplain* variant offers extra guard and defense, ideal for tank setups, especially if Vestal needs to absorb hits for conviction. While the generic version is more versatile, the *Chaplain* version excels in providing additional protection.",
       },
       {
         id: 8,
         name: "Consecration of Light",
         Type: 2,
-        skillsPaths: [{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 3},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 3},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 3},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 5},],
-        description: "*Consecration of Light* provides value over time, especially with *Seraph* and dancing setups. It offers damage through strength, but crit tokens from the upgrade are less reliable. It's better used with bulky or backline setups, while *Fortitude* might be preferable otherwise. For slow-roll or fast-roll Vestal builds, it can be useful depending on the team composition.",
+        skillsPaths: [
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 3 },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 3 },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 3 },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 5 },
+        ],
+        description:
+          "*Consecration of Light* provides value over time, especially with *Seraph* and dancing setups. It offers damage through strength, but crit tokens from the upgrade are less reliable. It's better used with bulky or backline setups, while *Fortitude* might be preferable otherwise. For slow-roll or fast-roll Vestal builds, it can be useful depending on the team composition.",
       },
       {
         id: 9,
         name: "Divine Comfort",
         Type: 3,
-        skillsPaths: [{Rank: [1,2,3], Ally:[1,2,3,4], Cooldown: 4},{Rank: [1,2,3], Ally:[1,2,3,4], Cooldown: 4},{Rank: [1,2,3], Ally:[1,2,3,4], Cooldown: 4},{Rank: [1,2,3], Ally:[1,2,3,4], Cooldown: 4},],
-        description: "This move is more about mitigation through regen than direct healing, given its long cooldown and slow effect. It provides consistent damage reduction by healing over time, ignoring thresholds. Useful in most setups, especially for rank 2 Vestals, but should be used proactively as a mitigative tool rather than a primary heal.",
+        skillsPaths: [
+          { Rank: [1, 2, 3], Ally: [1, 2, 3, 4], Cooldown: 4 },
+          { Rank: [1, 2, 3], Ally: [1, 2, 3, 4], Cooldown: 4 },
+          { Rank: [1, 2, 3], Ally: [1, 2, 3, 4], Cooldown: 4 },
+          { Rank: [1, 2, 3], Ally: [1, 2, 3, 4], Cooldown: 4 },
+        ],
+        description:
+          "This move is more about mitigation through regen than direct healing, given its long cooldown and slow effect. It provides consistent damage reduction by healing over time, ignoring thresholds. Useful in most setups, especially for rank 2 Vestals, but should be used proactively as a mitigative tool rather than a primary heal.",
       },
       {
         id: 10,
         name: "Mantra",
         Type: 3,
-        skillsPaths: [{Rank:[1,2], Ally: [1,2,3,4]},
-        {Rank:[1,2], Ally: [1,2,3,4]},
-        {Rank:[1,2,3,4], Ally: [1,2,3,4], Cooldown:1},
-        {Rank:[1,2], Ally: [1,2,3,4]},],
-        description: "The *Chaplain* and *Seraph* mantras are the best options, with *Chaplain* offering useful self-healing and stress relief, and *Seraph* providing strong healing at the cost of dropping consecrations. The *Wanderer* and *Confessor* mantras are less effective due to their slow impact and short duration. Overall, prioritize *Chaplain* and *Seraph* if you have the space.",
+        skillsPaths: [
+          { Rank: [1, 2], Ally: [1, 2, 3, 4] },
+          { Rank: [1, 2], Ally: [1, 2, 3, 4] },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2], Ally: [1, 2, 3, 4] },
+        ],
+        description:
+          "The *Chaplain* and *Seraph* mantras are the best options, with *Chaplain* offering useful self-healing and stress relief, and *Seraph* providing strong healing at the cost of dropping consecrations. The *Wanderer* and *Confessor* mantras are less effective due to their slow impact and short duration. Overall, prioritize *Chaplain* and *Seraph* if you have the space.",
       },
     ],
   },
@@ -3535,7 +3591,7 @@ const heroesData = {
           {
             title: "Turn Start Effect",
             text: "Burn x3 (25%)",
-          }
+          },
         ],
         [
           {
@@ -3553,7 +3609,7 @@ const heroesData = {
           {
             title: "Combat Start Effects",
             text: "Dodge x2, Speed Boost",
-          }
+          },
         ],
         [
           {
@@ -3571,9 +3627,8 @@ const heroesData = {
           {
             title: "Self Effect",
             text: "Firestarter Crit Boost",
-          }
+          },
         ],
-        
       ],
     },
     description:
@@ -3667,95 +3722,156 @@ const heroesData = {
 
         skillsPaths: [
           {
-            Rank: [3,4],
+            Rank: [3, 4],
             Target: [1, 2],
           },
           {
-            Rank: [3,4],
+            Rank: [3, 4],
             Target: [1, 2],
-          },          {
-            Rank: [3,4],
+          },
+          {
+            Rank: [3, 4],
             Target: [1, 2],
-          },          {
-            Rank: [3,4],
+          },
+          {
+            Rank: [3, 4],
             Target: [1, 2],
           },
         ],
-        description: "*Searing Strike* is a decent damage move but less effective for Bonnie, who excels in DoT damage with moves like *Firefly*, *Dragonfly*, and *Controlled Burn*. Its utility as a hybrid damage move is less relevant to her kit, and its front-only use can limit its effectiveness. It also has some anti-synergy with her main paths, *Arsonist* and *Orphan*. Overall, while not a bad move, it struggles to find a good role in most of Bonnie's setups.",
+        description:
+          "*Searing Strike* is a decent damage move but less effective for Bonnie, who excels in DoT damage with moves like *Firefly*, *Dragonfly*, and *Controlled Burn*. Its utility as a hybrid damage move is less relevant to her kit, and its front-only use can limit its effectiveness. It also has some anti-synergy with her main paths, *Arsonist* and *Orphan*. Overall, while not a bad move, it struggles to find a good role in most of Bonnie's setups.",
       },
       {
         id: 1,
         name: "Firefly",
         Type: 1,
 
-        skillsPaths: [{Rank: [1,2], Target: [2,3,4]},{Rank: [1,2], Target: [2,3,4]},{Rank: [1,2], Target: [2,3,4]},{Rank: [1,2], Target: [2,3,4]},],
-        description: "*Firefly* is Bonnie's staple DoT damage move for back rank setups, with broad targeting and only slightly less DoT than *Noxious Blast*. Its combo effect allows for AoE burn that bypasses most defensive mechanics, making it effective against enemies with Death’s Door Resistance (DBR). While the AoE burn is weaker, it helps manage thresholds and ensures follow-up DoT applications are less necessary. Generally, it's a reliable move for targeting enemies you want to eliminate, similar to *Noxious Blast*.",
-
+        skillsPaths: [
+          { Rank: [1, 2], Target: [2, 3, 4] },
+          { Rank: [1, 2], Target: [2, 3, 4] },
+          { Rank: [1, 2], Target: [2, 3, 4] },
+          { Rank: [1, 2], Target: [2, 3, 4] },
+        ],
+        description:
+          "*Firefly* is Bonnie's staple DoT damage move for back rank setups, with broad targeting and only slightly less DoT than *Noxious Blast*. Its combo effect allows for AoE burn that bypasses most defensive mechanics, making it effective against enemies with Death’s Door Resistance (DBR). While the AoE burn is weaker, it helps manage thresholds and ensures follow-up DoT applications are less necessary. Generally, it's a reliable move for targeting enemies you want to eliminate, similar to *Noxious Blast*.",
       },
       {
         id: 2,
         name: "Smokescreen",
         Type: 1,
-        skillsPaths: [{Rank: [1,2,3,4], Target: [1,2,3], Cooldown: 1},{Rank: [1,2,3,4], Target: [1,2,3], Cooldown: 1},{Rank: [1,2,3,4], Target: [1,2,3], Cooldown: 1},{Rank: [1,2,3,4], Target: [1,2,3], Cooldown: 1},],
-        description: "*Smokescreen+* is a powerful debuff, applying two blind tokens, a vuln token, and a combo, making it the best single-target debuff in the game. It's effective in most Bonnie setups and works well for enhancing damage, especially with characters like Hellion and Leper. The only downside is that enemies might be killed too quickly, limiting the blind's impact. However, it's less useful against blind-immune enemies like the Act 3 boss.",
+        skillsPaths: [
+          { Rank: [1, 2, 3, 4], Target: [1, 2, 3], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Target: [1, 2, 3], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Target: [1, 2, 3], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Target: [1, 2, 3], Cooldown: 1 },
+        ],
+        description:
+          "*Smokescreen+* is a powerful debuff, applying two blind tokens, a vuln token, and a combo, making it the best single-target debuff in the game. It's effective in most Bonnie setups and works well for enhancing damage, especially with characters like Hellion and Leper. The only downside is that enemies might be killed too quickly, limiting the blind's impact. However, it's less useful against blind-immune enemies like the Act 3 boss.",
       },
       {
         id: 3,
         name: "Run and Hide",
         Type: 2,
-        skillsPaths: [{Rank: [1,2,3,4], Target: [0], Cooldown:2},{Rank: [1,2,3,4], Target: [0], Cooldown:2},{Rank: [1,2,3,4], Target: [0], Cooldown:2},{Rank: [1,2,3,4], Target: [0], Cooldown:2},],
-        description: "*Run and Hide* is a niche self-sustain move for Bonnie, providing stealth and regen but with low synergy with her kit. It’s useful when she needs to drop aggro or create an 'anti-tank' effect by forcing the other front-rank character to soak up damage. However, it's generally low-tempo and less impactful compared to her other moves like Dragonfly. This move has rare synergies and is situational at best.",
+        skillsPaths: [
+          { Rank: [1, 2, 3, 4], Target: [0], Cooldown: 2 },
+          { Rank: [1, 2, 3, 4], Target: [0], Cooldown: 2 },
+          { Rank: [1, 2, 3, 4], Target: [0], Cooldown: 2 },
+          { Rank: [1, 2, 3, 4], Target: [0], Cooldown: 2 },
+        ],
+        description:
+          "*Run and Hide* is a niche self-sustain move for Bonnie, providing stealth and regen but with low synergy with her kit. It’s useful when she needs to drop aggro or create an 'anti-tank' effect by forcing the other front-rank character to soak up damage. However, it's generally low-tempo and less impactful compared to her other moves like Dragonfly. This move has rare synergies and is situational at best.",
       },
       {
         id: 4,
         name: "Hearthlight",
         Type: 1,
-        skillsPaths: [{Rank: [1,2,3,4], Target: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Target: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Target: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Target: [1,2,3,4], Cooldown: 1},],
-        description: "*Hearthlight* is a utility move that counters dodge and stealth, making it valuable in fights against dodge-heavy enemies like beast dens and cultists. The upgraded version also cures blindness on allies, which is particularly useful in areas like the Shroud. While it deals no damage, its utility in removing dodge, curing blind, and countering stealth makes it a strong pick in specific situations, especially against certain bosses.",
+        skillsPaths: [
+          { Rank: [1, 2, 3, 4], Target: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Target: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Target: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Target: [1, 2, 3, 4], Cooldown: 1 },
+        ],
+        description:
+          "*Hearthlight* is a utility move that counters dodge and stealth, making it valuable in fights against dodge-heavy enemies like beast dens and cultists. The upgraded version also cures blindness on allies, which is particularly useful in areas like the Shroud. While it deals no damage, its utility in removing dodge, curing blind, and countering stealth makes it a strong pick in specific situations, especially against certain bosses.",
       },
       {
         id: 5,
         name: "Ransack",
         Type: 0,
-        skillsPaths: [{Rank: [1,2,3,4], Target: [2,3,4]},{Rank: [1,2,3,4], Target: [2,3,4]},{Rank: [1,2,3,4], Target: [2,3,4]},{Rank: [1,2,3,4], Target: [2,3,4]},],
-        description: "*Ransack* is a utility move for Bonnie, offering a weak pull and some damage with burn. Its inability to target rank 4 and its single-rank pull make it less effective compared to other pull abilities. While it can fit into double lunge or dance comps, and helps reposition Bonnie for moves like *Dragonfly* or *Backdraft*, it doesn't stand out in power. It's useful when you need a pull or dance move, but it's generally a weaker option in those roles.",
+        skillsPaths: [
+          { Rank: [1, 2, 3, 4], Target: [2, 3, 4] },
+          { Rank: [1, 2, 3, 4], Target: [2, 3, 4] },
+          { Rank: [1, 2, 3, 4], Target: [2, 3, 4] },
+          { Rank: [1, 2, 3, 4], Target: [2, 3, 4] },
+        ],
+        description:
+          "*Ransack* is a utility move for Bonnie, offering a weak pull and some damage with burn. Its inability to target rank 4 and its single-rank pull make it less effective compared to other pull abilities. While it can fit into double lunge or dance comps, and helps reposition Bonnie for moves like *Dragonfly* or *Backdraft*, it doesn't stand out in power. It's useful when you need a pull or dance move, but it's generally a weaker option in those roles.",
       },
       {
         id: 6,
         name: "Cauterize",
         Type: 3,
-        skillsPaths: [{Rank: [1,2,3], Ally:[1,2,3,4], Uses: 3},{Rank: [1,2,3], Ally:[1,2,3,4], Uses: 3},{Rank: [1,2,3], Ally:[1,2,3,4], Uses: 3},{Rank: [1,2,3], Ally:[1,2,3,4], Uses: 3},],
-        description: "*Cauterize* is a versatile heal that can be used whenever a target is bleeding, which is a common condition in most fights. This makes it a reliable option, especially when facing enemies like bandits and cultists who frequently apply bleed. It also synergizes well with self-bleed comps, such as those involving Ravager Hellion or Leper with Ruin+, and can even complement the Occultist’s *Wyrd Healing* in a pinch. Given its utility, *Cauterize* is often a staple in Bonnie builds, though it's wise to swap it out in bleed-immune fights.",
+        skillsPaths: [
+          { Rank: [1, 2, 3], Ally: [1, 2, 3, 4], Uses: 3 },
+          { Rank: [1, 2, 3], Ally: [1, 2, 3, 4], Uses: 3 },
+          { Rank: [1, 2, 3], Ally: [1, 2, 3, 4], Uses: 3 },
+          { Rank: [1, 2, 3], Ally: [1, 2, 3, 4], Uses: 3 },
+        ],
+        description:
+          "*Cauterize* is a versatile heal that can be used whenever a target is bleeding, which is a common condition in most fights. This makes it a reliable option, especially when facing enemies like bandits and cultists who frequently apply bleed. It also synergizes well with self-bleed comps, such as those involving Ravager Hellion or Leper with Ruin+, and can even complement the Occultist’s *Wyrd Healing* in a pinch. Given its utility, *Cauterize* is often a staple in Bonnie builds, though it's wise to swap it out in bleed-immune fights.",
       },
       {
         id: 7,
         name: "Controlled Burn",
         Type: 1,
-        skillsPaths: [{Rank: [2,3,4], Target: [1,2,3,4], Cooldown: 3},{Rank: [2,3,4], Target: [1,2,3,4], Cooldown: 3},{Rank: [2,3,4], Target: [1,2,3,4], Cooldown: 3},{Rank: [2,3,4], Target: [1,2,3,4], Cooldown: 3},],
-        description: "*Controlled Burn* excels in rank 3, applying burn and bypassing stealth and dodge. It deals significant damage, especially to enemies with low burn resist or multiple actions, like the Act 3 boss. The persistent rank token can also affect shuffled enemies. However, it doesn't check block and may not suit fast-moving teams.",
+        skillsPaths: [
+          { Rank: [2, 3, 4], Target: [1, 2, 3, 4], Cooldown: 3 },
+          { Rank: [2, 3, 4], Target: [1, 2, 3, 4], Cooldown: 3 },
+          { Rank: [2, 3, 4], Target: [1, 2, 3, 4], Cooldown: 3 },
+          { Rank: [2, 3, 4], Target: [1, 2, 3, 4], Cooldown: 3 },
+        ],
+        description:
+          "*Controlled Burn* excels in rank 3, applying burn and bypassing stealth and dodge. It deals significant damage, especially to enemies with low burn resist or multiple actions, like the Act 3 boss. The persistent rank token can also affect shuffled enemies. However, it doesn't check block and may not suit fast-moving teams.",
       },
       {
         id: 8,
         name: "Dragonfly",
         Type: 1,
-        skillsPaths: [{Rank: [3,4], Target: [1,2]},{Rank: [3,4], Target: [1,2]},{Rank: [3,4], Target: [1,2]},{Rank: [3,4], Target: [1,2]},],
-        description: "*Incendiary Grenade* offers a front rank DoT cleave with a bonus combo application. Its effectiveness is somewhat limited by its range and Bonnie's vulnerability in the front ranks. While it requires careful positioning or support from dancers or the Tangle Trophy, it provides substantial value when used correctly. Consider using it as a starting move or with a safer strategy involving Smoke and Firefly.",
+        skillsPaths: [
+          { Rank: [3, 4], Target: [1, 2] },
+          { Rank: [3, 4], Target: [1, 2] },
+          { Rank: [3, 4], Target: [1, 2] },
+          { Rank: [3, 4], Target: [1, 2] },
+        ],
+        description:
+          "*Incendiary Grenade* offers a front rank DoT cleave with a bonus combo application. Its effectiveness is somewhat limited by its range and Bonnie's vulnerability in the front ranks. While it requires careful positioning or support from dancers or the Tangle Trophy, it provides substantial value when used correctly. Consider using it as a starting move or with a safer strategy involving Smoke and Firefly.",
       },
       {
         id: 9,
         name: "Firestarter",
         Type: 2,
-        skillsPaths: [{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 2, Uses: 2},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 2, Uses: 2},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 2, Uses: 2},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 2},],
-        description: "This move is most valuable when used with cleaves, amplifying their burn effects significantly. While it can offer some utility when applied randomly to a friendly, its true strength lies in enhancing cleave moves like Magnesium Rain or Grapeshot Blast. The Orphan version adds a crit token, but it's not essential. Without synergy with cleaves or ripostes, its utility is limited, making it a situational choice for those with the right setup.",
+        skillsPaths: [
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 2, Uses: 2 },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 2, Uses: 2 },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 2, Uses: 2 },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 2 },
+        ],
+        description:
+          "This move is most valuable when used with cleaves, amplifying their burn effects significantly. While it can offer some utility when applied randomly to a friendly, its true strength lies in enhancing cleave moves like Magnesium Rain or Grapeshot Blast. The Orphan version adds a crit token, but it's not essential. Without synergy with cleaves or ripostes, its utility is limited, making it a situational choice for those with the right setup.",
       },
       {
         id: 10,
         name: "Backdraft",
 
         Type: 1,
-        skillsPaths: [{Rank: [3,4], Target: [2,3,4], Cooldown: 1},{Rank: [3,4], Target: [2,3,4], Cooldown: 1},{Rank: [3,4], Target: [2,3,4], Cooldown: 1},{Rank: [3,4], Target: [2,3,4], Cooldown: 1},],
-        description: "Backdraft is a high-damage move that excels with a team built around burn. Its effectiveness depends on getting Bonnie to the front and applying substantial burn first, making it less suitable for singular enemies or high-move bosses. It pairs well with burn-focused strategies like Dragonfly setups, but requires careful positioning and team coordination. Despite its niche use, when executed well, it can deal massive damage, especially in slower comps.",
-
+        skillsPaths: [
+          { Rank: [3, 4], Target: [2, 3, 4], Cooldown: 1 },
+          { Rank: [3, 4], Target: [2, 3, 4], Cooldown: 1 },
+          { Rank: [3, 4], Target: [2, 3, 4], Cooldown: 1 },
+          { Rank: [3, 4], Target: [2, 3, 4], Cooldown: 1 },
+        ],
+        description:
+          "Backdraft is a high-damage move that excels with a team built around burn. Its effectiveness depends on getting Bonnie to the front and applying substantial burn first, making it less suitable for singular enemies or high-move bosses. It pairs well with burn-focused strategies like Dragonfly setups, but requires careful positioning and team coordination. Despite its niche use, when executed well, it can deal massive damage, especially in slower comps.",
       },
     ],
   },
@@ -3794,7 +3910,7 @@ const heroesData = {
           {
             title: "Cowardice",
             text: "33%",
-          }
+          },
         ],
       ],
     },
@@ -3879,12 +3995,13 @@ const heroesData = {
 
         skillsPaths: [
           {
-            Rank: [2,3,4],
-            Target: [1,2],
+            Rank: [2, 3, 4],
+            Target: [1, 2],
           },
         ],
 
-        description: "This move is indeed a top-tier front-rank damage option, outclassing Wicked Hack with its sheer power and straightforward application. It performs exceptionally well with or without combo, and when combined with combo, it rivals Howling End in terms of damage output, making it a reliable staple for any high-damage setup.",
+        description:
+          "This move is indeed a top-tier front-rank damage option, outclassing Wicked Hack with its sheer power and straightforward application. It performs exceptionally well with or without combo, and when combined with combo, it rivals Howling End in terms of damage output, making it a reliable staple for any high-damage setup.",
       },
       {
         id: 1,
@@ -3892,12 +4009,13 @@ const heroesData = {
         Type: 1,
         skillsPaths: [
           {
-            Rank: [1,2,3,4],
-            Target: [1,2,3,4],
+            Rank: [1, 2, 3, 4],
+            Target: [1, 2, 3, 4],
             Cooldown: 1,
           },
         ],
-        description: "This damage transfer is a powerful tool, effectively enhancing BH's already formidable damage capabilities. It functions similarly to a superior Vuln Hex, but with BH’s tendency to focus on maximizing his own damage rather than setting up others, it can be a bit situational. When used strategically, particularly in cases where BH can capitalize on combo or bypass enemy defenses, it remains a valuable asset.",
+        description:
+          "This damage transfer is a powerful tool, effectively enhancing BH's already formidable damage capabilities. It functions similarly to a superior Vuln Hex, but with BH’s tendency to focus on maximizing his own damage rather than setting up others, it can be a bit situational. When used strategically, particularly in cases where BH can capitalize on combo or bypass enemy defenses, it remains a valuable asset.",
       },
       {
         id: 2,
@@ -3905,11 +4023,12 @@ const heroesData = {
         Type: 1,
         skillsPaths: [
           {
-            Rank: [1,2,3,4],
-            Target: [3,4],
+            Rank: [1, 2, 3, 4],
+            Target: [3, 4],
           },
         ],
-        description: "This move on BH, though not as strong as Daemon’s Pull, remains highly effective. It provides valuable disruption by pulling enemies, making it especially useful against Cherubs and Trumpets. While it might not surpass Daemon’s Pull, its utility in setting up quick kills or disrupting enemy formations still makes it a powerful tool in BH’s arsenal.",
+        description:
+          "This move on BH, though not as strong as Daemon’s Pull, remains highly effective. It provides valuable disruption by pulling enemies, making it especially useful against Cherubs and Trumpets. While it might not surpass Daemon’s Pull, its utility in setting up quick kills or disrupting enemy formations still makes it a powerful tool in BH’s arsenal.",
       },
       {
         id: 3,
@@ -3917,11 +4036,12 @@ const heroesData = {
         Type: 1,
         skillsPaths: [
           {
-            Rank: [1,2,3],
-            Target: [3,4],
+            Rank: [1, 2, 3],
+            Target: [3, 4],
           },
         ],
-        description:"This move is relatively weak, offering modest DoT damage and minor debuffs. It lacks impact compared to dedicated backline DoT options and its debuffs are often underwhelming. The move resist and speed penalties are situationally useful but generally not worth the slot. It’s a niche pick, typically chosen only when no better options are available.",
+        description:
+          "This move is relatively weak, offering modest DoT damage and minor debuffs. It lacks impact compared to dedicated backline DoT options and its debuffs are often underwhelming. The move resist and speed penalties are situationally useful but generally not worth the slot. It’s a niche pick, typically chosen only when no better options are available.",
       },
       {
         id: 4,
@@ -3929,12 +4049,13 @@ const heroesData = {
         Type: 1,
         skillsPaths: [
           {
-            Rank: [1,2,3],
-            Target: [1,2,3],
+            Rank: [1, 2, 3],
+            Target: [1, 2, 3],
             Cooldown: 1,
           },
         ],
-        description: "This move is a more reliable Disorienting Blast, with blind replacing the odd % chance to weak. It’s primarily used for its shuffle or combo stun potential, and the added blind is a bonus. Often, Collect Bounty is preferred for a kill or setup, but this move is solid, offering basic utility that feels fair within BH’s kit.",
+        description:
+          "This move is a more reliable Disorienting Blast, with blind replacing the odd % chance to weak. It’s primarily used for its shuffle or combo stun potential, and the added blind is a bonus. Often, Collect Bounty is preferred for a kill or setup, but this move is solid, offering basic utility that feels fair within BH’s kit.",
       },
       {
         id: 5,
@@ -3942,12 +4063,13 @@ const heroesData = {
         Type: 1,
         skillsPaths: [
           {
-            Rank: [1,2,3,4],
-            Target: [1,2,3,4],
+            Rank: [1, 2, 3, 4],
+            Target: [1, 2, 3, 4],
             Cooldown: 1,
           },
         ],
-        description: "This move functions as an intimidate with added utility for clearing vuln, making it a solid choice for tanking. It’s useful to draw aggro and keep BH alive until the end of the region. You might use it frequently when other moves aren’t needed or to manage enemy attention. If BH dies, there’s no refund, but you can afford to have him take hits until the last fight.",
+        description:
+          "This move functions as an intimidate with added utility for clearing vuln, making it a solid choice for tanking. It’s useful to draw aggro and keep BH alive until the end of the region. You might use it frequently when other moves aren’t needed or to manage enemy attention. If BH dies, there’s no refund, but you can afford to have him take hits until the last fight.",
       },
       {
         id: 6,
@@ -3955,11 +4077,12 @@ const heroesData = {
         Type: 1,
         skillsPaths: [
           {
-            Rank: [1,2,],
-            Target: [1,2,3,4],
+            Rank: [1, 2],
+            Target: [1, 2, 3, 4],
           },
         ],
-        description: "This move provides flexible and reliable damage, hitting any target with a strong attack and offering a burn bonus. It’s particularly effective if you have a backline BH, complementing sniping teams and pairing well with burn setups like those with Bonnie and Junia. Even without the burn, its ability to deliver 6-10 damage to any enemy is highly valuable.",
+        description:
+          "This move provides flexible and reliable damage, hitting any target with a strong attack and offering a burn bonus. It’s particularly effective if you have a backline BH, complementing sniping teams and pairing well with burn setups like those with Bonnie and Junia. Even without the burn, its ability to deliver 6-10 damage to any enemy is highly valuable.",
       },
       {
         id: 7,
@@ -3967,24 +4090,26 @@ const heroesData = {
         Type: 1,
         skillsPaths: [
           {
-            Rank: [1,2,],
-            Target: [3,4],
+            Rank: [1, 2],
+            Target: [3, 4],
             Cooldown: 2,
           },
         ],
-        description: "This move is a reliable backline stun, reminiscent of the powerful stuns from DD1. It’s excellent in this game, especially since it’s balanced around combo and daze stuns. With the ability to ignore dodge, it can consistently stun enemies like cherubs or spitter spiders, making it a top choice for backline BHs unless facing enemies with extremely high stun resist, which is rare.",
+        description:
+          "This move is a reliable backline stun, reminiscent of the powerful stuns from DD1. It’s excellent in this game, especially since it’s balanced around combo and daze stuns. With the ability to ignore dodge, it can consistently stun enemies like cherubs or spitter spiders, making it a top choice for backline BHs unless facing enemies with extremely high stun resist, which is rare.",
       },
       {
         id: 8,
         name: "Finish Him",
-        Type:0,
+        Type: 0,
         skillsPaths: [
           {
-            Rank: [2,3,4],
-            Target: [1,2,3],
+            Rank: [2, 3, 4],
+            Target: [1, 2, 3],
           },
         ],
-        description: "Finish Him suffers from a similar issue as in DD1: you rarely plan to strike the stunned target directly. However, if you’re running stun-heavy comps, it provides additional damage. It has a bit more reach than 'Collect Bounty' but is generally less preferred compared to options like 'Hurlbat' for utility. It's useful for finishing off enemies with DBR but is considered a weaker direct damage option compared to other moves like 'Hurlbat' and 'Collect Bounty.'",
+        description:
+          "Finish Him suffers from a similar issue as in DD1: you rarely plan to strike the stunned target directly. However, if you’re running stun-heavy comps, it provides additional damage. It has a bit more reach than 'Collect Bounty' but is generally less preferred compared to options like 'Hurlbat' for utility. It's useful for finishing off enemies with DBR but is considered a weaker direct damage option compared to other moves like 'Hurlbat' and 'Collect Bounty.'",
       },
       {
         id: 9,
@@ -3992,12 +4117,13 @@ const heroesData = {
         Type: 0,
         skillsPaths: [
           {
-            Rank: [3,4],
-            Target: [1,2],
+            Rank: [3, 4],
+            Target: [1, 2],
             Cooldown: 2,
           },
         ],
-        description: "This move's primary strength is its straightforward stun capability, making it highly effective for managing frontlines. Although it lacks dodge ignoring and replaces combo with knockback, the higher damage and versatility in targeting different ranks make it a valuable option. It's an excellent choice for any frontline BH and pairs well with Jester for tactical flexibility.",
+        description:
+          "This move's primary strength is its straightforward stun capability, making it highly effective for managing frontlines. Although it lacks dodge ignoring and replaces combo with knockback, the higher damage and versatility in targeting different ranks make it a valuable option. It's an excellent choice for any frontline BH and pairs well with Jester for tactical flexibility.",
       },
       {
         id: 10,
@@ -4005,12 +4131,13 @@ const heroesData = {
         Type: 2,
         skillsPaths: [
           {
-            Rank: [1,2,3,4],
-            Ally: [1,2,3,4],
+            Rank: [1, 2, 3, 4],
+            Ally: [1, 2, 3, 4],
             Cooldown: 1,
           },
         ],
-        description: "This move is essentially an unupgraded Defender, which is solid but underwhelming compared to BH’s other abilities. It offers valuable utility by allowing him to absorb damage, but it’s often overshadowed by his more impactful moves. Still, it's useful in situations where BH needs to protect allies, though Staredown is generally preferred for its versatility.",
+        description:
+          "This move is essentially an unupgraded Defender, which is solid but underwhelming compared to BH’s other abilities. It offers valuable utility by allowing him to absorb damage, but it’s often overshadowed by his more impactful moves. Still, it's useful in situations where BH needs to protect allies, though Staredown is generally preferred for its versatility.",
       },
     ],
   },
@@ -4053,7 +4180,7 @@ const heroesData = {
           {
             title: "Tenacity Effect",
             text: "Melee hits on burning targets heal the Crusader.",
-          }
+          },
         ],
         [
           {
@@ -4067,7 +4194,7 @@ const heroesData = {
           {
             title: "Tenacity Buff",
             text: "Grants Block, debuff resistance, and increases healing received.",
-          }
+          },
         ],
         [
           {
@@ -4085,9 +4212,8 @@ const heroesData = {
           {
             title: "Tenacity Adjustment",
             text: "Grants a Block token, but no longer adds debuff resistance.",
-          }
+          },
         ],
-
       ],
     },
     description:
@@ -4169,54 +4295,113 @@ const heroesData = {
 
         skillsPaths: [
           {
-            Rank: [0],
+            Rank: [3, 4],
             Target: [1, 2],
           },
-          {},
-          {},
-          {},
+          {
+            Rank: [3, 4],
+            Target: [1, 2],
+          },
+          {
+            Rank: [3, 4],
+            Target: [1, 2],
+          },
+          {
+            Rank: [3, 4],
+            Target: [1, 2],
+          },
         ],
-        description: "a",
+        description:
+          "Basic Smite has a narrower damage range compared to Wicked Hack, which makes it more consistent but with slightly lower maximum damage. Aggressor's version adds Execution and stress healing, useful for dealing with death armor and managing stress but less effective without combo. Templar’s version provides stress healing on combo, which is good for managing stress but often less impactful compared to other options. Each version has its strengths depending on the team setup and specific fight scenarios.",
       },
       {
         id: 1,
         name: "Stunning Blow",
+        Type: 0,
+        skillsPaths: [
+          {
+            Rank: [3, 4],
+            Target: [1, 2],
+          },
+          {
+            Rank: [3, 4],
+            Target: [1, 2],
+          },
+          {
+            Rank: [3, 4],
+            Target: [1, 2],
+          },
+          {
+            Rank: [3, 4],
+            Target: [1, 2],
+          },
+        ],
+        description:
+          "This is a straightforward stun that doesn’t need upgrades to work, offering a bit of damage alongside the stun. While stuns can be less impactful overall, it’s effective for front-line Crusaders with combo access. Its key advantage is providing the stun without requiring upgrades. For focused stun comps, other options might be better, but it’s a solid choice for Crusaders, especially against specific enemies like the Collector.",
       },
       {
         id: 2,
         name: "Zealous Accusation",
+        Type: 1,
+
+        skillsPaths: [{Rank: [3,4], Target: [1,2]},{Rank: [3,4], Target: [1,2]},{Rank: [3,4], Target: [1,2]},{Rank: [1,2], Target: [3,4]},],
+        description: "Don’t overlook Zealous Accusation. It’s a powerful cleave, akin to a sturdier Dragonfly, dealing 4 burn to two targets with the Favorite Toy Memory. This move excels against frontline targets with block or dodge, setting up combos and enabling moves like Backdraft. Crusader’s speed is a minor drawback, but it’s generally the better cleave compared to Reap. For back-line Crusaders, Banneret’s version trades one DoT for combo application, making it a strong choice for rank 3 or 4, especially when paired with a Sharpshot or other combo-focused setups.",
       },
       {
         id: 3,
         name: "Inspiring Cry",
+        Type: 2,
+        skillsPaths: [{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1},],
+        description: "This move offers a unique twist on Inspiring Tune, providing stress healing specifically for Reynauld rather than the target when upgraded. While it can be used anywhere and offers a valuable stress heal, it’s often less flexible compared to other stress heal options since it only benefits Reynauld. This makes it less appealing compared to moves like Bolster+, especially given the effectiveness of Aggressor's Smite. It remains useful but is often less prioritized in favor of other options in Reynauld’s kit.",
       },
       {
         id: 4,
         name: "Rallying Cry",
+        Type: 2,
+        skillsPaths: [{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 2},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 3},],
+        description: "This stun cure is a niche choice, only offering its full potential with an upgrade. Its value is limited compared to other Crusader options, with self-weak removal being less effective given Zealous’s capabilities. The Templar version adds a guard effect with healing received and regen transfer, but doesn’t protect Reynauld himself. The Banneret version applies immobilize to your entire team, useful in specific scenarios but often less practical overall.",
       },
       {
         id: 5,
         name: "Reap",
+        Type: 0,
+        skillsPaths: [{Rank: [3,4], Target: [1,2]},{Rank: [3,4], Target: [1,2]},{Rank: [3,4], Target: [1,2]},{Rank: [3,4], Target: [1,2]},],
+        description: "Reap is more niche than Zealous but offers a powerful heal on combo, especially against low HP enemies with DoTs. The Aggressor version swaps the heal for Execution 1 on burning targets, but it faces similar challenges as unupgraded Smite. The strength bonus on kill is nice, but its situational nature and mastery requirement make it less appealing. Reap also works with the Aggressor version of Tenacity, unlike Zealous.",
       },
       {
         id: 6,
         name: "Battle Heal",
+        Type: 3,
+        skillsPaths: [{Rank: [3,4], Ally: [1,2,3,4], Cooldown: 2, Uses: 3},{Rank: [3,4], Ally: [1,2,3,4], Cooldown: 2, Uses: 3},{Rank: [3,4], Ally: [1,2,3,4], Cooldown: 2, Uses: 3},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 2, Uses: 4},],
+        description: "The 2-turn cooldown on upgraded Battle Heal makes the upgrade feel necessary, as the unupgraded version is weaker than Battlefield Medicine. The Banneret version is more versatile, allowing it to be used on any target and adding an extra use. This makes it generally the better version, but the main priority is upgrading to reduce cooldown and improve efficiency.",
       },
       {
         id: 7,
         name: "Bulwark of Faith",
+        Type: 2,
+        skillsPaths: [{Rank: [3,4], Target: [0], Cooldown: 2},{Rank: [3,4], Target: [0], Cooldown: 2},{Rank: [3,4], Target: [0], Cooldown: 2},{Rank: [3,4], Target: [0], Cooldown: 2},],
+        description: "Reynauld's taunt move is a strong option for tanking, providing 2 block unupgraded and up to 3 taunt when upgraded, making it a reliable way to draw enemy attention. The regen adds some mitigation, though it's more about reducing incoming damage than actual healing. The downside is the lack of Block+ and the 2-turn cooldown, so timing is crucial. Despite these limitations, the taunt is extremely valuable, and this move is almost always worth using, especially if Reynauld is your primary tank.",
       },
       {
         id: 8,
         name: "Holy Lance",
-      },
+        Type: 1,
+        skillsPaths: [{Rank: [1,2], Target: [2,3,4]},{Rank: [1,2], Target: [2,3,4]},{Rank: [1,2], Target: [2,3,4]},{Rank: [1,2], Target: [2,3,4]},],
+        description: "It sounds like you're diving deep into the mechanics of Reynauld's moveset, analyzing the effectiveness of *Holy Lance* within different team setups. Your insight on how its value is spread across damage, utility, and combo potential highlights the need for thoughtful consideration when scaling this move. Balancing it against other options like *Zealous* or *Smite*, which benefit more directly from scaling, shows your understanding of how to maximize the effectiveness of a team composition.",
+       },
       {
         id: 9,
         name: "Radiance",
+        Type: 2,
+        skillsPaths: [{Rank: [1,2,3,4], Target: [0], Cooldown: 4},{Rank: [1,2,3,4], Target: [0], Cooldown: 4},{Rank: [1,2,3,4], Target: [0], Cooldown: 4},{Rank: [1,2,3,4], Target: [0], Cooldown: 4},],
+        description: "Radiance provides buffs but has a slow payoff, making it less appealing compared to more immediate options like Smite or Zealous. It's better with Bonnie but still suffers from the four-turn delay. While it can synergize with Templar's guard skill or healing buffs, there are usually more effective moves to use in most situations.",
       },
       {
         id: 10,
         name: "Tenacity",
+        Type: 2,
+        skillsPaths: [{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 2},{Rank: [1,2,3,4], Target: [0], Cooldown: 4},{Rank: [3,4], Target: [0], Cooldown: 2},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 3},],
+        description: "Tenacity offers four different versions tailored to various playstyles. The Wanderer and Banneret versions provide valuable block tokens to allies, enhancing their mitigation. The Templar version focuses on increasing Crusader's healing received, making it ideal for absorbing and recovering from damage. The Aggressor version, though limited to melee skills, can be powerful with the right setup, potentially rivaling Adrenaline Rush in specific situations.",
       },
     ],
   },
@@ -4246,29 +4431,21 @@ const heroesData = {
             title: "Candles of Hope +1",
             text: "Extra Candle of Hope on reaching the 2nd Inn.",
           },
-          {
-            title: "Riposte Combo (33%)",
-            text: "Target add Combo token when using Riposte.",
-          },
         ],
         [
-          { title: "If Rank = 1:", text: "+25% DMG" },
-          { title: "If Rank = 3:", text: "-25% DMG" },
-          { title: "If Rank = 4:", text: "-50% DMG" },
-          { title: "Point Blank Shot", text: "Add Riposte" },
+          { title: "", text: "" },
+          { title: "", text: "" },
+          { title: "", text: "" },
         ],
         [
-          { title: "Ranged Skills:", text: "+25% DMG" },
-          { title: "Melee Skills:", text: "-25% DMG" },
-          { title: "Buff Speed", text: "+3 Speed" },
-          { title: "Grapeshot Blast", text: "Add Strength" },
+          { title: "", text: "" },
+          { title: "", text: "" },
+          { title: "", text: "" },
         ],
         [
-          { title: "Buff HP", text: "+15% MAXHP" },
-          { title: "Ranged Skills:", text: "-75% DMG" },
-          { title: "Apply On Melee-Hit :", text: "-10% Bleed RES" },
-          { title: "Highway Robbery", text: "Steal Positive Token" },
-          { title: "Double Cross", text: "Remove Block" },
+          { title: "", text: "" },
+          { title: "", text: "" },
+          { title: "", text: "" },
         ],
       ],
     },
@@ -4385,9 +4562,11 @@ const heroesData = {
             Target: [1, 2],
           },
           {},
-          { Rank: [1], Target: [1, 2] },
+          {},
           {},
         ],
+
+        description: "a",
       },
       {
         id: 1,
