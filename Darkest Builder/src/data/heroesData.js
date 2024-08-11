@@ -5007,7 +5007,7 @@ const heroesData = {
         id: 10,
         name: "Necrosis",
         Type: 0,
-        skillsPaths:[{Rank:[2,3], Target:[1,2,3,4], Cooldown:1},],
+        skillsPaths:[{Rank:[2,3], Target:[1,2,3,4], Cooldown:1},{Rank:[2,3], Target:[1,2,3,4], Cooldown:1},{Rank:[2,3], Target:[1,2,3,4], Cooldown:1},{Rank:[2,3], Target:[1,2,3,4], Cooldown:1},],
         description: "Necrosis A party-wide cleave which targets every enemy with Blight, and on contact heals Flagellant for 5% HP per enemy with Blight for a maximum of 20% healed.",
       },
     ],
