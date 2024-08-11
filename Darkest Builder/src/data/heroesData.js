@@ -4753,13 +4753,13 @@ const heroesData = {
       "I am purged of beauty, empty of all but blight!",
     ],
     paths: {
-      name: ["Wanderer", "Rogue", "Sharpshot", "Yellowhand"],
-      skillsArray: [[], [0, 2, 4, 5, 6], [1, 4, 5, 6, 8], [3, 6, 7, 9, 10]],
+      name: ["Wanderer", "Maniac", "Exanimate", "Scourge"],
+      skillsArray: [[], [0, 4,6,8,9], [0,1,  5,  8,10], [0, 3, 6, 7, 8]],
       cites: [
         '"Default skills. Rewards candles upon reaching the second Inn"',
-        '"A brawler focused on front rank combat and Riposte."',
-        '"A back rank role that emphasizes ranged skill use"',
-        '"A rank-flexible Bleed specialist. Riposte inflicts Bleed."',
+        '"Sacrifice Blight Blight potency in favor of flexible position, debuff, and disruption."',
+        '"Low health grants great potency to Blight Blight and buff alike."',
+        '"A role that revels in divesting other of their burdens. Toxic state gains new effects."',
       ],
 
       description: [
@@ -4768,30 +4768,58 @@ const heroesData = {
             title: "Candles of Hope +1",
             text: "Extra Candle of Hope on reaching the 2nd Inn.",
           },
-          {
-            title: "Riposte Combo (33%)",
-            text: "Target add Combo token when using Riposte.",
-          },
         ],
-        [
-          { title: "If Rank = 1:", text: "+25% DMG" },
-          { title: "If Rank = 3:", text: "-25% DMG" },
-          { title: "If Rank = 4:", text: "-50% DMG" },
-          { title: "Point Blank Shot", text: "Add Riposte" },
-        ],
-        [
-          { title: "Ranged Skills:", text: "+25% DMG" },
-          { title: "Melee Skills:", text: "-25% DMG" },
-          { title: "Buff Speed", text: "+3 Speed" },
-          { title: "Grapeshot Blast", text: "Add Strength" },
-        ],
-        [
-          { title: "Buff HP", text: "+15% MAXHP" },
-          { title: "Ranged Skills:", text: "-75% DMG" },
-          { title: "Apply On Melee-Hit :", text: "-10% Bleed RES" },
-          { title: "Highway Robbery", text: "Steal Positive Token" },
-          { title: "Double Cross", text: "Remove Block" },
-        ],
+[
+  {
+    title: "Punish",
+    text: "Normal damage, 10% self-damage, knockback 1, 2 Blight tokens.",
+  },
+  {
+    title: "Acid Rain",
+    text: "Normal damage, applies Weak token.",
+  },
+  {
+    title: "Sepsis",
+    text: "Ignores Blind, transfers negative tokens, heals 35%.",
+  },
+  {
+    title: "Lash's Gift",
+    text: "Steals negative tokens, heals target.",
+  }
+],
+[
+  {
+    title: "Punish & Acid Rain",
+    text: "-1 Blight; if <50% HP, +2 Blight tokens.",
+  },
+  {
+    title: "Sepsis",
+    text: "Consumes Blight, deals 75% remaining damage; heals to 45% if <50% HP.",
+  },
+  {
+    title: "Lash's Gift",
+    text: "If <20% HP: Heals 10%, removes debuffs, grants Crit & Dodge.",
+  }
+],
+[
+  {
+    title: "Sepsis",
+    text: "50% Blight damage; keeps Blight with Combo.",
+  },
+  {
+    title: "Deathless",
+    text: "Heals Damian 35% if <50% HP.",
+  },
+  {
+    title: "Suffer",
+    text: "Steals Horror tokens.",
+  },
+  {
+    title: "Lash's Gift",
+    text: "Removes debuffs; adds Horror.",
+  }
+],
+
       ],
     },
     description:
