@@ -27,7 +27,7 @@ const linksSections = [
   { href: "Hero", text: "Hero" },
   { href: "HowToPlay", text: "Play-Style" },
   { href: "Skills", text: "Skills/Paths" },
-  { href: "#", text: "Trinkets" },
+  { href: "Trinkets", text: "Trinkets" },
   { href: "#", text: "teamMates" },
   { href: "#", text: "Game-Builds" },
 ];
@@ -93,6 +93,7 @@ function WikiSection({ url_Bg }) {
       }
     });
     setHeroPaths(0);
+    setSelectedSkill(0);
   };
 
   //SelectorSkills
@@ -125,6 +126,7 @@ function WikiSection({ url_Bg }) {
                 onSelect={(item) => {
                   setHeroArray(item.id - 1);
                   setHeroPaths(0);
+                  setSelectedSkill(0);
                 }}
                 styling={{
                   color: "white",
@@ -254,8 +256,6 @@ function WikiSection({ url_Bg }) {
               <h2>Skills and Paths</h2>
               <hr />
 
-              <cite>{heroesData[heroArray].paths.cites[heroPaths]}</cite>
-
               <div className="pathContainer">
                 <PathHero
                   heroIndex={heroArray}
@@ -268,73 +268,137 @@ function WikiSection({ url_Bg }) {
 
                   <div className="topBarSkill">
                     <h3>{heroesData[heroArray].skills[selectedSkill].name}</h3>
-                    <UpgradeButton />
+                    {/*
+                     NextFeature
+                     <UpgradeButton /> 
+                     */}
                   </div>
 
                   <div className="dataSkill">
                     <div className="basicStats">
                       <ul>
+                        {/* //SkillFrameIMG */}
                         <li>
                           <SkillFrame
                             skillData={
                               heroesData[heroArray].skills[selectedSkill]
                             }
                             arrowCheck={0}
+                            heroIndex={heroArray}
                           />
                         </li>
+
+                        {/* //TypeStatCheck */}
                         <li>
                           <BasicStat
                             title={"Type"}
                             iconSkill={
-                              heroesData[heroArray].skills[selectedSkill].info
-                                .type
+                              heroesData[heroArray].skills[selectedSkill].Type
                             }
                           />
                         </li>
-                        <li>
-                          <BasicStat
-                            title={"Rank"}
-                            paintBalls={
-                              heroesData[heroArray].skills[selectedSkill].info
-                                .rank
-                            }
-                          />
-                        </li>
-                        <li>
-                          <BasicStat
-                            title={"Target"}
-                            paintBalls={
-                              heroesData[heroArray].skills[selectedSkill].info
-                                .target
-                            }
-                          />
-                        </li>
+
+                        {/* //RankStatCheck */}
+                        {heroesData[heroArray].skills[selectedSkill]
+                          .skillsPaths[heroPaths].Rank && (
+                          <li>
+                            <BasicStat
+                              title={"Rank"}
+                              paintBalls={
+                                heroesData[heroArray].skills[selectedSkill]
+                                  .skillsPaths[heroPaths].Rank
+                              }
+                            />
+                          </li>
+                        )}
+
+                        {/* //TargetStatCheck */}
+                        {heroesData[heroArray].skills[selectedSkill]
+                          .skillsPaths[heroPaths].Target && (
+                          <li>
+                            <BasicStat
+                              title={"Target"}
+                              paintBalls={
+                                heroesData[heroArray].skills[selectedSkill]
+                                  .skillsPaths[heroPaths].Target
+                              }
+                            />
+                          </li>
+                        )}
+
+                        {/* //CorpseStatCheck */}
+                        {heroesData[heroArray].skills[selectedSkill]
+                          .skillsPaths[heroPaths].Corpse && (
+                          <li>
+                            <BasicStat
+                              title={"Corpse"}
+                              paintBalls={
+                                heroesData[heroArray].skills[selectedSkill]
+                                  .skillsPaths[heroPaths].Corpse
+                              }
+                            />
+                          </li>
+                        )}
+
+                        {/* //AllyStatCheck */}
+                        {heroesData[heroArray].skills[selectedSkill]
+                          .skillsPaths[heroPaths].Ally && (
+                          <li>
+                            <BasicStat
+                              title={"Ally"}
+                              paintBalls={
+                                heroesData[heroArray].skills[selectedSkill]
+                                  .skillsPaths[heroPaths].Ally
+                              }
+                            />
+                          </li>
+                        )}
+
+                        {/* //CooldownStatCheck */}
+                        {heroesData[heroArray].skills[selectedSkill]
+                          .skillsPaths[heroPaths].Cooldown && (
+                          <li>
+                            <BasicStat
+                              title={"Cooldown"}
+                              iconSkill={
+                                heroesData[heroArray].skills[selectedSkill]
+                                  .skillsPaths[heroPaths].Cooldown
+                              }
+                            />
+                          </li>
+                        )}
+
+                        {/* //UsesStatCheck */}
+                        {heroesData[heroArray].skills[selectedSkill]
+                          .skillsPaths[heroPaths].Uses && (
+                          <li>
+                            <BasicStat
+                              title={"Uses"}
+                              iconSkill={
+                                heroesData[heroArray].skills[selectedSkill]
+                                  .skillsPaths[heroPaths].Uses
+                              }
+                            />
+                          </li>
+                        )}
                       </ul>
                     </div>
                   </div>
 
                   <p>
-                    {heroesData[heroArray].skills[selectedSkill].description}
+                    {heroesData[heroArray].skills[selectedSkill].description
+                      .charAt(0)
+                      .toUpperCase() +
+                      heroesData[heroArray].skills[
+                        selectedSkill
+                      ].description.slice(1)}
                   </p>
 
-                  <div className="statsHigh">
-                    <ul>
-                      <li>
-                        <AdvancedStats
-                          title={"DMG"}
-                          data={`${heroesData[heroArray].skills[selectedSkill].info.dmg[0]}-${heroesData[heroArray].skills[selectedSkill].info.dmg[1]}`}
-                        />
-                      </li>
-                      <li>
-                        <AdvancedStats title={"DMG"} data={"4-5"} />
-                      </li>
-                      <li>
-                        <AdvancedStats title={"DMG"} data={"4-5"} />
-                      </li>
-                    </ul>
-                  </div>
+                  <div className="statsHigh"></div>
                 </div>
               </div>
+
+              <cite>{heroesData[heroArray].paths.cites[heroPaths]}</cite>
 
               <div className="skillsHeroArray">
                 {heroesData[heroArray].skills.map((skill, index) => (
@@ -367,6 +431,7 @@ function WikiSection({ url_Bg }) {
                         arrowCheck={heroesData[heroArray].paths.skillsArray[
                           heroPaths
                         ].includes(index)}
+                        heroIndex={heroArray}
                       />
                     </label>
                     <i
@@ -390,30 +455,14 @@ function WikiSection({ url_Bg }) {
               </div>
             </section>
 
-            <section id="#">
+            <section id="Trinkets">
               <br />
               <br />
               <br />
-              <h2>Skills</h2>
+              <h2>Trinkets</h2>
               <hr />
 
-              <p>
-                {" "}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptatibus, at quo? Rem consequatur perferendis officia qui
-                ex. In doloremque fugiat totam. Qui dolores eveniet facere nulla
-                officia! Sit impedit, exercitationem quisquam mollitia pariatur
-                deleniti, quaerat beatae ex consequuntur eveniet illo voluptatum
-                excepturi totam? Odio et ipsa eaque voluptate. Ipsam qui labore
-                dignissimos accusamus reiciendis a voluptatem quibusdam,
-                quisquam blanditiis necessitatibus! Minus repellendus sed
-                exercitationem cum aspernatur nihil quibusdam sit asperiores
-                adipisci. Nulla, consequuntur expedita deleniti praesentium
-                architecto sit vitae sunt explicabo possimus fugiat culpa
-                mollitia, dolorum incidunt illum unde ex doloremque
-                necessitatibus quo, delectus quas! Labore, quia ducimus!
-                Voluptate, ratione.
-              </p>
+              <p>AAAAAAAAAAAAAAAAAAAAA</p>
             </section>
 
             <section id="#">

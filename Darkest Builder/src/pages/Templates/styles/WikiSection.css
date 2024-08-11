@@ -300,12 +300,11 @@
 
   background-color: #000;
 
-  margin: 2% 0%;
+  margin: 2% 0% 1% 0%;
 
   .skillsDescription {
     display: flex;
     flex-direction: column;
-
     justify-content: center;
 
     width: 100%;
@@ -350,7 +349,7 @@
         ul {
           display: flex;
           flex-direction: row;
-          align-items: flex-start;
+          align-items: center;
           justify-content: space-between;
 
           width: 90%;
@@ -358,7 +357,7 @@
           li {
             align-items: center;
             list-style: none;
-            gap: 0.5rem;
+            gap: 1rem;
           }
         }
       }
@@ -424,9 +423,23 @@
 }
 
 .skillsHeroArray {
+  margin-top: 2%;
+
   .label {
-    border: 2px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid transparent;
     transition: all 0.215s ease-in-out;
+
+    width: 100%;
+    height: 100%;
+
+    img {
+      height: 4.5rem;
+    }
 
     &:hover {
       border: 2px solid #555;
@@ -441,6 +454,7 @@
     color: #87a7c2;
   }
 }
+
 
 /*? RESPONSIVE MOVILE */
 @media (max-width: 480px) {

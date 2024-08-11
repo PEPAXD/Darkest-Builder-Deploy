@@ -2,11 +2,18 @@ import React from "react";
 
 import "./styles/basicStat.css";
 
+//import database
+import heroesData from "../data/heroesData.js";
+
 //import icons
 import { TbClockBolt, TbArrowBigUpLinesFilled } from "react-icons/tb";
 import { GiBowman, GiSwordman, GiHealthNormal } from "react-icons/gi";
-import { GiPocketBow, GiBroadDagger, GiIciclesAura } from "react-icons/gi";
-import { PiBatteryVerticalHigh } from "react-icons/pi";
+import {
+  GiPocketBow,
+  GiBroadDagger,
+  GiIciclesAura,
+  GiFireBottle,
+} from "react-icons/gi";
 
 const icons = [
   {
@@ -14,12 +21,24 @@ const icons = [
     icon: <GiBroadDagger style={{ transform: "rotate(-90deg)" }} />,
   },
   {
-    tag: "Rank",
+    tag: "Ranged",
     icon: <GiPocketBow style={{ transform: "rotate(-90deg)" }} />,
   },
   {
     tag: "Buff",
-    icon: <GiIciclesAura />,
+    icon: <GiIciclesAura style={{ transform: "scale(1.1)" }} />,
+  },
+  {
+    tag: "Heal",
+    icon: <GiHealthNormal style={{ transform: "scale(1.1)" }} />,
+  },
+  {
+    tag: "Cooldown",
+    icon: <TbClockBolt style={{ transform: "scale(1.1)" }} />,
+  },
+  {
+    tag: "Uses",
+    icon: <GiFireBottle style={{ transform: "scale(1.2)" }} />,
   },
 ];
 
@@ -29,26 +48,93 @@ function basicStat({ title, iconSkill, paintBalls }) {
 
   return (
     <>
+      {/* skillType */}
       <b>{title}</b>
-
       {title === "Type" && (
         <div className="iconSkill">
           {icons[iconSkill].icon}
           <i> {icons[iconSkill].tag}</i>
         </div>
       )}
+      {title === "Cooldown" && (
+        <div className="iconSkill">
+          {icons[4].icon}
+          <i>{iconSkill}</i>
+        </div>
+      )}
+      {title === "Uses" && (
+        <div className="iconSkill">
+          {icons[5].icon}
+          <i>{iconSkill}</i>
+        </div>
+      )}
 
-      {(title === "Rank" || title === "Target") && (
+      {/* positionsCharacters for Rank */}
+      {title === "Rank" && (
         <div className="positionBalls">
           {numbersBall.map((number, index) => (
             <span
               key={index}
               style={{
-                background: paintBalls.includes(number)
-                  ? title === "Rank"
-                    ? "#aa8c45"
-                    : "#2a6383"
-                  : "#333",
+                background: paintBalls.includes(number) ? "#aa8c45" : "#333",
+              }}
+            ></span>
+          ))}
+        </div>
+      )}
+
+      {/* positionsCharacters for Target */}
+      {title === "Target" && (
+        <div className="positionBalls">
+          {paintBalls.length === 1 && paintBalls[0] === 0 ? (
+            <div
+              style={{
+                backgroundColor: "rgb(0, 125, 100)",
+                color: "white",
+                padding: "0rem 2rem",
+
+                fontSize: "0.8em",
+                fontStyle: "italic",
+                fontWeight: "300",
+              }}
+            >
+              Self
+            </div>
+          ) : (
+            numbersBall.map((number, index) => (
+              <span
+                key={index}
+                style={{
+                  background: paintBalls.includes(number) ? "#2a6383" : "#333",
+                }}
+              ></span>
+            ))
+          )}
+        </div>
+      )}
+
+      {/* positionsCharacters for Corpse */}
+      {title === "Corpse" && (
+        <div className="positionBalls">
+          {numbersBall.map((number, index) => (
+            <span
+              key={index}
+              style={{
+                background: paintBalls.includes(number) ? "#8b0000 " : "#333",
+              }}
+            ></span>
+          ))}
+        </div>
+      )}
+
+      {/* positionsCharacters for Ally */}
+      {title === "Ally" && (
+        <div className="positionBalls">
+          {numbersBall.map((number, index) => (
+            <span
+              key={index}
+              style={{
+                background: paintBalls.includes(number) ? "#009f6b" : "#333",
               }}
             ></span>
           ))}
