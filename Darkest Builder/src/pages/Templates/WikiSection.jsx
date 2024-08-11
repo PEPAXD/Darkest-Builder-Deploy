@@ -27,7 +27,7 @@ const linksSections = [
   { href: "Hero", text: "Hero" },
   { href: "HowToPlay", text: "Play-Style" },
   { href: "Skills", text: "Skills/Paths" },
-  { href: "#", text: "Trinkets" },
+  { href: "Trinkets", text: "Trinkets" },
   { href: "#", text: "teamMates" },
   { href: "#", text: "Game-Builds" },
 ];
@@ -340,7 +340,6 @@ function WikiSection({ url_Bg }) {
                           </li>
                         )}
 
-                        
                         {/* //AllyStatCheck */}
                         {heroesData[heroArray].skills[selectedSkill]
                           .skillsPaths[heroPaths].Ally && (
@@ -354,7 +353,6 @@ function WikiSection({ url_Bg }) {
                             />
                           </li>
                         )}
-
 
                         {/* //CooldownStatCheck */}
                         {heroesData[heroArray].skills[selectedSkill]
@@ -457,30 +455,14 @@ function WikiSection({ url_Bg }) {
               </div>
             </section>
 
-            <section id="#">
+            <section id="Trinkets">
               <br />
               <br />
               <br />
-              <h2>Skills</h2>
+              <h2>Trinkets</h2>
               <hr />
 
-              <p>
-                {" "}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptatibus, at quo? Rem consequatur perferendis officia qui
-                ex. In doloremque fugiat totam. Qui dolores eveniet facere nulla
-                officia! Sit impedit, exercitationem quisquam mollitia pariatur
-                deleniti, quaerat beatae ex consequuntur eveniet illo voluptatum
-                excepturi totam? Odio et ipsa eaque voluptate. Ipsam qui labore
-                dignissimos accusamus reiciendis a voluptatem quibusdam,
-                quisquam blanditiis necessitatibus! Minus repellendus sed
-                exercitationem cum aspernatur nihil quibusdam sit asperiores
-                adipisci. Nulla, consequuntur expedita deleniti praesentium
-                architecto sit vitae sunt explicabo possimus fugiat culpa
-                mollitia, dolorum incidunt illum unde ex doloremque
-                necessitatibus quo, delectus quas! Labore, quia ducimus!
-                Voluptate, ratione.
-              </p>
+              <p>AAAAAAAAAAAAAAAAAAAAA</p>
             </section>
 
             <section id="#">
