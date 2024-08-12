@@ -16,6 +16,7 @@ import TokenFrame from "../../components/tokensFrame.jsx";
 import PathHero from "../../components/pathHero.jsx";
 import SkillFrame from "../../components/skillFrame.jsx";
 import BasicStat from "../../components/basicStat.jsx";
+import TrinketsHero from "../../components/TrinketsHero.jsx";
 
 //Maybe next feature NOT IMPLEMENTED
 import UpgradeButton from "../../components/upgradeButton.jsx";
@@ -472,6 +473,9 @@ function WikiSection({ url_Bg }) {
                     <div id="item-2">Trinket</div>
                   </div>
                 </div>
+
+                <TrinketsHero />
+
               </div>
 
             </section>
