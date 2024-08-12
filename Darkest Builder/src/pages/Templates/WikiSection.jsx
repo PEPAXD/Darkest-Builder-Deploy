@@ -15,8 +15,10 @@ import BoxStats from "../../components/boxStats.jsx";
 import TokenFrame from "../../components/tokensFrame.jsx";
 import PathHero from "../../components/pathHero.jsx";
 import SkillFrame from "../../components/skillFrame.jsx";
-import UpgradeButton from "../../components/upgradeButton.jsx";
 import BasicStat from "../../components/basicStat.jsx";
+
+//Maybe next feature NOT IMPLEMENTED
+import UpgradeButton from "../../components/upgradeButton.jsx";
 import AdvancedStats from "../../components/advancedStats.jsx";
 
 //import npmPackages
@@ -462,15 +464,16 @@ function WikiSection({ url_Bg }) {
               <h2>Trinkets</h2>
               <hr />
 
-              <br />
-              <h3>FIRST COMMIT!</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Dignissimos adipisci impedit delectus illum recusandae voluptate
-                a nulla culpa odio repellat laboriosam eaque placeat, dolore
-                tenetur atque. Nihil nostrum quae accusantium!
-              </p>
-              
+              <div className="trinkedsContainer">
+                <div className="columTitleTrinkeds">
+                  <div className="angry-grid">
+                    <div id="item-0">Image</div>
+                    <div id="item-1">Description</div>
+                    <div id="item-2">Trinket</div>
+                  </div>
+                </div>
+              </div>
+
             </section>
 
             <section id="#">
