@@ -474,7 +474,8 @@ function WikiSection({ url_Bg }) {
                   </div>
                 </div>
 
-                <TrinketsHero trinkData={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, at quo? Rem consequatur perferendis officia quiex."} />
+                <TrinketsHero />
+                
 
               </div>
 
