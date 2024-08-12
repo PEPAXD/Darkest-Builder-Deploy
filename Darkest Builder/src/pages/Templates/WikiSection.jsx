@@ -461,7 +461,7 @@ function WikiSection({ url_Bg }) {
               <br />
               <br />
               <br />
-              <h2>Trinkets</h2>
+              <h2>Unique Trinkets</h2>
               <hr />
 
               <div className="trinkedsContainer">
