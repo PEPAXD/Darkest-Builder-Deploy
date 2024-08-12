@@ -462,7 +462,15 @@ function WikiSection({ url_Bg }) {
               <h2>Trinkets</h2>
               <hr />
 
-              <p>AAAAAAAAAAAAAAAAAAAAA</p>
+              <br />
+              <h3>FIRST COMMIT!</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dignissimos adipisci impedit delectus illum recusandae voluptate
+                a nulla culpa odio repellat laboriosam eaque placeat, dolore
+                tenetur atque. Nihil nostrum quae accusantium!
+              </p>
+              
             </section>
 
             <section id="#">
