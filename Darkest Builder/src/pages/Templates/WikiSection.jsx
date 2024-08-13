@@ -474,11 +474,15 @@ function WikiSection({ url_Bg }) {
                   </div>
                 </div>
 
-                <TrinketsHero />
+                {Array.from({ length: 3 }, (_, trinketIndex) => (
+                  <TrinketsHero
+                    key={trinketIndex}
+                    heroIndex={heroArray}
+                    heroTrinket={trinketIndex}
+                  />
+                ))}
                 
-
               </div>
-
             </section>
 
             <section id="#">
