@@ -10,10 +10,10 @@
     padding: 0% 10%;
 
     h5 {
-      font-size: 1.1em;
+      font-size: 1.2em;
       font-weight: 400;
       font-style: italic;
-      color: #87a7c2;
+      color: #dab255;
     }
   }
 
@@ -23,9 +23,39 @@
     align-items: flex-start;
     justify-content: center;
 
-    p {
-      padding: 0% 5%;
-      color: #c7c7c7;
+    padding: 0% 5%;
+    text-align: start;
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+
+      width: 100%;
+      gap: 0.5rem;
+
+      li {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        
+        width: 100%;
+        font-size: 0.8em;
+        font-weight: 400;
+        list-style: none;
+
+        h5 {
+          font-size: 1.2em;
+          font-weight: 700;
+          color: #7490a8;
+        }
+
+        p {
+          margin-left: 5%;
+        }
+      }
     }
   }
 
@@ -70,6 +100,7 @@
       flex-direction: column;
       align-items: self-start;
       justify-content: center;
+      
     }
     #item-2 {
       grid-row-start: 1;

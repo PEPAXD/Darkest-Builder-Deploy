@@ -248,7 +248,7 @@ const heroTrinkets = [
   },
 ];
 
-function TrinketsHero({ heroIndex, heroTrinket }) {
+function TrinketsHero({ heroIndex, heroTrinket, itemDescription }) {
   return (
     <div className="trinkedElement">
       <div className="angry-grid">
@@ -260,12 +260,14 @@ function TrinketsHero({ heroIndex, heroTrinket }) {
         </div>
 
         <div className="descriptionTrinket" id="item-1">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, nisi
-            reiciendis at facilis id voluptas quod ea sequi ipsum quidem saepe
-            exercitationem laborum, similique vel. Possimus iste cumque error
-            necessitatibus.
-          </p>
+          <ul>
+            <li>
+              <h5>{itemDescription.title}:</h5>
+              <p>
+              {itemDescription.description}
+              </p>
+            </li>
+          </ul>
         </div>
 
         <div className="raritySection" id="item-2">

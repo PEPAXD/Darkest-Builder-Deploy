@@ -141,6 +141,24 @@ const heroesData = {
       },
     ],
 
+    heroTrinkeds: [
+      {
+        title: "Dismas' Head",
+        description:
+          "This trinket is a must-have for the Highwayman. It provides a significant boost to his damage output, making him a formidable force on the battlefield. The crit chance increase is also a nice bonus, allowing him to deal even more damage with his attacks.",
+      },
+      {
+        title: "Ancestor's Pistol",
+        description:
+          "This trinket is another great option for the Highwayman. It provides a boost to his accuracy and crit chance, making him even deadlier in combat. The extra damage against marked targets is also a nice bonus, allowing him to take down high-priority enemies with ease.",
+      },
+      {
+        title: "Barristan's Head",
+        description:
+          "This trinket is a solid choice for the Highwayman. It provides a boost to his max HP and dodge, making him more durable in combat. The extra protection is also a nice bonus, allowing him to soak up more damage from enemy attacks.",
+      },
+    ],
+
     skills: [
       {
         id: 0,
@@ -4675,70 +4693,125 @@ const heroesData = {
           { Rank: [2, 3, 4], Target: [1, 2] },
           { Rank: [2, 3, 4], Target: [1, 2], Cooldown: 1 },
         ],
-        description: "Feint Below average damage attack which switches Duelists current stance and applies Riposte Riposte. Important skill for switching stances and can be used from all Ranks but 4",
+        description:
+          "Feint Below average damage attack which switches Duelists current stance and applies Riposte Riposte. Important skill for switching stances and can be used from all Ranks but 4",
       },
       {
         id: 2,
         name: "Disengage",
         Type: 0,
-        skillsPaths: [{Rank: [2,3,4,], Target: [1,2,3]},{Rank: [2,3,4,], Target: [1,2,3]},{Rank: [2,3,4,], Target: [1,2,3]},{Rank: [2,3,4,], Target: [1,2,3], Cooldown: 1},],
-        description: "Disengage Backwards moving skill which applies Token dul defensive stance.png as well as Dodge. Effects applied to the target change depending on the Path Duelist uses as well as which stance she's in at the time of using the skill",
+        skillsPaths: [
+          { Rank: [2, 3, 4], Target: [1, 2, 3] },
+          { Rank: [2, 3, 4], Target: [1, 2, 3] },
+          { Rank: [2, 3, 4], Target: [1, 2, 3] },
+          { Rank: [2, 3, 4], Target: [1, 2, 3], Cooldown: 1 },
+        ],
+        description:
+          "Disengage Backwards moving skill which applies Token dul defensive stance.png as well as Dodge. Effects applied to the target change depending on the Path Duelist uses as well as which stance she's in at the time of using the skill",
       },
       {
         id: 3,
         name: "Flick",
-        Type:0,
-        skillsPaths: [{Rank: [3,4], Target: [1,2]},{Rank: [3,4], Target: [1,2]},{Rank: [3,4], Target: [1,2]},{Rank: [3,4], Target: [1,2]},],
-        description: "Flick Average damage attack whose effects change depending on the stance Duelist is in. During Token dul aggressive stance.pngAggressive the attack will ignore BlockBlock, and during Token dul defensive stance.pngDefensive ignores DodgeDodge. When upgraded will pierce 1 Death ArmorDeath Armor which can be useful for finishing off larger enemies or bosses",
+        Type: 0,
+        skillsPaths: [
+          { Rank: [3, 4], Target: [1, 2] },
+          { Rank: [3, 4], Target: [1, 2] },
+          { Rank: [3, 4], Target: [1, 2] },
+          { Rank: [3, 4], Target: [1, 2] },
+        ],
+        description:
+          "Flick Average damage attack whose effects change depending on the stance Duelist is in. During Token dul aggressive stance.pngAggressive the attack will ignore BlockBlock, and during Token dul defensive stance.pngDefensive ignores DodgeDodge. When upgraded will pierce 1 Death ArmorDeath Armor which can be useful for finishing off larger enemies or bosses",
       },
       {
         id: 4,
         name: "Preparation",
         Type: 2,
-        skillsPaths: [{Rank: [1,2,3,4], Target: [0], Cooldown: 1},{Rank: [1,2,3,4], Target: [0], Cooldown: 1},{Rank: [1,2,3,4], Target: [0], Cooldown: 1},{Rank: [1,2,3,4], Target: [0], Cooldown: 1},],
-        description: "Preparation Self buff which switches Duelist to Token dul aggressive stance.pngAggressive while providing Icon speed.pngSpeed and StrengthStrength tokens for extra damage. When upgraded provides extra Riposte damage when used in Token dul defensive stance.pngDefensive or CritCrit when used in Token dul aggressive stance.pngAggressive",
+        skillsPaths: [
+          { Rank: [1, 2, 3, 4], Target: [0], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Target: [0], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Target: [0], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Target: [0], Cooldown: 1 },
+        ],
+        description:
+          "Preparation Self buff which switches Duelist to Token dul aggressive stance.pngAggressive while providing Icon speed.pngSpeed and StrengthStrength tokens for extra damage. When upgraded provides extra Riposte damage when used in Token dul defensive stance.pngDefensive or CritCrit when used in Token dul aggressive stance.pngAggressive",
       },
       {
         id: 5,
         name: "The Boot",
         Type: 0,
-        skillsPaths: [{Rank: [2,3,4], Target: [1,2]},{Rank: [2,3,4], Target: [1,2]},{Rank: [2,3,4], Target: [1,2]},{Rank: [2,3,4], Target: [1,2]},],
-        description: "The Boot Below average damage knockback skill which requires Token dul aggressive Aggressive stance. Good for disrupting certain enemy formations. Applies ComboCombo and knocks back an additional rank when upgraded",
+        skillsPaths: [
+          { Rank: [2, 3, 4], Target: [1, 2] },
+          { Rank: [2, 3, 4], Target: [1, 2] },
+          { Rank: [2, 3, 4], Target: [1, 2] },
+          { Rank: [2, 3, 4], Target: [1, 2] },
+        ],
+        description:
+          "The Boot Below average damage knockback skill which requires Token dul aggressive Aggressive stance. Good for disrupting certain enemy formations. Applies ComboCombo and knocks back an additional rank when upgraded",
       },
       {
         id: 6,
         name: "Again!",
         Type: 2,
-        skillsPaths: [{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 5, Uses: 2},{Rank: [1,2,], Ally: [1,2,3,4], Cooldown: 3},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 5, Uses: 2},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 5, Uses: 2},],
-        description: "Again! Buff skill which requires Token dul Aggressive to use. Clears all skill cooldowns on the target which can allow for repeated uses of many skills that otherwise have long cooldowns. Removes stance tokens when used. When upgraded can be used during either stance and has a 50% chance to not remove tokens",
+        skillsPaths: [
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 5, Uses: 2 },
+          { Rank: [1, 2], Ally: [1, 2, 3, 4], Cooldown: 3 },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 5, Uses: 2 },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 5, Uses: 2 },
+        ],
+        description:
+          "Again! Buff skill which requires Token dul Aggressive to use. Clears all skill cooldowns on the target which can allow for repeated uses of many skills that otherwise have long cooldowns. Removes stance tokens when used. When upgraded can be used during either stance and has a 50% chance to not remove tokens",
       },
       {
         id: 7,
         name: "Flèche",
         Type: 0,
-        skillsPaths: [{Rank: [1,2,3,], Target: [1,2,3,]},{Rank: [1,2,3,], Target: [1,2,3,]},{Rank: [1,2,3,], Target: [1,2,3,]},{Rank: [1,2,3,], Target: [1,2,3,]},],
-        description: "Fleche High damage high crit skill which moves Duelist forward to the front rank when used. Switches Duelist to Token dul aggressive and gains 30% extra damage when used in Token dul aggressive stance.pngAggressive. Clears all dodge tokens upon use. When upgraded gains 5% extra crit in Token dul aggressive ",
+        skillsPaths: [
+          { Rank: [1, 2, 3], Target: [1, 2, 3] },
+          { Rank: [1, 2, 3], Target: [1, 2, 3] },
+          { Rank: [1, 2, 3], Target: [1, 2, 3] },
+          { Rank: [1, 2, 3], Target: [1, 2, 3] },
+        ],
+        description:
+          "Fleche High damage high crit skill which moves Duelist forward to the front rank when used. Switches Duelist to Token dul aggressive and gains 30% extra damage when used in Token dul aggressive stance.pngAggressive. Clears all dodge tokens upon use. When upgraded gains 5% extra crit in Token dul aggressive ",
       },
       {
         id: 8,
         name: "Meditation",
         Type: 2,
-        skillsPaths: [{Rank: [1,2,3,4], Target: [0], Cooldown: 1},{Rank: [1,2,3,4], Target: [0], Cooldown: 1},{Rank: [1,2,3,4], Target: [0], Cooldown: 1},{Rank: [1,2,3,4], Target: [0], Cooldown: 1},],
-        description: "Meditation Stance switch skill which switches Duelist to Token dul defensive stance.pngDefensive and gives 3 DodgeDodge. Adds TauntTaunt when used in Defensive and Riposte Riposte when used in Aggressive. When upgraded adds Dodge+Dodge+ and removes ComboCombo",
+        skillsPaths: [
+          { Rank: [1, 2, 3, 4], Target: [0], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Target: [0], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Target: [0], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Target: [0], Cooldown: 1 },
+        ],
+        description:
+          "Meditation Stance switch skill which switches Duelist to Token dul defensive stance.pngDefensive and gives 3 DodgeDodge. Adds TauntTaunt when used in Defensive and Riposte Riposte when used in Aggressive. When upgraded adds Dodge+Dodge+ and removes ComboCombo",
       },
       {
         id: 9,
         name: "Coup de Grâce",
         Type: 1,
-        skillsPaths: [{Rank: [1,2,3,4], Target: [1,2,3,4], Cooldown:1},{Rank: [1,2,], Target: [2,3,4], Cooldown:1},{Rank: [1,2,3,4], Target: [2,3,4], Cooldown:2},{Rank: [1,2,3,4], Target: [2,3,4], Cooldown:2},],
-        description: "Coup De Grace Duelists only ranged skill which deals flat damage and requires Token dul defensive stance.pngDefensive. Ignores both weak, Block and pierces one hit of Death Armor which can be very useful for killing low health enemies. When upgraded pierces an extra hit of Death Armor",
+        skillsPaths: [
+          { Rank: [1, 2, 3, 4], Target: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2], Target: [2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Target: [2, 3, 4], Cooldown: 2 },
+          { Rank: [1, 2, 3, 4], Target: [2, 3, 4], Cooldown: 2 },
+        ],
+        description:
+          "Coup De Grace Duelists only ranged skill which deals flat damage and requires Token dul defensive stance.pngDefensive. Ignores both weak, Block and pierces one hit of Death Armor which can be very useful for killing low health enemies. When upgraded pierces an extra hit of Death Armor",
       },
       {
         id: 10,
         name: "Ruthless Instruction",
         Type: 2,
-        skillsPaths: [{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1},{Rank: [1,2], Ally: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1},],
-        description: "Ruthless Instruction Buff skill which requires Token dul defensive and applies 2 DodgeDodge to the target. When upgraded can be used in either stance, with Token dul aggressive giving a BuffBuff which lets the target ignore Blind",
+        skillsPaths: [
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2], Ally: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 1 },
+        ],
+        description:
+          "Ruthless Instruction Buff skill which requires Token dul defensive and applies 2 DodgeDodge to the target. When upgraded can be used in either stance, with Token dul aggressive giving a BuffBuff which lets the target ignore Blind",
       },
     ],
   },
@@ -4754,7 +4827,7 @@ const heroesData = {
     ],
     paths: {
       name: ["Wanderer", "Maniac", "Exanimate", "Scourge"],
-      skillsArray: [[], [0, 4,6,8,9], [0,1,  5,  8,10], [0, 3, 6, 7, 8]],
+      skillsArray: [[], [0, 4, 6, 8, 9], [0, 1, 5, 8, 10], [0, 3, 6, 7, 8]],
       cites: [
         '"Default skills. Rewards candles upon reaching the second Inn"',
         '"Sacrifice Blight Blight potency in favor of flexible position, debuff, and disruption."',
@@ -4769,57 +4842,56 @@ const heroesData = {
             text: "Extra Candle of Hope on reaching the 2nd Inn.",
           },
         ],
-[
-  {
-    title: "Punish",
-    text: "Normal damage, 10% self-damage, knockback 1, 2 Blight tokens.",
-  },
-  {
-    title: "Acid Rain",
-    text: "Normal damage, applies Weak token.",
-  },
-  {
-    title: "Sepsis",
-    text: "Ignores Blind, transfers negative tokens, heals 35%.",
-  },
-  {
-    title: "Lash's Gift",
-    text: "Steals negative tokens, heals target.",
-  }
-],
-[
-  {
-    title: "Punish & Acid Rain",
-    text: "-1 Blight; if <50% HP, +2 Blight tokens.",
-  },
-  {
-    title: "Sepsis",
-    text: "Consumes Blight, deals 75% remaining damage; heals to 45% if <50% HP.",
-  },
-  {
-    title: "Lash's Gift",
-    text: "If <20% HP: Heals 10%, removes debuffs, grants Crit & Dodge.",
-  }
-],
-[
-  {
-    title: "Sepsis",
-    text: "50% Blight damage; keeps Blight with Combo.",
-  },
-  {
-    title: "Deathless",
-    text: "Heals Damian 35% if <50% HP.",
-  },
-  {
-    title: "Suffer",
-    text: "Steals Horror tokens.",
-  },
-  {
-    title: "Lash's Gift",
-    text: "Removes debuffs; adds Horror.",
-  }
-],
-
+        [
+          {
+            title: "Punish",
+            text: "Normal damage, 10% self-damage, knockback 1, 2 Blight tokens.",
+          },
+          {
+            title: "Acid Rain",
+            text: "Normal damage, applies Weak token.",
+          },
+          {
+            title: "Sepsis",
+            text: "Ignores Blind, transfers negative tokens, heals 35%.",
+          },
+          {
+            title: "Lash's Gift",
+            text: "Steals negative tokens, heals target.",
+          },
+        ],
+        [
+          {
+            title: "Punish & Acid Rain",
+            text: "-1 Blight; if <50% HP, +2 Blight tokens.",
+          },
+          {
+            title: "Sepsis",
+            text: "Consumes Blight, deals 75% remaining damage; heals to 45% if <50% HP.",
+          },
+          {
+            title: "Lash's Gift",
+            text: "If <20% HP: Heals 10%, removes debuffs, grants Crit & Dodge.",
+          },
+        ],
+        [
+          {
+            title: "Sepsis",
+            text: "50% Blight damage; keeps Blight with Combo.",
+          },
+          {
+            title: "Deathless",
+            text: "Heals Damian 35% if <50% HP.",
+          },
+          {
+            title: "Suffer",
+            text: "Steals Horror tokens.",
+          },
+          {
+            title: "Lash's Gift",
+            text: "Removes debuffs; adds Horror.",
+          },
+        ],
       ],
     },
     description:
@@ -4921,94 +4993,155 @@ const heroesData = {
 
         skillsPaths: [
           {
-            Rank: [2,3,4,],
+            Rank: [2, 3, 4],
             Target: [1, 2],
           },
           {
-            Rank: [2,3,4,],
+            Rank: [2, 3, 4],
             Target: [1, 2],
-          },          {
-            Rank: [3,4,],
-            Target: [1, 2,3],
           },
           {
-            Rank: [2,3,4,],
+            Rank: [3, 4],
+            Target: [1, 2, 3],
+          },
+          {
+            Rank: [2, 3, 4],
             Target: [1, 2],
           },
         ],
 
-        description: "Punish A very standard damage front-line melee attack. On hit has a chance to apply Blightx3 to the enemy and deals 10% of Flagellants HP to himself. When upgraded gains an extra point of BlightBlight damage, both versions gain extra Blight resistance piercing when the target has Combo",
+        description:
+          "Punish A very standard damage front-line melee attack. On hit has a chance to apply Blightx3 to the enemy and deals 10% of Flagellants HP to himself. When upgraded gains an extra point of BlightBlight damage, both versions gain extra Blight resistance piercing when the target has Combo",
       },
       {
         id: 1,
         name: "Fester",
         Type: 1,
-        skillsPaths: [{Rank:[1,2,3,4], Corpse: [1,2,3,4]},{Rank:[1,2,3,4], Corpse: [1,2,3,4]},{Rank:[1,2,3,4], Corpse: [1,2,3,4]},{Rank:[1,2,3,4], Corpse: [1,2,3,4]},],
-        description: "Fester Corpse clear skill which applies BlightBlight to any enemies adjacent to the corpse destroyed",
+        skillsPaths: [
+          { Rank: [1, 2, 3, 4], Corpse: [1, 2, 3, 4] },
+          { Rank: [1, 2, 3, 4], Corpse: [1, 2, 3, 4] },
+          { Rank: [1, 2, 3, 4], Corpse: [1, 2, 3, 4] },
+          { Rank: [1, 2, 3, 4], Corpse: [1, 2, 3, 4] },
+        ],
+        description:
+          "Fester Corpse clear skill which applies BlightBlight to any enemies adjacent to the corpse destroyed",
       },
       {
         id: 2,
         name: "Deathless",
         Type: 3,
-        skillsPaths: [{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1},{Rank: [3,4], Ally: [1,2,3,4], Cooldown: 2, Uses: 3},],
-        description: "Deathless One of the best healing skills in the game. Unlike other healing skills has no HP threshold and has a very low cooldown of 1 turn. Deals 20% HP d damage to Flagellant when used regardless of upgrade",
+        skillsPaths: [
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [3, 4], Ally: [1, 2, 3, 4], Cooldown: 2, Uses: 3 },
+        ],
+        description:
+          "Deathless One of the best healing skills in the game. Unlike other healing skills has no HP threshold and has a very low cooldown of 1 turn. Deals 20% HP d damage to Flagellant when used regardless of upgrade",
       },
       {
         id: 3,
         name: "Endure",
         Type: 2,
-        skillsPaths: [{Rank: [1,2,3,4], Ally: [1,2,3,4]},{Rank: [1,2,3,4], Ally: [1,2,3,4]},{Rank: [1,2,3,4], Ally: [1,2,3,4]},{Rank: [1,2,3,4], Ally: [1,2,3,4]},],
-        description: "Endure Unique stress skill which transfers 2x stress from the selected hero to Flagellant. When upgraded takes 3x stress. from the hero while only transferring 2x to Flagellant",
-
+        skillsPaths: [
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4] },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4] },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4] },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4] },
+        ],
+        description:
+          "Endure Unique stress skill which transfers 2x stress from the selected hero to Flagellant. When upgraded takes 3x stress. from the hero while only transferring 2x to Flagellant",
       },
       {
         id: 4,
         name: "Lash's Gift",
         Type: 2,
-        skillsPaths:[{Rank: [1,2,3], Ally: [1,2,3,4], Cooldown: 2},{Rank: [1,2,3], Ally: [1,2,3,4], Cooldown: 2},{Rank: [1,2,3,4], Target: [0]},{Rank: [3,4], Target: [0], Cooldown: 1},],
-        description: "Lash's Gift A combination self-heal and ally buff. Requires Flagellant under 50% HP to use and heals 25% (35% when upgraded). Applies one Strength, Block and stress to the chosen hero, and when upgraded removes Daze and Stun on the chosen hero as well as applying a Block token to the target",
+        skillsPaths: [
+          { Rank: [1, 2, 3], Ally: [1, 2, 3, 4], Cooldown: 2 },
+          { Rank: [1, 2, 3], Ally: [1, 2, 3, 4], Cooldown: 2 },
+          { Rank: [1, 2, 3, 4], Target: [0] },
+          { Rank: [3, 4], Target: [0], Cooldown: 1 },
+        ],
+        description:
+          "Lash's Gift A combination self-heal and ally buff. Requires Flagellant under 50% HP to use and heals 25% (35% when upgraded). Applies one Strength, Block and stress to the chosen hero, and when upgraded removes Daze and Stun on the chosen hero as well as applying a Block token to the target",
       },
       {
         id: 5,
         name: "Acid Rain",
-        Type:1,
-        skillsPaths:[{Rank:[3,4], Target: [3,4]},{Rank:[1,2,3,], Target: [3,4]},{Rank:[3,4], Target: [3,4]},{Rank:[3,4], Target: [3,4]},],
-        description: "Acid Rain Low damage back-rank cleave which applies low BlightBlight to the back rank enemies. Very valuable for dealing damage to high-priority back rank enemies",
+        Type: 1,
+        skillsPaths: [
+          { Rank: [3, 4], Target: [3, 4] },
+          { Rank: [1, 2, 3], Target: [3, 4] },
+          { Rank: [3, 4], Target: [3, 4] },
+          { Rank: [3, 4], Target: [3, 4] },
+        ],
+        description:
+          "Acid Rain Low damage back-rank cleave which applies low BlightBlight to the back rank enemies. Very valuable for dealing damage to high-priority back rank enemies",
       },
       {
         id: 6,
         name: "More! MORE!",
         Type: 2,
-        skillsPaths: [{Rank: [3,4], Target: [0]},{Rank: [3,4], Target: [0]},{Rank: [3,4], Target: [0]},{Rank: [3,4], Target: [0]},],
-        description: "More! MORE! Flagellant's most potent tanking ability. Upon use applies 2xTaunt to Flagellant and gives a unique buff. When Flagellant takes damage he receives 1xPain token (maximum of 3) and at the end of his next turn will heal for 10%Hp per Pain. This applies to direct damage, Damage Over Time and Flagellants own self damage, and can allow Flagellant to redirect hits to himself and heal off a substantial amount of damage while keeping other squishier teammates safe from harms way. When upgraded he gains Pain+ tokens when hit which heal for 15% HP per token",
+        skillsPaths: [
+          { Rank: [3, 4], Target: [0] },
+          { Rank: [3, 4], Target: [0] },
+          { Rank: [3, 4], Target: [0] },
+          { Rank: [3, 4], Target: [0] },
+        ],
+        description:
+          "More! MORE! Flagellant's most potent tanking ability. Upon use applies 2xTaunt to Flagellant and gives a unique buff. When Flagellant takes damage he receives 1xPain token (maximum of 3) and at the end of his next turn will heal for 10%Hp per Pain. This applies to direct damage, Damage Over Time and Flagellants own self damage, and can allow Flagellant to redirect hits to himself and heal off a substantial amount of damage while keeping other squishier teammates safe from harms way. When upgraded he gains Pain+ tokens when hit which heal for 15% HP per token",
       },
       {
         id: 7,
         name: "Suffer",
-        Type:2,
-        skillsPaths: [{Rank:[1,2,3,4], Ally:[1,2,3,4], Cooldown: 1},{Rank:[1,2,3,4], Ally:[1,2,3,4], Cooldown: 1},{Rank:[1,2,3,4], Ally:[1,2,3,4], Cooldown: 1},{Rank:[1,2,3,4], Ally:[1,2,3,4], Cooldown: 1},],
-        description: "Suffer A support skill which upon use transfers the targets Damage Over Time to Flagellant while applying a 10% Deathblow RES buff to himself. When upgraded Flagellant will cure all DoTs on himself at the end of his next turn",
+        Type: 2,
+        skillsPaths: [
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 1 },
+        ],
+        description:
+          "Suffer A support skill which upon use transfers the targets Damage Over Time to Flagellant while applying a 10% Deathblow RES buff to himself. When upgraded Flagellant will cure all DoTs on himself at the end of his next turn",
       },
       {
         id: 8,
         name: "Sepsis",
         Type: 0,
-        skillsPaths: [{Rank: [3,4], Target: [1,2], Cooldown:2, Uses: 3},{Rank: [1,2,3,4], Target: [1,2], Cooldown:3, Uses: 3},{Rank: [3,4], Target: [1,2,3], Cooldown:2, Uses: 3},{Rank: [3,4], Target: [1,2,3], Cooldown:2},],
-        description: "Sepsis A potent blight and healing skill which requires Flagellant to be under 50% Icon HP dd2.pngHP to use. Upon use applies a heavy Blight to the enemy while healing Flagellant for 35% of his max HP. When mastered applies 2 more Blight and heals Flagellant for 50% of his max HP, which can bring him back from the brink of death and beyond. Has a maximum of 3 uses per battle, use with care",
+        skillsPaths: [
+          { Rank: [3, 4], Target: [1, 2], Cooldown: 2, Uses: 3 },
+          { Rank: [1, 2, 3, 4], Target: [1, 2], Cooldown: 3, Uses: 3 },
+          { Rank: [3, 4], Target: [1, 2, 3], Cooldown: 2, Uses: 3 },
+          { Rank: [3, 4], Target: [1, 2, 3], Cooldown: 2 },
+        ],
+        description:
+          "Sepsis A potent blight and healing skill which requires Flagellant to be under 50% Icon HP dd2.pngHP to use. Upon use applies a heavy Blight to the enemy while healing Flagellant for 35% of his max HP. When mastered applies 2 more Blight and heals Flagellant for 50% of his max HP, which can bring him back from the brink of death and beyond. Has a maximum of 3 uses per battle, use with care",
       },
       {
         id: 9,
         name: "Undying",
         Type: 3,
-        skillsPaths: [{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1},{Rank: [1,2,3,4], Ally: [1,2,3,4], Cooldown: 1},],
-        description: "Undying A healing skill which applies 3 Regeneration to the chosen hero for 3 turns while dealing 10% of Flagellants HP Has a 1 turn cooldown, and when upgraded increases RegenerationRegen to 5 points per turn",
+        skillsPaths: [
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [1, 2, 3, 4], Ally: [1, 2, 3, 4], Cooldown: 1 },
+        ],
+        description:
+          "Undying A healing skill which applies 3 Regeneration to the chosen hero for 3 turns while dealing 10% of Flagellants HP Has a 1 turn cooldown, and when upgraded increases RegenerationRegen to 5 points per turn",
       },
       {
         id: 10,
         name: "Necrosis",
         Type: 0,
-        skillsPaths:[{Rank:[2,3], Target:[1,2,3,4], Cooldown:1},{Rank:[2,3], Target:[1,2,3,4], Cooldown:1},{Rank:[2,3], Target:[1,2,3,4], Cooldown:1},{Rank:[2,3], Target:[1,2,3,4], Cooldown:1},],
-        description: "Necrosis A party-wide cleave which targets every enemy with Blight, and on contact heals Flagellant for 5% HP per enemy with Blight for a maximum of 20% healed.",
+        skillsPaths: [
+          { Rank: [2, 3], Target: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [2, 3], Target: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [2, 3], Target: [1, 2, 3, 4], Cooldown: 1 },
+          { Rank: [2, 3], Target: [1, 2, 3, 4], Cooldown: 1 },
+        ],
+        description:
+          "Necrosis A party-wide cleave which targets every enemy with Blight, and on contact heals Flagellant for 5% HP per enemy with Blight for a maximum of 20% healed.",
       },
     ],
   },
