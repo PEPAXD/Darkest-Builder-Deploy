@@ -143,19 +143,13 @@ const heroesData = {
 
     heroTrinkeds: [
       {
-        title: "Dismas' Head",
-        description:
-          "This trinket is a must-have for the Highwayman. It provides a significant boost to his damage output, making him a formidable force on the battlefield. The crit chance increase is also a nice bonus, allowing him to deal even more damage with his attacks.",
+        description: "Gives a 33% crit chance when starting the turn. Take Aim ignores Blind, Tracking Shot reduces stun resistance by 20%, and it cuts creature healing by 66%.",
       },
       {
-        title: "Ancestor's Pistol",
-        description:
-          "This trinket is another great option for the Highwayman. It provides a boost to his accuracy and crit chance, making him even deadlier in combat. The extra damage against marked targets is also a nice bonus, allowing him to take down high-priority enemies with ease.",
+        description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       },
       {
-        title: "Barristan's Head",
-        description:
-          "This trinket is a solid choice for the Highwayman. It provides a boost to his max HP and dodge, making him more durable in combat. The extra protection is also a nice bonus, allowing him to soak up more damage from enemy attacks.",
+        description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       },
     ],
 

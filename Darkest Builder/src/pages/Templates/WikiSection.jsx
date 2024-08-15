@@ -479,7 +479,7 @@ function WikiSection({ url_Bg }) {
                     key={trinketIndex}
                     heroIndex={heroArray}
                     heroTrinket={trinketIndex}
-                    itemDescription={heroesData[heroArray].heroTrinkeds[trinketIndex]}
+                    itemDescription={heroesData[heroArray].heroTrinkeds[trinketIndex].description}
                   />
                 ))}
                 

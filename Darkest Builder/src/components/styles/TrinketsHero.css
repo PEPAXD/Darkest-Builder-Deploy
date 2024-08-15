@@ -10,7 +10,7 @@
     padding: 0% 10%;
 
     h5 {
-      font-size: 1.2em;
+      font-size: 1.1em;
       font-weight: 400;
       font-style: italic;
       color: #dab255;
@@ -22,40 +22,13 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-
-    padding: 0% 5%;
     text-align: start;
 
-    ul {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      justify-content: flex-start;
+    padding: 0% 5%;
 
-      width: 100%;
-      gap: 0.5rem;
-
-      li {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-        
-        width: 100%;
-        font-size: 0.8em;
-        font-weight: 400;
-        list-style: none;
-
-        h5 {
-          font-size: 1.2em;
-          font-weight: 700;
-          color: #7490a8;
-        }
-
-        p {
-          margin-left: 5%;
-        }
-      }
+    p{
+      color: #c7c7c7;
+      font-style: italic;
     }
   }
 

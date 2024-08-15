@@ -260,14 +260,7 @@ function TrinketsHero({ heroIndex, heroTrinket, itemDescription }) {
         </div>
 
         <div className="descriptionTrinket" id="item-1">
-          <ul>
-            <li>
-              <h5>{itemDescription.title}:</h5>
-              <p>
-              {itemDescription.description}
-              </p>
-            </li>
-          </ul>
+          <p>{itemDescription}</p>
         </div>
 
         <div className="raritySection" id="item-2">
