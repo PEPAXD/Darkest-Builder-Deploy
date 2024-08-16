@@ -4666,6 +4666,14 @@ const heroesData = {
           "Turn End: If Rank = 4: Weak",
         ],
       },
+      {
+        stats: [
+          "[2 Targets]",
+          "+5% Dd2 token stress.png RES per Negative Token (Until Next Inn)",
+          "+5% DMG per Positive Token (Until Next Inn)"
+        ],
+              cite: '"Faith for the forsaken. Judgement for the rest."',
+            },
     ],
 
     skills: [
@@ -5041,6 +5049,13 @@ const heroesData = {
           "Gain on Miss: +1 Stress (25%)",
         ],
       },
+      {
+        stats: [
+          "[1 Target]",
+          "Riposte Skills: ExecutionExecution 2 (Until Next Inn)"
+        ],
+              cite: '"A clean blade is a killing blade."',
+            },
     ],
 
     skills: [
@@ -5396,6 +5411,16 @@ const heroesData = {
           "+10% Negative Banter",
         ],
       },
+      {
+        stats: [
+          "[1 Target]",
+          "15% DMG",
+          "+33% Blight RES Piercing (Until Next Inn) (33%)",
+          "+1 Blight Duration Dealt (Until Next Inn) (33%)",
+          "+1 Blight Dealt (Until Next Inn) (33%)"
+        ],
+              cite: '"Fear is the mind-killer..."',
+            },
     ],
 
     skills: [
