@@ -479,10 +479,27 @@ function WikiSection({ url_Bg }) {
                     key={trinketIndex}
                     heroIndex={heroArray}
                     heroTrinket={trinketIndex}
-                    itemDescription={heroesData[heroArray].heroTrinkeds[trinketIndex].stats}
+                    itemDescription={
+                      heroesData[heroArray].heroTrinkeds[trinketIndex].stats
+                    }
                   />
                 ))}
-                
+              </div>
+
+              <div className="signatureItem">
+                <h3>Signature Inn Item</h3>
+
+                <div className="signatureBox">
+                  <TrinketsHero
+                    heroIndex={heroArray}
+                    heroTrinket={3}
+                    itemDescription={
+                      heroesData[heroArray].heroTrinkeds[3].stats
+                    }
+                    signatureCite={heroesData[heroArray].heroTrinkeds[3].cite}
+                  />
+
+                </div>
               </div>
             </section>
 

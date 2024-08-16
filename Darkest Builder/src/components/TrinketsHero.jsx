@@ -248,7 +248,7 @@ const heroTrinkets = [
   },
 ];
 
-function TrinketsHero({ heroIndex, heroTrinket, itemDescription }) {
+function TrinketsHero({ heroIndex, heroTrinket, itemDescription, signatureCite }) {
   return (
     <div className="trinkedElement">
       <div className="angry-grid">
@@ -269,6 +269,7 @@ function TrinketsHero({ heroIndex, heroTrinket, itemDescription }) {
 
         <div className="raritySection" id="item-2">
           <h5>{heroTrinkets[heroIndex].name[heroTrinket]}</h5>
+          <cite>{signatureCite}</cite>
         </div>
       </div>
     </div>

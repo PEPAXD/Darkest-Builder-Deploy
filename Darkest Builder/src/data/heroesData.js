@@ -165,6 +165,14 @@ const heroesData = {
           "If Relics in inventory > 50: -10% CRIT",
         ],
       },
+      {
+        stats: [
+          "[2 Targets]",
+          "Positive affinity x6: (80%)",
+          "Negative affinity x4: (20%)",
+        ],
+        cite: "Wrecked him? That it surely did.",
+      },
     ],
 
     skills: [
@@ -610,23 +618,32 @@ const heroesData = {
         stats: [
           "If Stealth: +20% DMG",
           "Self: Shadow Fade Skill: Remove All Negative Tokens",
-          "If no Stealth: -25% Healing Received from Skills"
-        ]
+          "If no Stealth: -25% Healing Received from Skills",
+        ],
       },
       {
         stats: [
           "Apply to Attacker when Missed: Combo",
           "Pick to the Face Skill: +10% CRIT",
           "Self: Dead of Night Skill: +2 Relics, +1 Bauble",
-          "Gain When Hit: +1 Stress (15%)"
-        ]
+          "Gain When Hit: +1 Stress (15%)",
+        ],
       },
       {
         stats: [
           "Apply on CRIT: Blight1",
           "If Stealth: +1 Blight Dealt",
-          "Self: Absinthe Skill: Blight1"
-        ]
+          "Self: Absinthe Skill: Blight1",
+        ],
+      },
+      {
+        stats: [
+          "Apply on CRIT: Blight1",
+          "If Stealth: +1 Blight Dealt",
+          "Self: Absinthe Skill: Blight1",
+        ],
+
+        cite: "Wrecked him? That it surely did.",
       },
     ],
 
@@ -1065,22 +1082,22 @@ const heroesData = {
         stats: [
           "Gain on CRIT: Melee Skills: Strength (66%)",
           "If It Bleeds Skill: +2 Bleed Dealt",
-          "When Moving: If Rank = 4: +2 Stress"
-        ]
+          "When Moving: If Rank = 4: +2 Stress",
+        ],
       },
       {
         stats: [
           "If Rank = 1: -20% Disease RES",
           "If Rank = 2: +30% DMG",
-          "Apply on Hit: Breakthrough Skill: Combo, Add 1 Negative Token"
-        ]
+          "Apply on Hit: Breakthrough Skill: Combo, Add 1 Negative Token",
+        ],
       },
       {
         stats: [
           "If Bleed: +25% DMG",
           "Self: Barbaric YAWP! Skill: Strength",
-          "Gain on Bleed Resist: Weak (25%)"
-        ]
+          "Gain on Bleed Resist: Weak (25%)",
+        ],
       },
     ],
 
@@ -1588,23 +1605,23 @@ const heroesData = {
         stats: [
           "If Target Bleed: +25% DMG",
           "Round Start: If Bleed: Add 1 Positive Token",
-          "+1 Bleed Received"
-        ]
+          "+1 Bleed Received",
+        ],
       },
       {
         stats: [
           "When Moving: Crit (10%)",
           "Gain on CRIT: All Allies Behind: Add 1 Positive Token",
-          "Gain When Hit: MoveForward 1"
-        ]
+          "Gain When Hit: MoveForward 1",
+        ],
       },
       {
         stats: [
           "Target Hero: Dodge (20%)",
           "Target: Play Out Skills: Remove 1 Negative Token",
           "Target: Battle Ballad Skills: Turn Start: MoveForward 1 (1 Turn)",
-          "Turn End: If Relics in inventory < 25: +1 Stress (25%)"
-        ]
+          "Turn End: If Relics in inventory < 25: +1 Stress (25%)",
+        ],
       },
     ],
 
@@ -2113,22 +2130,22 @@ const heroesData = {
         stats: [
           "Gain on Move RES: Regeneration2",
           "Gain on Stun RES: Block+",
-          "Gain on CRIT Melee Skills: +1 Stress (25%)"
-        ]
+          "Gain on CRIT Melee Skills: +1 Stress (25%)",
+        ],
       },
       {
         stats: [
           "Target: Break Skill: Cannot Gain Block (2 rounds)",
           "Gain when Hit: Remove Weak",
-          "-2% Deathblow RES per round"
-        ]
+          "-2% Deathblow RES per round",
+        ],
       },
       {
         stats: [
           "-10% DMG Taken per Negative Token",
           "Apply on Hit: Intimidate Skills: Combo",
-          "Gain when Hit: Bleed1 (15%)"
-        ]
+          "Gain when Hit: Bleed1 (15%)",
+        ],
       },
     ],
 
@@ -2513,22 +2530,22 @@ const heroesData = {
         stats: [
           "Gain when Hit: Block+ (33%)",
           "Self: Rampart Skill: Riposte",
-          "Turn Start: If First in Turn Order: Blind"
-        ]
+          "Turn Start: If First in Turn Order: Blind",
+        ],
       },
       {
         stats: [
           "Each Hero on Combat Start: Block+",
           "Apply to Attacker When Hit: Remove 1 Positive Token",
-          "Gain when Crit: Weak"
-        ]
+          "Gain when Crit: Weak",
+        ],
       },
       {
         stats: [
           "Target: Heroes: Crit (10%)",
           "Target: Command Skill: BlockTaunt",
-          "Apply On Miss: All Allies Behind: +1 Stress"
-        ]
+          "Apply On Miss: All Allies Behind: +1 Stress",
+        ],
       },
     ],
 
@@ -2893,22 +2910,22 @@ const heroesData = {
         stats: [
           "Turn End: Convert Vulnerable to Dd2 token uncheckedpower.png",
           "Apply on Hit: Daemon's Pull Skill: 1 Negative Token (66%)",
-          "Gain when Moved by Enemy: 1 Negative Token (33%)"
-        ]
+          "Gain when Moved by Enemy: 1 Negative Token (33%)",
+        ],
       },
       {
         stats: [
           "If Target Burn: +50% Healing Given from Skills",
           "Ranged Skills: +25% Debuff RES Piercing",
-          "Random Ally on Turn Start: If Dd2 token uncheckedpower.png >= 2: Burn1 (33%)"
-        ]
+          "Random Ally on Turn Start: If Dd2 token uncheckedpower.png >= 2: Burn1 (33%)",
+        ],
       },
       {
         stats: [
           "+10% DMG per Stress",
           "-10% Healing Given from Skills per Stress",
-          "Gain on CRIT: Binding Shadows Skills: Dd2 token uncheckedpower.png"
-        ]
+          "Gain on CRIT: Binding Shadows Skills: Dd2 token uncheckedpower.png",
+        ],
       },
     ],
 
@@ -3245,22 +3262,22 @@ const heroesData = {
         stats: [
           "Melee Skills: +10% CRIT",
           "If Medicinal Herbs is Equipped: +50% Healing Given from Skills",
-          "Turn Start: If First in Turn Order: Vulnerable"
-        ]
+          "Turn Start: If First in Turn Order: Vulnerable",
+        ],
       },
       {
         stats: [
           "If Noxious Item is Equipped: +2 Blight Dealt",
           "Apply on Hit Disorienting Blast Skill: Blight2 (50%)",
-          "Incision Skill: -100% Bleed Dealt"
-        ]
+          "Incision Skill: -100% Bleed Dealt",
+        ],
       },
       {
         stats: [
           "Target: Ounce of Prevention Skill: Block",
           "Target: Emboldening Vapours Skill: Regeneration2",
-          "Battlefield Medicine Skill: -50% Healing Given from Skills"
-        ]
+          "Battlefield Medicine Skill: -50% Healing Given from Skills",
+        ],
       },
     ],
 
@@ -3592,26 +3609,25 @@ const heroesData = {
         stats: [
           "If Rank = 4: +2 Regeneration Dealt",
           "Target: Consecration Skills: -1 Stress",
-          "Melee Skills: -50% DMG"
-        ]
+          "Melee Skills: -50% DMG",
+        ],
       },
       {
         stats: [
           "If Rank = 1: +25% Max HP",
           "If Rank = 2: +25% DMG",
           "Hand of Light Skill: Tauntx2",
-          "Turn End: If Rank = 3 or 4: +1 Stress (33%)"
-        ]
+          "Turn End: If Rank = 3 or 4: +1 Stress (33%)",
+        ],
       },
       {
         stats: [
           "If Flammable Item is Equipped: +25% DMG",
           "Target: Ranged Skill: Burn2",
-          "Gain when Hit: Burn1 (15%)"
-        ]
+          "Gain when Hit: Burn1 (15%)",
+        ],
       },
     ],
-
 
     skills: [
       {
@@ -3948,25 +3964,24 @@ const heroesData = {
         stats: [
           "Turn Start: If Stealth: Crit (50%)",
           "Apply on Hit: Hearthlight Skill: Combo (50%)",
-          "vs Gaunt: -4 Speed"
-        ]
+          "vs Gaunt: -4 Speed",
+        ],
       },
       {
         stats: [
           "When Moving: Dodge+ (50%)",
           "Self: Backdraft Skill: Stealth",
-          "Combat Start: vs Gaunt: +1 Stress"
-        ]
+          "Combat Start: vs Gaunt: +1 Stress",
+        ],
       },
       {
         stats: [
           "+100% Burn RES",
           "Burn-Causing Skills: +2 Burn Dealt",
-          "vs Gaunt: -25% DMG"
-        ]
+          "vs Gaunt: -25% DMG",
+        ],
       },
     ],
-
 
     skills: [
       {
@@ -4242,27 +4257,26 @@ const heroesData = {
       },
     ],
 
-
     heroTrinkeds: [
       {
         stats: [
           "+50% Move RES Piercing",
           "If Target Combo: +20% DMG",
-          "If Target Stun: +5% CRIT"
-        ]
+          "If Target Stun: +5% CRIT",
+        ],
       },
       {
         stats: [
           "Gain on Killing Blow: +3% DMG (Until Next Inn)",
-          "All Skills: ExecutionExecution 1"
-        ]
+          "All Skills: ExecutionExecution 1",
+        ],
       },
       {
         stats: [
           "Caltrops Skill: +25% Debuff RES Piercing",
           "Apply on Hit: Flashbang Skill: Blind",
-          "Apply on Hit: Hurlbat Skill: Weak"
-        ]
+          "Apply on Hit: Hurlbat Skill: Weak",
+        ],
       },
     ],
 
@@ -4567,28 +4581,27 @@ const heroesData = {
       },
     ],
 
-    
     heroTrinkeds: [
       {
         stats: [
           "Apply to Attacker When Hit: Burn1 (66%)",
           "Self: Radiance Skills: +1 Burn Dealt (4 Turns)",
-          "Turn End: If Combo: +2 Stress"
-        ]
+          "Turn End: If Combo: +2 Stress",
+        ],
       },
       {
         stats: [
           "If Relics in inventory < 10: +10% CRIT",
           "Target: Reap Skills: Steal Positive Token",
-          "Self: Reap Skills: -2 Relics from inventory (33%)"
-        ]
+          "Self: Reap Skills: -2 Relics from inventory (33%)",
+        ],
       },
       {
         stats: [
           "When Moving: Ally Behind: Block",
           "Target: Rallying Cry Skills: +20% Debuff RES",
-          "Turn End: If Rank = 4: Weak"
-        ]
+          "Turn End: If Rank = 4: Weak",
+        ],
       },
     ],
 
@@ -4948,22 +4961,22 @@ const heroesData = {
         stats: [
           "Riposte Skills: +10% CRIT",
           "+33% Move RES Piercing",
-          "Gain on Miss: Remove Dodge (20%)"
-        ]
+          "Gain on Miss: Remove Dodge (20%)",
+        ],
       },
       {
         stats: [
           "Combat Start: Defensive Stance",
           "Apply on Hit: Riposte Skills: Blind (66%)",
-          "Gain when Hit: Burn1 (15%)"
-        ]
+          "Gain when Hit: Burn1 (15%)",
+        ],
       },
       {
         stats: [
           "Combat Start: Aggressive Stance",
           "Target: Again! Skills: Speed",
-          "Gain on Miss: +1 Stress (25%)"
-        ]
+          "Gain on Miss: +1 Stress (25%)",
+        ],
       },
     ],
 
@@ -5303,25 +5316,24 @@ const heroesData = {
         stats: [
           "If HP < 20%: +25% DMG",
           "Target: Punish Skill: Steal 1 Positive Token",
-          "-20% Bleed RES"
-        ]
+          "-20% Bleed RES",
+        ],
       },
       {
         stats: [
           "Round End: Remove 1 Negative Token, Remove Combo",
           "Target: Endure Skill: Steal 1 Negative Token, Steal Combo",
-          "-20% Burn RES"
-        ]
+          "-20% Burn RES",
+        ],
       },
       {
         stats: [
           "Apply to Attacker when Hit: +1 Blight Received (3 turns) (33%)",
           "Self: More! MORE! Skill: Strength",
-          "+10% Negative Banter"
-        ]
+          "+10% Negative Banter",
+        ],
       },
     ],
-
 
     skills: [
       {
