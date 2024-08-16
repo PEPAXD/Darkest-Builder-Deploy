@@ -143,13 +143,27 @@ const heroesData = {
 
     heroTrinkeds: [
       {
-        description: "Gives a 33% crit chance when starting the turn. Take Aim ignores Blind, Tracking Shot reduces stun resistance by 20%, and it cuts creature healing by 66%.",
+        stats: [
+          "Turn Start: If First in Turn Order: Crit (33%)",
+          "Self: Take Aim Skill: Skills Ignore Blind",
+          "Target: Tracking Shot Skill: -20% Stun RES",
+          "vs Creature: -66% Healing Received from Skills",
+        ],
       },
       {
-        description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        stats: [
+          "If Rank = 1: +10% CRIT",
+          "If Rank = 4: +10% CRIT",
+          "Open Vein Skill: +1 Bleed Dealt",
+          "Gain on Hit: Ranged Skills: +1 Stress (15%)",
+        ],
       },
       {
-        description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        stats: [
+          "+5% DMG per Positive Token",
+          "Target: Highway Robbery Skill: Steal Regeneration",
+          "If Relics in inventory > 50: -10% CRIT",
+        ],
       },
     ],
 

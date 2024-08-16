@@ -26,9 +26,15 @@
 
     padding: 0% 5%;
 
-    p{
-      color: #c7c7c7;
+    ul {
+      color: #bababa;
       font-style: italic;
+
+      padding-left: 5%;
+
+      li {
+        margin: 0.2rem 0;
+      }
     }
   }
 
@@ -73,7 +79,6 @@
       flex-direction: column;
       align-items: self-start;
       justify-content: center;
-      
     }
     #item-2 {
       grid-row-start: 1;

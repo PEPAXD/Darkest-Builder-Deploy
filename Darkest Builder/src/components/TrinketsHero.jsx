@@ -260,7 +260,11 @@ function TrinketsHero({ heroIndex, heroTrinket, itemDescription }) {
         </div>
 
         <div className="descriptionTrinket" id="item-1">
-          <p>{itemDescription}</p>
+          <ul>
+            {itemDescription.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
+          </ul>
         </div>
 
         <div className="raritySection" id="item-2">
