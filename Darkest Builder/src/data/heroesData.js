@@ -605,6 +605,31 @@ const heroesData = {
       },
     ],
 
+    heroTrinkeds: [
+      {
+        stats: [
+          "If Stealth: +20% DMG",
+          "Self: Shadow Fade Skill: Remove All Negative Tokens",
+          "If no Stealth: -25% Healing Received from Skills"
+        ]
+      },
+      {
+        stats: [
+          "Apply to Attacker when Missed: Combo",
+          "Pick to the Face Skill: +10% CRIT",
+          "Self: Dead of Night Skill: +2 Relics, +1 Bauble",
+          "Gain When Hit: +1 Stress (15%)"
+        ]
+      },
+      {
+        stats: [
+          "Apply on CRIT: Blight1",
+          "If Stealth: +1 Blight Dealt",
+          "Self: Absinthe Skill: Blight1"
+        ]
+      },
+    ],
+
     skills: [
       {
         id: 0,
