@@ -1060,6 +1060,30 @@ const heroesData = {
       },
     ],
 
+    heroTrinkeds: [
+      {
+        stats: [
+          "Gain on CRIT: Melee Skills: Strength (66%)",
+          "If It Bleeds Skill: +2 Bleed Dealt",
+          "When Moving: If Rank = 4: +2 Stress"
+        ]
+      },
+      {
+        stats: [
+          "If Rank = 1: -20% Disease RES",
+          "If Rank = 2: +30% DMG",
+          "Apply on Hit: Breakthrough Skill: Combo, Add 1 Negative Token"
+        ]
+      },
+      {
+        stats: [
+          "If Bleed: +25% DMG",
+          "Self: Barbaric YAWP! Skill: Strength",
+          "Gain on Bleed Resist: Weak (25%)"
+        ]
+      },
+    ],
+
     skills: [
       {
         id: 0,
@@ -1558,6 +1582,32 @@ const heroesData = {
           "The final tip for playing with the jester revolves around Encore, one of his unlockable moves upon completing his shrines. Encore is the most powerful ability in the game, granting an extra turn to an ally, along with other additional benefits that can be very useful.",
       },
     ],
+
+    heroTrinkeds: [
+      {
+        stats: [
+          "If Target Bleed: +25% DMG",
+          "Round Start: If Bleed: Add 1 Positive Token",
+          "+1 Bleed Received"
+        ]
+      },
+      {
+        stats: [
+          "When Moving: Crit (10%)",
+          "Gain on CRIT: All Allies Behind: Add 1 Positive Token",
+          "Gain When Hit: MoveForward 1"
+        ]
+      },
+      {
+        stats: [
+          "Target Hero: Dodge (20%)",
+          "Target: Play Out Skills: Remove 1 Negative Token",
+          "Target: Battle Ballad Skills: Turn Start: MoveForward 1 (1 Turn)",
+          "Turn End: If Relics in inventory < 25: +1 Stress (25%)"
+        ]
+      },
+    ],
+
     skills: [
       {
         id: 0,
@@ -2057,6 +2107,31 @@ const heroesData = {
           "Use 'Purge' to remove negative effects such as blindness, enhancing combat effectiveness by ensuring your character can attack accurately and respond optimally to battlefield threats.",
       },
     ],
+
+    heroTrinkeds: [
+      {
+        stats: [
+          "Gain on Move RES: Regeneration2",
+          "Gain on Stun RES: Block+",
+          "Gain on CRIT Melee Skills: +1 Stress (25%)"
+        ]
+      },
+      {
+        stats: [
+          "Target: Break Skill: Cannot Gain Block (2 rounds)",
+          "Gain when Hit: Remove Weak",
+          "-2% Deathblow RES per round"
+        ]
+      },
+      {
+        stats: [
+          "-10% DMG Taken per Negative Token",
+          "Apply on Hit: Intimidate Skills: Combo",
+          "Gain when Hit: Bleed1 (15%)"
+        ]
+      },
+    ],
+
     skills: [
       {
         id: 0,
@@ -2432,6 +2507,31 @@ const heroesData = {
           "Define what the Man at Arms is doing in your party. He can deal significant damage if you give him the right path and damage moves. Alternatively, he can become a nearly unkillable wall if you equip all his block skills. Understanding the game and the upcoming match-ups is essential to effectively kit your Man at Arms for each battle.",
       },
     ],
+
+    heroTrinkeds: [
+      {
+        stats: [
+          "Gain when Hit: Block+ (33%)",
+          "Self: Rampart Skill: Riposte",
+          "Turn Start: If First in Turn Order: Blind"
+        ]
+      },
+      {
+        stats: [
+          "Each Hero on Combat Start: Block+",
+          "Apply to Attacker When Hit: Remove 1 Positive Token",
+          "Gain when Crit: Weak"
+        ]
+      },
+      {
+        stats: [
+          "Target: Heroes: Crit (10%)",
+          "Target: Command Skill: BlockTaunt",
+          "Apply On Miss: All Allies Behind: +1 Stress"
+        ]
+      },
+    ],
+
     skills: [
       {
         id: 0,
@@ -2787,6 +2887,31 @@ const heroesData = {
           "You should tailor an Occultist's loadout to the rest of your team to maximize his effectiveness. This means considering the skills and strengths of your teammates when choosing the Occultist's skills.",
       },
     ],
+
+    heroTrinkeds: [
+      {
+        stats: [
+          "Turn End: Convert Vulnerable to Dd2 token uncheckedpower.png",
+          "Apply on Hit: Daemon's Pull Skill: 1 Negative Token (66%)",
+          "Gain when Moved by Enemy: 1 Negative Token (33%)"
+        ]
+      },
+      {
+        stats: [
+          "If Target Burn: +50% Healing Given from Skills",
+          "Ranged Skills: +25% Debuff RES Piercing",
+          "Random Ally on Turn Start: If Dd2 token uncheckedpower.png >= 2: Burn1 (33%)"
+        ]
+      },
+      {
+        stats: [
+          "+10% DMG per Stress",
+          "-10% Healing Given from Skills per Stress",
+          "Gain on CRIT: Binding Shadows Skills: Dd2 token uncheckedpower.png"
+        ]
+      },
+    ],
+
     skills: [
       {
         id: 0,
@@ -3114,6 +3239,31 @@ const heroesData = {
           "Try to disrupt enemies, although this is usually less necessary because the game is so damage-focused. If you're running abilities like Physician or facing enemies where your DoT doesn't match up well, use skills like Planning Gas, Disorienting Blast, and even Magnesium Rain to a lesser extent, as it removes corpses and can disrupt enemy positioning.",
       },
     ],
+
+    heroTrinkeds: [
+      {
+        stats: [
+          "Melee Skills: +10% CRIT",
+          "If Medicinal Herbs is Equipped: +50% Healing Given from Skills",
+          "Turn Start: If First in Turn Order: Vulnerable"
+        ]
+      },
+      {
+        stats: [
+          "If Noxious Item is Equipped: +2 Blight Dealt",
+          "Apply on Hit Disorienting Blast Skill: Blight2 (50%)",
+          "Incision Skill: -100% Bleed Dealt"
+        ]
+      },
+      {
+        stats: [
+          "Target: Ounce of Prevention Skill: Block",
+          "Target: Emboldening Vapours Skill: Regeneration2",
+          "Battlefield Medicine Skill: -50% Healing Given from Skills"
+        ]
+      },
+    ],
+
     skills: [
       {
         id: 0,
@@ -3436,6 +3586,33 @@ const heroesData = {
           "Ensure you have a clearly defined role for her. Is she supporting the main damage dealer? Then you need Consecration of Light, which should be used on turn one. Is she your tank or off-tank? Then you need Sanctuary, possibly Consecration of Fortitude, and make sure she is protecting the right teammates and applying defensive tokens as early as possible.",
       },
     ],
+
+    heroTrinkeds: [
+      {
+        stats: [
+          "If Rank = 4: +2 Regeneration Dealt",
+          "Target: Consecration Skills: -1 Stress",
+          "Melee Skills: -50% DMG"
+        ]
+      },
+      {
+        stats: [
+          "If Rank = 1: +25% Max HP",
+          "If Rank = 2: +25% DMG",
+          "Hand of Light Skill: Tauntx2",
+          "Turn End: If Rank = 3 or 4: +1 Stress (33%)"
+        ]
+      },
+      {
+        stats: [
+          "If Flammable Item is Equipped: +25% DMG",
+          "Target: Ranged Skill: Burn2",
+          "Gain when Hit: Burn1 (15%)"
+        ]
+      },
+    ],
+
+
     skills: [
       {
         id: 0,
@@ -3765,6 +3942,32 @@ const heroesData = {
           "You don't necessarily have to build a dance team for her, but it's useful to have other characters who can move themselves in case she or someone else gets moved.",
       },
     ],
+
+    heroTrinkeds: [
+      {
+        stats: [
+          "Turn Start: If Stealth: Crit (50%)",
+          "Apply on Hit: Hearthlight Skill: Combo (50%)",
+          "vs Gaunt: -4 Speed"
+        ]
+      },
+      {
+        stats: [
+          "When Moving: Dodge+ (50%)",
+          "Self: Backdraft Skill: Stealth",
+          "Combat Start: vs Gaunt: +1 Stress"
+        ]
+      },
+      {
+        stats: [
+          "+100% Burn RES",
+          "Burn-Causing Skills: +2 Burn Dealt",
+          "vs Gaunt: -25% DMG"
+        ]
+      },
+    ],
+
+
     skills: [
       {
         id: 0,
@@ -4038,6 +4241,31 @@ const heroesData = {
           "If you have a hero with a bad matchup for a specific region, like the Plague Doctor in the Fetter or the Grave Robber in the Fetter who do poison damage, you can swap them for the Bounty Hunter to improve your team. This is especially useful when heading to a region with enemies resistant to certain types of damage.",
       },
     ],
+
+
+    heroTrinkeds: [
+      {
+        stats: [
+          "+50% Move RES Piercing",
+          "If Target Combo: +20% DMG",
+          "If Target Stun: +5% CRIT"
+        ]
+      },
+      {
+        stats: [
+          "Gain on Killing Blow: +3% DMG (Until Next Inn)",
+          "All Skills: ExecutionExecution 1"
+        ]
+      },
+      {
+        stats: [
+          "Caltrops Skill: +25% Debuff RES Piercing",
+          "Apply on Hit: Flashbang Skill: Blind",
+          "Apply on Hit: Hurlbat Skill: Weak"
+        ]
+      },
+    ],
+
     skills: [
       {
         id: 0,
@@ -4338,6 +4566,32 @@ const heroesData = {
           "The Crusader has many skills, but his slowness means that any buffs or synergies he tries to capitalize on will occur after the enemies have acted. It is crucial to choose skills that complement both his support role and his damage capabilities.",
       },
     ],
+
+    
+    heroTrinkeds: [
+      {
+        stats: [
+          "Apply to Attacker When Hit: Burn1 (66%)",
+          "Self: Radiance Skills: +1 Burn Dealt (4 Turns)",
+          "Turn End: If Combo: +2 Stress"
+        ]
+      },
+      {
+        stats: [
+          "If Relics in inventory < 10: +10% CRIT",
+          "Target: Reap Skills: Steal Positive Token",
+          "Self: Reap Skills: -2 Relics from inventory (33%)"
+        ]
+      },
+      {
+        stats: [
+          "When Moving: Ally Behind: Block",
+          "Target: Rallying Cry Skills: +20% Debuff RES",
+          "Turn End: If Rank = 4: Weak"
+        ]
+      },
+    ],
+
     skills: [
       {
         id: 0,
@@ -4688,6 +4942,31 @@ const heroesData = {
           "The team needs to adjust to Duelist, as she's not a plug-and-play character like others. She needs a supportive team to maximize her potential. For example, if you decide to run one of her paths where she acts as a support hero, ensure that Duelist doesn't disrupt the support target by being out of position or pushing them out of position while trying to buff them.",
       },
     ],
+
+    heroTrinkeds: [
+      {
+        stats: [
+          "Riposte Skills: +10% CRIT",
+          "+33% Move RES Piercing",
+          "Gain on Miss: Remove Dodge (20%)"
+        ]
+      },
+      {
+        stats: [
+          "Combat Start: Defensive Stance",
+          "Apply on Hit: Riposte Skills: Blind (66%)",
+          "Gain when Hit: Burn1 (15%)"
+        ]
+      },
+      {
+        stats: [
+          "Combat Start: Aggressive Stance",
+          "Target: Again! Skills: Speed",
+          "Gain on Miss: +1 Stress (25%)"
+        ]
+      },
+    ],
+
     skills: [
       {
         id: 0,
@@ -5018,6 +5297,32 @@ const heroesData = {
           "Skill swapping is an important skill with the Flagellant. You can switch his skills at any time, except during a fight or continuous encounters like in lairs. This allows you to adapt to enemies based on their capabilities, ensuring you use the most effective moves in each specific situation.",
       },
     ],
+
+    heroTrinkeds: [
+      {
+        stats: [
+          "If HP < 20%: +25% DMG",
+          "Target: Punish Skill: Steal 1 Positive Token",
+          "-20% Bleed RES"
+        ]
+      },
+      {
+        stats: [
+          "Round End: Remove 1 Negative Token, Remove Combo",
+          "Target: Endure Skill: Steal 1 Negative Token, Steal Combo",
+          "-20% Burn RES"
+        ]
+      },
+      {
+        stats: [
+          "Apply to Attacker when Hit: +1 Blight Received (3 turns) (33%)",
+          "Self: More! MORE! Skill: Strength",
+          "+10% Negative Banter"
+        ]
+      },
+    ],
+
+
     skills: [
       {
         id: 0,
