@@ -532,6 +532,10 @@
     padding-left: 5%;
 
   }
+
+  img{
+    padding: 2%;
+  }
 }
 
 /*? RESPONSIVE MOVILE */

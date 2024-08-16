@@ -171,7 +171,7 @@ const heroesData = {
           "Positive affinity x6: (80%)",
           "Negative affinity x4: (20%)",
         ],
-        cite: "Wrecked him? That it surely did.",
+        cite: '"Wrecked him? That it surely did."',
       },
     ],
 
@@ -638,12 +638,11 @@ const heroesData = {
       },
       {
         stats: [
-          "Apply on CRIT: Blight1",
-          "If Stealth: +1 Blight Dealt",
-          "Self: Absinthe Skill: Blight1",
+          "[1 Target]",
+          "+10% CRIT (Until Next Inn)"
         ],
 
-        cite: "Wrecked him? That it surely did.",
+        cite: '"Oh darling, you cant get this anywhere."',
       },
     ],
 
@@ -1098,6 +1097,16 @@ const heroesData = {
           "Self: Barbaric YAWP! Skill: Strength",
           "Gain on Bleed Resist: Weak (25%)",
         ],
+      },
+      {
+        stats: [
+          "[1 Target]",
+          "If Rank 1: +25% DMG (Until Next Inn)",
+          "If Rank 2: +15% DMG (Until Next Inn)",
+          "If Rank 3: -15% DMG (Until Next Inn)",
+          "If Rank 4: -25% DMG (Until Next Inn)"
+        ],
+        cite: '"Wrecked him? That it surely did."',
       },
     ],
 
@@ -1623,6 +1632,14 @@ const heroesData = {
           "Turn End: If Relics in inventory < 25: +1 Stress (25%)",
         ],
       },
+      {
+        stats: [
+          "[Party]",
+          "-10 Dd2 token stress.png",
+          "+10% Dd2 token horror.png RES (Until Next Inn)"
+        ],
+        cite: '"Hehe, lets just say the mood is upon me."',
+      },
     ],
 
     skills: [
@@ -2147,6 +2164,14 @@ const heroesData = {
           "Gain when Hit: Bleed1 (15%)",
         ],
       },
+      {
+  stats: [
+    "[2 Targets]",
+    "+10% Healing Received from Skills per Positive Token (Until Next Inn)",
+    "+10% Healing Received from Skills per Negative Token (Until Next Inn)"
+  ],
+        cite: '"A little beauty yet remains..."',
+      },
     ],
 
     skills: [
@@ -2547,6 +2572,13 @@ const heroesData = {
           "Apply On Miss: All Allies Behind: +1 Stress",
         ],
       },
+      {
+        stats: [
+          "[Party]",
+          "If Dd2 token guarded.png: +25% DMG (Until Next Inn)"
+        ],
+              cite: '"Ive been thinking..."',
+            },
     ],
 
     skills: [
@@ -2927,6 +2959,13 @@ const heroesData = {
           "Gain on CRIT: Binding Shadows Skills: Dd2 token uncheckedpower.png",
         ],
       },
+      {
+        stats: [
+          "[2 Targets]",
+          "Combat Start: Add 1 Positive Token (Until Next Inn)"
+        ],
+              cite: '"Let us empty our minds..."',
+            },
     ],
 
     skills: [
@@ -3279,6 +3318,15 @@ const heroesData = {
           "Battlefield Medicine Skill: -50% Healing Given from Skills",
         ],
       },
+      {
+        stats: [
+          "[Party]",
+          "Heal 100% (50%)",
+          "Remove Disease (25%)",
+          "Remove Negative Quirk (25%)"
+        ],
+              cite: '"Just a little something Ive been working on."',
+            },
     ],
 
     skills: [
@@ -3627,6 +3675,13 @@ const heroesData = {
           "Gain when Hit: Burn1 (15%)",
         ],
       },
+      {
+        stats: [
+          "[Party]",
+          "If has Consecration: +25% Max HP (Until Next Inn)"
+        ],
+              cite: '"I find this canticle particularly... evocative."',
+            },
     ],
 
     skills: [
@@ -3981,6 +4036,14 @@ const heroesData = {
           "vs Gaunt: -25% DMG",
         ],
       },
+      {
+        stats: [
+          "[1 Target]",
+          "If Dd2 token stealth.png: +3 Burn Dealt (Until Next Inn)",
+          "If Dd2 token stealth.png: +3 Burn Received (Until Next Inn)"
+        ],
+              cite: '"Ill cover myself with this.... mind the fumes."',
+            },
     ],
 
     skills: [

@@ -486,21 +486,21 @@ function WikiSection({ url_Bg }) {
                 ))}
               </div>
 
-              <div className="signatureItem">
-                <h3>Signature Inn Item</h3>
-
-                <div className="signatureBox">
-                  <TrinketsHero
-                    heroIndex={heroArray}
-                    heroTrinket={3}
-                    itemDescription={
-                      heroesData[heroArray].heroTrinkeds[3].stats
-                    }
-                    signatureCite={heroesData[heroArray].heroTrinkeds[3].cite}
-                  />
-
+              {heroesData[heroArray].heroTrinkeds[3] && heroesData[heroArray].heroTrinkeds[3].stats && (
+                <div className="signatureItem">
+                  <h3>Signature Inn Item</h3>
+              
+                  <div className="signatureBox">
+                    <TrinketsHero
+                      heroIndex={heroArray}
+                      heroTrinket={3}
+                      itemDescription={heroesData[heroArray].heroTrinkeds[3].stats}
+                      signatureCite={heroesData[heroArray].heroTrinkeds[3].cite}
+                    />
+                  </div>
                 </div>
-              </div>
+              )}
+  
             </section>
 
             <section id="#">
