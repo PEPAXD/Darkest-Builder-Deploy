@@ -514,7 +514,6 @@
 }
 
 .signatureItem {
-
   padding: 1% 2%;
 
   h3 {
@@ -530,11 +529,16 @@
 
     text-align: start;
     padding-left: 5%;
-
   }
 
-  img{
+  img {
     padding: 2%;
+  }
+}
+
+.teamMatesBox {
+  label {
+    cursor: pointer;
   }
 }
 

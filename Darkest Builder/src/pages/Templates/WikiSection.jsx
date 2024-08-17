@@ -17,6 +17,7 @@ import PathHero from "../../components/pathHero.jsx";
 import SkillFrame from "../../components/skillFrame.jsx";
 import BasicStat from "../../components/basicStat.jsx";
 import TrinketsHero from "../../components/TrinketsHero.jsx";
+import TeemmatesFrame from "../../components/teemmatesFrame.jsx";
 
 //Maybe next feature NOT IMPLEMENTED
 import UpgradeButton from "../../components/upgradeButton.jsx";
@@ -513,18 +514,16 @@ function WikiSection({ url_Bg }) {
               <br />
               <h2>Heroes Teammates</h2>
               <hr />
+              <br />
+              <br />
+              <br />
 
-              <br />
-              <br />
-              <span>FIRST COMMIT</span>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-                doloribus non dolores, voluptatum quod quam similique quisquam
-                aliquam magnam ipsa veniam soluta, est perferendis asperiores
-                harum velit iusto voluptatibus natus.
-              </p>
-              <br />
-              <br />
+              <div className="teamMatesBox">
+                <TeemmatesFrame />
+                <TeemmatesFrame />
+                <TeemmatesFrame />
+                
+              </div>
             </section>
 
             <section id="#">

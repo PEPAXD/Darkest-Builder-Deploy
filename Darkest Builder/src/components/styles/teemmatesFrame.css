@@ -1,0 +1,57 @@
+.teamMatesBox {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  
+    width: 100%;
+    gap: 5%;
+  }
+  
+  .heroFriend {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    gap: 3rem;
+    margin-bottom: 1rem;
+  
+    i {
+      font-weight: 500;
+      font-size: 2rem;
+      color: #ffffffc0;
+    }
+  
+    .friendContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      width: 10rem;
+      height: 10rem;
+  
+      border: 2px solid #505455;
+      background-color: #000;
+      transform: rotate(45deg);
+  
+      transition: all 0.2s ease;
+  
+      &:hover {
+        box-shadow: 0 0 15px rgba(255, 255, 255, 0.5),
+          0 0 5px rgba(255, 255, 255, 0.8);
+      }
+  
+      img {
+        width: 130%;
+        transform: rotate(-45deg);
+  
+        transition: all 0.3s ease;
+  
+        &:hover {
+          width: 145%;
+          transform: translate(-3%, -3%) rotate(-45deg);
+        }
+      }
+    }
+  }
+  

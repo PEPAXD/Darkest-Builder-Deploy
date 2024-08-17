@@ -175,6 +175,10 @@ const heroesData = {
       },
     ],
 
+    teemmates: {
+      
+    },
+
     skills: [
       {
         id: 0,
