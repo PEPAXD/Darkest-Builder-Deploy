@@ -2,20 +2,20 @@ import React from "react";
 import "./styles/teemmatesFrame.css";
 
 //import heroFrame
-import Highwayman from "../assets/HeroFrame/highwayman.png";
-import Plaguedoctor from "../assets/HeroFrame/plaguedoctor.png";
-import Graverobber from "../assets/HeroFrame/graverobber.png";
-import Manatarms from "../assets/HeroFrame/manatarms.png";
-import Hellion from "../assets/HeroFrame/hellion.png";
-import Runaway from "../assets/HeroFrame/runaway.png";
-import Jester from "../assets/HeroFrame/jester.png";
-import Leper from "../assets/HeroFrame/leper.png";
-import Occultist from "../assets/HeroFrame/occultist.png";
-import Vestal from "../assets/HeroFrame/vestal.png";
-import Flagellant from "../assets/HeroFrame/flagellant.png";
-import Bountyhunter from "../assets/HeroFrame/bountyhunter.png";
-import Duelist from "../assets/HeroFrame/duelist.png";
-import Crusader from "../assets/HeroFrame/crusader.png";
+import Highwayman from "../assets/HeroFrame/highwayman.webp";
+import Plaguedoctor from "../assets/HeroFrame/plaguedoctor.webp";
+import Graverobber from "../assets/HeroFrame/graverobber.webp";
+import Manatarms from "../assets/HeroFrame/manatarms.webp";
+import Hellion from "../assets/HeroFrame/hellion.webp";
+import Runaway from "../assets/HeroFrame/runaway.webp";
+import Jester from "../assets/HeroFrame/jester.webp";
+import Leper from "../assets/HeroFrame/leper.webp";
+import Occultist from "../assets/HeroFrame/occultist.webp";
+import Vestal from "../assets/HeroFrame/vestal.webp";
+import Flagellant from "../assets/HeroFrame/flagellant.webp";
+import Bountyhunter from "../assets/HeroFrame/bountyhunter.webp";
+import Duelist from "../assets/HeroFrame/duelist.webp";
+import Crusader from "../assets/HeroFrame/crusader.webp";
 
 const HeroFrames = [
   { name: "Highwayman", src: Highwayman, alt: "Highwayman_Frame" },
