@@ -519,9 +519,9 @@ function WikiSection({ url_Bg }) {
               <br />
 
               <div className="teamMatesBox">
-                <TeemmatesFrame />
-                <TeemmatesFrame />
-                <TeemmatesFrame />
+                <TeemmatesFrame heroIndex={heroArray} />
+                <TeemmatesFrame heroIndex={heroArray} />
+                <TeemmatesFrame heroIndex={heroArray} />
                 
               </div>
             </section>
