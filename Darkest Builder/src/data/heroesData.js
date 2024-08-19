@@ -176,7 +176,8 @@ const heroesData = {
     ],
 
     teemmates: {
-      
+      comp: [2,5,9,10],
+      description: "AAA",
     },
 
     skills: [

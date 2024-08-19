@@ -511,18 +511,16 @@ function WikiSection({ url_Bg }) {
             <section id="teamMates">
               <br />
               <br />
-              <br />
+
               <h2>Heroes Teammates</h2>
               <hr />
               <br />
               <br />
-              <br />
 
               <div className="teamMatesBox">
-                <TeemmatesFrame heroIndex={heroArray} />
-                <TeemmatesFrame heroIndex={heroArray} />
-                <TeemmatesFrame heroIndex={heroArray} />
-                
+                {heroesData[heroArray].teemmates.comp.map((comp, index) => (
+                  <TeemmatesFrame key={index} heroIndex={comp} />
+                ))}
               </div>
             </section>
 

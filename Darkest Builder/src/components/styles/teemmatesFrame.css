@@ -1,10 +1,9 @@
 .teamMatesBox {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 
   width: 100%;
-  gap: 5%;
 }
 
 .heroFriend {
@@ -29,8 +28,8 @@
     justify-content: center;
     align-items: center;
 
-    width: 10rem;
-    height: 10rem;
+    width: 8rem;
+    height: 8rem;
 
     border: 2px solid #505455;
     background-color: #000;
