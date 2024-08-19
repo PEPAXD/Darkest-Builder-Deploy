@@ -166,6 +166,8 @@
   h2 {
     font-size: 1.8em;
     font-weight: 700;
+
+    color: #d1d1d1;
   }
 
   hr {
@@ -539,6 +541,28 @@
 .teamMatesBox {
   label {
     cursor: pointer;
+  }
+}
+
+.teamCombo {
+  h3 {
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #d6d6d6;
+  }
+
+  p {
+    font-size: 1.1em;
+    font-weight: 100;
+    text-align: center;
+
+    padding: 2% 5%;
+    margin: 2%;
+    background-color: rgba(0, 0, 0, 0.8);
+
+    border-top: 1px solid #505455;
+    border-bottom: 1px solid #505455;
+
   }
 }
 

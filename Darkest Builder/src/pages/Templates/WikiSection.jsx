@@ -33,7 +33,6 @@ const linksSections = [
   { href: "Skills", text: "Skills/Paths" },
   { href: "Trinkets", text: "Trinkets" },
   { href: "teamMates", text: "teamMates" },
-  { href: "#", text: "Game-Builds" },
 ];
 
 function WikiSection({ url_Bg }) {
@@ -508,12 +507,15 @@ function WikiSection({ url_Bg }) {
                 )}
             </section>
 
-            <section id="teamMates">
+            <section id="teamMates" className="teamCombo">
               <br />
               <br />
 
               <h2>Heroes Teammates</h2>
               <hr />
+
+              <h3>"{heroesData[heroArray].teemmates.cite}"</h3>
+
               <br />
               <br />
 
@@ -522,33 +524,15 @@ function WikiSection({ url_Bg }) {
                   <TeemmatesFrame key={index} heroIndex={comp} />
                 ))}
               </div>
-            </section>
-
-            <section id="#">
-              <br />
-              <br />
-              <br />
-              <h2>Skills</h2>
-              <hr />
 
               <p>
-                {" "}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptatibus, at quo? Rem consequatur perferendis officia qui
-                ex. In doloremque fugiat totam. Qui dolores eveniet facere nulla
-                officia! Sit impedit, exercitationem quisquam mollitia pariatur
-                deleniti, quaerat beatae ex consequuntur eveniet illo voluptatum
-                excepturi totam? Odio et ipsa eaque voluptate. Ipsam qui labore
-                dignissimos accusamus reiciendis a voluptatem quibusdam,
-                quisquam blanditiis necessitatibus! Minus repellendus sed
-                exercitationem cum aspernatur nihil quibusdam sit asperiores
-                adipisci. Nulla, consequuntur expedita deleniti praesentium
-                architecto sit vitae sunt explicabo possimus fugiat culpa
-                mollitia, dolorum incidunt illum unde ex doloremque
-                necessitatibus quo, delectus quas! Labore, quia ducimus!
-                Voluptate, ratione.
+              {heroesData[heroArray].teemmates.description}
               </p>
             </section>
+
+            <br />
+            <br />
+            <br />
           </div>
         </div>
       </div>

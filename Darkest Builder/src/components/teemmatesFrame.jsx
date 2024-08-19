@@ -36,7 +36,7 @@ const HeroFrames = [
 
 function teemmatesFrame({ heroIndex }) {
   return (
-    <div>
+    <div className="heroFriendContain">
       <div className="heroFriend">
         <div className="friendContainer">
           <img
@@ -44,7 +44,10 @@ function teemmatesFrame({ heroIndex }) {
             alt={HeroFrames[heroIndex].alt}
           />
         </div>
-        <i>{HeroFrames[heroIndex].name}</i>
+        <div className="friendName">
+          <i>{HeroFrames[heroIndex].name}</i>
+          <span>(Level 1)</span>
+        </div>
       </div>
     </div>
   );

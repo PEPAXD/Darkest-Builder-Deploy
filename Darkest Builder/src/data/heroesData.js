@@ -176,8 +176,9 @@ const heroesData = {
     ],
 
     teemmates: {
+      cite: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor",
       comp: [2,5,9,10],
-      description: "AAA",
+      description: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl nec ultricies ultricies, nunc nisl ultricies nunc, lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl nec ultricies ultricies, nunc nisl ultricies nunc, lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl nec ultricies ultricies, nunc nisl ultricies nunclorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl nec ultricies ultricies, nunc nisl ultricies nunc,",
     },
 
     skills: [

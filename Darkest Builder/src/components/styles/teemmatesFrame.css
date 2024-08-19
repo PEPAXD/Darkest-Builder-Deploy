@@ -6,21 +6,53 @@
   width: 100%;
 }
 
+.heroFriendContain:hover {
+  .friendContainer {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5),
+      0 0 5px rgba(255, 255, 255, 0.8);
+
+    img {
+      width: 145%;
+      transform: translate(-3%, -3%) rotate(-45deg);
+    }
+  }
+
+  .friendName {
+    i {
+      color: #fff;
+    }
+    span {
+      color: #84abe3;
+    }
+  }
+}
+
 .heroFriend {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
-  gap: 3rem;
+  gap: 2.5rem;
   margin-bottom: 1rem;
 
   cursor: pointer;
 
-  i {
-    font-weight: 500;
-    font-size: 1.5rem;
-    color: #ffffffc0;
+  .friendName {
+    display: flex;
+    flex-direction: column;
+
+    i {
+      font-size: 1.5rem;
+      color: #b5b5b5;
+      transition: all 0.2s ease;
+    }
+
+    span {
+      font-weight: 400;
+      color: #4e72a5;
+      transition: all 0.2s ease;
+    }
   }
 
   .friendContainer {
@@ -37,21 +69,11 @@
 
     transition: all 0.2s ease;
 
-    &:hover {
-      box-shadow: 0 0 15px rgba(255, 255, 255, 0.5),
-        0 0 5px rgba(255, 255, 255, 0.8);
-    }
-
     img {
       width: 130%;
       transform: rotate(-45deg);
 
       transition: all 0.3s ease;
-
-      &:hover {
-        width: 145%;
-        transform: translate(-3%, -3%) rotate(-45deg);
-      }
     }
   }
 }
