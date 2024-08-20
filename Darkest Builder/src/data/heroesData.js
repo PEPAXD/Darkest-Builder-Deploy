@@ -179,7 +179,7 @@ const heroesData = {
       cite: "The Wall of Faith: Unstoppable Mitigation Comp",
 
       comp: [
-        { id: 9, path: "Seraph" },
+        { id: 8, path: "Seraph" },
         { id: 0, path: "Sharpshot" },
         { id: 6, path: "Virtuoso" },
         { id: 3, path: "Bulwark" },
@@ -657,6 +657,20 @@ const heroesData = {
       },
     ],
 
+    teemmates: {
+      cite: "The Wall of Faith: Unstoppable Mitigation Comp",
+
+      comp: [
+        { id: 9, path: "Seraph" },
+        { id: 0, path: "Sharpshot" },
+        { id: 6, path: "Virtuoso" },
+        { id: 3, path: "Bulwark" },
+      ],
+
+      description:
+        "This team focuses on strong mitigation without sacrificing much damage. Vestal uses *Consecration of Fortitude* on Jester to generate block or dodge tokens every turn. Barristan uses *Rampart* to stun or reposition, while Dismas uses *Pistol Shot* to stun as well. Jester marks a target with *Razor’s Wit* and can use *Finale* if needed. Vestal uses the tokens to cast *Judgment* with high damage and can apply *Consecration of Light* on Dismas to boost his damage. With *Bolster* and strong heals, the team handles stress and HP effectively. This composition is effective in all acts, especially against bosses vulnerable to stuns.",
+    },
+
     skills: [
       {
         id: 0,
@@ -1120,6 +1134,20 @@ const heroesData = {
         cite: '"Wrecked him? That it surely did."',
       },
     ],
+
+    teemmates: {
+      cite: "The Wall of Faith: Unstoppable Mitigation Comp",
+
+      comp: [
+        { id: 9, path: "Seraph" },
+        { id: 0, path: "Sharpshot" },
+        { id: 6, path: "Virtuoso" },
+        { id: 3, path: "Bulwark" },
+      ],
+
+      description:
+        "This team focuses on strong mitigation without sacrificing much damage. Vestal uses *Consecration of Fortitude* on Jester to generate block or dodge tokens every turn. Barristan uses *Rampart* to stun or reposition, while Dismas uses *Pistol Shot* to stun as well. Jester marks a target with *Razor’s Wit* and can use *Finale* if needed. Vestal uses the tokens to cast *Judgment* with high damage and can apply *Consecration of Light* on Dismas to boost his damage. With *Bolster* and strong heals, the team handles stress and HP effectively. This composition is effective in all acts, especially against bosses vulnerable to stuns.",
+    },
 
     skills: [
       {
@@ -1653,6 +1681,20 @@ const heroesData = {
       },
     ],
 
+    teemmates: {
+      cite: "The Wall of Faith: Unstoppable Mitigation Comp",
+
+      comp: [
+        { id: 9, path: "Seraph" },
+        { id: 0, path: "Sharpshot" },
+        { id: 6, path: "Virtuoso" },
+        { id: 3, path: "Bulwark" },
+      ],
+
+      description:
+        "This team focuses on strong mitigation without sacrificing much damage. Vestal uses *Consecration of Fortitude* on Jester to generate block or dodge tokens every turn. Barristan uses *Rampart* to stun or reposition, while Dismas uses *Pistol Shot* to stun as well. Jester marks a target with *Razor’s Wit* and can use *Finale* if needed. Vestal uses the tokens to cast *Judgment* with high damage and can apply *Consecration of Light* on Dismas to boost his damage. With *Bolster* and strong heals, the team handles stress and HP effectively. This composition is effective in all acts, especially against bosses vulnerable to stuns.",
+    },
+
     skills: [
       {
         id: 0,
@@ -2185,6 +2227,20 @@ const heroesData = {
       },
     ],
 
+    teemmates: {
+      cite: "The Wall of Faith: Unstoppable Mitigation Comp",
+
+      comp: [
+        { id: 9, path: "Seraph" },
+        { id: 0, path: "Sharpshot" },
+        { id: 6, path: "Virtuoso" },
+        { id: 3, path: "Bulwark" },
+      ],
+
+      description:
+        "This team focuses on strong mitigation without sacrificing much damage. Vestal uses *Consecration of Fortitude* on Jester to generate block or dodge tokens every turn. Barristan uses *Rampart* to stun or reposition, while Dismas uses *Pistol Shot* to stun as well. Jester marks a target with *Razor’s Wit* and can use *Finale* if needed. Vestal uses the tokens to cast *Judgment* with high damage and can apply *Consecration of Light* on Dismas to boost his damage. With *Bolster* and strong heals, the team handles stress and HP effectively. This composition is effective in all acts, especially against bosses vulnerable to stuns.",
+    },
+
     skills: [
       {
         id: 0,
@@ -2592,6 +2648,20 @@ const heroesData = {
       },
     ],
 
+    teemmates: {
+      cite: "The Wall of Faith: Unstoppable Mitigation Comp",
+
+      comp: [
+        { id: 9, path: "Seraph" },
+        { id: 0, path: "Sharpshot" },
+        { id: 6, path: "Virtuoso" },
+        { id: 3, path: "Bulwark" },
+      ],
+
+      description:
+        "This team focuses on strong mitigation without sacrificing much damage. Vestal uses *Consecration of Fortitude* on Jester to generate block or dodge tokens every turn. Barristan uses *Rampart* to stun or reposition, while Dismas uses *Pistol Shot* to stun as well. Jester marks a target with *Razor’s Wit* and can use *Finale* if needed. Vestal uses the tokens to cast *Judgment* with high damage and can apply *Consecration of Light* on Dismas to boost his damage. With *Bolster* and strong heals, the team handles stress and HP effectively. This composition is effective in all acts, especially against bosses vulnerable to stuns.",
+    },
+
     skills: [
       {
         id: 0,
@@ -2979,6 +3049,20 @@ const heroesData = {
       },
     ],
 
+    teemmates: {
+      cite: "The Wall of Faith: Unstoppable Mitigation Comp",
+
+      comp: [
+        { id: 9, path: "Seraph" },
+        { id: 0, path: "Sharpshot" },
+        { id: 6, path: "Virtuoso" },
+        { id: 3, path: "Bulwark" },
+      ],
+
+      description:
+        "This team focuses on strong mitigation without sacrificing much damage. Vestal uses *Consecration of Fortitude* on Jester to generate block or dodge tokens every turn. Barristan uses *Rampart* to stun or reposition, while Dismas uses *Pistol Shot* to stun as well. Jester marks a target with *Razor’s Wit* and can use *Finale* if needed. Vestal uses the tokens to cast *Judgment* with high damage and can apply *Consecration of Light* on Dismas to boost his damage. With *Bolster* and strong heals, the team handles stress and HP effectively. This composition is effective in all acts, especially against bosses vulnerable to stuns.",
+    },
+
     skills: [
       {
         id: 0,
@@ -3340,6 +3424,20 @@ const heroesData = {
       },
     ],
 
+    teemmates: {
+      cite: "The Wall of Faith: Unstoppable Mitigation Comp",
+
+      comp: [
+        { id: 9, path: "Seraph" },
+        { id: 0, path: "Sharpshot" },
+        { id: 6, path: "Virtuoso" },
+        { id: 3, path: "Bulwark" },
+      ],
+
+      description:
+        "This team focuses on strong mitigation without sacrificing much damage. Vestal uses *Consecration of Fortitude* on Jester to generate block or dodge tokens every turn. Barristan uses *Rampart* to stun or reposition, while Dismas uses *Pistol Shot* to stun as well. Jester marks a target with *Razor’s Wit* and can use *Finale* if needed. Vestal uses the tokens to cast *Judgment* with high damage and can apply *Consecration of Light* on Dismas to boost his damage. With *Bolster* and strong heals, the team handles stress and HP effectively. This composition is effective in all acts, especially against bosses vulnerable to stuns.",
+    },
+
     skills: [
       {
         id: 0,
@@ -3691,6 +3789,20 @@ const heroesData = {
         cite: '"I find this canticle particularly... evocative."',
       },
     ],
+
+    teemmates: {
+      cite: "The Wall of Faith: Unstoppable Mitigation Comp",
+
+      comp: [
+        { id: 9, path: "Seraph" },
+        { id: 0, path: "Sharpshot" },
+        { id: 6, path: "Virtuoso" },
+        { id: 3, path: "Bulwark" },
+      ],
+
+      description:
+        "This team focuses on strong mitigation without sacrificing much damage. Vestal uses *Consecration of Fortitude* on Jester to generate block or dodge tokens every turn. Barristan uses *Rampart* to stun or reposition, while Dismas uses *Pistol Shot* to stun as well. Jester marks a target with *Razor’s Wit* and can use *Finale* if needed. Vestal uses the tokens to cast *Judgment* with high damage and can apply *Consecration of Light* on Dismas to boost his damage. With *Bolster* and strong heals, the team handles stress and HP effectively. This composition is effective in all acts, especially against bosses vulnerable to stuns.",
+    },
 
     skills: [
       {
@@ -4054,6 +4166,20 @@ const heroesData = {
       },
     ],
 
+    teemmates: {
+      cite: "The Wall of Faith: Unstoppable Mitigation Comp",
+
+      comp: [
+        { id: 9, path: "Seraph" },
+        { id: 0, path: "Sharpshot" },
+        { id: 6, path: "Virtuoso" },
+        { id: 3, path: "Bulwark" },
+      ],
+
+      description:
+        "This team focuses on strong mitigation without sacrificing much damage. Vestal uses *Consecration of Fortitude* on Jester to generate block or dodge tokens every turn. Barristan uses *Rampart* to stun or reposition, while Dismas uses *Pistol Shot* to stun as well. Jester marks a target with *Razor’s Wit* and can use *Finale* if needed. Vestal uses the tokens to cast *Judgment* with high damage and can apply *Consecration of Light* on Dismas to boost his damage. With *Bolster* and strong heals, the team handles stress and HP effectively. This composition is effective in all acts, especially against bosses vulnerable to stuns.",
+    },
+
     skills: [
       {
         id: 0,
@@ -4350,6 +4476,20 @@ const heroesData = {
         ],
       },
     ],
+
+    teemmates: {
+      cite: "The Wall of Faith: Unstoppable Mitigation Comp",
+
+      comp: [
+        { id: 9, path: "Seraph" },
+        { id: 0, path: "Sharpshot" },
+        { id: 6, path: "Virtuoso" },
+        { id: 3, path: "Bulwark" },
+      ],
+
+      description:
+        "This team focuses on strong mitigation without sacrificing much damage. Vestal uses *Consecration of Fortitude* on Jester to generate block or dodge tokens every turn. Barristan uses *Rampart* to stun or reposition, while Dismas uses *Pistol Shot* to stun as well. Jester marks a target with *Razor’s Wit* and can use *Finale* if needed. Vestal uses the tokens to cast *Judgment* with high damage and can apply *Consecration of Light* on Dismas to boost his damage. With *Bolster* and strong heals, the team handles stress and HP effectively. This composition is effective in all acts, especially against bosses vulnerable to stuns.",
+    },
 
     skills: [
       {
@@ -4683,6 +4823,20 @@ const heroesData = {
         cite: '"Faith for the forsaken. Judgement for the rest."',
       },
     ],
+
+    teemmates: {
+      cite: "The Wall of Faith: Unstoppable Mitigation Comp",
+
+      comp: [
+        { id: 9, path: "Seraph" },
+        { id: 0, path: "Sharpshot" },
+        { id: 6, path: "Virtuoso" },
+        { id: 3, path: "Bulwark" },
+      ],
+
+      description:
+        "This team focuses on strong mitigation without sacrificing much damage. Vestal uses *Consecration of Fortitude* on Jester to generate block or dodge tokens every turn. Barristan uses *Rampart* to stun or reposition, while Dismas uses *Pistol Shot* to stun as well. Jester marks a target with *Razor’s Wit* and can use *Finale* if needed. Vestal uses the tokens to cast *Judgment* with high damage and can apply *Consecration of Light* on Dismas to boost his damage. With *Bolster* and strong heals, the team handles stress and HP effectively. This composition is effective in all acts, especially against bosses vulnerable to stuns.",
+    },
 
     skills: [
       {
@@ -5066,6 +5220,20 @@ const heroesData = {
       },
     ],
 
+    teemmates: {
+      cite: "The Wall of Faith: Unstoppable Mitigation Comp",
+
+      comp: [
+        { id: 9, path: "Seraph" },
+        { id: 0, path: "Sharpshot" },
+        { id: 6, path: "Virtuoso" },
+        { id: 3, path: "Bulwark" },
+      ],
+
+      description:
+        "This team focuses on strong mitigation without sacrificing much damage. Vestal uses *Consecration of Fortitude* on Jester to generate block or dodge tokens every turn. Barristan uses *Rampart* to stun or reposition, while Dismas uses *Pistol Shot* to stun as well. Jester marks a target with *Razor’s Wit* and can use *Finale* if needed. Vestal uses the tokens to cast *Judgment* with high damage and can apply *Consecration of Light* on Dismas to boost his damage. With *Bolster* and strong heals, the team handles stress and HP effectively. This composition is effective in all acts, especially against bosses vulnerable to stuns.",
+    },
+
     skills: [
       {
         id: 0,
@@ -5430,6 +5598,20 @@ const heroesData = {
         cite: '"Fear is the mind-killer..."',
       },
     ],
+
+    teemmates: {
+      cite: "The Wall of Faith: Unstoppable Mitigation Comp",
+
+      comp: [
+        { id: 9, path: "Seraph" },
+        { id: 0, path: "Sharpshot" },
+        { id: 6, path: "Virtuoso" },
+        { id: 3, path: "Bulwark" },
+      ],
+
+      description:
+        "This team focuses on strong mitigation without sacrificing much damage. Vestal uses *Consecration of Fortitude* on Jester to generate block or dodge tokens every turn. Barristan uses *Rampart* to stun or reposition, while Dismas uses *Pistol Shot* to stun as well. Jester marks a target with *Razor’s Wit* and can use *Finale* if needed. Vestal uses the tokens to cast *Judgment* with high damage and can apply *Consecration of Light* on Dismas to boost his damage. With *Bolster* and strong heals, the team handles stress and HP effectively. This composition is effective in all acts, especially against bosses vulnerable to stuns.",
+    },
 
     skills: [
       {

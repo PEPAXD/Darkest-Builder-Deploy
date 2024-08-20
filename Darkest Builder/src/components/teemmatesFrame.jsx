@@ -19,19 +19,19 @@ import Crusader from "../assets/HeroFrame/crusader.webp";
 
 const HeroFrames = [
   { name: "Highwayman", src: Highwayman, alt: "Highwayman_Frame" },
-  { name: "Plague Doctor", src: Plaguedoctor, alt: "PlagueDoctor_Frame" },
   { name: "Grave Robber", src: Graverobber, alt: "GraveRobber_Frame" },
-  { name: "Man At Arms", src: Manatarms, alt: "ManAtArms_Frame" },
   { name: "Hellion", src: Hellion, alt: "Hellion_Frame" },
-  { name: "Runaway", src: Runaway, alt: "Runaway_Frame" },
   { name: "Jester", src: Jester, alt: "Jester_Frame" },
   { name: "Leper", src: Leper, alt: "Leper_Frame" },
+  { name: "Man At Arms", src: Manatarms, alt: "ManAtArms_Frame" },
   { name: "Occultist", src: Occultist, alt: "Occultist_Frame" },
+  { name: "Plague Doctor", src: Plaguedoctor, alt: "PlagueDoctor_Frame" },
   { name: "Vestal", src: Vestal, alt: "Vestal_Frame" },
-  { name: "Flagellant", src: Flagellant, alt: "Flagellant_Frame" },
+  { name: "Runaway", src: Runaway, alt: "Runaway_Frame" },
   { name: "Bounty Hunter", src: Bountyhunter, alt: "BountyHunter_Frame" },
-  { name: "Duelist", src: Duelist, alt: "Duelist_Frame" },
   { name: "Crusader", src: Crusader, alt: "Crusader_Frame" },
+  { name: "Duelist", src: Duelist, alt: "Duelist_Frame" },
+  { name: "Flagellant", src: Flagellant, alt: "Flagellant_Frame" },
 ];
 
 function teemmatesFrame({ heroIndex }) {

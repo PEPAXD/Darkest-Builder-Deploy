@@ -538,10 +538,11 @@
   }
 }
 
-.teamMatesBox {
-  label {
-    cursor: pointer;
-  }
+.teamMatesBox button {
+
+  background-color: transparent;
+  border: none;
+
 }
 
 .teamCombo {
