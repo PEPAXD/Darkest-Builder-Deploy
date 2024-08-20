@@ -46,7 +46,7 @@ function teemmatesFrame({ heroIndex }) {
         </div>
         <div className="friendName">
           <i>{HeroFrames[heroIndex.id].name}</i>
-          <span>({heroIndex.path})</span>
+          <span>({heroIndex.path[1]})</span>
         </div>
       </div>
     </div>

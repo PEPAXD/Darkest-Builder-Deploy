@@ -525,7 +525,7 @@ function WikiSection({ url_Bg }) {
                 {heroesData[heroArray].teemmates.comp.map((comp, index) => (
                   <button key={index} onClick={() => { 
                     setHeroArray(comp.id); 
-                    setHeroPaths(2); 
+                    setHeroPaths(comp.path[0]); 
                     document.getElementById("Hero").scrollIntoView({ behavior: "smooth" }); 
                   }}>
                     <TeemmatesFrame heroIndex={comp} path={comp.path} />
