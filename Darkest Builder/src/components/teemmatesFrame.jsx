@@ -40,13 +40,13 @@ function teemmatesFrame({ heroIndex }) {
       <div className="heroFriend">
         <div className="friendContainer">
           <img
-            src={HeroFrames[heroIndex].src}
-            alt={HeroFrames[heroIndex].alt}
+            src={HeroFrames[heroIndex.id].src}
+            alt={HeroFrames[heroIndex.id].alt}
           />
         </div>
         <div className="friendName">
-          <i>{HeroFrames[heroIndex].name}</i>
-          <span>(Level 1)</span>
+          <i>{HeroFrames[heroIndex.id].name}</i>
+          <span>({heroIndex.path})</span>
         </div>
       </div>
     </div>

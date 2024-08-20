@@ -176,9 +176,17 @@ const heroesData = {
     ],
 
     teemmates: {
-      cite: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor",
-      comp: [2,5,9,10],
-      description: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl nec ultricies ultricies, nunc nisl ultricies nunc, lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl nec ultricies ultricies, nunc nisl ultricies nunc, lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl nec ultricies ultricies, nunc nisl ultricies nunclorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl nec ultricies ultricies, nunc nisl ultricies nunc,",
+      cite: "The Wall of Faith: Unstoppable Mitigation Comp",
+
+      comp: [
+        { id: 9, path: "Seraph" },
+        { id: 0, path: "Sharpshot" },
+        { id: 6, path: "Virtuoso" },
+        { id: 3, path: "Bulwark" },
+      ],
+
+      description:
+        "This team focuses on strong mitigation without sacrificing much damage. Vestal uses *Consecration of Fortitude* on Jester to generate block or dodge tokens every turn. Barristan uses *Rampart* to stun or reposition, while Dismas uses *Pistol Shot* to stun as well. Jester marks a target with *Razor’s Wit* and can use *Finale* if needed. Vestal uses the tokens to cast *Judgment* with high damage and can apply *Consecration of Light* on Dismas to boost his damage. With *Bolster* and strong heals, the team handles stress and HP effectively. This composition is effective in all acts, especially against bosses vulnerable to stuns.",
     },
 
     skills: [
@@ -643,10 +651,7 @@ const heroesData = {
         ],
       },
       {
-        stats: [
-          "[1 Target]",
-          "+10% CRIT (Until Next Inn)"
-        ],
+        stats: ["[1 Target]", "+10% CRIT (Until Next Inn)"],
 
         cite: '"Oh darling, you cant get this anywhere."',
       },
@@ -1110,7 +1115,7 @@ const heroesData = {
           "If Rank 1: +25% DMG (Until Next Inn)",
           "If Rank 2: +15% DMG (Until Next Inn)",
           "If Rank 3: -15% DMG (Until Next Inn)",
-          "If Rank 4: -25% DMG (Until Next Inn)"
+          "If Rank 4: -25% DMG (Until Next Inn)",
         ],
         cite: '"Wrecked him? That it surely did."',
       },
@@ -1642,7 +1647,7 @@ const heroesData = {
         stats: [
           "[Party]",
           "-10 Dd2 token stress.png",
-          "+10% Dd2 token horror.png RES (Until Next Inn)"
+          "+10% Dd2 token horror.png RES (Until Next Inn)",
         ],
         cite: '"Hehe, lets just say the mood is upon me."',
       },
@@ -2171,11 +2176,11 @@ const heroesData = {
         ],
       },
       {
-  stats: [
-    "[2 Targets]",
-    "+10% Healing Received from Skills per Positive Token (Until Next Inn)",
-    "+10% Healing Received from Skills per Negative Token (Until Next Inn)"
-  ],
+        stats: [
+          "[2 Targets]",
+          "+10% Healing Received from Skills per Positive Token (Until Next Inn)",
+          "+10% Healing Received from Skills per Negative Token (Until Next Inn)",
+        ],
         cite: '"A little beauty yet remains..."',
       },
     ],
@@ -2581,10 +2586,10 @@ const heroesData = {
       {
         stats: [
           "[Party]",
-          "If Dd2 token guarded.png: +25% DMG (Until Next Inn)"
+          "If Dd2 token guarded.png: +25% DMG (Until Next Inn)",
         ],
-              cite: '"Ive been thinking..."',
-            },
+        cite: '"Ive been thinking..."',
+      },
     ],
 
     skills: [
@@ -2968,10 +2973,10 @@ const heroesData = {
       {
         stats: [
           "[2 Targets]",
-          "Combat Start: Add 1 Positive Token (Until Next Inn)"
+          "Combat Start: Add 1 Positive Token (Until Next Inn)",
         ],
-              cite: '"Let us empty our minds..."',
-            },
+        cite: '"Let us empty our minds..."',
+      },
     ],
 
     skills: [
@@ -3329,10 +3334,10 @@ const heroesData = {
           "[Party]",
           "Heal 100% (50%)",
           "Remove Disease (25%)",
-          "Remove Negative Quirk (25%)"
+          "Remove Negative Quirk (25%)",
         ],
-              cite: '"Just a little something Ive been working on."',
-            },
+        cite: '"Just a little something Ive been working on."',
+      },
     ],
 
     skills: [
@@ -3682,12 +3687,9 @@ const heroesData = {
         ],
       },
       {
-        stats: [
-          "[Party]",
-          "If has Consecration: +25% Max HP (Until Next Inn)"
-        ],
-              cite: '"I find this canticle particularly... evocative."',
-            },
+        stats: ["[Party]", "If has Consecration: +25% Max HP (Until Next Inn)"],
+        cite: '"I find this canticle particularly... evocative."',
+      },
     ],
 
     skills: [
@@ -4046,10 +4048,10 @@ const heroesData = {
         stats: [
           "[1 Target]",
           "If Dd2 token stealth.png: +3 Burn Dealt (Until Next Inn)",
-          "If Dd2 token stealth.png: +3 Burn Received (Until Next Inn)"
+          "If Dd2 token stealth.png: +3 Burn Received (Until Next Inn)",
         ],
-              cite: '"Ill cover myself with this.... mind the fumes."',
-            },
+        cite: '"Ill cover myself with this.... mind the fumes."',
+      },
     ],
 
     skills: [
@@ -4676,10 +4678,10 @@ const heroesData = {
         stats: [
           "[2 Targets]",
           "+5% Dd2 token stress.png RES per Negative Token (Until Next Inn)",
-          "+5% DMG per Positive Token (Until Next Inn)"
+          "+5% DMG per Positive Token (Until Next Inn)",
         ],
-              cite: '"Faith for the forsaken. Judgement for the rest."',
-            },
+        cite: '"Faith for the forsaken. Judgement for the rest."',
+      },
     ],
 
     skills: [
@@ -5058,10 +5060,10 @@ const heroesData = {
       {
         stats: [
           "[1 Target]",
-          "Riposte Skills: ExecutionExecution 2 (Until Next Inn)"
+          "Riposte Skills: ExecutionExecution 2 (Until Next Inn)",
         ],
-              cite: '"A clean blade is a killing blade."',
-            },
+        cite: '"A clean blade is a killing blade."',
+      },
     ],
 
     skills: [
@@ -5423,10 +5425,10 @@ const heroesData = {
           "15% DMG",
           "+33% Blight RES Piercing (Until Next Inn) (33%)",
           "+1 Blight Duration Dealt (Until Next Inn) (33%)",
-          "+1 Blight Dealt (Until Next Inn) (33%)"
+          "+1 Blight Dealt (Until Next Inn) (33%)",
         ],
-              cite: '"Fear is the mind-killer..."',
-            },
+        cite: '"Fear is the mind-killer..."',
+      },
     ],
 
     skills: [

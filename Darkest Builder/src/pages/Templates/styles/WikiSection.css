@@ -548,11 +548,12 @@
   h3 {
     font-size: 1.2em;
     font-weight: 400;
-    color: #d6d6d6;
+    font-style: italic;
+    color: #c6c6c6;
   }
 
   p {
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 100;
     text-align: center;
 
