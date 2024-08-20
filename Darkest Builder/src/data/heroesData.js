@@ -658,17 +658,17 @@ const heroesData = {
     ],
 
     teemmates: {
-      cite: "The Wall of Faith: Unstoppable Mitigation Comp",
+      cite: "Lightning Strikes Twice: High-Damage Double Lunge Comp with Nightsworn GraveRobber",
 
       comp: [
-        { id: 8, path: [3, "Seraph"] },
-        { id: 0, path: [2, "Sharpshot"] },
-        { id: 3, path: [1, "Virtuoso"] },
-        { id: 5, path: [2, "Bulwark"] },
+        { id: 1, path: [3, "Nightsworn"] },
+        { id: 7, path: [2, "Alchemist"] },
+        { id:6, path: [3, "Aspirant"] },
+        { id: 2, path: [1, "Ravager"] },
       ],
 
       description:
-        "This team focuses on strong mitigation without sacrificing much damage. Vestal uses *Consecration of Fortitude* on Jester to generate block or dodge tokens every turn. Barristan uses *Rampart* to stun or reposition, while Dismas uses *Pistol Shot* to stun as well. Jester marks a target with *Razor’s Wit* and can use *Finale* if needed. Vestal uses the tokens to cast *Judgment* with high damage and can apply *Consecration of Light* on Dismas to boost his damage. With *Bolster* and strong heals, the team handles stress and HP effectively. This composition is effective in all acts, especially against bosses vulnerable to stuns.",
+        "This is a double lunge comp focused on the GraveRobber (Nightsworn) paired with Hellion (Ravager) for high damage and flexibility. The GraveRobber lunges on turn 1, and then the Occultist (Alhazred) pulls her back to rank 3 with Binding Shadows, allowing her to lunge again and follow up with Pirouette. Hellion uses Toe to Toe to stay in place and tank, while Alhazred repositions Audrey to repeat the cycle. The Plague Doctor (PD) or Vestal (Seraph) provide healing and support, depending on whether you prefer consistency or additional mitigation. This team excels at quickly eliminating enemies, winning fights in 2 turns, and handles most bosses well.",
     },
 
     skills: [
@@ -1136,16 +1136,16 @@ const heroesData = {
     ],
 
     teemmates: {
-      cite: "The Wall of Faith: Unstoppable Mitigation Comp",
+      cite: "Backline Annihilation: The Ultimate Comp for Crushing Enemies with PD and Hellion",
 
       comp: [
-        { id: 8, path: [3, "Seraph"] },
+        { id: 7, path: [2, "Alchemist"] },
+        { id: 6, path: [2, "Warlock"] },
         { id: 0, path: [2, "Sharpshot"] },
-        { id: 3, path: [1, "Virtuoso"] },
-        { id: 5, path: [2, "Bulwark"] },
+        { id: 2, path: [1, "Ravager"] },
       ],
       description:
-        "This team focuses on strong mitigation without sacrificing much damage. Vestal uses *Consecration of Fortitude* on Jester to generate block or dodge tokens every turn. Barristan uses *Rampart* to stun or reposition, while Dismas uses *Pistol Shot* to stun as well. Jester marks a target with *Razor’s Wit* and can use *Finale* if needed. Vestal uses the tokens to cast *Judgment* with high damage and can apply *Consecration of Light* on Dismas to boost his damage. With *Bolster* and strong heals, the team handles stress and HP effectively. This composition is effective in all acts, especially against bosses vulnerable to stuns.",
+        "This comp specializes in crushing enemy backlines with high damage cleaves and focused attacks. The Plague Doctor handles backline damage with Plague Grenade and Magnesium Rain, and provides healing. The Occultist adds extra backline damage with Abyssal Artillery and offers mitigation through curses and pulls. The choice between Jester and Dismas depends on whether you need flexibility or reliability; Jester offers Finale and movement skills but is more vulnerable, while Dismas provides consistent damage and bulk. The Hellion delivers strong frontline damage and tanking with Toe to Toe and can use Howling End for a powerful alpha strike. This comp is highly effective in Act 2, the Tangle, and cultist fights, focusing on backline destruction with flexibility.",
     },
 
     skills: [
@@ -1681,17 +1681,17 @@ const heroesData = {
     ],
 
     teemmates: {
-      cite: "The Wall of Faith: Unstoppable Mitigation Comp",
+      cite: "Combo Frenzy: Master Backline Destruction with Jester and Deadeye Audrey",
 
       comp: [
-        { id: 8, path: [3, "Seraph"] },
-        { id: 0, path: [2, "Sharpshot"] },
+        { id: 9, path: [1, "Arsonist"] },
+        { id: 1, path: [1, "Deadeye"] },
         { id: 3, path: [1, "Virtuoso"] },
-        { id: 5, path: [2, "Bulwark"] },
+        { id: 4, path: [1, "Tempest"] },
       ],
 
       description:
-        "This team focuses on strong mitigation without sacrificing much damage. Vestal uses *Consecration of Fortitude* on Jester to generate block or dodge tokens every turn. Barristan uses *Rampart* to stun or reposition, while Dismas uses *Pistol Shot* to stun as well. Jester marks a target with *Razor’s Wit* and can use *Finale* if needed. Vestal uses the tokens to cast *Judgment* with high damage and can apply *Consecration of Light* on Dismas to boost his damage. With *Bolster* and strong heals, the team handles stress and HP effectively. This composition is effective in all acts, especially against bosses vulnerable to stuns.",
+        "This Combo-focused team utilizes Jester Engine to maximize Audrey's damage with thrown daggers, using Fade to Black and Razor's Wit. Leper contributes with high damage and corpse clearing through Purge, while Bonnie supports with Combo application and mitigation. Leper also tanks with Withstand and Intimidate. The team’s flexibility allows it to handle both front and backlines effectively. While it lacks a dedicated healer, Audrey’s self-sufficiency and Leper’s Solemnity cover most healing needs. This setup is ideal for learning Jester, providing a straightforward approach to using Finale and Encore effectively.",
     },
 
     skills: [

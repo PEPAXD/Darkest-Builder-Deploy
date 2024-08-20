@@ -97,7 +97,7 @@ function WikiSection({ url_Bg }) {
     });
     setHeroPaths(0);
     setSelectedSkill(0);
-    document.getElementById("Hero").scrollIntoView({ behavior: "smooth" }); 
+    //document.getElementById("Hero").scrollIntoView({ behavior: "smooth" });
   };
 
   //SelectorSkills
@@ -131,7 +131,11 @@ function WikiSection({ url_Bg }) {
                   setHeroArray(item.id - 1);
                   setHeroPaths(0);
                   setSelectedSkill(0);
-                  document.getElementById("Hero").scrollIntoView({ behavior: "smooth" }); 
+                  /*TEMP DISABLE
+                  document
+                    .getElementById("Hero")
+                    .scrollIntoView({ behavior: "smooth" });
+*/
                 }}
                 styling={{
                   color: "white",
@@ -163,9 +167,12 @@ function WikiSection({ url_Bg }) {
                       checked={heroPaths === index}
                       onChange={(e) => {
                         setHeroPaths(index);
+
+                        /*TEMP DISABLE
                         document
                           .getElementById("Skills")
                           .scrollIntoView({ behavior: "smooth" });
+*/
                       }}
                     />
                     <label htmlFor={`value-${index}`}>{path}</label>
@@ -523,11 +530,16 @@ function WikiSection({ url_Bg }) {
 
               <div className="teamMatesBox">
                 {heroesData[heroArray].teemmates.comp.map((comp, index) => (
-                  <button key={index} onClick={() => { 
-                    setHeroArray(comp.id); 
-                    setHeroPaths(comp.path[0]); 
-                    document.getElementById("Hero").scrollIntoView({ behavior: "smooth" }); 
-                  }}>
+                  <button
+                    key={index}
+                    onClick={() => {
+                      setHeroArray(comp.id);
+                      setHeroPaths(comp.path[0]);
+
+                      //TEMP DISABLE
+                      //document.getElementById("Hero").scrollIntoView({ behavior: "smooth" });
+                    }}
+                  >
                     <TeemmatesFrame heroIndex={comp} path={comp.path} />
                   </button>
                 ))}
