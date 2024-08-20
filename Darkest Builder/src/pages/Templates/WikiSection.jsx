@@ -97,6 +97,7 @@ function WikiSection({ url_Bg }) {
     });
     setHeroPaths(0);
     setSelectedSkill(0);
+    document.getElementById("Hero").scrollIntoView({ behavior: "smooth" }); 
   };
 
   //SelectorSkills
@@ -130,6 +131,7 @@ function WikiSection({ url_Bg }) {
                   setHeroArray(item.id - 1);
                   setHeroPaths(0);
                   setSelectedSkill(0);
+                  document.getElementById("Hero").scrollIntoView({ behavior: "smooth" }); 
                 }}
                 styling={{
                   color: "white",
@@ -521,7 +523,11 @@ function WikiSection({ url_Bg }) {
 
               <div className="teamMatesBox">
                 {heroesData[heroArray].teemmates.comp.map((comp, index) => (
-                  <button key={index} onClick={() => setHeroArray(comp.id)}>
+                  <button key={index} onClick={() => { 
+                    setHeroArray(comp.id); 
+                    setHeroPaths(2); 
+                    document.getElementById("Hero").scrollIntoView({ behavior: "smooth" }); 
+                  }}>
                     <TeemmatesFrame heroIndex={comp} path={comp.path} />
                   </button>
                 ))}
