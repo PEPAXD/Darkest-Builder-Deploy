@@ -3049,17 +3049,17 @@ const heroesData = {
     ],
 
     teemmates: {
-      cite: "The Wall of Faith: Unstoppable Mitigation Comp",
+      cite: "Blazing Resolve: The Utility and Mitigation Powerhouse Comp",
 
       comp: [
-        { id: 8, path: [3, "Seraph"] },
-        { id: 0, path: [2, "Sharpshot"] },
-        { id: 3, path: [1, "Virtuoso"] },
-        { id: 5, path: [2, "Bulwark"] },
+        { id: 9, path: [1, "Arsonist"] },
+        { id: 6, path: [1, "Ritualist"] },
+        { id: 4, path: [1, "Tempest"] },
+        { id: 2, path: [1, "Ravager"] },
       ],
 
       description:
-        "This team focuses on strong mitigation without sacrificing much damage. Vestal uses *Consecration of Fortitude* on Jester to generate block or dodge tokens every turn. Barristan uses *Rampart* to stun or reposition, while Dismas uses *Pistol Shot* to stun as well. Jester marks a target with *Razor’s Wit* and can use *Finale* if needed. Vestal uses the tokens to cast *Judgment* with high damage and can apply *Consecration of Light* on Dismas to boost his damage. With *Bolster* and strong heals, the team handles stress and HP effectively. This composition is effective in all acts, especially against bosses vulnerable to stuns.",
+        "This comp leverages the Occultist’s utility, particularly his pull and combo effects, to empower Leper and Hellion. The Occultist is positioned in rank 3 to access Stab, running it alongside his pulls, curses, and healing. Bonnie is chosen for her mitigation, DoT, and Cauterize to handle the bleed effects from Hellion and Wyrd. The Smokescreen + Weakening Curse combo provides strong mitigation, while Vulnerability Hex enhances damage output for Leper and Hellion. Tanking is shared between Hellion and Leper, with Runaway providing additional damage control and dodge clearing. The main drawback is Bonnie's position in rank 4, which limits her access to Controlled Burn. This team is designed for a slower, methodical approach but offers flexible targeting and solid mitigation.",
     },
 
     skills: [
