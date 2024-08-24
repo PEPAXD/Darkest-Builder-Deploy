@@ -3424,17 +3424,17 @@ const heroesData = {
     ],
 
     teemmates: {
-      cite: "The Wall of Faith: Unstoppable Mitigation Comp",
+      cite: "Relentless Reach: The Backline Demolisher Comp",
 
       comp: [
-        { id: 8, path: [3, "Seraph"] },
-        { id: 0, path: [2, "Sharpshot"] },
-        { id: 3, path: [1, "Virtuoso"] },
-        { id: 5, path: [2, "Bulwark"] },
+        { id: 7, path: [2, "alchemist"] },
+        { id: 9, path: [1, "Arsonist"] },
+        { id: 5, path: [3, "Vanguard"] },
+        { id: 2, path: [1, "Ravager"] },
       ],
 
       description:
-        "This team focuses on strong mitigation without sacrificing much damage. Vestal uses *Consecration of Fortitude* on Jester to generate block or dodge tokens every turn. Barristan uses *Rampart* to stun or reposition, while Dismas uses *Pistol Shot* to stun as well. Jester marks a target with *Razor’s Wit* and can use *Finale* if needed. Vestal uses the tokens to cast *Judgment* with high damage and can apply *Consecration of Light* on Dismas to boost his damage. With *Bolster* and strong heals, the team handles stress and HP effectively. This composition is effective in all acts, especially against bosses vulnerable to stuns.",
+        "This comp excels in backline destruction and mitigation, making it ideal for Act 3. The Man-at-Arms and Runaway provide strong mitigation through Retribution, Defender, and Smokescreen. The team can effectively target backlines with Plague Doctor’s Plague Grenade, Hellion’s Iron Swan, and Runaway’s Firefly. Hellion shines with her high-damage Howling End and synergy with Runaway’s vulnerability tokens. The comp also offers ample healing options from Plague Doctor, Cauterize, and Hellion’s Adrenaline Rush. With reliable stress management and dodge removal, this team is versatile and effective across various scenarios, particularly against the Act 3 boss.",
     },
 
     skills: [
