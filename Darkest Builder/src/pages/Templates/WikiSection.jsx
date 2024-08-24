@@ -520,13 +520,16 @@ function WikiSection({ url_Bg }) {
               <br />
               <br />
 
-              <h2>Heroes Teammates</h2>
+              {heroesData[heroArray].teemmates.description ? (
+                <h2>Heroes Teammates</h2>
+              ) : (
+                <h2>Why You Need BH on Your Team?</h2>
+              )}
               <hr />
 
-              <h3>"{heroesData[heroArray].teemmates.cite}"</h3>
-
-              <br />
-              <br />
+              {heroesData[heroArray].teemmates.description && (
+                <h3>"{heroesData[heroArray].teemmates.cite}"</h3>
+              )}
 
               <div className="teamMatesBox">
                 {heroesData[heroArray].teemmates.comp.map((comp, index) => (
@@ -545,7 +548,9 @@ function WikiSection({ url_Bg }) {
                 ))}
               </div>
 
-              <p>{heroesData[heroArray].teemmates.description}</p>
+              {heroesData[heroArray].teemmates.description && (
+                <p>{heroesData[heroArray].teemmates.description}</p>
+              )}
             </section>
 
             <br />
