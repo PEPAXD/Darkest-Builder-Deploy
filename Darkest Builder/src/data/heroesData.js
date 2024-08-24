@@ -4166,16 +4166,16 @@ const heroesData = {
     ],
 
     teemmates: {
-      cite: "The Wall of Faith: Unstoppable Mitigation Comp",
+      cite: "Blaze of Glory: The Glass Cannon Rampage Comp",
 
       comp: [
-        { id: 8, path: [3, "Seraph"] },
-        { id: 0, path: [2, "Sharpshot"] },
-        { id: 3, path: [1, "Virtuoso"] },
-        { id: 5, path: [2, "Bulwark"] },
+        { id: 7, path: [1, "Surgeon"] },
+        { id: 9, path: [1, "Arsonist"] },
+        { id: 1, path: [1, "Deadeye"] },
+        { id: 0, path: [1, "Rogue"] },
       ],
       description:
-        "This team focuses on strong mitigation without sacrificing much damage. Vestal uses *Consecration of Fortitude* on Jester to generate block or dodge tokens every turn. Barristan uses *Rampart* to stun or reposition, while Dismas uses *Pistol Shot* to stun as well. Jester marks a target with *Razor’s Wit* and can use *Finale* if needed. Vestal uses the tokens to cast *Judgment* with high damage and can apply *Consecration of Light* on Dismas to boost his damage. With *Bolster* and strong heals, the team handles stress and HP effectively. This composition is effective in all acts, especially against bosses vulnerable to stuns.",
+        "This high-risk, high-reward comp focuses on overwhelming damage output with minimal mitigation. The strategy involves using Dismas for Point Blank Shot, Audrey for Pirouette and repositioning, Bonnie for Smokescreen and utility, and PD for Incision or corpse clearing. Deadeye GraveRobber follows up with thrown daggers on comboed targets. The comp relies on speed and coordination to quickly eliminate enemies but lacks a tank and has limited flexibility. It's best suited for quick, aggressive fights and should be avoided in Acts 2 and 3 due to its vulnerability in prolonged engagements. Ideal for players seeking a thrilling, explosive playstyle.",
     },
 
     skills: [
