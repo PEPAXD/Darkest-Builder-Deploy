@@ -2227,17 +2227,17 @@ const heroesData = {
     ],
 
     teemmates: {
-      cite: "The Wall of Faith: Unstoppable Mitigation Comp",
+      cite: "Slow Burn Bulwark: The Leper-Centric Utility Comp",
 
       comp: [
-        { id: 8, path: [3, "Seraph"] },
-        { id: 0, path: [2, "Sharpshot"] },
-        { id: 3, path: [1, "Virtuoso"] },
-        { id: 5, path: [2, "Bulwark"] },
+        { id: 6, path: [1, "Ritualist"] },
+        { id: 3, path: [2, "Soloist"] },
+        { id: 8, path: [1, "Confessor"] },
+        { id: 4, path: [1, "Tempest"] },
       ],
 
       description:
-        "This team focuses on strong mitigation without sacrificing much damage. Vestal uses *Consecration of Fortitude* on Jester to generate block or dodge tokens every turn. Barristan uses *Rampart* to stun or reposition, while Dismas uses *Pistol Shot* to stun as well. Jester marks a target with *Razor’s Wit* and can use *Finale* if needed. Vestal uses the tokens to cast *Judgment* with high damage and can apply *Consecration of Light* on Dismas to boost his damage. With *Bolster* and strong heals, the team handles stress and HP effectively. This composition is effective in all acts, especially against bosses vulnerable to stuns.",
+        "This bulky team centers on Tempest Leper, supported by Confessor Vestal, Ritualist Occultist, and Jester. Leper deals heavy damage and tanks, while Occultist pulls enemies and applies debuffs. Jester provides bleed and flexibility, with Encore and Finale setups. Vestal strengthens the team's defense with debuffs, stress healing, and token removal. The comp excels in slow, controlled fights but can be risky if overly reliant on Leper. Swapping Jester or Occultist for Dismas or Bonnie can add balance.",
     },
 
     skills: [
