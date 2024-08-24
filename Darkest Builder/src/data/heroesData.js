@@ -3790,17 +3790,17 @@ const heroesData = {
     ],
 
     teemmates: {
-      cite: "The Wall of Faith: Unstoppable Mitigation Comp",
+      cite: "Blighted Bastion: The Slow Roll Blight Comp",
 
       comp: [
-        { id: 8, path: [3, "Seraph"] },
-        { id: 0, path: [2, "Sharpshot"] },
-        { id: 3, path: [1, "Virtuoso"] },
-        { id: 5, path: [2, "Bulwark"] },
+        { id: 7, path: [2, "Alchemist"] },
+        { id: 1, path: [2, "Venomdrop"] },
+        { id: 8, path: [2, "Chaplain"] },
+        { id: 5, path: [3, "Vanguard"] },
       ],
 
       description:
-        "This team focuses on strong mitigation without sacrificing much damage. Vestal uses *Consecration of Fortitude* on Jester to generate block or dodge tokens every turn. Barristan uses *Rampart* to stun or reposition, while Dismas uses *Pistol Shot* to stun as well. Jester marks a target with *Razor’s Wit* and can use *Finale* if needed. Vestal uses the tokens to cast *Judgment* with high damage and can apply *Consecration of Light* on Dismas to boost his damage. With *Bolster* and strong heals, the team handles stress and HP effectively. This composition is effective in all acts, especially against bosses vulnerable to stuns.",
+        "This comp focuses on a slow-roll, blight-centric strategy with Junia’s Chaplain for survivability, Barristan as a reliable tank, and PD and Audrey providing blight damage and healing. Junia’s Mantra boosts team durability, while Barristan handles tanking and mitigation with Retribution and Crush. PD and Audrey contribute substantial blight damage and utility, with Audrey’s Venomdrop allowing for extra direct damage. The team excels at wearing down enemies with blight and flexible damage options, and it’s especially effective against rank 2 enemies. Healing is ample, and the comp works well in slow, controlled fights. Avoid Act 2 due to limitations with rank 4 direct damage and be cautious in the Foetor due to high blight resist.",
     },
 
     skills: [
