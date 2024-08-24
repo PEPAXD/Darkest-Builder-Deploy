@@ -539,12 +539,10 @@
 }
 
 .teamMatesBox button {
-
   background-color: transparent;
   border: none;
 
   margin-top: 6%;
-
 }
 
 .teamCombo {
@@ -555,7 +553,7 @@
     color: #c6c6c6;
   }
 
-  p {
+  .teamDescription {
     font-size: 1em;
     font-weight: 100;
     text-align: center;
@@ -566,7 +564,42 @@
 
     border-top: 1px solid #505455;
     border-bottom: 1px solid #505455;
+  }
 
+  .BG_listRecruit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    width: 100%;
+    margin: 2%;
+  
+    ol {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+  
+      width: 95%;
+      gap: 1rem;
+  
+      li {
+        color: #fff;
+        font-size: 1.2em;
+        font-weight: 400;
+        text-align: start;
+        font-style: italic;
+      }
+  
+      p {
+        margin-top: 0.4rem;
+        font-size: 0.8em;
+        padding-left: 2%;
+        font-weight: 300;
+        font-style: normal;
+      }
+    }
   }
 }
 

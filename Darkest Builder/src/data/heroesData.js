@@ -663,7 +663,7 @@ const heroesData = {
       comp: [
         { id: 1, path: [3, "Nightsworn"] },
         { id: 7, path: [2, "Alchemist"] },
-        { id:6, path: [3, "Aspirant"] },
+        { id: 6, path: [3, "Aspirant"] },
         { id: 2, path: [1, "Ravager"] },
       ],
 
@@ -4476,14 +4476,36 @@ const heroesData = {
     ],
 
     teemmates: {
-      cite: "The Wall of Faith: Unstoppable Mitigation Comp",
+      cite: "",
+      comp: [],
+      description: "",
 
-      comp: [
-
+      BG_recruit: [
+        {
+          title: "Lair Snipe",
+          description: "BH’s consistent power makes him an excellent choice for targeting lair bosses early. Whether replacing a poorly performing character or speeding up a slow roll comp, BH’s long-range moves can significantly boost your chances of success."
+        },
+        {
+          title: "Region-Specific Replacement",
+          description: "In regions where a specific hero’s abilities are less effective, BH can be a great substitute. For instance, replacing a fire-based hero like Bonnie in a region with high fire resist can maintain your team’s damage output and overall effectiveness."
+        },
+        {
+          title: "Key Fight Assistance",
+          description: "BH’s expendable nature makes him ideal for difficult fights or risky strategies. Use him as a dedicated tank for challenging battles like the Exemplar fight, allowing your main heroes to avoid excessive stress and damage."
+        },
+        {
+          title: "Relationship Freezing",
+          description: "If two heroes have poor relationships and are causing issues, replacing one with BH can prevent relationship problems from affecting your team. BH’s presence will help keep relationships stable during the region."
+        },
+        {
+          title: "Strategic Fit",
+          description: "While BH is versatile, some team compositions enhance his strengths. If your strategy aligns with BH’s skills, especially those involving specific setups like the Jester Engine, he can be a valuable addition."
+        },
+        {
+          title: "Personal Preference",
+          description: "Sometimes, you recruit BH simply because you like him. His unique abilities and presence can make him a preferred choice, adding personal enjoyment to your gameplay experience."
+        },
       ],
-
-      description:
-        "",
     },
 
     skills: [

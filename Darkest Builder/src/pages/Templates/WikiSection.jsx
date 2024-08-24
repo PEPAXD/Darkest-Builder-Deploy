@@ -519,12 +519,14 @@ function WikiSection({ url_Bg }) {
             <section id="teamMates" className="teamCombo">
               <br />
               <br />
+              <br />
 
               {heroesData[heroArray].teemmates.description ? (
                 <h2>Heroes Teammates</h2>
               ) : (
                 <h2>Why You Need BH on Your Team?</h2>
               )}
+
               <hr />
 
               {heroesData[heroArray].teemmates.description && (
@@ -549,8 +551,24 @@ function WikiSection({ url_Bg }) {
               </div>
 
               {heroesData[heroArray].teemmates.description && (
-                <p>{heroesData[heroArray].teemmates.description}</p>
+                <p className="teamDescription">
+                  {heroesData[heroArray].teemmates.description}
+                </p>
               )}
+
+              {heroesData[heroArray].teemmates.BG_recruit && (
+                <div className="BG_listRecruit">
+                  <ol>
+                    {heroesData[heroArray].teemmates.BG_recruit.map((item, index) => (
+                      <li key={index}>
+                        {item.title}
+                        <p>{item.description}</p>
+                      </li>
+                    ))}
+                  </ol>
+                </div>
+              )}
+
             </section>
 
             <br />
