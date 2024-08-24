@@ -2648,17 +2648,17 @@ const heroesData = {
     ],
 
     teemmates: {
-      cite: "The Wall of Faith: Unstoppable Mitigation Comp",
+      cite: "Unyielding Guardians: The Mitigation Mastery Comp",
 
       comp: [
-        { id: 8, path: [3, "Seraph"] },
-        { id: 0, path: [2, "Sharpshot"] },
-        { id: 3, path: [1, "Virtuoso"] },
-        { id: 5, path: [2, "Bulwark"] },
+        { id: 6, path: [1, "Ritualist"] },
+        { id: 9, path: [1, "Arsonist"] },
+        { id: 5, path: [3, "Vanguard"] },
+        { id: 4, path: [1, "Tempest"] },
       ],
 
       description:
-        "This team focuses on strong mitigation without sacrificing much damage. Vestal uses *Consecration of Fortitude* on Jester to generate block or dodge tokens every turn. Barristan uses *Rampart* to stun or reposition, while Dismas uses *Pistol Shot* to stun as well. Jester marks a target with *Razor’s Wit* and can use *Finale* if needed. Vestal uses the tokens to cast *Judgment* with high damage and can apply *Consecration of Light* on Dismas to boost his damage. With *Bolster* and strong heals, the team handles stress and HP effectively. This composition is effective in all acts, especially against bosses vulnerable to stuns.",
+        "This comp features a tanky core with Barristan and Leper, supported by a utility-focused Occultist and DoT-dealing Bonnie. The team excels in mitigation and steady damage output. Occultist disrupts enemies with pulls, curses, and corpse clears, while Bonnie provides additional mitigation with Smokescreen and consistent DoT through Firefly. Barristan uses Retribution and Crush, with occasional stuns via Rampart. Leper deals heavy damage and tanks with Intimidate and Withstand. The team is nearly stress-immune with Bolster and Leper’s self-stress heal. It’s a straightforward, slow-roll comp focused on survival and steady control.",
     },
 
     skills: [
