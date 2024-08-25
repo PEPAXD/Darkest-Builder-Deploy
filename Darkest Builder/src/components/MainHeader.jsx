@@ -55,13 +55,6 @@ function MainHeader({ links, goHome, activeSection }) {
           ))}
         </ul>
 
-        {goHome && !isOpen && (
-          <div className="goHome">
-            <Link to="/Darkest-Builder-Deploy/">
-              <span>Darkest Builder</span>
-            </Link>
-          </div>
-        )}
       </nav>
       <div className="Difusse"></div>
     </header>
