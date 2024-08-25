@@ -5,4 +5,4 @@ It offers a platform to research and explore detailed information about hero bui
 
 ![image](https://github.com/user-attachments/assets/6da417ad-c5e1-4f3e-b46b-bab39a5fdd8a)
 
-https://img.shields.io/github/deployments/:user/:repo/:environment
+![GitHub deployments](https://img.shields.io/github/deployments/:user/:repo/:environment)
