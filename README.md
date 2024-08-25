@@ -24,7 +24,7 @@ This website has been designed with the purpose of providing players with a comp
 
 <details open>
 <summary>
- Sections Screenshots
+<u>Sections Screenshots</u>
 </summary> <br />
 
 <p align="center">
