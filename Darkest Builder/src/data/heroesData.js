@@ -5616,17 +5616,17 @@ const heroesData = {
     ],
 
     teemmates: {
-      cite: "The Wall of Faith: Unstoppable Mitigation Comp",
+      cite: "Dot Overload: The Winning Formula for Act 4 & 5 Battles",
 
       comp: [
-        { id: 8, path: [3, "Seraph"] },
-        { id: 0, path: [2, "Sharpshot"] },
-        { id: 3, path: [1, "Virtuoso"] },
-        { id: 5, path: [2, "Bulwark"] },
+        { id: 7, path: [2, "Alchemist"] },
+        { id: 9, path: [1, "Arsonist"] },
+        { id: 13, path: [0, "Wanderer"] },
+        { id: 2, path: [2, "Ravager"] },
       ],
 
       description:
-        "This team focuses on strong mitigation without sacrificing much damage. Vestal uses *Consecration of Fortitude* on Jester to generate block or dodge tokens every turn. Barristan uses *Rampart* to stun or reposition, while Dismas uses *Pistol Shot* to stun as well. Jester marks a target with *Razor’s Wit* and can use *Finale* if needed. Vestal uses the tokens to cast *Judgment* with high damage and can apply *Consecration of Light* on Dismas to boost his damage. With *Bolster* and strong heals, the team handles stress and HP effectively. This composition is effective in all acts, especially against bosses vulnerable to stuns.",
+        "This comp is designed for tackling Act 4 and 5 bosses effectively. It features a robust frontline with Paracelus and Flagellant, while Hellion and Bonnie handle backline damage and debuffs. Key strategies include using Smokescreen+ to debuff and applying heavy DoT to quickly dismantle enemies. Hellion's Iron Swan and Howling End enhance frontline damage, though Leper could be a viable alternative for different strategies. This setup excels in high-Dot damage, especially against the Exemplar and Cultist fights, but may struggle in areas lacking rank 4 damage options, like the Foetor. The team's high DoT output allows for rapid elimination of targets, making it especially effective in Act 4.",
     },
 
     skills: [
