@@ -28,22 +28,26 @@ This website has been designed with the purpose of providing players with a comp
 </summary> <br />
 
 <p align="center">
-    <img width="49%" src="Darkest Builder\screenshots\Home.jpg" alt="apis"/>
+    <img width="49%" src="Darkest Builder\screenshots\Home.jpg" alt="Home"/>
 &nbsp;
-    <img width="49%" src=![Home](https://github.com/user-attachments/assets/3da1b8b9-5f08-41c0-b3fe-f39801e77c98)
- alt="data-models"/>
+    <img width="49%" src="Darkest Builder\screenshots\About.jpg" alt="About"/>
 </p>
 
 <p align="center">
-    <img width="49%" src="https://github.com/amplication/amplication/assets/73097785/62c8d533-8475-4290-abc8-c433c095e68a.png" alt="plugins"/>
+    <img width="49%" src="Darkest Builder\screenshots\Heroes.jpg" alt="Heroes"/>
 &nbsp;
-    <img width="49%" src="https://github.com/amplication/amplication/assets/73097785/9c67a354-a06f-47d1-a118-ab89b775bf91.png" alt="microservices"/>
+    <img width="49%" src="Darkest Builder\screenshots\Wiki.jpg" alt="Wiki"/>
 </p> 
     
 <p align="center">
-    <img width="49%" src="https://github.com/amplication/amplication/assets/149934977/4daf03a4-0866-49c9-8dd6-a340f3465c73" alt="own-your-code"/>
+    <img width="49%" src="Darkest Builder\screenshots\Paths.jpg" alt="Paths"/>
 &nbsp;
-    <img width="49%" src="https://github.com/amplication/amplication/assets/73097785/1cca9721-b8d6-425b-a1a9-d10d3cdcc9b8.png" alt="customize-code"/>
+    <img width="49%" src="Darkest Builder/screenshots/Trinkets.jpg" alt="Trinkets"/>
 </p>
+
+<p align="center">
+    <img width="49%" src="Darkest Builder\screenshots\Teemmates.jpg" alt="Teemmates"/>
+</p>
+
 
 </details>
