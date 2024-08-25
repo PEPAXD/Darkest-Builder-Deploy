@@ -603,6 +603,38 @@
   }
 }
 
+.copyRight {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+
+  width: 100%;
+  z-index: 1;
+
+  margin-top: 5%;
+
+  cite {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1em;
+    font-weight: 100;
+
+    a {
+      color: #8389c5;
+      margin-left: 1rem;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
 /*? RESPONSIVE MOVILE */
 @media (max-width: 480px) {
   .heroWikiContain {

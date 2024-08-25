@@ -567,8 +567,37 @@ function WikiSection({ url_Bg }) {
                   </ol>
                 </div>
               )}
-
             </section>
+
+            <div className="copyRight">
+              <cite>
+                Developed by:{" "}
+                <a
+                  href="https://www.linkedin.com/in/mauro-pepa-dev/"
+                  target="_blanck"
+                >
+                  Mauro Exequiel Pepa
+                </a>
+              </cite>
+              <cite>
+                InfoRef:
+                <a
+                  href="https://darkestdungeon.wiki.gg/wiki/Darkest_Dungeon_II_Wiki"
+                  target="_blanck"
+                >
+                  WikiGG
+                </a>
+                <a href="https://www.youtube.com/@ShuffleFM" target="_blanck">
+                  ShuffleFM
+                </a>
+                <a
+                  href="https://steamcommunity.com/sharedfiles/filedetails/?id=2973257745"
+                  target="_blanck"
+                >
+                  SpiderKhan
+                </a>
+              </cite>
+            </div>
 
             <br />
             <br />
