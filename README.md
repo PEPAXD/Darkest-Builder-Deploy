@@ -44,39 +44,15 @@ This website has been designed with the purpose of providing players with a comp
 
 ## Folder Structure
 
-.
-├── .github
-│   └── workflows                   # GitHub Actions workflows
-├── dist                            # Distribution files
-├── node_modules                    # Node.js modules
-├── public                          # Public assets like images and fonts
-├── screenshots                     # Screenshots for documentation or presentation
-├── src                             # Source files
-│   ├── assets                      # Static assets like images, fonts, etc.
-│   ├── components                  # Reusable React components
-│   ├── data                        # Data files (e.g., JSON or JS files with static data)
-│   │   ├── aboutData.js            # Data for the "About" section
-│   │   └── heroesData.js           # Data for hero details
-│   └── pages                       # React pages
-│       ├── Templates               # Template components for various sections
-│       │   ├── AboutSection.jsx    # About section template
-│       │   ├── HeroSection.jsx     # Hero section template
-│       │   ├── HomeSection.jsx     # Home section template
-│       │   ├── WikiSection.jsx     # Wiki section template
-│       │   ├── WipSection.jsx      # Work-in-progress section template
-│       │   ├── MainPage.jsx        # Main page template
-│       │   └── WikiPage.jsx        # Wiki page template
-│       ├── styles                  # CSS/SCSS stylesheets
-│       ├── App.jsx                 # Main App component
-│       ├── index.css               # Global CSS file
-│       ├── main.jsx                # Entry point for React
-├── .eslint.cjs                     # ESLint configuration
-├── .gitignore                      # Git ignore rules
-├── index.html                      # Main HTML file
-├── package-lock.json               # Lockfile for npm
-├── package.json                    # Project metadata and dependencies
-├── README.md                       # Project documentation
-├── vite.config.js                  # Vite configuration file
-├── darkestBuilderUI.excalidraw     # Excalidraw design file
-├── LICENSE                         # License file
-└── README.md                       # Project README file
+    .
+    ├── .github/ISSUE_TEMPLATE
+    ├── doc                          # All Api doc and gif files
+    ├── thisMyPCApp                  # Electron JS app folder
+    ├── thisMyPCServer               # Node JS MongoDB and Express JS server folder
+    ├── thisMyPCWeb                  # Angular website folder
+    ├── .gitignore
+    ├── .gitlab-ci.yml
+    ├── CODE_OF_CONDUCT.md
+    ├── LICENSE
+    └── README.md
+
