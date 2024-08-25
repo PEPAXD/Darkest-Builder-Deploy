@@ -28,7 +28,8 @@ This website has been designed with the purpose of providing players with a comp
 </summary> <br />
 
 <p align="center">
-    <img width="49%" src="https://github.com/amplication/amplication/assets/73097785/9908a54a-7d49-4dbb-8f5e-3e99b7cadf30.png" alt="apis"/>
+![Home](https://github.com/user-attachments/assets/d84f6c4d-59ab-4523-89a4-f3f5522c2d3c)
+
 &nbsp;
     <img width="49%" src="https://github.com/amplication/amplication/assets/73097785/ff406403-27f7-42b5-9569-d011432f16e5.png" alt="data-models"/>
 </p>
