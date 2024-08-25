@@ -31,7 +31,8 @@ This website has been designed with the purpose of providing players with a comp
 ![Home](https://github.com/user-attachments/assets/d84f6c4d-59ab-4523-89a4-f3f5522c2d3c)
 
 &nbsp;
-    <img width="49%" src="https://github.com/amplication/amplication/assets/73097785/ff406403-27f7-42b5-9569-d011432f16e5.png" alt="data-models"/>
+    <img width="49%" src=![Home](https://github.com/user-attachments/assets/3da1b8b9-5f08-41c0-b3fe-f39801e77c98)
+ alt="data-models"/>
 </p>
 
 <p align="center">
