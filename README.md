@@ -76,3 +76,10 @@ This website has been designed with the purpose of providing players with a comp
 - [Node JS](https://nodejs.org/en/)
 - [React](https://reactjs.org/)
 - [Vite](https://vitejs.dev/)
+
+#### Resources
+
+- **[WikiGG](https://darkestdungeon.wiki.gg/wiki/Darkest_Dungeon_II_Wiki)**
+- **[Fandom](https://darkestdungeon.fandom.com/wiki/Darkest_Dungeon_II_Wiki)**
+- **[SteamGuides - SpiderKhan](https://steamcommunity.com/sharedfiles/filedetails/?id=2973257745)** 
+- **[Youtube - ShuffleFM](https://www.youtube.com/@ShuffleFM/featured)** 
