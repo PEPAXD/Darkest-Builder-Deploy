@@ -1,9 +1,5 @@
 # DARKEST BUILDER
-
-<p>
-  <i>Wiki/Build - Darkest Dungeon 2</i>
-</p>
-
+<i>Wiki/Build - Darkest Dungeon 2</i>
 
 <div>
 
