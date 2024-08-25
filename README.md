@@ -83,3 +83,18 @@ This website has been designed with the purpose of providing players with a comp
 - **[Fandom](https://darkestdungeon.fandom.com/wiki/Darkest_Dungeon_II_Wiki)**
 - **[SteamGuides - SpiderKhan](https://steamcommunity.com/sharedfiles/filedetails/?id=2973257745)** 
 - **[Youtube - ShuffleFM](https://www.youtube.com/@ShuffleFM/featured)** 
+
+## Developed
+
+Contact: [Mauro Pepa's GitHub](https://github.com/PEPAXD)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Contact
+
+Feel free to reach out to me if you have any questions or suggestions:
+- GitHub: [pepaxd](https://github.com/pepaxd)
+- LinkedIn: [Mauro Pepa](https://www.linkedin.com/in/mauro-pepa-dev/)
+- Email: mauropepa1997oficial@gmail.com
