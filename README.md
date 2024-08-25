@@ -4,9 +4,10 @@
     </a>
 </h1>
 
-<p align="center">
   <i align="center">DARKEST DUNGEON II WIKI/BUILDER</i>
-    Darkest Builder is an interactive website created for novice players of Darkest Dungeon 2. 
+  <br>
+<p align="center">
+Darkest Builder is an interactive website created for novice players of Darkest Dungeon 2. 
 It offers a platform to research and explore detailed information about hero builds and unique team combinations, helping to maximize efficiency in the game.
 </p>
 
