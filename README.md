@@ -1,5 +1,4 @@
 # DARKEST BUILDER
-<i>Wiki/Build - Darkest Dungeon 2</i>
 
 <div>
 
@@ -7,3 +6,10 @@
 [![Gitter](https://badges.gitter.im/gitterHQ/gitter.svg)](https://gitter.im/Thismypc/community)
 
 </div>
+
+
+<i>Wiki/Build - Darkest Dungeon 2</i>
+
+> An interactive website designed for novice *Darkest Dungeon 2* players. It allows users to research and explore detailed information about different hero builds and unique equipment combinations to maximize their efficiency in the game.
+
+> The source code is open so that you can download the source code and set it up with ease if you would like to have your own exclusive environment.
