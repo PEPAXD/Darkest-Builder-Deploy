@@ -97,7 +97,7 @@ function WikiSection({ url_Bg }) {
     });
     setHeroPaths(0);
     setSelectedSkill(0);
-    //document.getElementById("Hero").scrollIntoView({ behavior: "smooth" });
+    document.getElementById("Hero").scrollIntoView({ behavior: "smooth" });
   };
 
   //SelectorSkills
