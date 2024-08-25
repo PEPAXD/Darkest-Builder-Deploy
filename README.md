@@ -28,7 +28,7 @@ This website has been designed with the purpose of providing players with a comp
 </summary> <br />
 
 <p align="center">
-    <img width="49%" src="https://github.com/amplication/amplication/assets/73097785/9908a54a-7d49-4dbb-8f5e-3e99b7cadf30.png" alt="apis"/>
+    <img width="49%" src="Darkest Builder\screenshots\Home.jpg" alt="apis"/>
 &nbsp;
     <img width="49%" src=![Home](https://github.com/user-attachments/assets/3da1b8b9-5f08-41c0-b3fe-f39801e77c98)
  alt="data-models"/>
