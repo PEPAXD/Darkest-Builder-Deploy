@@ -5238,16 +5238,16 @@ const heroesData = {
     ],
 
     teemmates: {
-      cite: "The Wall of Faith: Unstoppable Mitigation Comp",
+      cite: "Dominating the Dungeon: The Ultimate Support Build for Unmatched Power",
 
       comp: [
-        { id: 8, path: [3, "Seraph"] },
-        { id: 0, path: [2, "Sharpshot"] },
+        { id: 1, path: [1, "Deadeye"] },
+        { id: 12, path: [3, "Intrèpide "] },
         { id: 3, path: [1, "Virtuoso"] },
-        { id: 5, path: [2, "Bulwark"] },
+        { id: 11, path: [2, "Bulwark"] },
       ],
       description:
-        "This team focuses on strong mitigation without sacrificing much damage. Vestal uses *Consecration of Fortitude* on Jester to generate block or dodge tokens every turn. Barristan uses *Rampart* to stun or reposition, while Dismas uses *Pistol Shot* to stun as well. Jester marks a target with *Razor’s Wit* and can use *Finale* if needed. Vestal uses the tokens to cast *Judgment* with high damage and can apply *Consecration of Light* on Dismas to boost his damage. With *Bolster* and strong heals, the team handles stress and HP effectively. This composition is effective in all acts, especially against bosses vulnerable to stuns.",
+        "For an effective support build in Darkest Dungeon 2, use the Grave Robber as the primary damage dealer with the Deadeye path, featuring skills like Lunge and Absinthe. The Crusader, in the Templar path, serves as the tank and healer with abilities like Tenacity and Battle Heal. The Jester, with the Virtuoso path, provides support from Rank 2 using Fade to Black and Inspiring Tune. Alternatively, the Duelist's Intrèpide path pairs well with tanks such as the Man-at-Arms, enhancing damage while staying protected. The Plague Doctor can boost the Duelist's survivability with quick healing through Indiscriminate Science.",
     },
 
     skills: [
