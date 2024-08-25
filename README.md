@@ -47,10 +47,8 @@ This website has been designed with the purpose of providing players with a comp
     .
     ├── .github
     │   └── workflows                   # GitHub Actions workflows
-    ├── dist                            # Distribution files
-    ├── node_modules                    # Node.js modules
     ├── public                          # Public assets like images and fonts
-    ├── screenshots                     # Screenshots for documentation or presentation
+    ├── screenshots                     # Screenshots for README 
     ├── src                             # Source files
     │   ├── assets                      # Static assets like images, fonts, etc.
     │   ├── components                  # Reusable React components
@@ -66,17 +64,10 @@ This website has been designed with the purpose of providing players with a comp
     │       │   ├── WipSection.jsx      # Work-in-progress section template
     │       │   ├── MainPage.jsx        # Main page template
     │       │   └── WikiPage.jsx        # Wiki page template
-    │       ├── styles                  # CSS/SCSS stylesheets
+    │       ├── styles                  # CSS/SCSS Main
     │       ├── App.jsx                 # Main App component
     │       ├── index.css               # Global CSS file
-    │       ├── main.jsx                # Entry point for React
-    ├── .eslint.cjs                     # ESLint configuration
-    ├── .gitignore                      # Git ignore rules
+    │       └── main.jsx                # Entry point for React
     ├── index.html                      # Main HTML file
-    ├── package-lock.json               # Lockfile for npm
-    ├── package.json                    # Project metadata and dependencies
-    ├── README.md                       # Project documentation
-    ├── vite.config.js                  # Vite configuration file
-    ├── darkestBuilderUI.excalidraw     # Excalidraw design file
-    ├── LICENSE                         # License file
-    └── README.md                       # Project README file
+    └── darkestBuilderUI.excalidraw     # Excalidraw design file
+
