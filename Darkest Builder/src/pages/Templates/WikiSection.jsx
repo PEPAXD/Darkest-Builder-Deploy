@@ -131,11 +131,11 @@ function WikiSection({ url_Bg }) {
                   setHeroArray(item.id - 1);
                   setHeroPaths(0);
                   setSelectedSkill(0);
-                  /*TEMP DISABLE
+
                   document
                     .getElementById("Hero")
                     .scrollIntoView({ behavior: "smooth" });
-*/
+
                 }}
                 styling={{
                   color: "white",
@@ -168,11 +168,11 @@ function WikiSection({ url_Bg }) {
                       onChange={(e) => {
                         setHeroPaths(index);
 
-                        /*TEMP DISABLE
+
                         document
                           .getElementById("Skills")
                           .scrollIntoView({ behavior: "smooth" });
-*/
+
                       }}
                     />
                     <label htmlFor={`value-${index}`}>{path}</label>
@@ -541,8 +541,7 @@ function WikiSection({ url_Bg }) {
                       setHeroArray(comp.id);
                       setHeroPaths(comp.path[0]);
 
-                      //TEMP DISABLE
-                      //document.getElementById("Hero").scrollIntoView({ behavior: "smooth" });
+                      document.getElementById("Hero").scrollIntoView({ behavior: "smooth" });
                     }}
                   >
                     <TeemmatesFrame heroIndex={comp} path={comp.path} />
