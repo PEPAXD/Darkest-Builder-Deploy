@@ -13,8 +13,3 @@
 
 > An interactive website about *Darkest Dungeon 2* game. It allows users to research and explore detailed information about different hero builds and unique equipment combinations to maximize their efficiency in the game.
 
-## Introduction
-
-Welcome to `DarkestBuilder`, your guide to perfect your strategies in the dangerous world of Darkest Dungeon 2.
-
-This website has been designed with the purpose of providing players with a complete and specialized guide in team building to face the darkest and most dangerous challenges of the game.
