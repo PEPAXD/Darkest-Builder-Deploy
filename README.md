@@ -38,12 +38,5 @@ This website has been designed with the purpose of providing players with a comp
 &nbsp;
     <img width="49%" src="Darkest Builder\screenshots\Wiki.jpg" alt="Wiki"/>
 </p> 
-    
-<p align="center">
-    <img width="49%" src="Darkest Builder\screenshots\Paths.jpg" alt="Paths"/>
-&nbsp;
-    <img width="49%" src="Darkest Builder/screenshots/Teemmates.jpg" alt="Teemmates"/>
-</p>
-
 
 </details>
