@@ -13,3 +13,4 @@
 
 > An interactive website designed for novice *Darkest Dungeon 2* players. It allows users to research and explore detailed information about different hero builds and unique equipment combinations to maximize their efficiency in the game.
 
+![image](https://github.com/user-attachments/assets/373b9bfa-95b1-40f4-895f-f319567dac90)
