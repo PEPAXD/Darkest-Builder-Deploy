@@ -4842,17 +4842,17 @@ const heroesData = {
     ],
 
     teemmates: {
-      cite: "The Wall of Faith: Unstoppable Mitigation Comp",
+      cite: "Crusader’s Inferno: The Burn-Focused Team Build",
 
       comp: [
-        { id: 8, path: [3, "Seraph"] },
-        { id: 0, path: [2, "Sharpshot"] },
-        { id: 3, path: [1, "Virtuoso"] },
-        { id: 5, path: [2, "Bulwark"] },
+        { id: 7, path: [1, "Surgeon"] },
+        { id: 3, path: [2, "Soloist"] },
+        { id: 9, path: [1, "Arsonist"] },
+        { id: 11, path: [1, "Aggressor"] },
       ],
 
       description:
-        "This team focuses on strong mitigation without sacrificing much damage. Vestal uses *Consecration of Fortitude* on Jester to generate block or dodge tokens every turn. Barristan uses *Rampart* to stun or reposition, while Dismas uses *Pistol Shot* to stun as well. Jester marks a target with *Razor’s Wit* and can use *Finale* if needed. Vestal uses the tokens to cast *Judgment* with high damage and can apply *Consecration of Light* on Dismas to boost his damage. With *Bolster* and strong heals, the team handles stress and HP effectively. This composition is effective in all acts, especially against bosses vulnerable to stuns.",
+        "This team composition highlights the Crusader with the Aggressor path, focusing on burn effects and Holy Lance. The Plague Doctor in Rank 4 provides healing and crowd control with skills like Battlefield Medicine and Magnesium Rain. The Jester in Rank 3 deals high damage and relieves stress, using abilities such as Finale and Inspiring Tune. The Runaway in Rank 2 boosts burn damage with skills like Searing Strike and Controlled Burn. Alternatively, pairing the Crusader with the Duelist or Grave Robber allows him to use Holy Lance effectively while benefiting from their glass cannon playstyle and taunts.",
     },
 
     skills: [
