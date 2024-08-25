@@ -71,3 +71,8 @@ This website has been designed with the purpose of providing players with a comp
     ├── index.html                      # Main HTML file
     └── darkestBuilderUI.excalidraw     # Excalidraw design file
 
+#### Built With
+
+- [Node JS](https://nodejs.org/en/)
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
