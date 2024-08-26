@@ -43,10 +43,10 @@ This website has been designed with the purpose of providing players with a comp
 
 
 ### Built With
+
 "I started this project to master React and improve my frontend development skills, exploring new features, libraries, and styles."
 
 * [![React][React.js]][React-url]
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
