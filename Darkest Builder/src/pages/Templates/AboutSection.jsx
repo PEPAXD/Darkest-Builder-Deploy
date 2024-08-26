@@ -189,6 +189,13 @@ function AboutSection({ url_Bg }) {
                 </ul>
               </div>
             )}
+
+<button
+              className="Read_moreAbout"
+              onClick={() => setSelectedRadio(selectedRadio === 5 ? 0 : selectedRadio + 1)}
+            >
+              Read more!
+            </button>
           </article>
 
           <div className="PointSections">

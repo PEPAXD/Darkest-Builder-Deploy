@@ -56,6 +56,53 @@
     text-align: center;
     margin-top: 1rem;
   }
+
+  a {
+    text-decoration: none;
+  }
+
+  .Read_moreAbout {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+
+    width: 100%;
+
+    padding: 0rem 2rem;
+    color: #84abe3;
+
+    line-height: 4;
+    padding-right: 4px;
+
+    background-color: transparent;
+    border: none;
+
+    font-style: italic;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .Read_moreAbout:hover {
+    text-decoration: underline;
+  }
+
+  .Read_moreAbout::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-top: solid 3px #84abe3;
+    border-right: solid 3px #84abe3;
+    border-radius: 2px;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%) rotate(45deg);
+    transition: transform 0.4s;
+  }
+
+  .Read_moreAbout:hover::before {
+    transform: translateX(4px) translateY(-50%) rotate(45deg);
+  }
 }
 
 .PointSections {

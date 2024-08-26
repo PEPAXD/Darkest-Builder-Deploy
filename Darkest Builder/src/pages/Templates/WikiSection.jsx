@@ -522,7 +522,7 @@ function WikiSection({ url_Bg }) {
               <br />
 
               {heroesData[heroArray].teemmates.description ? (
-                <h2>Heroes Teammates</h2>
+                <h2>Comps  Teammates</h2>
               ) : (
                 <h2>Why You Need BH on Your Team?</h2>
               )}

@@ -69,7 +69,7 @@ function HomeSection({ url_Bg }) {
   };
 
   // ProfileFrame UserName
-  const [currentHeroName, setCurrentHeroName] = useState("Darkest Adventur");
+  const [currentHeroName, setCurrentHeroName] = useState("Darkest Adventure");
   let textClick = () => {
     let userInput = prompt("New Adventure Name:");
     while (
