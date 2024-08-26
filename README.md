@@ -79,6 +79,30 @@ To ensure you have the latest version of npm, run the following command:
   ```
 
 
+#### Installation
+
+To set up the Darkest Builder project locally, follow these steps:
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/pepaxd/darkest-builder-deploy.git
+   ```
+
+2. Navigate to the project directory
+   ```sh
+    cd darkest-builder-deploy/Darkest\ Builder/ 
+   ```
+   
+3. Install dependencies
+   ```sh
+    npm install
+   ```
+
+4. Start the development server
+   ```sh
+    npm run dev
+   ```
+
 #### Folder Structure
 
     .
