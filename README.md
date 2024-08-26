@@ -152,7 +152,10 @@ Feel free to reach out to me if you have any questions or suggestions:
 [GitHub-url]: https://github.com/pepaxd
 [LinkedIn-badge]: https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white
 [LinkedIn-url]: https://www.linkedin.com/in/mauro-pepa-dev/
-[Email-badge]: https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&
+[Email-badge]: https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white
+[Email-url]: mailto:mauropepa1997oficial@gmail.com
+[Reddit-badge]: https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white
+[Reddit-url]: https://www.reddit.com/user/PEPAXD640/
 
 
 <!-- CONTRIBUTING -->
