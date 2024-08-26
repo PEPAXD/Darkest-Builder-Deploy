@@ -45,10 +45,20 @@ This website has been designed with the purpose of providing players with a comp
 ## Built With
 > I started this project to master React and improve my frontend development skills, exploring new features, libraries, and styles.
 
+<div>
+
 [![React][React.js]][React-url]
+[![Node.js][Node.js]][Node-url]
+[![Vite][Vite.js]][Vite-url]
+
+</div>
 
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
+[Node.js]: https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white
+[Node-url]: https://nodejs.org/
+[Vite.js]: https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white
+[Vite-url]: https://vitejs.dev/
 
 ## Folder Structure
 
