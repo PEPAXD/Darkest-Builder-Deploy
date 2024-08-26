@@ -48,7 +48,6 @@ This website has been designed with the purpose of providing players with a comp
 
 * [![React][React.js]][React-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Folder Structure
 
