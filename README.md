@@ -65,18 +65,18 @@ This website has been designed with the purpose of providing players with a comp
 ## Getting Started
 To set up the Darkest Builder project locally, follow these steps:
 
-### Prerequisites
-
+#### Prerequisites
 Before you start, make sure you have the following installed:
 
-* **Node.js**: Node.js is required to run the development server and manage the project's dependencies. You can download Node.js from the [official Node.js website](https://nodejs.org/).
+* **Node.js**: You can download Node.js from the [Node.js official website](https://nodejs.org/).
 
-* **npm (Node Package Manager)**: npm comes bundled with the Node.js installation and is used to manage the project's packages. You can check if npm is installed by running `npm -v` in your terminal.
+* **npm (Node Package Manager)**:You can check if npm is installed by running `npm -v` in your terminal. If npm is not installed, it will be installed automatically when you install Node.js.
 
-  If you need to install or update npm, you can use the following command:
-  ```sh
+To ensure you have the latest version of npm, run the following command:
+
+```sh
   npm install npm@latest -g
-
+  ```
 
 
 #### Folder Structure
