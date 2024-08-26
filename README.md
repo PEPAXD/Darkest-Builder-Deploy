@@ -42,6 +42,14 @@ This website has been designed with the purpose of providing players with a comp
 </details>
 
 
+#### Resources
+
+- **[WikiGG](https://darkestdungeon.wiki.gg/wiki/Darkest_Dungeon_II_Wiki)**
+- **[Fandom](https://darkestdungeon.fandom.com/wiki/Darkest_Dungeon_II_Wiki)**
+- **[SteamGuides - SpiderKhan](https://steamcommunity.com/sharedfiles/filedetails/?id=2973257745)** 
+- **[Youtube - ShuffleFM](https://www.youtube.com/@ShuffleFM/featured)** 
+
+
 ## Built With
 > I started this project to master React and improve my frontend development skills, exploring new features, libraries, and styles.
 
@@ -132,26 +140,34 @@ To set up the Darkest Builder project locally, follow these steps:
     ├── index.html                      # Main HTML file
     └── darkestBuilderUI.excalidraw     # Excalidraw design file
 
-
-
-#### Resources
-
-- **[WikiGG](https://darkestdungeon.wiki.gg/wiki/Darkest_Dungeon_II_Wiki)**
-- **[Fandom](https://darkestdungeon.fandom.com/wiki/Darkest_Dungeon_II_Wiki)**
-- **[SteamGuides - SpiderKhan](https://steamcommunity.com/sharedfiles/filedetails/?id=2973257745)** 
-- **[Youtube - ShuffleFM](https://www.youtube.com/@ShuffleFM/featured)** 
-
 ## Developed
 
-Contact: [Mauro Pepa's GitHub](https://github.com/PEPAXD)
+[Mauro Pepa's GitHub](https://github.com/PEPAXD)
 
-## License
 
-This project is licensed under the [MIT License](LICENSE).
-
-## Contact
+#### Contact
 
 Feel free to reach out to me if you have any questions or suggestions:
 - GitHub: [pepaxd](https://github.com/pepaxd)
 - LinkedIn: [Mauro Pepa](https://www.linkedin.com/in/mauro-pepa-dev/)
 - Email: mauropepa1997oficial@gmail.com
+
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/YourFeatureName`)
+3. Commit your Changes (`git commit -m 'Add some YourFeatureName'`)
+4. Push to the Branch (`git push origin feature/YourFeatureName`)
+5. Open a Pull Request
+
+
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
