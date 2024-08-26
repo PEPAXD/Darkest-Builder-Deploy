@@ -140,9 +140,6 @@ To set up the Darkest Builder project locally, follow these steps:
 
 [Mauro Pepa's GitHub](https://github.com/PEPAXD)
 
-
-#### Contact
-
 Feel free to reach out to me if you have any questions or suggestions:
 - GitHub: [pepaxd](https://github.com/pepaxd)
 - LinkedIn: [Mauro Pepa](https://www.linkedin.com/in/mauro-pepa-dev/)
