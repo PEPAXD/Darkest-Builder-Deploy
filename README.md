@@ -71,9 +71,6 @@ This website has been designed with the purpose of providing players with a comp
 
 <!-- GETTING STARTED -->
 ## Getting Started
-To set up the Darkest Builder project locally, follow these steps:
-
-#### Prerequisites
 Before you start, make sure you have the following installed:
 
 * **Node.js**: You can download Node.js from the [Node.js official website](https://nodejs.org/).
@@ -85,7 +82,6 @@ To ensure you have the latest version of npm, run the following command:
 ```sh
   npm install npm@latest -g
   ```
-
 
 #### Installation
 
