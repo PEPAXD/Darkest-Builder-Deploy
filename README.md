@@ -9,6 +9,12 @@
 
 <i>Wiki/Build - Darkest Dungeon 2</i>
 
+[![Live Demo][LiveDemo-badge]][LiveDemo-url]
+
+[LiveDemo-badge]: https://img.shields.io/badge/Live%20Demo-FF5722?style=for-the-badge&logo=github&logoColor=white
+[LiveDemo-url]: https://pepaxd.github.io/Darkest-Builder-Deploy/
+
+
 > "Darkest Builder" is a personal project I developed to provide a simple guide for the game Darkest Dungeon II.
 
 > An interactive website about *Darkest Dungeon 2* game. It allows users to research and explore detailed information about different hero builds and unique equipment combinations to maximize their efficiency in the game.
@@ -20,13 +26,6 @@
 Welcome to `DarkestBuilder`, your guide to perfect your strategies in the dangerous world of Darkest Dungeon 2.
 
 This website has been designed with the purpose of providing players with a complete and specialized guide in team building to face the darkest and most dangerous challenges of the game.
-
-#### Website Deploy
-[![Live Demo][LiveDemo-badge]][LiveDemo-url]
-
-[LiveDemo-badge]: https://img.shields.io/badge/Live%20Demo-FF5722?style=for-the-badge&logo=github&logoColor=white
-[LiveDemo-url]: https://pepaxd.github.io/Darkest-Builder-Deploy/
-
 
 <details open>
 <summary>
