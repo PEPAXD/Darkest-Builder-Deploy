@@ -60,7 +60,26 @@ This website has been designed with the purpose of providing players with a comp
 [Vite.js]: https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white
 [Vite-url]: https://vitejs.dev/
 
-## Folder Structure
+
+<!-- GETTING STARTED -->
+## Getting Started
+To set up the Darkest Builder project locally, follow these steps:
+
+### Prerequisites
+
+Before you start, make sure you have the following installed:
+
+* **Node.js**: Node.js is required to run the development server and manage the project's dependencies. You can download Node.js from the [official Node.js website](https://nodejs.org/).
+
+* **npm (Node Package Manager)**: npm comes bundled with the Node.js installation and is used to manage the project's packages. You can check if npm is installed by running `npm -v` in your terminal.
+
+  If you need to install or update npm, you can use the following command:
+  ```sh
+  npm install npm@latest -g
+
+
+
+#### Folder Structure
 
     .
     ├── .github
