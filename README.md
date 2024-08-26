@@ -42,6 +42,14 @@ This website has been designed with the purpose of providing players with a comp
 </details>
 
 
+### Built With
+"I started this project to master React and improve my frontend development skills, exploring new features, libraries, and styles."
+
+* [![React][React.js]][React-url]
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Folder Structure
 
     .
@@ -71,11 +79,7 @@ This website has been designed with the purpose of providing players with a comp
     ├── index.html                      # Main HTML file
     └── darkestBuilderUI.excalidraw     # Excalidraw design file
 
-#### Built With
 
-- [Node JS](https://nodejs.org/en/)
-- [React](https://reactjs.org/)
-- [Vite](https://vitejs.dev/)
 
 #### Resources
 
