@@ -136,15 +136,23 @@ To set up the Darkest Builder project locally, follow these steps:
     ├── index.html                      # Main HTML file
     └── darkestBuilderUI.excalidraw     # Excalidraw design file
 
-## Developed
-
-[Mauro Pepa's GitHub](https://github.com/PEPAXD)
-
+## Developed by Mauro Pepa
 Feel free to reach out to me if you have any questions or suggestions:
-- GitHub: [pepaxd](https://github.com/pepaxd)
-- LinkedIn: [Mauro Pepa](https://www.linkedin.com/in/mauro-pepa-dev/)
-- Email: mauropepa1997oficial@gmail.com
 
+<div>
+
+[![GitHub][GitHub-badge]][GitHub-url]
+[![LinkedIn][LinkedIn-badge]][LinkedIn-url]
+[![Email][Email-badge]][Email-url]
+[![Reddit][Reddit-badge]][Reddit-url]
+
+</div>
+
+[GitHub-badge]: https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white
+[GitHub-url]: https://github.com/pepaxd
+[LinkedIn-badge]: https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white
+[LinkedIn-url]: https://www.linkedin.com/in/mauro-pepa-dev/
+[Email-badge]: https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&
 
 
 <!-- CONTRIBUTING -->
