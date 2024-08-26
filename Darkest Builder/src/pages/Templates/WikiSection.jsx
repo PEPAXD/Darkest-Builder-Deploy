@@ -297,6 +297,7 @@ function WikiSection({ url_Bg }) {
                             }
                             arrowCheck={0}
                             heroIndex={heroArray}
+                            pointer={false}
                           />
                         </li>
 

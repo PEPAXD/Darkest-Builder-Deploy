@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from 'react';
 import "./styles/skillFrame.css";
 
 //react-Icons
@@ -416,9 +416,19 @@ const skillsHero = [
   },
 ];
 
-function skillFrame({ skillData, arrowCheck, heroIndex }) {
+function skillFrame({ skillData, arrowCheck, heroIndex, pointer }) {
+  const [isPointer, setIsPointer] = useState(true);
+
+  useEffect(() => {
+    if (pointer === false) {
+      setIsPointer(false);
+    }
+  }, [pointer]);
   return (
-    <div className="skillBox">
+    <div
+      className="skillBox"
+      style={{ cursor: isPointer ? "pointer" : "default" }}
+    >
       <div className="skillFrame">
         <IoMdArrowDropdown style={{ opacity: arrowCheck ? 1 : 0 }} />
         <img
