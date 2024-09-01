@@ -46,6 +46,9 @@ This website has been designed with the purpose of providing players with a comp
 
 </details>
 
+##Sketch 
+![image](https://github.com/user-attachments/assets/654ace77-a5ca-4355-b5ad-681018acf03f)
+
 
 #### Resources
 
